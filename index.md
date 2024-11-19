@@ -25,8 +25,7 @@ Zusätzlich zu der immer möglichen offenen Diskussion, versuchen wir immer übe
  
 | Datum | Thema | Weitere Infos |
 | ---------- | ------------| ----------|
-| 23.10.2024 | ~~D.I.Y.: ChatBots und Agents mit LangChain & LangGraph erstellen~~, Offene Diskussion | |
-| 27.11.2024 | Wird noch bekannt gegeben ||
+| 27.11.2024 | D.I.Y.: ChatBots und Agents mit LangChain & LangGraph erstellen ||
 | 25.12.2024 | Keine HackyHour wegen Weihnachtsferien  | 🎄️ |
 
 -> Die vergangenen Termine findest du [weiter unten](#vergangene-termine).
@@ -43,6 +42,7 @@ wir Notizen in Deutsch und Englisch anzubieten.
 
 | Datum | Thema | Notizen & Zusammenfassungen |
 | ---------- |--------------| ----------:|
+| 23.10.2024 | ~~D.I.Y.: ChatBots und Agents mit LangChain & LangGraph erstellen~~, Offene Diskussion | |
 | 25.09.2024 | Einführung in eine einfache Datenanalyse in der Linux Shell |[Notes #23](/notes/2024-09-25-HackyHour-23.md)|
 | 22.08.2024 | Keine HackyHour wegen Ferien  | 🏖️ |
 | 24.07.2024 | Textsuche mit regulären Ausdrücken: Was ist das und wie nutze ich sie? |[Notes #22](/notes/2024-07-24-HackyHour-22.md)||
