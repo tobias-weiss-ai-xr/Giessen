@@ -25,8 +25,10 @@ Zusätzlich zu der immer möglichen offenen Diskussion, versuchen wir immer übe
  
 | Datum | Thema | Weitere Infos |
 | ---------- | ------------| ----------|
-| 27.11.2024 | D.I.Y.: ChatBots und Agents mit LangChain & LangGraph erstellen ||
 | 25.12.2024 | Keine HackyHour wegen Weihnachtsferien  | 🎄️ |
+| 22.01.2025 | Erfahrungsbericht 38C3, Rudelgucken: 38C3 Vorträge| Welche Vorträge und wie viele wir uns ansehen, stimmen wir vor Ort ab. |
+| 22.02.2025 | TBA | | 
+| 26.03.2025 | TBA | |
 
 -> Die vergangenen Termine findest du [weiter unten](#vergangene-termine).
 
@@ -42,6 +44,7 @@ wir Notizen in Deutsch und Englisch anzubieten.
 
 | Datum | Thema | Notizen & Zusammenfassungen |
 | ---------- |--------------| ----------:|
+| 27.11.2024 | D.I.Y.: ChatBots und Agents mit LangChain & LangGraph erstellen ||
 | 23.10.2024 | ~~D.I.Y.: ChatBots und Agents mit LangChain & LangGraph erstellen~~, Offene Diskussion | |
 | 25.09.2024 | Einführung in eine einfache Datenanalyse in der Linux Shell |[Notes #23](/notes/2024-09-25-HackyHour-23.md)|
 | 22.08.2024 | Keine HackyHour wegen Ferien  | 🏖️ |

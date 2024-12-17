@@ -26,9 +26,10 @@ In addition to the open discussion that is always possible, we always try to tal
 
 | Date | Topic | Info |
 | ---------- | ---------- | ------------:|
-| 23.10.2024| D.I.Y.: Create ChatBots and Agents with LangChain & LangGraph||
-| 27.11.2024| TBA ||
 | 25.12.2024| No event due to holidays | 🎄️ |
+| 22.01.2025 | Field report 38C3, Group watch: 38C3 talks| We will vote on which lectures and how many we will watch. |
+| 22.02.2025 | TBA | | 
+| 26.03.2025 | TBA | |
 
 -> You can find the past dates [below](#past-dates).
 
@@ -42,7 +43,8 @@ The past dates were mainly in English, so the notes are also mainly in English. 
 
 | Date | Topic | Notes & summaries |
 | ---------- |--------------| ----------:|
-| 25.09.2024| ~~D.I.Y.: Create ChatBots and Agents with LangChain & LangGraph~~, Open Discussion||
+| 27.11.2024 | D.I.Y.: Create ChatBots and Agents with LangChain & LangGraph||
+| 23.10.2024 | ~~D.I.Y.: Create ChatBots and Agents with LangChain & LangGraph~~, Open Discussion||
 | 25.09.2024 | Introduction to simple data analysis in the Linux shell |[Notes #23](/notes/2024-09-25-HackyHour-23.md)|
 | 22.08.2024 | No event due to holidays | 🏖️ |
 | 24.07.2024 | Text search with regular expressions: What is it and how do I use it?  |[Notes #22 (German)](/notes/2024-07-24-HackyHour-22.md)|
