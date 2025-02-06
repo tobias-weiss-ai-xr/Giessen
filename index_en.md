@@ -26,10 +26,11 @@ In addition to the open discussion that is always possible, we always try to tal
 
 | Date | Topic | Info |
 | ---------- | ---------- | ------------:|
-| 25.12.2024| No event due to holidays | 🎄️ |
-| 22.01.2025 | Field report 38C3, Group watch: 38C3 talks| We will vote on which lectures and how many we will watch. |
-| 22.02.2025 | TBA | | 
+| 26.02.2025 | Offene Diskussion | | 
 | 26.03.2025 | TBA | |
+| 23.04.2025 | Linux installation party | On this day, we will help you install and get started with Linux. The HackyHour runs until 21:00 on this day. More information will follow shortly.|
+| 28.05.2025 | TBA |
+| 25.06.2025 | TBA | The Make Night will take place in the Makerspace on this date. Further information will follow.|
 
 -> You can find the past dates [below](#past-dates).
 
@@ -43,6 +44,8 @@ The past dates were mainly in English, so the notes are also mainly in English. 
 
 | Date | Topic | Notes & summaries |
 | ---------- |--------------| ----------:|
+| 22.01.2025 | Field report 38C3, Group watch: 38C3 talks| We will vote on which lectures and how many we will watch. |
+| 25.12.2024| No event due to holidays | 🎄️ |
 | 27.11.2024 | D.I.Y.: Create ChatBots and Agents with LangChain & LangGraph||
 | 23.10.2024 | ~~D.I.Y.: Create ChatBots and Agents with LangChain & LangGraph~~, Open Discussion||
 | 25.09.2024 | Introduction to simple data analysis in the Linux shell |[Notes #23](/notes/2024-09-25-HackyHour-23.md)|
