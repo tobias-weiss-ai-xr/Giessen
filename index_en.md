@@ -28,7 +28,7 @@ In addition to the open discussion that is always possible, we always try to tal
 | ---------- | ---------- | ------------:|
 | 26.02.2025 | Offene Diskussion | | 
 | 26.03.2025 | TBA | |
-| 23.04.2025 | Linux installation party | On this day, we will help you install and get started with Linux. The HackyHour runs until 21:00 on this day. More information will follow shortly.|
+| 23.04.2025 | Linux installation party | On this day, we will help you install and get started with Linux. The HackyHour runs until 21:00 on this day. In order to be able to respond better to the number of participants, you must <a href="https://pretix.eu/makerspace-giessen/linux/" hreflang="de" target="_blank" referrerpolicy="no-referrer">register</a> briefly for the event at the Makerspace. An e-mail address is sufficient. As always, the event is free of charge.|
 | 28.05.2025 | TBA |
 | 25.06.2025 | TBA | The Make Night will take place in the Makerspace on this date. Further information will follow.|
 
