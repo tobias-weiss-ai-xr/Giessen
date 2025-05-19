@@ -25,10 +25,11 @@ Zusätzlich zu der immer möglichen offenen Diskussion, versuchen wir immer übe
  
 | Datum | Thema | Weitere Infos |
 | ---------- | ------------| ----------|
-| 23.04.2025 | Linux-Installationsparty | Wir helfen euch an dem Tag bei der Installation und dem ersten Einstieg in Linux. Die HackyHour geht an diesem Tag bis 21:00 Uhr. Um besser auf die Teilnehmer:innen-Anzahl reagieren zu können, müsst ihr euch beim Makerspace kurz für die Veranstaltung <a href="https://pretix.eu/makerspace-giessen/linux/" target="_blank" referrerpolicy="no-referrer">anmelden</a>. Eine E-Mail-Adresse genügt. Die Veranstaltung ist wie immer kostenlos.|
 | 28.05.2025 | LoRaWAN: Günstig, kabellos und langsam Sensordaten über lange Distanzen senden | |
 | 25.06.2025 | TBA | An diesem Termin findet im Makerspace die Mach-Nacht statt. Weitere Infos folgen.|
-
+| 25.09.2025 | TBA | |
+| 22.10.2025 | TBA | |
+| 26.11.2025 | TBA | |
 -> Die vergangenen Termine findest du [weiter unten](#vergangene-termine).
 
 ## Kontakt
@@ -43,6 +44,7 @@ wir Notizen in Deutsch und Englisch anzubieten.
 
 | Datum | Thema | Notizen & Zusammenfassungen |
 | ---------- |--------------| ----------:|
+| 23.04.2025 | Linux-Installationsparty | |
 | 26.03.2025 | Ausgefallen | |
 | 26.02.2025 | Offene Diskussion | | 
 | 22.01.2025 | Erfahrungsbericht 38C3, Rudelgucken: 38C3 Vorträge| |
