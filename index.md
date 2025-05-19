@@ -30,6 +30,7 @@ Zusätzlich zu der immer möglichen offenen Diskussion, versuchen wir immer übe
 | 25.09.2025 | TBA | |
 | 22.10.2025 | TBA | |
 | 26.11.2025 | TBA | |
+
 -> Die vergangenen Termine findest du [weiter unten](#vergangene-termine).
 
 ## Kontakt
