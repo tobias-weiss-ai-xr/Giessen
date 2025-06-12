@@ -16,7 +16,7 @@ Jeden vierten Mittwoch um 17 Uhr für ca. eineinhalb Stunden im [Makerspace Gies
  
 Ihr müsst nichts mitbringen. Falls ihr ein Laptop habt, bringt es gerne mit; es gibt bestimmt etwas auszuprobieren!
  
-![HackyHour #1](/assets/img/HackyHour-1.jpg)
+![](/assets/img/HackyHour-1.jpg)
  
  
 ## Kommende Termine
@@ -25,8 +25,9 @@ Zusätzlich zu der immer möglichen offenen Diskussion, versuchen wir immer übe
  
 | Datum | Thema | Weitere Infos |
 | ---------- | ------------| ----------|
-| 28.05.2025 | LoRaWAN: Günstig, kabellos und langsam Sensordaten über lange Distanzen senden | |
-| 25.06.2025 | TBA | An diesem Termin findet im Makerspace die Mach-Nacht statt. Weitere Infos folgen.|
+| 25.06.2025 | Das Model Context Protocol (MCP) | An diesem Termin findet im Makerspace die Mach-Nacht statt. Der Makerspace hat daher an diesem Abend bis 23:00 Uhr geöffnet. Details gibt es [hier](https://www.google.com/calendar/event?eid=MXZkNmFqMTdybHFubjdnZGtxdGRraHJhNHMgdWhuYzJncGNjY200YWVtOGx1NnBzcWpvcGtAZw&ctz=Europe/Berlin){:target="_blank" rel="noopener"}|
+| 23.07.2025 | Fällt aus | |
+| 27.08.2025 | Fällt aus | |
 | 25.09.2025 | TBA | |
 | 22.10.2025 | TBA | |
 | 26.11.2025 | TBA | |
@@ -45,6 +46,7 @@ wir Notizen in Deutsch und Englisch anzubieten.
 
 | Datum | Thema | Notizen & Zusammenfassungen |
 | ---------- |--------------| ----------:|
+| 28.05.2025 | LoRaWAN: Günstig, kabellos und langsam Sensordaten über lange Distanzen senden | |
 | 23.04.2025 | Linux-Installationsparty | |
 | 26.03.2025 | Ausgefallen | |
 | 26.02.2025 | Offene Diskussion | | 
