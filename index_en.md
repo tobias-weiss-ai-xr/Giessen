@@ -18,7 +18,7 @@ Every fourth Wednesday at 5 pm for about one and a half hours in the [Makerspace
 
 You don't need to bring anything. If you have a laptop, bring it along; there's bound to be something to try out!
 
-![](/assets/img/HackyHour-1.jpg)
+![](/assets/img/HackyHour-1.jpg)  
 Image by Marc S. Edited by Christian K.
 
 ## Upcoming dates

@@ -16,7 +16,7 @@ Jeden vierten Mittwoch um 17 Uhr für ca. eineinhalb Stunden im [Makerspace Gies
  
 Ihr müsst nichts mitbringen. Falls ihr ein Laptop habt, bringt es gerne mit; es gibt bestimmt etwas auszuprobieren!
  
-![](/assets/img/HackyHour-1.jpg)
+![](/assets/img/HackyHour-1.jpg)  
 Foto Marc S. Bearbeitung Christian K.
  
 ## Kommende Termine
