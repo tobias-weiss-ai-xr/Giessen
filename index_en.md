@@ -27,7 +27,7 @@ In addition to the open discussion that is always possible, we always try to tal
 
 | Date | Topic | Info |
 | ---------- | ---------- | ------------:|
-| 25.06.2025 | The Model Context Protocol (MCP) | The Make Night will take place in the Makerspace on this date. Further information can be found [here](https://www.google.com/calendar/event?eid=MXZkNmFqMTdybHFubjdnZGtxdGRraHJhNHMgdWhuYzJncGNjY200YWVtOGx1NnBzcWpvcGtAZw&ctz=Europe/Berlin){:target="_blank" rel="noopener"}.|
+| 25.06.2025 | The Model Context Protocol (MCP), OpenWrt | The Make Night will take place in the Makerspace on this date. Further information can be found [here](https://www.google.com/calendar/event?eid=MXZkNmFqMTdybHFubjdnZGtxdGRraHJhNHMgdWhuYzJncGNjY200YWVtOGx1NnBzcWpvcGtAZw&ctz=Europe/Berlin){:target="_blank" rel="noopener"}.|
 | 23.07.2025 | No event | |
 | 27.08.2025 | No event | |
 | 25.09.2025 | TBA | |
