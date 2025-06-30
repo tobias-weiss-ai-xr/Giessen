@@ -29,7 +29,7 @@ In addition to the open discussion that is always possible, we always try to tal
 | ---------- | ---------- | ------------:|
 | 23.07.2025 | **No event** | |
 | 27.08.2025 | **No event** | |
-| 25.09.2025 | TBA | |
+| 24.09.2025 | TBA | |
 | 22.10.2025 | Linux installation party | On this event we support you on installing Linux on your device. More details will follow. On this day the HackyHour ends at 9 p.m.|
 | 26.11.2025 | TBA | |
 

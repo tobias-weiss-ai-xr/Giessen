@@ -27,7 +27,7 @@ Zusätzlich zu der immer möglichen offenen Diskussion, versuchen wir immer übe
 | ---------- | ------------| ----------|
 | 23.07.2025 | **Fällt aus** | |
 | 27.08.2025 | **Fällt aus** | |
-| 25.09.2025 | TBA | |
+| 24.09.2025 | TBA | |
 | 22.10.2025 | Linux-Installationsparty | An diesem Termin helfen wir euch bei der Installation von Linux auf eurem Endgerät. Details folgen. An diesem Abend geht die HackyHour bis 21 Uhr.|
 | 26.11.2025 | TBA | |
 
