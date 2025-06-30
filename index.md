@@ -25,11 +25,10 @@ Zusätzlich zu der immer möglichen offenen Diskussion, versuchen wir immer übe
  
 | Datum | Thema | Weitere Infos |
 | ---------- | ------------| ----------|
-| 25.06.2025 | Das Model Context Protocol (MCP), OpenWrt | An diesem Termin findet im Makerspace die Mach-Nacht statt. Der Makerspace hat daher an diesem Abend bis 23:00 Uhr geöffnet. Details gibt es [hier](https://www.google.com/calendar/event?eid=MXZkNmFqMTdybHFubjdnZGtxdGRraHJhNHMgdWhuYzJncGNjY200YWVtOGx1NnBzcWpvcGtAZw&ctz=Europe/Berlin){:target="_blank" rel="noopener"}|
-| 23.07.2025 | Fällt aus | |
-| 27.08.2025 | Fällt aus | |
+| 23.07.2025 | **Fällt aus** | |
+| 27.08.2025 | **Fällt aus** | |
 | 25.09.2025 | TBA | |
-| 22.10.2025 | TBA | |
+| 22.10.2025 | Linux-Installationsparty | An diesem Termin helfen wir euch bei der Installation von Linux auf eurem Endgerät. Details folgen. An diesem Abend geht die HackyHour bis 21 Uhr.|
 | 26.11.2025 | TBA | |
 
 -> Die vergangenen Termine findest du [weiter unten](#vergangene-termine).
@@ -46,6 +45,7 @@ wir Notizen in Deutsch und Englisch anzubieten.
 
 | Datum | Thema | Notizen & Zusammenfassungen |
 | ---------- |--------------| ----------:|
+| 25.06.2025 | Das Model Context Protocol (MCP), OpenWrt | |
 | 28.05.2025 | LoRaWAN: Günstig, kabellos und langsam Sensordaten über lange Distanzen senden | |
 | 23.04.2025 | Linux-Installationsparty | |
 | 26.03.2025 | Ausgefallen | |
