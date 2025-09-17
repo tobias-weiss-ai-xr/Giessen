@@ -25,10 +25,8 @@ Zusätzlich zu der immer möglichen offenen Diskussion, versuchen wir immer übe
  
 | Datum | Thema | Weitere Infos |
 | ---------- | ------------| ----------|
-| 23.07.2025 | **Fällt aus** | |
-| 27.08.2025 | **Fällt aus** | |
-| 24.09.2025 | TBA | |
-| 22.10.2025 | Linux-Installationsparty | An diesem Termin helfen wir euch bei der Installation von Linux auf eurem Endgerät. Details folgen. An diesem Abend geht die HackyHour bis 21 Uhr.|
+| 24.09.2025 | Offene Diskussion | Wir diskutieren Technikthemen, die uns aktuell bewegen. |
+| 22.10.2025 | Linux-Installationsparty | An diesem Termin helfen wir euch bei der Installation von Linux auf eurem Endgerät. An diesem Abend geht die HackyHour bis 21 Uhr. Mehr Infos findet ihr unter <a href="https://pretix.eu/makerspace-giessen/linux/" target="_blank" rel="noopener">https://pretix.eu/makerspace-giessen/linux/</a>|
 | 26.11.2025 | TBA | |
 
 -> Die vergangenen Termine findest du [weiter unten](#vergangene-termine).
@@ -45,6 +43,8 @@ wir Notizen in Deutsch und Englisch anzubieten.
 
 | Datum | Thema | Notizen & Zusammenfassungen |
 | ---------- |--------------| ----------:|
+| 23.07.2025 | Ausgefallen | |
+| 27.08.2025 | Ausgefallen | |
 | 25.06.2025 | Das Model Context Protocol (MCP), OpenWrt | |
 | 28.05.2025 | LoRaWAN: Günstig, kabellos und langsam Sensordaten über lange Distanzen senden | |
 | 23.04.2025 | Linux-Installationsparty | |
