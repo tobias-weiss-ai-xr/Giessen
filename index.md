@@ -25,8 +25,8 @@ Zusätzlich zu der immer möglichen offenen Diskussion, versuchen wir immer übe
  
 | Datum | Thema | Weitere Infos |
 | ---------- | ------------| ----------|
-| 22.10.2025 | Linux-Installationsparty | An diesem Termin helfen wir euch bei der Installation von Linux auf eurem Endgerät. An diesem Abend geht die HackyHour bis 21 Uhr. Mehr Infos findet ihr unter <a href="https://pretix.eu/makerspace-giessen/linux/" target="_blank" rel="noopener">https://pretix.eu/makerspace-giessen/linux/</a>|
-| 26.11.2025 | TBA | |
+| 26.11.2025 | Offene Diskussion | Rückschau 2025, Themensammlung für 2026 |
+| 24.12.2025 | Keine HackyHour wegen Weihnachtsferien  | 🎄️ |
 
 -> Die vergangenen Termine findest du [weiter unten](#vergangene-termine).
 
@@ -42,6 +42,7 @@ wir Notizen in Deutsch und Englisch anzubieten.
 
 | Datum | Thema | Notizen & Zusammenfassungen |
 | ---------- |--------------| ----------:|
+| 22.10.2025 | Linux-Installationsparty | |
 | 24.09.2025 | Offene Diskussion | [Notes #31](/notes/2025-09-24-HackyHour-31.md) |
 | 23.07.2025 | Ausgefallen | |
 | 27.08.2025 | Ausgefallen | |
