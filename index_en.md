@@ -27,8 +27,11 @@ In addition to the open discussion that is always possible, we always try to tal
 
 | Date | Topic | Info |
 | ---------- | ---------- | ------------:|
-| 26.11.2025 | Offene Diskussion | Review of 2025, Topics for 2026 | |
 | 24.12.2025 | No event due to holidays | 🎄️ |
+| 28.01.2026 | License me, if you can. | Andre Pietsch is a research data consultant at JLU and will give an overview of the most common licenses for research data and software in this lecture. He will also discuss the problems and difficulties that can arise when selecting such licenses. Lecture language: German |
+| 25.02.2026 | Linux installation party | On this day, we will help you install Linux. More information to follow. |
+| 25.03.2026 | Publication pipeline with Pandoc | Christian Krippes works at the University Library. In his presentation, he will explain how Pandoc can be used to generate texts in multiple formats and thus target different audiences. Lecture language: German |
+| 22.04.2026 | Virtual Reality Gamification for Photonics, AI and More - Powered by Unreal Engine | Dr Arash Rahimi-Iman is Heisenberg Group Leader of the Quantum Nanophotonics, V.R. & A.I. working group at JLU. In his lecture, he will present his approach to integrate and use new technologies for his research. Lecture language: German |  
 
 -> You can find the past dates [below](#past-dates).
 
@@ -42,6 +45,7 @@ The past dates were mainly in English, so the notes are also mainly in English. 
 
 | Date | Topic | Notes & summaries |
 | ---------- |--------------| ----------:|
+| 26.11.2025 | Open Discussion | Review of 2025, Topics for 2026 | |
 | 22.10.2025 | Linux installation party | ||
 | 24.09.2025 | Open Discussion | [Notes #31](/notes/2025-09-24-HackyHour-31.md) |
 | 23.07.2025 | Cancelled | |

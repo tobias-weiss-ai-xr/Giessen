@@ -25,8 +25,11 @@ Zusätzlich zu der immer möglichen offenen Diskussion, versuchen wir immer übe
  
 | Datum | Thema | Weitere Infos |
 | ---------- | ------------| ----------|
-| 26.11.2025 | Offene Diskussion | Rückschau 2025, Themensammlung für 2026 |
 | 24.12.2025 | Keine HackyHour wegen Weihnachtsferien  | 🎄️ |
+| 28.01.2026 | License me, if you can. | Andre Pietsch ist Forschungsdatenreferent an der JLU und gibt in diesem Vortrag eine Übersicht über die gängigen Lizenzen für Forschungsdaten und Software. Außerdem wird es darum gehen, welche Probleme und Schwierigkeiten bei der Auswahl solcher Lizenzen auftreten können. Vortragsprache: Deutsch |
+| 25.02.2026 | Linux-Installationsparty | An diesem Tag helfen wir euch bei der Installation von Linux. Weitere Infos folgen.|
+| 25.03.2026 | Publikationspipeline mit Pandoc |Christian Krippes ist Mitarbeiter der UB. In seinem Vortrag stellt er vor, wie man mithilfe von Pandoc seine Texte in multiplen Formaten erzeugen und so an unterschiedliche Zielgruppen ausspielen kann.|
+| 22.04.2026 | Virtual Reality Gamification for Photonics, AI and More - Powered by Unreal Engine| Dr. Arash Rahimi-Iman ist Heisenberg-Gruppenleiter der AG  QuantenNanoPhotonik, V.R. & K.I. an der JLU. In seinem Vortrag stellt er die Integration und Nutzung von neuen Technologien in seiner Forschungsarbeit vor. Vortragsprache: Deutsch|
 
 -> Die vergangenen Termine findest du [weiter unten](#vergangene-termine).
 
@@ -36,12 +39,13 @@ Solltest du ein Thema präsentieren wollen, kannst du einfach ein Issue im GitHu
 
 ## Vergangene Termine
 
-Die vergangenen Termine waren überwiegend auf Englisch, daher sind auch 
-die Notizen überwiegend in englischer Sprache. Ab HackyHour 15 versuchen
+Einige der vergangenen Termine waren überwiegend auf Englisch, daher sind auch 
+die Notizen dieser Termine in englischer Sprache. Ab HackyHour 15 versuchen
 wir Notizen in Deutsch und Englisch anzubieten.
 
 | Datum | Thema | Notizen & Zusammenfassungen |
 | ---------- |--------------| ----------:|
+| 26.11.2025 | Offene Diskussion | Rückschau 2025, Themensammlung für 2026 |
 | 22.10.2025 | Linux-Installationsparty | |
 | 24.09.2025 | Offene Diskussion | [Notes #31](/notes/2025-09-24-HackyHour-31.md) |
 | 23.07.2025 | Ausgefallen | |
