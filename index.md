@@ -25,7 +25,6 @@ Zusätzlich zu der immer möglichen offenen Diskussion, versuchen wir immer übe
  
 | Datum | Thema | Weitere Infos |
 | ---------- | ------------| ----------|
-| 24.12.2025 | Keine HackyHour wegen Weihnachtsferien  | 🎄️ |
 | 28.01.2026 | License me, if you can. | Andre Pietsch ist Forschungsdatenreferent an der JLU und gibt in diesem Vortrag eine Übersicht über die gängigen Lizenzen für Forschungsdaten und Software. Außerdem wird es darum gehen, welche Probleme und Schwierigkeiten bei der Auswahl solcher Lizenzen auftreten können. Vortragsprache: Deutsch |
 | 25.02.2026 | Linux-Installationsparty | An diesem Tag helfen wir euch bei der Installation von Linux. Weitere Infos folgen.|
 | 25.03.2026 | Publikationspipeline mit Pandoc |Christian Krippes ist Mitarbeiter der UB. In seinem Vortrag stellt er vor, wie man mithilfe von Pandoc seine Texte in multiplen Formaten erzeugen und so an unterschiedliche Zielgruppen ausspielen kann.|
@@ -45,6 +44,7 @@ wir Notizen in Deutsch und Englisch anzubieten.
 
 | Datum | Thema | Notizen & Zusammenfassungen |
 | ---------- |--------------| ----------:|
+| 24.12.2025 | Keine HackyHour wegen Weihnachtsferien  | 🎄️ |
 | 26.11.2025 | Offene Diskussion | Rückschau 2025, Themensammlung für 2026 |
 | 22.10.2025 | Linux-Installationsparty | |
 | 24.09.2025 | Offene Diskussion | [Notes #31](/notes/2025-09-24-HackyHour-31.md) |
