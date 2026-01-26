@@ -12,7 +12,7 @@ Florian hat die HackyHour bei einem [Vortrag][coffee] mal auf Englisch erklärt.
 [coffee]:https://youtu.be/nV1UqTOsesw
 
 ## Wann und wo?
-Jeden vierten Mittwoch um 17 Uhr für ca. eineinhalb Stunden im [Makerspace Giessen](https://makerspace-giessen.de/). Mehr zur [Anfahrt](https://makerspace-giessen.de/allgemeines/#anfahrt).
+**Jeden vierten Mittwoch um 17 Uhr** für ca. eineinhalb Stunden im [Makerspace Giessen](https://makerspace-giessen.de/). Mehr zur [Anfahrt](https://makerspace-giessen.de/allgemeines/#anfahrt).
  
 Ihr müsst nichts mitbringen. Falls ihr ein Laptop habt, bringt es gerne mit; es gibt bestimmt etwas auszuprobieren!
  
@@ -23,12 +23,19 @@ Foto Marc S. Bearbeitung Christian K.
 
 Zusätzlich zu der immer möglichen offenen Diskussion, versuchen wir immer über mindestens ein spezifisches Thema zu reden. Dazu führt meistens eine Person in das Thema ein und dann ist Zeit für Fragen und Diskussion. Wenn du auch etwas vortragen möchtest, melde dich gerne bei uns (siehe Kontakt unten).
  
-| Datum | Thema | Weitere Infos |
-| ---------- | ------------| ----------|
-| 28.01.2026 | License me, if you can. | Andre Pietsch ist Forschungsdatenreferent an der JLU und gibt in diesem Vortrag eine Übersicht über die gängigen Lizenzen für Forschungsdaten und Software. Außerdem wird es darum gehen, welche Probleme und Schwierigkeiten bei der Auswahl solcher Lizenzen auftreten können. Vortragsprache: Deutsch |
-| 25.02.2026 | Linux-Installationsparty | An diesem Tag helfen wir euch bei der Installation von Linux. Weitere Infos folgen.|
-| 25.03.2026 | Publikationspipeline mit Pandoc |Christian Krippes ist Mitarbeiter der UB. In seinem Vortrag stellt er vor, wie man mithilfe von Pandoc seine Texte in multiplen Formaten erzeugen und so an unterschiedliche Zielgruppen ausspielen kann.|
-| 22.04.2026 | Virtual Reality Gamification for Photonics, AI and More - Powered by Unreal Engine| Dr. Arash Rahimi-Iman ist Heisenberg-Gruppenleiter der AG  QuantenNanoPhotonik, V.R. & K.I. an der JLU. In seinem Vortrag stellt er die Integration und Nutzung von neuen Technologien in seiner Forschungsarbeit vor. Vortragsprache: Deutsch|
+| Datum | Thema |
+| ---------- | ------------|
+| 28.01.2026 | **License me, if you can.**<br>Andre Pietsch ist Forschungsdatenreferent an der JLU und gibt in diesem Vortrag eine Übersicht über die gängigen Lizenzen für Forschungsdaten und Software. Außerdem wird es darum gehen, welche Probleme und Schwierigkeiten bei der Auswahl solcher Lizenzen auftreten können. Vortragsprache: Deutsch |
+| 25.02.2026 | **Linux-Installationsparty**<br>An diesem Tag helfen wir euch bei der Installation von Linux. Weitere Infos und eine Anmeldung findet ihr beim Makerspace unter https://pretix.eu/makerspace-giessen/linux/. Eine E-Mail-Adresse genügt für die Anmeldung.|
+| 25.03.2026 | **Publikationspipeline mit Pandoc**<br>Christian Krippes ist Mitarbeiter der UB. In seinem Vortrag stellt er vor, wie man mithilfe von Pandoc seine Texte in multiplen Formaten erzeugen und so an unterschiedliche Zielgruppen ausspielen kann. Vortragsprache: Deutsch<br> **Nextcloud - Europäische Alternative zu Cloudspeicher, Kalender, ToDos und mehr**<br>Nils Seipel ist Gründer & Geschäftsführer der flux – werk gGmbH und berichtet von seiner Erfahrung mit Nextcloud im eigenen Unternehmen.Vortragsprache: Deutsch |
+| 22.04.2026 | **Virtual Reality Gamification for Photonics, AI and More - Powered by Unreal Engine**<br>Dr. Arash Rahimi-Iman ist Heisenberg-Gruppenleiter der AG  QuantenNanoPhotonik, V.R. & K.I. an der JLU. In seinem Vortrag stellt er die Integration und Nutzung von neuen Technologien in seiner Forschungsarbeit vor. Vortragsprache: Deutsch|
+| 27.05.2026 | **Folgen, Risiken und Nebenwirkungen der Bedingung »nicht-kommerziell – NC«**<br>Andre Pietsch ist Forschungsdatenreferent an der JLU und gibt in seinem Vortrag einen Einblick in die Kontroverse um die NC-Bedingung von Creative Commons Lizenzen. Vortragsprache: Deutsch
+| 24.06.2026 | In Arbeit |
+| 22.07.2026 | Keine HackyHour wegen Ferien 🏖️ |
+| 26.08.2026 | In Arbeit |
+| 23.09.2026 | In Arbeit |
+| 28.10.2026 | In Arbeit |
+| 25.11.2026 | In Arbeit |
 
 -> Die vergangenen Termine findest du [weiter unten](#vergangene-termine).
 

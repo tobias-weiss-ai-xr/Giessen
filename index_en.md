@@ -14,7 +14,7 @@ Florian once explained the HackyHour in English during a [Coffee Lecture][coffee
 
 ## When and Where
 
-Every fourth Wednesday at 5 pm for about one and a half hours in the [Makerspace Giessen](https://makerspace-giessen.de/).[ More on how to get there](https://makerspace-giessen.de/allgemeines/#anfahrt).
+**Every fourth Wednesday at 5 pm** for about one and a half hours in the [Makerspace Giessen](https://makerspace-giessen.de/).[ More on how to get there](https://makerspace-giessen.de/allgemeines/#anfahrt).
 
 You don't need to bring anything. If you have a laptop, bring it along; there's bound to be something to try out!
 
@@ -25,12 +25,19 @@ Image by Marc S. Edited by Christian K.
 
 In addition to the open discussion that is always possible, we always try to talk about at least one specific topic. Usually one person introduces the topic and then there is time for questions and discussion. If you would also like to present something, please get in touch with us (see contact below).
 
-| Date | Topic | Info |
-| ---------- | ---------- | ------------:|
-| 28.01.2026 | License me, if you can. | Andre Pietsch is a research data consultant at JLU and will give an overview of the most common licenses for research data and software in this lecture. He will also discuss the problems and difficulties that can arise when selecting such licenses. Lecture language: German |
-| 25.02.2026 | Linux installation party | On this day, we will help you install Linux. More information to follow. |
-| 25.03.2026 | Publication pipeline with Pandoc | Christian Krippes works at the University Library. In his presentation, he will explain how Pandoc can be used to generate texts in multiple formats and thus target different audiences. Lecture language: German |
-| 22.04.2026 | Virtual Reality Gamification for Photonics, AI and More - Powered by Unreal Engine | Dr Arash Rahimi-Iman is Heisenberg Group Leader of the Quantum Nanophotonics, V.R. & A.I. working group at JLU. In his lecture, he will present his approach to integrate and use new technologies for his research. Lecture language: German |  
+| Date | Topic |
+| ---------- | ---------- |
+| 28 January 2026 | **License me, if you can.**<br>Andre Pietsch is a research data consultant at JLU and will give an overview of the common licences for research data and software in this lecture. He will also discuss the problems and difficulties that can arise when selecting such licences. Lecture language: German |
+| 25 February 2026 | **Linux installation party**<br>On this day, we will help you install Linux. Further information and registration can be found at Makerspace at https://pretix.eu/makerspace-giessen/linux/. An email address is sufficient for registration.|
+| 25 March 2026 | **Publication pipeline with Pandoc**<br>Christian Krippes is an employee of the University Library. In his presentation, he will explain how Pandoc can be used to generate texts in multiple formats and thus reach different target groups. Lecture language: German<br> **Nextcloud – European alternative to cloud storage, calendars, to-do lists and more**<br>Nils Seipel is the founder and managing director of flux – werk gGmbH and will report on his experience with Nextcloud in his own company. Lecture language: German |
+| 22 April 2026 | **Virtual Reality Gamification for Photonics, AI and More – Powered by Unreal Engine**<br>Dr Arash Rahimi-Iman is Heisenberg Group Leader of the Quantum Nanophotonics, VR & AI Working Group at JLU. In his presentation, he will discuss the integration and use of new technologies in his research work. Lecture language: German|
+| 27 May 2026 | **Consequences, risks and side effects of the “non-commercial – NC” condition**<br>Andre Pietsch is a research data officer at JLU and will give an insight into the controversy surrounding the NC condition of Creative Commons licences in his presentation. Presentation language: German
+| 24 June 2026 | In progress |
+| 22 July 2026 | No HackyHour due to holidays 🏖️ |
+| 26 August 2026 | In progress |
+| 23 September 2026 | In progress |
+| 28 October 2026 | In progress |
+| 25 November 2026 | In progress |
 
 -> You can find the past dates [below](#past-dates).
 
