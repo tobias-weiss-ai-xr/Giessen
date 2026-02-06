@@ -27,8 +27,7 @@ In addition to the open discussion that is always possible, we always try to tal
 
 | Date | Topic |
 | ---------- | ---------- |
-| 28 January 2026 | **License me, if you can.**<br>Andre Pietsch is a research data consultant at JLU and will give an overview of the common licences for research data and software in this lecture. He will also discuss the problems and difficulties that can arise when selecting such licences. Lecture language: German |
-| 25 February 2026 | **Linux installation party**<br>On this day, we will help you install Linux. Further information and registration can be found at Makerspace at https://pretix.eu/makerspace-giessen/linux/. An email address is sufficient for registration.|
+| 25 February 2026 | **Linux installation party**<br>On this day, we will help you install Linux. Further information and registration can be found at the [Makerspace]( https://pretix.eu/makerspace-giessen/linux/). An email address is sufficient for registration.|
 | 25 March 2026 | **Publication pipeline with Pandoc**<br>Christian Krippes is an employee of the University Library. In his presentation, he will explain how Pandoc can be used to generate texts in multiple formats and thus reach different target groups. Lecture language: German<br> **Nextcloud – European alternative to cloud storage, calendars, to-do lists and more**<br>Nils Seipel is the founder and managing director of flux – werk gGmbH and will report on his experience with Nextcloud in his own company. Lecture language: German |
 | 22 April 2026 | **Virtual Reality Gamification for Photonics, AI and More – Powered by Unreal Engine**<br>Dr Arash Rahimi-Iman is Heisenberg Group Leader of the Quantum Nanophotonics, VR & AI Working Group at JLU. In his presentation, he will discuss the integration and use of new technologies in his research work. Lecture language: German|
 | 27 May 2026 | **Consequences, risks and side effects of the “non-commercial – NC” condition**<br>Andre Pietsch is a research data officer at JLU and will give an insight into the controversy surrounding the NC condition of Creative Commons licences in his presentation. Presentation language: German
@@ -36,7 +35,7 @@ In addition to the open discussion that is always possible, we always try to tal
 | 22 July 2026 | No HackyHour due to holidays 🏖️ |
 | 26 August 2026 | In progress |
 | 23 September 2026 | In progress |
-| 28 October 2026 | In progress |
+| 28 October 2026 | **Linux installation party**<br>On this day, we will help you install Linux. Further information and registration coming soon. |
 | 25 November 2026 | In progress |
 
 -> You can find the past dates [below](#past-dates).
@@ -51,6 +50,7 @@ The past dates were mainly in English, so the notes are also mainly in English. 
 
 | Date | Topic | Notes & summaries |
 | ---------- |--------------| ----------:|
+| 28 January 2026 | **License me, if you can.**<br>Andre Pietsch is a research data consultant at JLU and will give an overview of the common licences for research data and software in this lecture. He will also discuss the problems and difficulties that can arise when selecting such licences. Lecture language: German |
 | 24.12.2025 | No event due to holidays | 🎄️ |
 | 26.11.2025 | Open Discussion | Review of 2025, Topics for 2026 | |
 | 22.10.2025 | Linux installation party | ||
