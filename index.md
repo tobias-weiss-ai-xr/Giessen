@@ -25,7 +25,6 @@ Zusätzlich zu der immer möglichen offenen Diskussion, versuchen wir immer übe
  
 | Datum | Thema |
 | ---------- | ------------|
-| 22.04.2026 | **Virtual Reality Gamification for Photonics, AI and More - Powered by Unreal Engine**<br>Dr. Arash Rahimi-Iman ist Heisenberg-Gruppenleiter der AG  QuantenNanoPhotonik, V.R. & K.I. an der JLU. In seinem Vortrag stellt er die Integration und Nutzung von neuen Technologien in seiner Forschungsarbeit vor. Vortragsprache: Deutsch|
 | 27.05.2026 | **Folgen, Risiken und Nebenwirkungen der Bedingung »nicht-kommerziell – NC«**<br>Andre Pietsch ist Forschungsdatenreferent an der JLU und gibt in seinem Vortrag einen Einblick in die Kontroverse um die NC-Bedingung von Creative Commons Lizenzen. Vortragsprache: Deutsch
 | 24.06.2026 | In Arbeit |
 | 22.07.2026 | Keine HackyHour wegen Ferien 🏖️ |
@@ -48,6 +47,7 @@ wir Notizen in Deutsch und Englisch anzubieten.
 
 | Datum | Thema | Notizen & Zusammenfassungen |
 | ---------- |--------------| ----------:|
+| 22.04.2026 | **Virtual Reality Gamification for Photonics, AI and More - Powered by Unreal Engine**<br>Dr. Arash Rahimi-Iman ist Heisenberg-Gruppenleiter der AG  QuantenNanoPhotonik, V.R. & K.I. an der JLU. In seinem Vortrag stellt er die Integration und Nutzung von neuen Technologien in seiner Forschungsarbeit vor. Vortragsprache: Deutsch|
 | 25.03.2026 | **Nextcloud - Europäische Alternative zu Cloudspeicher, Kalender, ToDos und mehr**<br>Nils Seipel ist Gründer & Geschäftsführer der flux – werk gGmbH und berichtet von seiner Erfahrung mit Nextcloud im eigenen Unternehmen.Vortragsprache: Deutsch|
 | 25.02.2026 | **Linux-Installationsparty**<br>An diesem Tag helfen wir euch bei der Installation von Linux.|
 | 28.01.2026 | **License me, if you can.**<br>Andre Pietsch ist Forschungsdatenreferent an der JLU und gibt in diesem Vortrag eine Übersicht über die gängigen Lizenzen für Forschungsdaten und Software. Außerdem wird es darum gehen, welche Probleme und Schwierigkeiten bei der Auswahl solcher Lizenzen auftreten können. Vortragsprache: Deutsch |
