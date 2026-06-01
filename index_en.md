@@ -27,8 +27,7 @@ In addition to the open discussion that is always possible, we always try to tal
 
 | Date | Topic |
 | ---------- | ---------- |
-| 27 May 2026 | **Consequences, risks and side effects of the “non-commercial – NC” condition**<br>Andre Pietsch is a research data officer at JLU and will give an insight into the controversy surrounding the NC condition of Creative Commons licences in his presentation. Presentation language: German |
-| 24 June 2026 | In progress |
+| 24 June 2026 | **Digitalisation at JLU**<br>The State of Hesse’s Digital Pact for Higher Education has not only strengthened digitalisation in higher education institutions in specific areas of research and teaching, but has also brought about structural changes. With the help of an IT master plan, the system landscape underpinning JLU’s central operations has been systematically mapped out and structured. In addition, new committees are enabling users to participate in decision-making processes in new ways. Marcus Enger is Head of the Office for Digitalisation at JLU; in his talk, he will provide an insight into these developments and list examples of digitalisation projects that have been carried out with strong user involvement.<br><br>**Using the JLU AI Chat without a browser.**<br>Steffen Karcher is a systems administrator at the HRZ and uses the example of programming with AI to demonstrate how the HRZ’s AI models can also be integrated locally. |
 | 22 July 2026 | No HackyHour due to holidays 🏖️ |
 | 26 August 2026 | In progress |
 | 23 September 2026 |  <br> **Publication pipeline with Pandoc**<br>Christian Krippes is an employee of the University Library. In his presentation, he will explain how Pandoc can be used to generate texts in multiple formats and thus reach different target groups. Lecture language: German<br> |
@@ -47,6 +46,7 @@ The past dates were mainly in English, so the notes are also mainly in English. 
 
 | Date | Topic | Notes & summaries |
 | ---------- |--------------| ----------:|
+| 27 May 2026 | **Consequences, risks and side effects of the “non-commercial – NC” condition**<br>Andre Pietsch is a research data officer at JLU and will give an insight into the controversy surrounding the NC condition of Creative Commons licences in his presentation. Presentation language: German |
 | 22 April 2026 | **Virtual Reality Gamification for Photonics, AI and More – Powered by Unreal Engine**<br>Dr Arash Rahimi-Iman is Heisenberg Group Leader of the Quantum Nanophotonics, VR & AI Working Group at JLU. In his presentation, he will discuss the integration and use of new technologies in his research work. Lecture language: German|
 | 25 March 2026 |**Nextcloud – European alternative to cloud storage, calendars, to-do lists and more**<br>Nils Seipel is the founder and managing director of flux – werk gGmbH and will report on his experience with Nextcloud in his own company. Lecture language: German|
 | 25 February 2026 | **Linux installation party**<br>On this day, we will help you install Linux.|

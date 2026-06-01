@@ -25,8 +25,7 @@ Zusätzlich zu der immer möglichen offenen Diskussion, versuchen wir immer übe
  
 | Datum | Thema |
 | ---------- | ------------|
-| 27.05.2026 | **Folgen, Risiken und Nebenwirkungen der Bedingung »nicht-kommerziell – NC«**<br>Andre Pietsch ist Forschungsdatenreferent an der JLU und gibt in seinem Vortrag einen Einblick in die Kontroverse um die NC-Bedingung von Creative Commons Lizenzen. Vortragsprache: Deutsch
-| 24.06.2026 | In Arbeit |
+| 24.06.2026 | **Digitalisierung an der JLU**<br>Durch den Digitalpakt Hochschulen des Landes Hessen wurde die Digitalisierung der Hochschulen nicht nur punktuell in Forschung und Lehre gestärkt, sondern auch strukturell. Mit Hilfe eines IT-Bebauungsplans ist die Systemlandschaft zum zentralen Betrieb der JLU damit systematisch erfasst und strukturiert. Dazu ermöglichen neue Gremien eine neue Teilhabe der Anwenderinnen und Anwender an Entscheidungsprozessen. Marcus Enger ist Leiter des Büros für Digitalisierung an der JLU und gibt in seinem Vortrag einen Einblick in diese Entwicklungen und listet Beispiele für durchgeführte Digitalisierungsprojekte mit starker Anwenderbeteiligung auf.<br><br>**JLU KI-Chat ohne Browser nutzen.**<br>Steffen Karcher ist Systemadministrator am HRZ und zeigt am Beispiel Programmieren mit KI, wie man die KI-Modelle des HRZ auch lokal einbinden kann.|
 | 22.07.2026 | Keine HackyHour wegen Ferien 🏖️ |
 | 26.08.2026 | In Arbeit |
 | 23.09.2026 | **Publikationspipeline mit Pandoc**<br>Christian Krippes ist Mitarbeiter der UB. In seinem Vortrag stellt er vor, wie man mithilfe von Pandoc seine Texte in multiplen Formaten erzeugen und so an unterschiedliche Zielgruppen ausspielen kann. Vortragsprache: Deutsch<br> |
@@ -47,6 +46,7 @@ wir Notizen in Deutsch und Englisch anzubieten.
 
 | Datum | Thema | Notizen & Zusammenfassungen |
 | ---------- |--------------| ----------:|
+| 27.05.2026 | **Folgen, Risiken und Nebenwirkungen der Bedingung »nicht-kommerziell – NC«**<br>Andre Pietsch ist Forschungsdatenreferent an der JLU und gibt in seinem Vortrag einen Einblick in die Kontroverse um die NC-Bedingung von Creative Commons Lizenzen. Vortragsprache: Deutsch
 | 22.04.2026 | **Virtual Reality Gamification for Photonics, AI and More - Powered by Unreal Engine**<br>Dr. Arash Rahimi-Iman ist Heisenberg-Gruppenleiter der AG  QuantenNanoPhotonik, V.R. & K.I. an der JLU. In seinem Vortrag stellt er die Integration und Nutzung von neuen Technologien in seiner Forschungsarbeit vor. Vortragsprache: Deutsch|
 | 25.03.2026 | **Nextcloud - Europäische Alternative zu Cloudspeicher, Kalender, ToDos und mehr**<br>Nils Seipel ist Gründer & Geschäftsführer der flux – werk gGmbH und berichtet von seiner Erfahrung mit Nextcloud im eigenen Unternehmen.Vortragsprache: Deutsch|
 | 25.02.2026 | **Linux-Installationsparty**<br>An diesem Tag helfen wir euch bei der Installation von Linux.|
