@@ -19,24 +19,24 @@ style: |
   
   /* Golden ratio based sizing */
   h1 {
-    font-size: 58px; /* 32 * φ ≈ 51.8, rounded to 58 */
+    font-size: 58px;
     color: #2c3e50;
-    margin-bottom: 34px; /* 58 / φ ≈ 35.8 */
+    margin-bottom: 34px;
     font-weight: 400;
     letter-spacing: -0.5px;
   }
   
   h2 {
-    font-size: 42px; /* 32 * φ^2 ≈ 51.8, but 42 for hierarchy */
+    font-size: 42px;
     color: #2c3e50;
-    margin: 42px 0 21px 0; /* 42 / φ ≈ 26, using 21 */
+    margin: 42px 0 21px 0;
     font-weight: 400;
     border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 13px; /* 21 / φ ≈ 13 */
+    padding-bottom: 13px;
   }
   
   h3 {
-    font-size: 34px; /* 32 * φ^0.5 ≈ 40, using 34 */
+    font-size: 34px;
     color: #3498db;
     margin: 21px 0 13px 0;
     font-weight: 400;
@@ -55,7 +55,7 @@ style: |
   .content-box {
     background: #f8f9fa;
     border-radius: 0;
-    padding: 21px 34px; /* 13px and 21px for golden ratio */
+    padding: 21px 34px;
     margin: 13px 0;
     border-left: 2px solid #3498db;
   }
@@ -94,14 +94,13 @@ style: |
     padding: 2px 6px;
   }
   
-  /* אדם Stoic emphasis */
   .emphasis {
     color: #3498db;
     font-style: italic;
   }
   
   .metric {
-    font-size: 42px; /* Golden ratio: 26 * φ ≈ 42 */
+    font-size: 42px;
     font-weight: 600;
     color: #27ae60;
   }
@@ -116,7 +115,6 @@ style: |
     padding-left: 21px;
   }
   
-  /* Unix: No unnecessary decoration */
   .agent-icon {
     font-size: 34px;
     margin-right: 13px;
@@ -125,7 +123,7 @@ style: |
   .cta {
     background: #1a1a1a;
     color: #ffffff;
-    padding: 34px 55px; /* 34 and 55 for golden ratio */
+    padding: 34px 55px;
     border-radius: 0;
     text-align: center;
     font-size: 26px;
@@ -137,23 +135,24 @@ style: |
     font-size: 17px;
     color: #7f8c8d;
     margin-top: 34px;
+    text-align: center;
   }
   
-  /* Hide slide numbers for minimalism */
   .slide-number {
     display: none;
   }
   
-  /* Simple timer */
   .timer {
     display: none;
   }
-  
-  /* Golden ratio spacing */
-  .spacing-1 { margin: 13px 0; }
-  .spacing-2 { margin: 21px 0; }
-  .spacing-3 { margin: 34px 0; }
-  .spacing-4 { margin: 55px 0; }
+
+  /* Mermaid diagram styling */
+  .mermaid {
+    font-family: 'Fira Code', 'Monaco', monospace;
+    font-size: 24px;
+    line-height: 1.618;
+    margin: 21px 0;
+  }
 ---
 
 <!-- Slide 1 -->
@@ -194,7 +193,7 @@ tobias-weiss.org | opendesk-edu.org
 <div class="content-box">
 <div class="section-title">Golden Ratio Design</div>
 
-- ** φ ≈ 1.618:** Natürliche Proportionen
+- **φ ≈ 1.618:** Natürliche Proportionen
 - **Minimal:** Keine unnötigen Elemente
 - **Stoic:** Funktion über Form
 
@@ -206,26 +205,28 @@ tobias-weiss.org | opendesk-edu.org
 
 # Die Architektur
 
-```
-┌─────────────────────────────────────────┐
-│              OpenDesk Edu               │
-├─────────────────────────────────────────┤
-│                                     │
-│  ┌─────────┐    ┌─────────┐    ┌─────┐ │
-│  │  User   │    │Knowledge│    │Feedback │ │
-│  │  Agent  │────│  Agent  │────│  Agent │ │
-│  └─────────┘    └─────────┘    └─────┘ │
-│           │               │           │
-│           ▼               ▼           ▼ │
-│  ┌───────────────────────────────────┐ │
-│  │         Kubernetes Cluster         │ │
-│  │  ┌─────────┐  ┌─────────┐  ┌─────┐  │ │
-│  │  │  LLM    │  │ Vector  │  │  DB  │  │ │
-│  │  │  Service│  │  DB     │  │      │  │ │
-│  │  └─────────┘  └─────────┘  └─────┘  │ │
-│  └───────────────────────────────────┘ │
-│                                     │
-└─────────────────────────────────────────┘
+```mermaid
+graph TD
+    subgraph "OpenDesk Edu Suite"
+        Frontend[("Frontend")] --> Backend
+        Backend[("Backend")] --> Agents
+        Agents[("Agenten")] --> AI
+        AI[("AI Services")] --> Storage
+        Storage[("Storage")] --> Backend
+    end
+    
+    Frontend -->|Next.js| User
+    Backend -->|Node.js| Frontend
+    Agents -->|LangChain| AI
+    AI -->|Ollama| Agents
+    Storage -->|PostgreSQL| Backend
+    
+    style Frontend fill:#e3f2fd
+    style Backend fill:#e3f2fd
+    style Agents fill:#bbdefb
+    style AI fill:#bbdefb
+    style Storage fill:#f0f8ff
+    style User fill:#fff
 ```
 
 **Ein System. Eine Verantwortung. Maximale Flexibilität.**
@@ -234,45 +235,91 @@ tobias-weiss.org | opendesk-edu.org
 
 <!-- Slide 4 -->
 
+# Die Kubernetes-Infrastruktur
+
+```mermaid
+graph TD
+    subgraph "Kubernetes Cluster"
+        direction TB
+        
+        subgraph "Control Plane"
+            API[API Server]
+            Scheduler[Scheduler]
+            Controller[Controller Manager]
+            Etcd[(etcd)]
+        end
+        
+        subgraph "Worker Nodes"
+            Node1[Node 1]
+            Node2[Node 2]
+            Node3[Node 3]
+        end
+        
+        API --> Scheduler
+        API --> Controller
+        Scheduler --> Node1
+        Scheduler --> Node2
+        Scheduler --> Node3
+        Controller --> Etcd
+    end
+    
+    subgraph "OpenDesk Edu Pods"
+        PodFrontend[Frontend Pod\nNext.js]
+        PodBackend[Backend Pod\nNode.js]
+        PodAgents[Agenten Pods\n4 Services]
+        PodAI[AI Pod\nOllama]
+        PodStorage[Storage Pods\nPostgreSQL, Qdrant]
+    end
+    
+    Node1 --> PodFrontend
+    Node1 --> PodBackend
+    Node2 --> PodAgents
+    Node2 --> PodAI
+    Node3 --> PodStorage
+    
+    style Control Plane fill:#f0f8ff
+    style Worker Nodes fill:#f0f8ff
+    style OpenDesk Edu Pods fill:#e8f4fd
+```
+
+**Skalierbar. Robust. Enterprise-Ready.**
+
+---
+
+<!-- Slide 5 -->
+
 # Die Agenten
+
+```mermaid
+graph LR
+    UserAgent[User Agent\nPersönlicher Lernbegleiter] 
+    KnowledgeAgent[Knowledge Agent\nWissensmanager]
+    FeedbackAgent[Feedback Agent\nUnterstützung bei Bewertungen]
+    CollaborationAgent[Collaboration Agent\nTeamulator]
+    
+    style UserAgent fill:#e3f2fd
+    style KnowledgeAgent fill:#bbdefb
+    style FeedbackAgent fill:#bbdefb
+    style CollaborationAgent fill:#bbdefb
+```
 
 <div class="content-box">
 
-<div class="section-title"><span class="agent-icon">👤</span> User Agent</div>
-Persönlicher Lernbegleiter
-- Trackt Fortschritt
-- Erkennt Blockaden
-- Empfiehlt next steps
+**Jeder Agent hat eine klare Aufgabe:**
 
-<div class="spacing-2"></div>
+✅ **User Agent:** Trackt Fortschritt, erkennt Blockaden, empfiehlt next steps
 
-<div class="section-title"><span class="agent-icon">📚</span> Knowledge Agent</div>
-Wissensmanager
-- Strukturiert Inhalte
-- Erstellt Zusammenhänge
-- Beantwortet Fragen
+✅ **Knowledge Agent:** Strukturiert Inhalte, erstellt Zusammenhänge, beantwortet Fragen
 
-<div class="spacing-2"></div>
+✅ **Feedback Agent:** Analysiert Abgaben, generiert Vorschläge, **Mensch entscheidet final**
 
-<div class="section-title"><span class="agent-icon">💬</span> Feedback Agent</div>
-Unterstützung bei Bewertungen
-- Analysiert Abgaben
-- Generiert Vorschläge
-- **Mensch entscheidet final**
-
-<div class="spacing-2"></div>
-
-<div class="section-title"><span class="agent-icon">👥</span> Collaboration Agent</div>
-Teamulator
-- Übersetzt Echtzeit
-- Organisiert Projekte
-- Vermittelt Mentoren
+✅ **Collaboration Agent:** Übersetzt Echtzeit, organisiert Projekte, vermittelt Mentoren
 
 </div>
 
 ---
 
-<!-- Slide 5 -->
+<!-- Slide 6 -->
 
 # Das Problem
 
@@ -295,71 +342,89 @@ Teamulator
 
 ---
 
-<!-- Slide 6 -->
+<!-- Slide 7 -->
 
 # Use Case 1
 
 ## Korrektur-Unterstützung
 
-<div class="content-box">
-
-**Feedback Agent + User Agent:**
-
-- Analysiert 150 Abgaben
-- Identifiziert Muster
-- Generiert Feedback-Vorschläge
+```mermaid
+graph LR
+    Dozent[Dozent] -->|150 Abgaben| FeedbackAgent
+    FeedbackAgent[Feedback Agent] -->|Analyse| Muster[Fehlermuster Erkennen]
+    Muster --> Vorschläge[Feedback-Vorschläge Generieren]
+    Vorschläge --> Dozent
+    Dozent -->|Finale Kontrolle| Bewertung[Bewertung]
+    
+    style Dozent fill:#e3f2fd
+    style FeedbackAgent fill:#bbdefb
+    style Muster fill:#90caf9
+    style Vorschläge fill:#90caf9
+    style Bewertung fill:#e3f2fd
+```
 
 **Resultat:** <span class="metric">9 Stunden gespart pro Woche</span>
-
-**Wichtig:** Dozent behält finale Kontrolle
-
-</div>
-
----
-
-<!-- Slide 7 -->
-
-# Use Case 2
-
-## Adaptives Lernen
-
-<div class="content-box">
-
-**Alle 4 Agenten zusammen:**
-
-- Erkennt Lernblockade
-- Findet alternative Erklärungen
-- Vermittelt Mentor
-- Generiert Übungen
-
-**Resultat:** <span class="metric">85% schnelleres Verständnis</span>
-
-</div>
 
 ---
 
 <!-- Slide 8 -->
 
-# Use Case 3
+# Use Case 2
 
-## Kollaborative Forschung
+## Adaptives Lernen
 
-<div class="content-box">
+```mermaid
+graph TD
+    Lernender[Lernender] -->|Blockade| UserAgent
+    UserAgent[User Agent] -->|Erkennt| KnowledgeAgent
+    KnowledgeAgent[Knowledge Agent] -->|Findet| Alternativ[Alternative Erklärung]
+    KnowledgeAgent --> Mentor[Mentor vermitteln]
+    KnowledgeAgent --> Übungen[Übungen generieren]
+    Alternativ --> Lernender
+    Mentor --> Lernender
+    Übungen --> Lernender
+    
+    style Lernender fill:#e3f2fd
+    style UserAgent fill:#bbdefb
+    style KnowledgeAgent fill:#bbdefb
+    style Alternativ fill:#90caf9
+    style Mentor fill:#90caf9
+    style Übungen fill:#90caf9
+```
 
-**Knowledge + Collaboration + Feedback Agent:**
-
-- Analysiert Forschungsdaten
-- Übersetzt Echtzeit (10+ Sprachen)
-- Validiert Datenqualität
-- Koordiniert Team
-
-**Resultat:** <span class="metric">300% schnellere Projektabwicklung</span>
-
-</div>
+**Resultat:** <span class="metric">85% schnelleres Verständnis</span>
 
 ---
 
 <!-- Slide 9 -->
+
+# Use Case 3
+
+## Kollaborative Forschung
+
+```mermaid
+graph TD
+    Team[Forschungsteam] -->|Daten| KnowledgeAgent
+    KnowledgeAgent[Knowledge Agent] -->|Analyse| Datenanalyse[Daten Analyse]
+    KnowledgeAgent --> CollaborationAgent
+    CollaborationAgent[Collaboration Agent] -->|Übersetzung| Echtzeit[Echtzeit-Übersetzung]
+    CollaborationAgent --> Qualität[Qualitätsvalidierung]
+    CollaborationAgent --> Koordination[Team-Koordination]
+    
+    style Team fill:#e3f2fd
+    style KnowledgeAgent fill:#bbdefb
+    style CollaborationAgent fill:#bbdefb
+    style Datenanalyse fill:#90caf9
+    style Echtzeit fill:#90caf9
+    style Qualität fill:#90caf9
+    style Koordination fill:#90caf9
+```
+
+**Resultat:** <span class="metric">300% schnellere Projektabwicklung</span>
+
+---
+
+<!-- Slide 10 -->
 
 # Die Zahlen
 
@@ -380,65 +445,110 @@ Teamulator
 
 ---
 
-<!-- Slide 10 -->
+<!-- Slide 11 -->
 
 # Die Technologie
 
-<div class="content-box">
-<div class="section-title">Backend</div>
-Node.js, TypeScript, Fastify, PostgreSQL
+```mermaid
+graph TD
+    subgraph "Technologiestack"
+        direction TB
+        
+        subgraph "Frontend"
+            F1[Next.js 14]
+            F2[React]
+            F3[Tailwind CSS]
+            F4[WebSockets]
+        end
+        
+        subgraph "Backend"
+            B1[Node.js]
+            B2[TypeScript]
+            B3[Fastify]
+            B4[REST API]
+        end
+        
+        subgraph "AI/ML"
+            A1[LangChain.js]
+            A2[LangGraph]
+            A3[Ollama]
+            A4[Qdrant]
+            A5[Neo4j]
+        end
+        
+        subgraph "Speicher"
+            S1[PostgreSQL]
+            S2[Redis]
+            S3[Elasticsearch]
+        end
+        
+        subgraph "Infrastruktur"
+            I1[Kubernetes]
+            I2[Docker]
+            I3[Helm]
+            I4[Terraform]
+        end
+    end
+    
+    F1 --> B1
+    F2 --> B1
+    B1 --> A1
+    A1 --> A2
+    A2 --> A3
+    A2 --> A4
+    A2 --> A5
+    B1 --> S1
+    B1 --> S2
+    B1 --> S3
+    I1 --> F1
+    I1 --> B1
+    I2 --> I1
+    I3 --> I1
+    
+    style Frontend fill:#f0f8ff
+    style Backend fill:#f0f8ff
+    style AI/ML fill:#e8f4fd
+    style Speicher fill:#e8f4fd
+    style Infrastruktur fill:#e8f4fd
+```
 
-<div class="spacing-1"></div>
-
-<div class="section-title">AI/ML</div>
-LangChain, Ollama, Qdrant, Neo4j
-
-<div class="spacing-1"></div>
-
-<div class="section-title">Frontend</div>
-Next.js, React, Tailwind CSS
-
-<div class="spacing-1"></div>
-
-<div class="section-title">Infrastruktur</div>
-Kubernetes, Docker, Helm, Terraform
-
-</div>
-
-<div class="quote emphasis">
-"Small, sharp tools"
-</div>
-
----
-
-<!-- Slide 11 -->
-
-# Kubernetes
-
-## Skalierbar. Robust. Enterprise-Ready.
-
-<div class="content-box">
-
-**Microservices:**
-- Jeder Agent als separater Service
-- Eigenes Deployment
-- Auto-scaling
-
-**Features:**
-- Self-healing
-- Rolling updates
-- Load balancing
-- Multi-region support
-
-</div>
-
-<div class="quote">
-"Compose small programs into larger ones"
-</div>
+**Small, sharp tools.**
 
 ---
 
 <!-- Slide 12 -->
+
+# Kubernetes Features
+
+```mermaid
+graph TD
+    subgraph "Kubernetes Eigenschaften"
+        direction TB
+        
+        AutoScaling[Auto-Scaling] -->|basierend auf Last| Scale
+        SelfHealing[Self-Healing] -->|automatisch| Restart[Pod Neustart]
+        Rolling[Rolling Updates] -->|ohne Downtime| Deploy[Deployment]
+        LoadBalancing[Load Balancing] -->|verteilte Last| Traffic
+        MultiRegion[Multi-Region] -->|global| HA[(High Availability)]
+        
+        style AutoScaling fill:#e3f2fd
+        style SelfHealing fill:#e3f2fd
+        style Rolling fill:#e3f2fd
+        style LoadBalancing fill:#e3f2fd
+        style MultiRegion fill:#e3f2fd
+        style Scale fill:#bbdefb
+        style Restart fill:#bbdefb
+        style Deploy fill:#bbdefb
+        style Traffic fill:#bbdefb
+        style HA fill:#bbdefb
+    end
+```
+
+**Skalierbar. Robust. Enterprise-Ready.**
+
+---
+
+<!-- Slide 13 -->
 
 # Jetzt mitmachen
 
@@ -451,7 +561,7 @@ Website: opendesk-edu.org<br>
 Docker Compose: docker compose up -d<br>
 Kubernetes: kubectl apply -f manifests/<br>
 <br>
-Open Source. Self-Hosted. Datenschutzkonform. соответствовать.
+Open Source. Self-Hosted. Datenschutzkonform.
 </div>
 
 ---
