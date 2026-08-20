@@ -102,8 +102,8 @@ According to the EU AI Act and Krim's legal counsel:
 
 2. **Use Case 2 - REFRAME**
    - **Current:** "Assessment Agent analysiert alle 150 Abgaben automatisch"
-   - **Better:** "Assessment Agent **unterstützt Prof. Müller** bei der Analyse von 150 Abgaben"
-   - **Emphasize:** "**Der Professor behält die finale Kontrolle** und kann alle Bewertungen anpassen"
+   - **Better:** "Feedback Agent **unterstützt den Dozenten** bei der Analyse von 150 Abgaben"
+   - **Emphasize:** "**Der Mensch behält die finale Kontrolle** und kann alle Bewertungen anpassen"
 
 3. **Add Legal Disclaimer**
    - **Slide 11 (Getting Started):** Add note about compliance
@@ -126,7 +126,7 @@ According to the EU AI Act and Krim's legal counsel:
 > - 📊 **Analysiert** alle 150 Abgaben
 > - 🎯 **Identifiziert** häufige Fehler
 > - 📝 **Generiert Vorschläge** für Feedback
-> - 👨‍🏫 **Prof. Müller behält die finale Kontrolle** und passt an
+> - 👨‍🏫 **Der Dozent behält die finale Kontrolle** und passt an
 > 
 > **Ergebnis:** 95% der Arbeit wird unterstützt → **9 Stunden gespart pro Woche**
 

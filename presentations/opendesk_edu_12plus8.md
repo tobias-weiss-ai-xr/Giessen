@@ -7,7 +7,7 @@ style: |
   /* === STOIC UNIX PHILOSOPHY === */
   /* Do one thing and do it well */
   /* Simplicity is the ultimate sophistication */
-  
+
   /* === GOLDEN RATIO (φ ≈ 1.618) LAYOUT === */
   section {
     font-family: 'Helvetica Neue', Arial, sans-serif;
@@ -16,8 +16,7 @@ style: |
     color: #1a1a1a;
     background: #ffffff;
   }
-  
-  /* Golden ratio based sizing */
+
   h1 {
     font-size: 58px;
     color: #2c3e50;
@@ -25,7 +24,7 @@ style: |
     font-weight: 400;
     letter-spacing: -0.5px;
   }
-  
+
   h2 {
     font-size: 42px;
     color: #2c3e50;
@@ -34,15 +33,14 @@ style: |
     border-bottom: 1px solid #e0e0e0;
     padding-bottom: 13px;
   }
-  
+
   h3 {
     font-size: 34px;
     color: #3498db;
     margin: 21px 0 13px 0;
     font-weight: 400;
   }
-  
-  /* Unix philosophy: Clean, no clutter */
+
   .section-title {
     color: #2c3e50;
     font-size: 26px;
@@ -50,8 +48,7 @@ style: |
     margin-bottom: 13px;
     font-weight: 600;
   }
-  
-  /* Golden rectangle proportions */
+
   .content-box {
     background: #f8f9fa;
     border-radius: 0;
@@ -59,23 +56,21 @@ style: |
     margin: 13px 0;
     border-left: 2px solid #3498db;
   }
-  
-  /* Minimal stoic design */
+
   .minimal-list {
     list-style: none;
     padding: 0;
   }
-  
+
   .minimal-list li {
     padding: 8px 0;
     border-bottom: 1px solid #f0f0f0;
   }
-  
+
   .minimal-list li:last-child {
     border-bottom: none;
   }
-  
-  /* Simple, clean code blocks */
+
   pre {
     background: #1a1a1a;
     color: #d4d4d4;
@@ -86,25 +81,32 @@ style: |
     border-radius: 0;
     overflow-x: auto;
   }
-  
+
   code {
     font-family: 'Fira Code', 'Monaco', monospace;
     font-size: 24px;
     background: #f0f0f0;
     padding: 2px 6px;
   }
-  
+
   .emphasis {
     color: #3498db;
     font-style: italic;
   }
-  
+
   .metric {
     font-size: 42px;
     font-weight: 600;
     color: #27ae60;
   }
-  
+
+  .potential {
+    font-size: 28px;
+    font-weight: 400;
+    color: #7f8c8d;
+    font-style: italic;
+  }
+
   .quote {
     font-size: 26px;
     color: #555;
@@ -114,12 +116,12 @@ style: |
     border-left: 2px solid #ccc;
     padding-left: 21px;
   }
-  
+
   .agent-icon {
     font-size: 34px;
     margin-right: 13px;
   }
-  
+
   .cta {
     background: #1a1a1a;
     color: #ffffff;
@@ -130,32 +132,25 @@ style: |
     font-weight: 400;
     margin: 34px 0;
   }
-  
+
   .footer-note {
     font-size: 17px;
     color: #7f8c8d;
     margin-top: 34px;
     text-align: center;
   }
-  
-  .slide-number {
-    display: none;
-  }
-  
-  .timer {
-    display: none;
-  }
 
-  /* Mermaid diagram styling */
-  .mermaid {
-    font-family: 'Fira Code', 'Monaco', monospace;
-    font-size: 24px;
-    line-height: 1.618;
-    margin: 21px 0;
+  .slide-number { display: none; }
+  .timer { display: none; }
+
+  img {
+    max-height: 450px;
+    display: block;
+    margin: 0 auto;
   }
 ---
 
-<!-- Slide 1 -->
+<!-- Slide 1 - 0:00-0:30 -->
 
 # OpenDesk Edu
 
@@ -165,465 +160,243 @@ style: |
 
 tobias-weiss.org | opendesk-edu.org
 
-*Im Anschluss an Christian Uhl*
+*Im Anschluss an Christian Uhl – "Agentic AI in der Praxis"*
 
-<div class="footer-note">HackyHour Gießen | 26.08.2026 | 12+8 Format</div>
+<div class="footer-note">HackyHour Gießen · 26.08.2026 · 12+8 Format</div>
 
 ---
 
-<!-- Slide 2 -->
+<!-- Slide 2 - 0:30-1:30 -->
 
 # Das Konzept
 
-## Einfach. Mächtig. Offene Architektur.
+## Einfach. Mächtig. Offen.
+
+<div class="content-box">
+
+**Kubernetes-basierte Agenten-Plattform für Bildung**
+
+- **Einfach:** Jeder Agent hat eine Aufgabe – UNIX-Prinzip
+- **Mächtig:** Zusammen lösen sie komplexe Probleme
+- **Offen:** 100% Open Source, Self-Hosted, DSGVO-konform
+
+</div>
 
 <div class="quote">
-"Do one thing and do it well" – UNIX Philosophie
-</div>
-
-<div class="content-box">
-<div class="section-title">Kubernetes-basierte Agenten-Plattform</div>
-
-- **Einfach:** Jeder Agent hat eine Aufgabe
-- **Mächtig:** Zusammen lösen sie komplexe Probleme
-- **Offen:** 100% Open Source, Self-Hosted
-
-</div>
-
-<div class="content-box">
-<div class="section-title">Golden Ratio Design</div>
-
-- **φ ≈ 1.618:** Natürliche Proportionen
-- **Minimal:** Keine unnötigen Elemente
-- **Stoic:** Funktion über Form
-
+"Do one thing and do it well."
 </div>
 
 ---
 
-<!-- Slide 3 -->
+<!-- Slide 3 - 1:30-2:30 -->
 
 # Die Architektur
 
-```mermaid
-graph TD
-    subgraph "OpenDesk Edu Suite"
-        Frontend[("Frontend")] --> Backend
-        Backend[("Backend")] --> Agents
-        Agents[("Agenten")] --> AI
-        AI[("AI Services")] --> Storage
-        Storage[("Storage")] --> Backend
-    end
-    
-    Frontend -->|Next.js| User
-    Backend -->|Node.js| Frontend
-    Agents -->|LangChain| AI
-    AI -->|Ollama| Agents
-    Storage -->|PostgreSQL| Backend
-    
-    style Frontend fill:#e3f2fd
-    style Backend fill:#e3f2fd
-    style Agents fill:#bbdefb
-    style AI fill:#bbdefb
-    style Storage fill:#f0f8ff
-    style User fill:#fff
-```
+![w:900 h:450 Architektur](diagrams/architektur.svg)
 
-**Ein System. Eine Verantwortung. Maximale Flexibilität.**
+**Ein System. Vier Agenten. Maximale Flexibilität.**
 
 ---
 
-<!-- Slide 4 -->
+<!-- Slide 4 - 2:30-3:00 -->
 
-# Die Kubernetes-Infrastruktur
+# Kubernetes-Infrastruktur
 
-```mermaid
-graph TD
-    subgraph "Kubernetes Cluster"
-        direction TB
-        
-        subgraph "Control Plane"
-            API[API Server]
-            Scheduler[Scheduler]
-            Controller[Controller Manager]
-            Etcd[(etcd)]
-        end
-        
-        subgraph "Worker Nodes"
-            Node1[Node 1]
-            Node2[Node 2]
-            Node3[Node 3]
-        end
-        
-        API --> Scheduler
-        API --> Controller
-        Scheduler --> Node1
-        Scheduler --> Node2
-        Scheduler --> Node3
-        Controller --> Etcd
-    end
-    
-    subgraph "OpenDesk Edu Pods"
-        PodFrontend[Frontend Pod\nNext.js]
-        PodBackend[Backend Pod\nNode.js]
-        PodAgents[Agenten Pods\n4 Services]
-        PodAI[AI Pod\nOllama]
-        PodStorage[Storage Pods\nPostgreSQL, Qdrant]
-    end
-    
-    Node1 --> PodFrontend
-    Node1 --> PodBackend
-    Node2 --> PodAgents
-    Node2 --> PodAI
-    Node3 --> PodStorage
-    
-    style Control Plane fill:#f0f8ff
-    style Worker Nodes fill:#f0f8ff
-    style OpenDesk Edu Pods fill:#e8f4fd
-```
+![w:900 h:450 Kubernetes](diagrams/kubernetes.svg)
 
-**Skalierbar. Robust. Enterprise-Ready.**
+**Skalierbar. Robust. Self-Hosted.**
 
 ---
 
-<!-- Slide 5 -->
+<!-- Slide 5 - 3:00-4:00 -->
 
-# Die Agenten
+# Die vier Agenten
 
-```mermaid
-graph LR
-    UserAgent[User Agent\nPersönlicher Lernbegleiter] 
-    KnowledgeAgent[Knowledge Agent\nWissensmanager]
-    FeedbackAgent[Feedback Agent\nUnterstützung bei Bewertungen]
-    CollaborationAgent[Collaboration Agent\nTeamulator]
-    
-    style UserAgent fill:#e3f2fd
-    style KnowledgeAgent fill:#bbdefb
-    style FeedbackAgent fill:#bbdefb
-    style CollaborationAgent fill:#bbdefb
-```
+![w:900 h:300 Agenten](diagrams/agenten.svg)
 
 <div class="content-box">
 
-**Jeder Agent hat eine klare Aufgabe:**
+**Jeder Agent – eine klare Aufgabe:**
 
-✅ **User Agent:** Trackt Fortschritt, erkennt Blockaden, empfiehlt next steps
-
-✅ **Knowledge Agent:** Strukturiert Inhalte, erstellt Zusammenhänge, beantwortet Fragen
-
-✅ **Feedback Agent:** Analysiert Abgaben, generiert Vorschläge, **Mensch entscheidet final**
-
-✅ **Collaboration Agent:** Übersetzt Echtzeit, organisiert Projekte, vermittelt Mentoren
+- **User Agent:** Fortschritt tracken, Blockaden erkennen, next steps empfehlen
+- **Knowledge Agent:** Inhalte strukturieren, Zusammenhänge herstellen, Fragen beantworten
+- **Feedback Agent:** Abgaben analysieren, Vorschläge generieren – **Mensch entscheidet final**
+- **Collaboration Agent:** Echtzeit-Übersetzung, Projekte organisieren, Mentoren vermitteln
 
 </div>
 
 ---
 
-<!-- Slide 6 -->
+<!-- Slide 6 - 4:00-4:30 -->
 
 # Das Problem
 
 <div class="content-box">
 
 ### Dozent
-150 Abgaben × 4 Minuten = **10 Stunden pro Woche**
+150 Abgaben × 4 Minuten = **10 Stunden pro Woche** manueller Aufwand
 
 ### Lernender
-3 Stunden Frust bei einfachen Konzepten
+3 Stunden Frust bei Konzepten, die in 30 Minuten verständlich sein könnten
 
 ### Forschungsteam
-4 Monate Koordination statt 2 Wochen Analyse
+4 Monate Koordination statt 2 Wochen Analyse bei internationalen Teams
 
 </div>
 
 <div class="quote emphasis">
-"Just because it's simple doesn't mean it's not powerful"
+Das muss nicht sein.
 </div>
 
 ---
 
-<!-- Slide 7 -->
+<!-- Slide 7 - 4:30-6:00 -->
 
-# Use Case 1
+# Use Case 1: Korrektur-Unterstützung
 
-## Korrektur-Unterstützung
-
-```mermaid
-graph LR
-    Dozent[Dozent] -->|150 Abgaben| FeedbackAgent
-    FeedbackAgent[Feedback Agent] -->|Analyse| Muster[Fehlermuster Erkennen]
-    Muster --> Vorschläge[Feedback-Vorschläge Generieren]
-    Vorschläge --> Dozent
-    Dozent -->|Finale Kontrolle| Bewertung[Bewertung]
-    
-    style Dozent fill:#e3f2fd
-    style FeedbackAgent fill:#bbdefb
-    style Muster fill:#90caf9
-    style Vorschläge fill:#90caf9
-    style Bewertung fill:#e3f2fd
-```
-
-**Resultat:** <span class="metric">9 Stunden gespart pro Woche</span>
-
----
-
-<!-- Slide 8 -->
-
-# Use Case 2
-
-## Adaptives Lernen
-
-```mermaid
-graph TD
-    Lernender[Lernender] -->|Blockade| UserAgent
-    UserAgent[User Agent] -->|Erkennt| KnowledgeAgent
-    KnowledgeAgent[Knowledge Agent] -->|Findet| Alternativ[Alternative Erklärung]
-    KnowledgeAgent --> Mentor[Mentor vermitteln]
-    KnowledgeAgent --> Übungen[Übungen generieren]
-    Alternativ --> Lernender
-    Mentor --> Lernender
-    Übungen --> Lernender
-    
-    style Lernender fill:#e3f2fd
-    style UserAgent fill:#bbdefb
-    style KnowledgeAgent fill:#bbdefb
-    style Alternativ fill:#90caf9
-    style Mentor fill:#90caf9
-    style Übungen fill:#90caf9
-```
-
-**Resultat:** <span class="metric">85% schnelleres Verständnis</span>
-
----
-
-<!-- Slide 9 -->
-
-# Use Case 3
-
-## Kollaborative Forschung
-
-```mermaid
-graph TD
-    Team[Forschungsteam] -->|Daten| KnowledgeAgent
-    KnowledgeAgent[Knowledge Agent] -->|Analyse| Datenanalyse[Daten Analyse]
-    KnowledgeAgent --> CollaborationAgent
-    CollaborationAgent[Collaboration Agent] -->|Übersetzung| Echtzeit[Echtzeit-Übersetzung]
-    CollaborationAgent --> Qualität[Qualitätsvalidierung]
-    CollaborationAgent --> Koordination[Team-Koordination]
-    
-    style Team fill:#e3f2fd
-    style KnowledgeAgent fill:#bbdefb
-    style CollaborationAgent fill:#bbdefb
-    style Datenanalyse fill:#90caf9
-    style Echtzeit fill:#90caf9
-    style Qualität fill:#90caf9
-    style Koordination fill:#90caf9
-```
-
-**Resultat:** <span class="metric">300% schnellere Projektabwicklung</span>
-
----
-
-<!-- Slide 10 -->
-
-# Die Zahlen
+![w:900 h:400 Use Case 1](diagrams/usecase1.svg)
 
 <div class="content-box">
 
-| Metrik | Verbesserung |
-|--------|--------------|
-| Korrekturzeit | <span class="metric">-90%</span> |
-| Lernverständnis | <span class="metric">+85%</span> |
-| Projekt-Durchlauf | <span class="metric">+300%</span> |
-| Sprachbarrieren | <span class="metric">0%</span> |
+**Ablauf:** Feedback Agent analysiert Abgaben → erkennt Muster → generiert Vorschläge → **Dozent behält finale Kontrolle**
+
+**Potenzial:** Deutliche Zeitersparnis bei der Korrektur – **der Mensch entscheidet immer final.**
 
 </div>
 
-<div class="quote">
-"Less is more"
+---
+
+<!-- Slide 8 - 6:00-7:30 -->
+
+# Use Case 2: Adaptives Lernen
+
+![w:900 h:400 Use Case 2](diagrams/usecase2.svg)
+
+<div class="content-box">
+
+**Ablauf:** User Agent erkennt Blockade → Knowledge Agent findet alternative Erklärungen → Collaboration Agent vermittelt Mentor → Feedback Agent generiert Übungen
+
+**Potenzial:** Deutlich schnelleres Verständnis durch personalisierte Lernpfade.
+
 </div>
 
 ---
 
-<!-- Slide 11 -->
+<!-- Slide 9 - 7:30-8:30 -->
 
-# Die Technologie
+# Use Case 3: Kollaborative Forschung
 
-```mermaid
-graph TD
-    subgraph "Technologiestack"
-        direction TB
-        
-        subgraph "Frontend"
-            F1[Next.js 14]
-            F2[React]
-            F3[Tailwind CSS]
-            F4[WebSockets]
-        end
-        
-        subgraph "Backend"
-            B1[Node.js]
-            B2[TypeScript]
-            B3[Fastify]
-            B4[REST API]
-        end
-        
-        subgraph "AI/ML"
-            A1[LangChain.js]
-            A2[LangGraph]
-            A3[Ollama]
-            A4[Qdrant]
-            A5[Neo4j]
-        end
-        
-        subgraph "Speicher"
-            S1[PostgreSQL]
-            S2[Redis]
-            S3[Elasticsearch]
-        end
-        
-        subgraph "Infrastruktur"
-            I1[Kubernetes]
-            I2[Docker]
-            I3[Helm]
-            I4[Terraform]
-        end
-    end
-    
-    F1 --> B1
-    F2 --> B1
-    B1 --> A1
-    A1 --> A2
-    A2 --> A3
-    A2 --> A4
-    A2 --> A5
-    B1 --> S1
-    B1 --> S2
-    B1 --> S3
-    I1 --> F1
-    I1 --> B1
-    I2 --> I1
-    I3 --> I1
-    
-    style Frontend fill:#f0f8ff
-    style Backend fill:#f0f8ff
-    style AI/ML fill:#e8f4fd
-    style Speicher fill:#e8f4fd
-    style Infrastruktur fill:#e8f4fd
-```
+![w:900 h:400 Use Case 3](diagrams/usecase3.svg)
 
-**Small, sharp tools.**
+<div class="content-box">
+
+**Ablauf:** Knowledge Agent strukturiert Daten → Collaboration Agent übersetzt in Echtzeit → Feedback Agent validiert Qualität
+
+**Potenzial:** Massiv beschleunigte Projektabwicklung – internationale Teams ohne Barrieren.
+
+</div>
 
 ---
 
-<!-- Slide 12 -->
+<!-- Slide 10 - 8:30-9:00 -->
 
-# Kubernetes Features
+# Technologie-Stack
 
-```mermaid
-graph TD
-    subgraph "Kubernetes Eigenschaften"
-        direction TB
-        
-        AutoScaling[Auto-Scaling] -->|basierend auf Last| Scale
-        SelfHealing[Self-Healing] -->|automatisch| Restart[Pod Neustart]
-        Rolling[Rolling Updates] -->|ohne Downtime| Deploy[Deployment]
-        LoadBalancing[Load Balancing] -->|verteilte Last| Traffic
-        MultiRegion[Multi-Region] -->|global| HA[(High Availability)]
-        
-        style AutoScaling fill:#e3f2fd
-        style SelfHealing fill:#e3f2fd
-        style Rolling fill:#e3f2fd
-        style LoadBalancing fill:#e3f2fd
-        style MultiRegion fill:#e3f2fd
-        style Scale fill:#bbdefb
-        style Restart fill:#bbdefb
-        style Deploy fill:#bbdefb
-        style Traffic fill:#bbdefb
-        style HA fill:#bbdefb
-    end
-```
+![w:900 h:450 Tech Stack](diagrams/techstack.svg)
 
-**Skalierbar. Robust. Enterprise-Ready.**
+**Small, sharp tools. UNIX-Prinzip.**
 
 ---
 
-<!-- Slide 13 -->
+<!-- Slide 11 - 9:00-10:00 -->
 
-# Jetzt mitmachen
+# Kubernetes: Skalierbar & Robust
+
+<div class="content-box">
+
+**Microservices-Architektur:**
+- Jeder Agent als separater Service – unabhängig skalierbar
+- Auto-Scaling basierend auf Last
+- Self-Healing (automatischer Neustart bei Fehlern)
+- Rolling Updates ohne Downtime
+- Load Balancing über alle Worker Nodes
+
+</div>
+
+<div class="content-box">
+
+**Enterprise-Ready:**
+- Helm Charts für Deployment
+- Terraform für Infrastructure as Code
+- Von 10 bis 10.000 Nutzern skalierbar
+- Volle Datenkontrolle durch Self-Hosting
+
+</div>
+
+---
+
+<!-- Slide 12 - 10:00-11:00 -->
+
+# Mitmachen
 
 <div class="cta">
-<br>
-GitHub: github.com/opendesk-edu<br>
-Discord: discord.gg/opendesk<br>
-Website: opendesk-edu.org<br>
-<br>
-Docker Compose: docker compose up -d<br>
-Kubernetes: kubectl apply -f manifests/<br>
-<br>
-Open Source. Self-Hosted. Datenschutzkonform.
+
+**Schnellstart (5 Minuten):**
+
+`docker compose up -d`
+
+**Oder mit Kubernetes:**
+
+`kubectl apply -f manifests/`
+
+**Ressourcen:**
+GitHub: github.com/opendesk-edu
+Website: opendesk-edu.org
+
+**Open Source · Self-Hosted · DSGVO-konform**
+
 </div>
 
 ---
 
-# 🗳️
+<!-- Slide 13 - 11:00-12:00 -->
 
-## Jetzt abstimmen
+# 🗳️ Jetzt abstimmen
+
+## Open Source Wettbewerb 2026
 
 <div class="cta">
-<br>
-open-source-wettbewerb.de/voting/opendesk-edu/
-<br>
-<br>
-<br>
-QR-Code:
-<br>
-<br>
-![](https://api.qrserver.com/v1/create-qr-code/?size=150x150&bgcolor=FFFFFF&color=1a1a1a&data=https://open-source-wettbewerb.de/voting/opendesk-edu/)
+
+**Jede Stimme zählt.**
+
+[open-source-wettbewerb.de/voting/opendesk-edu](https://open-source-wettbewerb.de/voting/opendesk-edu/)
+
 </div>
+
+![w:200 h:200 QR-Code](https://api.qrserver.com/v1/create-qr-code/?size=200x200&bgcolor=FFFFFF&color=1a1a1a&data=https://open-source-wettbewerb.de/voting/opendesk-edu/)
+
+<div class="footer-note">30 Sekunden Ihrer Zeit – ein großer Unterschied.</div>
 
 ---
 
-# Fragen
+<!-- Q&A Slide -->
+
+# Fragen & Diskussion
 
 ## +8 Minuten
 
 <div class="content-box">
 
-**Technisch:**
-- Kubernetes Deployment
-- Skalierbarkeit
-- Modell-Integration
+**Technisch:** Kubernetes, Skalierbarkeit, Modell-Integration, API
 
-**Rechtlich:**
-- EU AI Act Compliance
-- Assisted vs. Automated
+**Rechtlich:** EU AI Act, DSGVO, assisted vs. automated
 
-**Philosophisch:**
-- UNIX Philosophie
-- Agentic Engineering
-- Minimalismus
+**Philosophisch:** UNIX-Prinzip, Agentic Engineering, Minimalismus
+
+**Praktisch:** Installation, Community, Roadmap
 
 </div>
 
 <div class="quote emphasis">
-"The plain style is the most universal and the most timeless"
-</div>
-
----
-
-# Stop thinking
-
-## Start building
-
-<div class="quote">
-"Talk is cheap. Show me the code." – Linus Torvalds
-</div>
-
-<br>
-<br>
-<br>
-<br>
-<div class="footer-note">
-OpenDesk Edu – Kubernetes-native Agentic Learning Platform
+Vielen Dank für Ihre Aufmerksamkeit.
 </div>

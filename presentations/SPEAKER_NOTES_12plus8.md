@@ -7,296 +7,252 @@
 
 ---
 
-## 🎯 **Core Principles for Delivery**
+## 🎯 Core Principles for Delivery
 
-### **UNIX Philosophy:**
+### UNIX Philosophy:
 - Do one thing and do it well
 - Small, sharp tools
 - Compose small programs into larger ones
 - Less is more
 
-### **Stoic Philosophy:**
+### Stoic Philosophy:
 - Clear, direct, honest
 - No unnecessary words
 - Focus on what you control
 - Accept what you cannot change
 
-### **Design Philosophy:**
-- Golden Ratio (φ ≈ 1.618) proportions
-- Minimal: Function over form
-- Clean, no clutter
-- Timeless simplicity
+---
+
+## ⏱️ Slide-by-Slide Guide
 
 ---
 
-## ⏱️ **Slide-by-Slide Guide**
+### Slide 1: Title (0:00-0:30)
+
+> "Vielen Dank, Christian.
+> Mein Name ist Tobias Weiss.
+> OpenDesk Edu – Agentic Engineering in der Praxis.
+> Eine Kubernetes-basierte Plattform. Vier Agenten.
+> Ein Ziel: Bildung unterstützen."
+
+**Tone:** Calm, confident, minimal. Pause after each sentence.
 
 ---
 
-### **Slide 1: Title (0:00-0:30)**
+### Slide 2: Das Konzept (0:30-1:30)
 
-**Script:**
-> "Vielen Dank, Christian.  
-> Mein Name ist Tobias Weiss.  
-> OpenDesk Edu – Agentic Engineering in der Praxis."
+> "OpenDesk Edu ist eine Kubernetes-basierte Agenten-Plattform.
+>
+> Einfach: Jeder Agent hat eine Aufgabe.
+> Mächtig: Zusammen lösen sie komplexe Probleme.
+> Offen: 100% Open Source, Self-Hosted, DSGVO-konform.
+>
+> Das Design folgt der UNIX-Philosophie: Do one thing and do it well."
 
-**Tone:** Calm, confident, minimal
-
-**Delivery:**
-- Pause after each sentence
-- Make eye contact
-- Simple, direct
+**Key Points:** Kubernetes, 4 Agenten, Open Source, Self-Hosted, DSGVO-konform
 
 ---
 
-### **Slide 2: Das Konzept (0:30-1:30)**
+### Slide 3: Die Architektur (1:30-2:30)
 
-**Script:**
-> "OpenDesk Edu ist eine Kubernetes-basierte Agenten-Plattform.  
-> 
-> **Einfach:** Jeder Agent hat eine Aufgabe.  
-> **Mächtig:** Zusammen lösen sie komplexe Probleme.  
-> **Offen:** 100% Open Source, Self-Hosted.
-> 
-> Das Design folgt dem Golden Ratio – natürliche Proportionen. 
-> Und der UNIX Philosophie: Do one thing and do it well."
+> "Die Architektur ist einfach.
+> Frontend, Backend, Agenten, AI Services, Storage.
+> Alles auf Kubernetes.
+>
+> Ein System. Vier Agenten. Maximale Flexibilität."
 
-**Key Points:**
-- Kubernetes-basiert
-- 4 Agenten
-- Open Source, Self-Hosted
-- Golden Ratio + UNIX Philosophie
+**Delivery:** Point to diagram as you name each component. Pause after "Maximale Flexibilität."
 
 ---
 
-### **Slide 3: Die Architektur (1:30-2:30)**
+### Slide 4: Kubernetes-Infrastruktur (2:30-3:00)
 
-**Script:**
-> "Die Architektur ist einfach.  
-> 
-> Vier Agenten: User, Knowledge, Feedback, Collaboration.  
-> Laufen auf Kubernetes.  
-> Jeder Agent ist ein Microservice.  
-> 
-> **Warum Kubernetes?** Skalierbar. Robust. Enterprise-Ready."
-
-**Delivery:**
-- Point to diagram as you name each agent
-- Pause after "Jeder Agent ist ein Microservice"
+> "Warum Kubernetes?
+> Skalierbar. Robust. Self-Hosted.
+> Jeder Agent ist ein Microservice.
+> Auto-Scaling, Self-Healing, Rolling Updates."
 
 ---
 
-### **Slide 4: Die Agenten (2:30-3:30)**
+### Slide 5: Die vier Agenten (3:00-4:00)
 
-**Script:**
-> "User Agent: Persönlicher Lernbegleiter.  
-> Knowledge Agent: Wissensmanager.  
-> Feedback Agent: Unterstützung bei Bewertungen.  
-> **Wichtig:** Der Mensch entscheidet final.  
-> Collaboration Agent: Teamulator."
+> "User Agent: Persönlicher Lernbegleiter.
+> Knowledge Agent: Wissensmanager.
+> Feedback Agent: Unterstützung bei Bewertungen.
+> Wichtig: Der Mensch entscheidet final.
+> Collaboration Agent: Team-Koordination."
 
-**Key Points:**
-- Each agent has specific role
-- Human always has final control (legal note!)
+**Key Points:** Each agent has specific role. Human always has final control (legal note!).
 
 ---
 
-### **Slide 5: Das Problem (3:30-4:30)**
+### Slide 6: Das Problem (4:00-4:30)
 
-**Script:**
-> "Die Probleme kennt ihr.  
-> 
-> Dozent: 10 Stunden pro Woche für Korrekturen.  
-> Lernender: 3 Stunden Frust bei einfachen Konzepten.  
-> Forschungsteam: 4 Monate Koordination, 2 Wochen Analyse.
-> 
-> **Einfach. Aber mächtig.**"
+> "Die Probleme kennt ihr.
+>
+> Dozent: 10 Stunden pro Woche für Korrekturen.
+> Lernender: 3 Stunden Frust bei einfachen Konzepten.
+> Forschungsteam: 4 Monate Koordination statt 2 Wochen Analyse.
+>
+> Das muss nicht sein."
 
-**Quote:** "Just because it's simple doesn't mean it's not powerful"
-
----
-
-### **Slide 6: Use Case 1 – Korrektur (4:30-6:00)**
-
-**Script:**
-> "Use Case 1: Korrektur-Unterstützung.  
-> 
-> Feedback Agent analysiert 150 Abgaben.  
-> Identifiziert Muster.  
-> Generiert Feedback-Vorschläge.  
-> **Der Dozent behält die finale Kontrolle.**
-> 
-> Ergebnis: **9 Stunden gespart pro Woche.**"
-
-**Key Points:**
-- Assisted, not automated
-- Human in the loop
-- Quantifiable result
+**Quote:** "Das muss nicht sein." – Short, direct, stoic.
 
 ---
 
-### **Slide 7: Use Case 2 – Adaptives Lernen (6:00-7:30)**
+### Slide 7: Use Case 1 – Korrektur (4:30-6:00)
 
-**Script:**
-> "Use Case 2: Adaptives Lernen.  
-> 
-> Alle 4 Agenten zusammen.  
-> Erkennt Blockaden.  
-> Findet Lösungen.  
-> Vermittelt Hilfe.  
-> 
-> Ergebnis: **85% schnelleres Verständnis.**"
+> "Use Case 1: Korrektur-Unterstützung.
+>
+> Feedback Agent analysiert Abgaben.
+> Erkennt Muster. Generiert Vorschläge.
+> Der Dozent behält die finale Kontrolle.
+>
+> Potenzial: Deutliche Zeitersparnis bei der Korrektur.
+> Aber: Der Mensch entscheidet immer final."
 
-**Quote:** "Less is more"
-
----
-
-### **Slide 8: Use Case 3 – Forschung (7:30-8:30)**
-
-**Script:**
-> "Use Case 3: Kollaborative Forschung.  
-> 
-> Knowledge Agent analysiert Daten.  
-> Collaboration Agent übersetzt Echtzeit.  
-> Feedback Agent validiert Qualität.  
-> 
-> Ergebnis: **300% schnellere Projektabwicklung.**"
+**Key Points:** Assisted, not automated. Human in the loop. Potential, not guaranteed.
 
 ---
 
-### **Slide 9: Die Zahlen (8:30-9:00)**
+### Slide 8: Use Case 2 – Adaptives Lernen (6:00-7:30)
 
-**Script:**
-> "Die Zahlen sprechen für sich.  
-> 
-> Korrekturzeit: minus 90%.  
-> Lernverständnis: plus 85%.  
-> Projekt-Durchlauf: plus 300%.  
-> Sprachbarrieren: null.
-> 
-> **Einfach. Mächtig. Effektiv.**"
-
-**Quote:** "Less is more"
+> "Use Case 2: Adaptives Lernen.
+>
+> User Agent erkennt Blockade.
+> Knowledge Agent findet alternative Erklärungen.
+> Collaboration Agent vermittelt Mentor.
+> Feedback Agent generiert Übungen.
+>
+> Potenzial: Deutlich schnelleres Verständnis durch personalisierte Lernpfade."
 
 ---
 
-### **Slide 10: Die Technologie (9:00-10:00)**
+### Slide 9: Use Case 3 – Forschung (7:30-8:30)
 
-**Script:**
-> "Die Technologie ist Standard.  
-> 
-> Backend: Node.js, TypeScript, Fastify, PostgreSQL.  
-> AI: LangChain, Ollama, Qdrant, Neo4j.  
-> Frontend: Next.js, React, Tailwind.  
+> "Use Case 3: Kollaborative Forschung.
+>
+> Knowledge Agent strukturiert Daten.
+> Collaboration Agent übersetzt in Echtzeit.
+> Feedback Agent validiert Qualität.
+>
+> Potenzial: Massiv beschleunigte Projektabwicklung.
+> Internationale Teams ohne Barrieren."
+
+---
+
+### Slide 10: Technologie-Stack (8:30-9:00)
+
+> "Die Technologie ist Standard.
+> Frontend: Next.js, React, Tailwind.
+> Backend: Node.js, TypeScript, Fastify.
+> AI: LangChain, Ollama, Qdrant, Neo4j.
 > Infrastruktur: Kubernetes, Docker, Helm.
-> 
-> **Small, sharp tools.**"
-
-**Quote:** "Small, sharp tools" (UNIX)
+>
+> Small, sharp tools. UNIX-Prinzip."
 
 ---
 
-### **Slide 11: Kubernetes (10:00-10:30)**
+### Slide 11: Kubernetes (9:00-10:00)
 
-**Script:**
-> "Warum Kubernetes?  
-> 
-> Microservices: Jeder Agent als separater Service.  
-> Auto-scaling: Wächst mit der Last.  
-> Self-healing: Erholt sich automatisch.
-> Rolling updates: Keine Downtime.
-> 
-> **Skalierbar. Robust. Enterprise-Ready.**"
-
-**Quote:** "Compose small programs into larger ones" (UNIX)
+> "Warum Kubernetes?
+>
+> Microservices: Jeder Agent als separater Service.
+> Auto-Scaling: Wächst mit der Last.
+> Self-Healing: Erholt sich automatisch.
+> Rolling Updates: Keine Downtime.
+>
+> Enterprise-Ready. Von 10 bis 10.000 Nutzern."
 
 ---
 
-### **Slide 12: Jetzt mitmachen (10:30-11:30)**
+### Slide 12: Mitmachen (10:00-11:00)
 
-**Script:**
-> "Mitmachen ist einfach.  
-> 
-> Docker Compose: docker compose up -d.  
-> Kubernetes: kubectl apply -f manifests/.  
-> 
-> GitHub: opendesk-edu.  
-> Discord: opendesk.  
+> "Mitmachen ist einfach.
+>
+> Docker Compose: docker compose up -d.
+> Kubernetes: kubectl apply -f manifests/.
+>
+> GitHub: opendesk-edu.
 > Website: opendesk-edu.org.
-> 
-> **Open Source. Self-Hosted. Datenschutzkonform.**"
+>
+> Open Source. Self-Hosted. DSGVO-konform."
 
 ---
 
-### **Slide 13: Abstimmen (11:30-12:00)**
+### Slide 13: Abstimmen (11:00-12:00)
 
-**Script:**
-> "Und jetzt der wichtigste Teil: Abstimmen.  
-> 
-> Open Source Wettbewerb 2026.  
-> Jede Stimme zählt.  
-> 
-> QR-Code scannen oder Link öffnen:  
-> open-source-wettbewerb.de/voting/opendesk-edu/
-> 
-> **30 Sekunden. Großer Unterschied.**"
+> "Und jetzt der wichtigste Teil: Abstimmen.
+>
+> Open Source Wettbewerb 2026.
+> Jede Stimme zählt.
+>
+> QR-Code scannen oder Link öffnen:
+> open-source-wettbewerb.de/voting/opendesk-edu
+>
+> 30 Sekunden Ihrer Zeit – ein großer Unterschied."
 
-**Key Points:**
-- Clear CTA
-- Direct, urgent
-- Grateful tone
+**Key Points:** Clear CTA, direct, urgent, grateful tone.
 
 ---
 
-## ⚖️ **Legal Considerations (How to Handle Questions)**
+## ⚖️ Legal Considerations (How to Handle Questions)
 
-### **If asked about automated grading:**
+### If asked about automated grading:
 
-> "Gute Frage. Der EU AI Act stuft Bewertung von Lernergebnissen als Hochrisiko ein.  
-> **Deshalb: Assisted, nicht automated.** Der Feedback Agent unterstützt.  
-> Der Mensch entscheidet final. Dokumentation vorhanden.  
-> 
-> **Unser Fokus:** Content creation, learning support, collaboration – das ist sicher."
+> "Gute Frage. Der EU AI Act stuft Bewertung von Lernergebnissen als Hochrisiko ein.
+> Deshalb: Assisted, nicht automated. Der Feedback Agent unterstützt.
+> Der Mensch entscheidet final. Dokumentation vorhanden.
+>
+> Unser Fokus: Content creation, learning support, collaboration – das ist sicher."
 
-### **If asked about compliance:**
+### If asked about compliance:
 
-> "Wir folgen dem Prinzip: **Do one thing and do it well.**  
-> Kubernetes ermöglicht flexible Anpassung an Compliance-Anforderungen.  
-> Jeder Agent kann einzeln konfiguriert werden.  
-> 
-> **Visionär, aber verantwortungsvoll.**"
+> "Wir folgen dem Prinzip: Do one thing and do it well.
+> Kubernetes ermöglicht flexible Anpassung an Compliance-Anforderungen.
+> Jeder Agent kann einzeln konfiguriert werden.
+>
+> Visionär, aber verantwortungsvoll."
 
----
+### If asked about metrics / data:
 
-## 🎯 **Delivery Philosophy**
-
-### **Do:**
-- ✅ **Pause often** – Let ideas sink in
-- ✅ **Speak slowly** – Clarity over speed
-- ✅ **Be minimal** – Less is more
-- ✅ **Stay calm** – Stoic composure
-- ✅ **Focus on value** – Function over form
-
-### **Don't:**
-- ❌ **Rush** – Slow and steady
-- ❌ **Over-explain** – Keep it simple
-- ❌ **Add fluff** – Direct and honest
-- ❌ **Apologize** – Confidence
-- ❌ **Over-promise** – Under-promise, over-deliver
+> "Die Zahlen sind Projektionen basierend auf den Möglichkeiten der Technologie.
+> Wir haben noch keine formalen Studien durchgeführt.
+> Aber das Potenzial ist klar – und wir arbeiten daran, es zu validieren."
 
 ---
 
-## 📌 **Key Messages to Remember**
+## 🎯 Delivery Philosophy
 
-1. **"Einfach. Mächtig. Offene Architektur."**
-2. **"Do one thing and do it well."**
-3. **"Der Mensch entscheidet final."** (Legal safety)
-4. **"Skalierbar. Robust. Enterprise-Ready."**
-5. **"Less is more."**
+### Do:
+- ✅ Pause often – Let ideas sink in
+- ✅ Speak slowly – Clarity over speed
+- ✅ Be minimal – Less is more
+- ✅ Stay calm – Stoic composure
+- ✅ Focus on value – Function over form
+- ✅ Be honest – No inflated claims
+
+### Don't:
+- ❌ Rush – Slow and steady
+- ❌ Over-explain – Keep it simple
+- ❌ Add fluff – Direct and honest
+- ❌ Apologize – Confidence
+- ❌ Over-promise – Under-promise, over-deliver
+- ❌ Claim measured results – Speak of potential
 
 ---
 
-## 🏆 **Final Mindset**
+## 📌 Key Messages to Remember
+
+1. "Einfach. Mächtig. Offen."
+2. "Do one thing and do it well."
+3. "Der Mensch entscheidet final." (Legal safety!)
+4. "Skalierbar. Robust. Self-Hosted."
+5. "Potenzial, nicht gemessen." (Honesty!)
+
+---
+
+## 🏆 Final Mindset
 
 **You are the expert.**
 
@@ -305,76 +261,49 @@
 - You have a clear vision.
 
 **UNIX Philosophy:** Small, sharp tools.
-
 **Stoic Philosophy:** Clear, direct, honest.
-
 **Golden Ratio:** Natural, balanced, timeless.
 
 ---
 
-## 🎤 **Opening Statement (Memorized)**
+## 🎤 Opening Statement (Memorized)
 
-> "Vielen Dank, Christian.  
-> Mein Name ist Tobias Weiss.  
-> OpenDesk Edu – Agentic Engineering in der Praxis.  
-> Eine Kubernetes-basierte Plattform.  
-> Vier Agenten. Ein Ziel: Bildung revolutionieren."
-
----
-
-## 🎤 **Closing Statement (Memorized)**
-
-> "OpenDesk Edu zeigt: Einfach. Mächtig. Offene Architektur.  
-> Die Technologie ist da. Die Zukunft ist jetzt.  
-> Und Ihre Stimme zählt.  
-> 
->Danke."
+> "Vielen Dank, Christian.
+> Mein Name ist Tobias Weiss.
+> OpenDesk Edu – Agentic Engineering in der Praxis.
+> Eine Kubernetes-basierte Plattform. Vier Agenten.
+> Ein Ziel: Bildung unterstützen."
 
 ---
 
-## 💡 **UNIX Philosophy for Presentations**
+## 🎤 Closing Statement (Memorized)
 
-1. **Do one thing** → Present one idea per slide
-2. **Do it well** → Present it clearly and thoroughly
-3. **Compose** → Build your talk from simple, clear parts
-4. **Less is more** → Remove everything unnecessary
-5. **Silence is feature** → Pause between ideas
-
----
-
-## 🏛️ **Stoic Philosophy for Delivery**
-
-1. **Amor fati** → Love your fate (even if nervous)
-2. **Premeditatio malorum** → Prepare for the worst (know your slides)
-3. **Dichotomy of control** → Focus on what you can control (your delivery)
-4. **Memento mori** → Remember: This moment is temporary
-5. **Ataraxia** → Stay calm and composed
+> "OpenDesk Edu zeigt: Einfach. Mächtig. Offen.
+> Die Technologie ist da. Das Potenzial ist klar.
+> Und Ihre Stimme zählt.
+>
+> Danke."
 
 ---
 
-## 📊 **Golden Ratio Timing**
+## 💡 UNIX Philosophy for Presentations
 
-| Segment | Duration | φ Relationship |
-|---------|----------|-----------------|
-| Intro | 30s | 1 × φ^0 |
-| Concept | 60s | 2 × φ^0 |
-| Architecture | 60s | 2 × φ^0 |
-| Problem | 60s | 2 × φ^0 |
-| Use Case 1 | 90s | 3 × φ^0 |
-| Use Case 2 | 90s | 3 × φ^0 |
-| Use Case 3 | 60s | 2 × φ^0 |
-| Numbers | 30s | 1 × φ^0 |
-| Tech | 60s | 2 × φ^0 |
-| Kubernetes | 30s | 1 × φ^0 |
-| CTA | 60s | 2 × φ^0 |
-| Voting | 30s | 1 × φ^0 |
-| **Total** | **12:00** | **12 × φ^0** |
+1. Do one thing → Present one idea per slide
+2. Do it well → Present it clearly and thoroughly
+3. Compose → Build your talk from simple, clear parts
+4. Less is more → Remove everything unnecessary
+5. Silence is a feature → Pause between ideas
 
 ---
 
-**🚀 You are ready. Keep it simple. Keep it powerful.**
+## 🏛️ Stoic Philosophy for Delivery
+
+1. Amor fati → Love your fate (even if nervous)
+2. Premeditatio malorum → Prepare for the worst (know your slides)
+3. Dichotomy of control → Focus on what you can control (your delivery)
+4. Memento mori → Remember: This moment is temporary
+5. Ataraxia → Stay calm and composed
 
 ---
 
-*Updated: 23. August 2026*
-*Philosophy: UNIX + Stoic + Golden Ratio*
+**🚀 You are ready. Keep it simple. Keep it honest. Keep it powerful.**

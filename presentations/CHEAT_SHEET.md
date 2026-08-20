@@ -6,187 +6,151 @@
 
 ---
 
-## 🎯 **Elevator Pitch (30 seconds)**
-> "OpenDesk Edu ist eine Lernplattform, die **Agentic Engineering** nutzt.  
-> Vier Agenten arbeiten zusammen, um Lernen zu automatisieren, zu personalisieren  
-> und zu beschleunigen. **Ergebnis:** 42% besserer Lernerfolg, 9 Stunden Zeitersparnis  
-> pro Woche für Lehrende, und 300% schnellere Forschungsprojekte.  
-> **100% Open Source, selbst gehostet, datenschutzkonform.**"
+## 🎯 Elevator Pitch (30 seconds)
+
+> "OpenDesk Edu ist eine Kubernetes-basierte Lernplattform, die Agentic Engineering nutzt.
+> Vier Agenten arbeiten zusammen, um Bildung zu unterstützen.
+> 100% Open Source, selbst gehostet, DSGVO-konform.
+> Der Mensch behält immer die finale Kontrolle."
 
 ---
 
-## ⚡ **Key Metrics (Memorize These!)**
+## ⚡ Key Points (Memorize These!)
 
-| Use Case | Problem | Solution | Result |
-|----------|---------|----------|--------|
-| **Prof. Müller** | 10h/Woche Korrektur | Assessment Agent | **9h gespart** |
-| **Max** | 3h für Schleifen | 4 Agenten zusammen | **85% schneller** |
-| **Forschung** | 4 Monate Koordination | 3 Agenten | **300% schneller** |
+| Use Case | Problem | Potenzial |
+|----------|---------|-----------|
+| Korrektur | 10h/Woche manueller Aufwand | Deutliche Zeitersparnis (assistiert, nicht automatisiert) |
+| Lernen | 3h Frust bei Konzepten | Schnelleres Verständnis durch personalisierte Pfade |
+| Forschung | 4 Monate Koordination | Beschleunigte Abwicklung, internationale Teams |
 
-**Pilot Study:** +42% Lernfortschritt, +35% Retention, 4.7/5 Nutzerzufriedenheit
+**Wichtig:** Dies sind Projektionen, keine gemessenen Ergebnisse.
 
 ---
 
-## 🗣️ **Transition Phrases**
+## 🗣️ Transition Phrases
 
 | From | To | Phrase |
 |------|----|--------|
-| Intro | Problem | "Bevor ich die Lösung zeige..." |
-| Problem | Theory | "Und wie lösen wir das?" |
-| Theory | Architecture | "In OpenDesk Edu haben wir..." |
-| Architecture | Use Cases | "Und jetzt zeige ich euch, WAS das kann..." |
-| Use Case 1 | Use Case 2 | "Und das ist noch nicht alles..." |
-| Use Case 2 | Use Case 3 | "Aber warten Sie – es wird noch besser..." |
-| Use Cases | Data | "Klingt gut, aber stimmt das auch?" |
-| Data | Tech | "Und wie funktioniert das technisch?" |
-| Tech | Getting Started | "Und das Beste: Sie können es heute ausprobieren..." |
-| Getting Started | Voting | "Und jetzt der wichtigste Teil..." |
+| Intro | Konzept | "Wie funktioniert das?" |
+| Konzept | Architektur | "Schauen wir unter die Haube" |
+| Architektur | Agenten | "Vier Agenten, eine Aufgabe each" |
+| Agenten | Problem | "Welche Probleme lösen sie?" |
+| Problem | Use Cases | "Und jetzt konkrete Beispiele" |
+| Use Cases | Tech | "Wie funktioniert das technisch?" |
+| Tech | Mitmachen | "Und das Beste: Sie können mitmachen" |
+| Mitmachen | Voting | "Und jetzt der wichtigste Teil" |
 
 ---
 
-## 🎤 **Handling Nerves**
+## 🎤 Handling Nerves
 
-### **Before:**
+### Before:
 - Power pose for 2 minutes (hands on hips, chest out)
 - Deep breathing: 4 sec in, 4 sec hold, 6 sec out
-- **"I'm excited, not nervous"** (say it out loud)
+- "I'm excited, not nervous" (say it out loud)
 
-### **During:**
-- **Pause and breathe** between slides
-- **Make eye contact** with friendly faces
-- **Smile** – it releases endorphins
-- **Speak slower** than you think you should
+### During:
+- Pause and breathe between slides
+- Make eye contact with friendly faces
+- Speak slower than you think you should
 
-### **If You Blank:**
+### If You Blank:
 - Look at your slides – they're your prompts
-- Say: **"That's a good question – let me think for a moment"**
+- Say: "Gute Frage – lassen Sie mich kurz nachdenken"
 - Take a sip of water
-- **You know this stuff!**
+- You know this stuff!
 
 ---
 
-## 🔥 **CTA Hierarchy (Most to Least Important)**
+## 🔥 CTA Hierarchy (Most to Least Important)
 
-1. **🗳️ VOTING** – "Scannen Sie den QR-Code und stimmen Sie ab!"
-2. **💻 Try It** – "Probieren Sie OpenDesk Edu heute aus"
-3. **🤝 Contribute** – "Werden Sie Teil der Community"
-4. **🌟 Spread** – "Erzählen Sie anderen davon"
-
----
-
-## 💡 **Audience Insights**
-
-### **Who's in the Room?**
-- **30%** Developers/Technical – want details, code, architecture
-- **30%** Educators/Academics – want pedagogy, validation, data
-- **25%** Researchers – want collaboration, use cases
-- **15%** Administrators – want ROI, integration, costs
-
-### **Speak to All:**
-- **Technical:** "Wie skaliert das?" → "Agents in Containern"
-- **Academic:** "Ist das validiert?" → "Pilotstudie mit 200 Nutzern"
-- **Practical:** "Was kostet das?" → "Open Source, 0 Euro"
-- **Strategic:** "Was ist die Vision?" → "Zukunft der Bildung"
+1. 🗳️ VOTING – "Scannen Sie den QR-Code und stimmen Sie ab!"
+2. 💻 TRY IT – "Probieren Sie OpenDesk Edu aus"
+3. 🤝 CONTRIBUTE – "Werden Sie Teil der Community"
+4. 🌟 SPREAD – "Erzählen Sie anderen davon"
 
 ---
 
-## 📱 **Tech Checklist**
+## 💡 Audience Insights
 
-### **Laptop:**
-- [ ] Slides open in browser (HTML version works offline)
-- [ ] PDF version on desktop (backup)
-- [ ] Clicker tested
-- [ ] Battery >50%
-- [ ] HDMI adapter (if needed)
+### Who's in the Room?
+- 30% Developers – want details, code, architecture
+- 30% Educators – want pedagogy, validation
+- 25% Researchers – want collaboration, use cases
+- 15% Administrators – want ROI, integration, costs
 
-### **Phone:**
-- [ ] QR code for voting ready
-- [ ] Timer visible (or use watch)
-- [ ] Silent mode ON
-
-### **Venue:**
-- [ ] Projector tested
-- [ ] Screen resolution OK
-- [ ] Sound working (for videos if any)
+### Speak to All:
+- Technical: "Wie skaliert das?" → "Kubernetes, auto-scaling"
+- Academic: "Ist das validiert?" → "Visionär – Potenzial, nicht gemessen"
+- Practical: "Was kostet das?" → "Open Source, 0 Euro"
+- Strategic: "Was ist die Vision?" → "Agentic Education"
 
 ---
 
-## ⏱️ **Timing Cheat Sheet**
+## ⏱️ Timing Cheat Sheet
 
 ```
-0:00-1:00  | Title & Intro
-1:00-2:00  | Problem (Hook!)
-2:00-3:30  | Theory (4 Principles)
-3:30-4:30  | Architecture (4 Agents)
-4:30-6:00  | Use Case 1 (Grading) ✨
-6:00-7:30  | Use Case 2 (Learning) ✨
-7:30-8:30  | Use Case 3 (Research) ✨
-8:30-9:00  | Data (Social Proof)
-9:00-10:00 | Tech Overview
-10:00-10:30| Tech Stack
-10:30-11:30| Getting Started
-11:30-12:00| VOTING CTA 🎯
+0:00-0:30   | Title & Intro
+0:30-1:30   | Konzept (UNIX, Kubernetes)
+1:30-2:30   | Architektur (Diagramm)
+2:30-3:00   | Kubernetes-Infrastruktur
+3:00-4:00   | Die vier Agenten
+4:00-4:30   | Das Problem
+4:30-6:00   | Use Case 1: Korrektur
+6:00-7:30   | Use Case 2: Lernen
+7:30-8:30   | Use Case 3: Forschung
+8:30-9:00   | Tech-Stack
+9:00-10:00  | Kubernetes Features
+10:00-11:00 | Mitmachen
+11:00-12:00 | VOTING CTA 🎯
 ```
 
-**Golden Rule:** Be at **Slide 12 (Voting) by minute 11:30**
+**Golden Rule:** Be at Slide 13 (Voting) by minute 11:00.
 
 ---
 
-## 🎯 **The Only 3 Things You MUST Remember**
+## 🎯 The Only 3 Things You MUST Remember
 
-1. **🎯 The Problem:** Bildung ist ineffizient (10h, 3h, 4 Monate)
-2. **✨ The Solution:** 4 Agenten + OpenDesk Edu = Revolution
-3. **🗳️ The Action:** **JETZT Abstimmen!** (QR-Code)
+1. **The Concept:** Vier Agenten, UNIX-Prinzip, Kubernetes
+2. **The Potenzial:** Assistiert (nicht automatisiert), Mensch entscheidet final
+3. **The Action:** JETZT Abstimmen! (QR-Code)
 
 ---
 
-## 🚨 **Emergency Scenarios**
+## 🚨 Emergency Scenarios
 
 | Problem | Solution |
 |---------|----------|
-| **Clicker doesn't work** | Use mouse or keyboard (space/arrow keys) |
-| **Projector fails** | "Lasst uns das als Diskussion machen" |
-| **Time is up at Slide 8** | Skip to Slide 12 (Voting) |
-| **Someone asks a tough question** | "Great question! Let's discuss after" |
-| **You forget something** | "That's a good point – I'll come back to it" |
-| **Tech demo fails** | "That's why we have backups!" (smile) |
+| Clicker doesn't work | Use keyboard (space/arrow keys) |
+| Projector fails | "Lasst uns das als Diskussion machen" |
+| Time is up at Slide 8 | Skip to Slide 13 (Voting) |
+| Tough question | "Gute Frage! Lassen Sie mich das nachher vertiefen" |
+| You forget something | "That's a good point – I'll come back to it" |
+| Tech demo fails | "That's why we have backups!" (smile) |
 
 ---
 
-## 🌟 **Confidence Boosters**
+## ⚖️ Legal Quick Reference
 
-### **Remind Yourself:**
-- ✅ You **built this** – you know it better than anyone
-- ✅ You **care** – that's what matters most
-- ✅ The audience **wants to learn** – they're on your side
-- ✅ **Mistakes make you human** – not perfect
+### EU AI Act – Article 6 Abs. 2 i.V.m. Anhang III Nr. 3(b)
+**Bewertung von Lernergebnissen = Hochrisiko**
 
-### **Power Statements:**
-- "Ich bin stolz auf das, was wir entwickelt haben"
-- "Diese Daten sprechen für sich"
-- "Die Zukunft der Bildung ist agentisch – und sie beginnt heute"
+### Safe:
+- ✅ Lerninhalte erstellen (Quizze, Übungen)
+- ✅ Lernpfade anpassen (Empfehlungen)
+- ✅ Wissen analysieren (anonymisierte Muster)
+- ✅ Zusammenarbeit unterstützen (Teams, Übersetzung)
 
----
+### Caution:
+- ⚠️ Bewertung → Nur assistiert! Mensch entscheidet final
+- ⚠️ Dokumentation erforderlich → Nachweisbar, dass menschliche Prüfung möglich
 
-## 📌 **Final Reminder**
-
-> **"They don't remember what you said.  
-> They remember how you made them feel.**  
-> **Make them feel inspired. Make them feel hopeful.  
-> Make them feel like the future is bright."**
+### Key Response:
+> "Wir zeigen, was möglich ist. Die Umsetzung muss rechtlich geprüft werden.
+> Die Technologie ist da – die Akzeptanz wächst!"
 
 ---
 
----
+## 🏆 Your Talk in 3 Words
 
-## 🏆 **Your Talk in 3 Words:**
-
-**Inspire. Inform. Act.**
-
----
-
----
-
-**🚀 You're ready. Go change education!**
-\n---\n\n## ⚖️ LEGAL QUICK REFERENCE\n\n### EU AI Act - Article 6 Abs. 2 i.V.m. Anhang III Nr. 3(b)\n**Bewertung von Lernergebnissen = Hochrisiko**\n\n### What's Safe:\n✅ Lerninhalte erstellen (Quizze, Übungen)\n✅ Lernpfade anpassen (Empfehlungen)\n✅ Wissen analysieren (anonymisierte Muster)\n✅ Zusammenarbeit unterstützen (Teams, Übersetzung)\n\n### What Needs Caution:\n⚠️ Automatische Bewertung → Nur assistiert! Mensch entscheidet final\n⚠️ Dokumentation erforderlich → Nachweisbar, dass menschliche Prüfung möglich\n\n### Key Response:\n> "Wir zeigen, was möglich ist. Die Umsetzung muss rechtlich geprüft werden.\n> Die Technologie ist da – die Akzeptanz wächst!"\n\n---\n
-\n### Bonus for Students:\n🎓 **1 Jahr Gemini Pro kostenlos** für Studierende/Auszubildende\n🔗 [mydealz.de/deals/google-1-jahr-gemini...](https://www.mydealz.de/deals/google-1-jahr-gemini-im-google-ai-plus-abo-kostenlos-fur-studierende-auszubildende-inkl-400-gb-cloud-speicher-gemini-notebook-omni-2827075)\n
+**Einfach. Mächtig. Offen.**
