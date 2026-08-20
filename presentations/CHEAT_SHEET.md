@@ -188,3 +188,5 @@
 ---
 
 **🚀 You're ready. Go change education!**
+\n---\n\n## ⚖️ LEGAL QUICK REFERENCE\n\n### EU AI Act - Article 6 Abs. 2 i.V.m. Anhang III Nr. 3(b)\n**Bewertung von Lernergebnissen = Hochrisiko**\n\n### What's Safe:\n✅ Lerninhalte erstellen (Quizze, Übungen)\n✅ Lernpfade anpassen (Empfehlungen)\n✅ Wissen analysieren (anonymisierte Muster)\n✅ Zusammenarbeit unterstützen (Teams, Übersetzung)\n\n### What Needs Caution:\n⚠️ Automatische Bewertung → Nur assistiert! Mensch entscheidet final\n⚠️ Dokumentation erforderlich → Nachweisbar, dass menschliche Prüfung möglich\n\n### Key Response:\n> "Wir zeigen, was möglich ist. Die Umsetzung muss rechtlich geprüft werden.\n> Die Technologie ist da – die Akzeptanz wächst!"\n\n---\n
+\n### Bonus for Students:\n🎓 **1 Jahr Gemini Pro kostenlos** für Studierende/Auszubildende\n🔗 [mydealz.de/deals/google-1-jahr-gemini...](https://www.mydealz.de/deals/google-1-jahr-gemini-im-google-ai-plus-abo-kostenlos-fur-studierende-auszubildende-inkl-400-gb-cloud-speicher-gemini-notebook-omni-2827075)\n
