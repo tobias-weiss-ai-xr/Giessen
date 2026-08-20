@@ -1,618 +1,380 @@
-# 🎤 Speaker Notes: OpenDesk Edu – 12+8 Format
+# 🎤 Speaker Notes: OpenDesk Edu – Minimal & Stoic
 
 **Event:** HackyHour Gießen  
 **Date:** 26. August 2026  
-**Speaker:** Tobias Weiss  
-**Format:** 12 minutes presentation + 8 minutes Q&A  
-**Topic:** OpenDesk Edu als praktischer Use Case für Agentic Engineering
+**Format:** 12+8 minutes  
+**Philosophy:** UNIX + Stoic + Golden Ratio
 
 ---
 
-## 🎯 **Presentation Strategy: 12+8 Format**
+## 🎯 **Core Principles for Delivery**
 
-### **Core Philosophy:**
-- **12 minutes:** Tight, high-impact, story-driven
-- **+8 minutes:** Interactive, flexible, audience-focused
-- **Goal:** Inspire, inform, and drive action (voting!)
+### **UNIX Philosophy:**
+- Do one thing and do it well
+- Small, sharp tools
+- Compose small programs into larger ones
+- Less is more
 
-### **Structure:**
-1. **Hook** (0:00-2:00) – Problem statement
-2. **Theory** (2:00-4:30) – What is Agentic Engineering?
-3. **Solution** (4:30-8:30) – 3 Use Cases with metrics
-4. **Validation** (8:30-10:00) – Data & studies
-5. **Technical** (10:00-11:30) – Quick overview
-6. **CTA** (11:30-12:00) – Voting + Next steps
+### **Stoic Philosophy:**
+- Clear, direct, honest
+- No unnecessary words
+- Focus on what you control
+- Accept what you cannot change
+
+### **Design Philosophy:**
+- Golden Ratio (φ ≈ 1.618) proportions
+- Minimal: Function over form
+- Clean, no clutter
+- Timeless simplicity
 
 ---
 
-## ⏱️ **Detailed Timing & Script**
+## ⏱️ **Slide-by-Slide Guide**
 
 ---
 
-### **Slide 1: Title (0:00-1:00)**
-
-**Content:** "Agentic Engineering in der Praxis – OpenDesk Edu als Use Case"
+### **Slide 1: Title (0:00-0:30)**
 
 **Script:**
-> "Vielen Dank, Christian, für diesen spannenden Einblick in Agentic AI!  
-> Mein Name ist Tobias Weiss, ich bin DevOps Engineer an der Uni Marburg  
-> und ich möchte euch heute zeigen, wie wir diese Prinzipien in der Praxis anwenden:  
-> **mit OpenDesk Edu – einer Lernplattform, die Agentic Engineering nutzt, um Bildung zu revolutionieren.**"
+> "Vielen Dank, Christian.  
+> Mein Name ist Tobias Weiss.  
+> OpenDesk Edu – Agentic Engineering in der Praxis."
 
-**Timing:** 60 seconds
+**Tone:** Calm, confident, minimal
 
-**Delivery Tips:**
-- 🎯 **Make eye contact** with audience
-- 🙏 **Thank Christian** explicitly
-- 💡 **Set expectation:** "Ich habe nur 12 Minuten – also wird's konkret!"
-- 📱 **Check mic/clicker** if needed
+**Delivery:**
+- Pause after each sentence
+- Make eye contact
+- Simple, direct
 
 ---
 
-### **Slide 2: The Problem (1:00-2:00)**
-
-**Content:** 3 real-world problems (Prof. Müller, Max, Forschungsteam)
+### **Slide 2: Das Konzept (0:30-1:30)**
 
 **Script:**
-> "Bevor ich euch die Lösung zeige, lasst mich euch drei reale Probleme vorstellen:
+> "OpenDesk Edu ist eine Kubernetes-basierte Agenten-Plattform.  
 > 
-> **Erstens:** Prof. Müller an der Uni Marburg verbringt **10 Stunden pro Woche** damit, 150 Programmieraufgaben manuell zu korrigieren. 10 Stunden! Das sind 40 Stunden im Monat – also **eine ganze Arbeitswoche.**
+> **Einfach:** Jeder Agent hat eine Aufgabe.  
+> **Mächtig:** Zusammen lösen sie komplexe Probleme.  
+> **Offen:** 100% Open Source, Self-Hosted.
 > 
-> **Zweitens:** Max, 12 Jahre alt, scheitert seit Tagen an Python-Schleifen. Er braucht **3 Stunden**, um ein Konzept zu verstehen, das eigentlich in 30 Minuten erklärt werden könnte.
-> 
-> **Drittens:** Ein Forschungsteam analysiert Klimadaten aus 10 Ländern. Die eigentliche Analyse dauert 2 Wochen – aber die **Koordination und Kommunikation?** **4 Monate.**
-> 
-> **Das sind keine fiktiven Probleme. Das passiert JEDEN TAG.**"
+> Das Design folgt dem Golden Ratio – natürliche Proportionen. 
+> Und der UNIX Philosophie: Do one thing and do it well."
 
-**Timing:** 60 seconds
-
-**Delivery Tips:**
-- 🔥 **Build tension** – pause after each problem
-- 🙅 **No solutions yet** – let the problems sink in
-- 😮 **Make it personal** – "Stellt euch vor, das wärt IHR"
-- ⏰ **Watch time** – don't overshoot!
+**Key Points:**
+- Kubernetes-basiert
+- 4 Agenten
+- Open Source, Self-Hosted
+- Golden Ratio + UNIX Philosophie
 
 ---
 
-### **Slide 3: What is Agentic Engineering? (2:00-3:30)**
-
-**Content:** 4 principles with icons
+### **Slide 3: Die Architektur (1:30-2:30)**
 
 **Script:**
-> "Christian hat uns schon erklärt, WAS Agentic AI ist. Ich wiederhole nur ganz kurz die **4 Kernprinzipien**, die wir in OpenDesk Edu umsetzen:
+> "Die Architektur ist einfach.  
 > 
-> **Autonomie:** Die Agenten handeln selbstständig – sie warten nicht auf Befehle.
+> Vier Agenten: User, Knowledge, Feedback, Collaboration.  
+> Laufen auf Kubernetes.  
+> Jeder Agent ist ein Microservice.  
 > 
-> **Proaktivität:** Sie verfolgen Ziele aktiv – sie reagieren nicht nur.
-> 
-> **Reaktivität:** Sie passen sich an Veränderungen an – wie ein guter Assistent.
-> 
-> **Sozialität:** Sie kommunizieren – mit Nutzern UND mit anderen Agenten.
-> 
-> **Und jetzt kommt der spannende Teil: Wie setzen wir das konkret um?**"
+> **Warum Kubernetes?** Skalierbar. Robust. Enterprise-Ready."
 
-**Timing:** 90 seconds
-
-**Delivery Tips:**
-- 📋 **Point to each principle** as you name it
-- 🖐️ **Use hand gestures** to emphasize the 4 points
-- 🎯 **Transition smoothly** to the architecture
-- ⚡ **Keep it brief** – this is background, not main content
+**Delivery:**
+- Point to diagram as you name each agent
+- Pause after "Jeder Agent ist ein Microservice"
 
 ---
 
-### **Slide 4: The 4 Agents (3:30-4:30)**
-
-**Content:** Mermaid diagram of 4 agents
+### **Slide 4: Die Agenten (2:30-3:30)**
 
 **Script:**
-> "In OpenDesk Edu haben wir **4 spezialisierte Agenten**, die zusammenarbeiten:
-> 
-> Der **User Agent** ist der persönliche Begleiter jedes Lernenden.
-> 
-> Der **Knowledge Agent** verwaltet und erschließt das gesamte Wissen.
-> 
-> Der **Assessment Agent** bewertet automatisch Aufgaben und gibt Feedback.
-> 
-> Und der **Collaboration Agent** Organisiert die Zusammenarbeit in Teams.
-> 
-> **Jeder Agent hat seine Spezialität – aber gemeinsam sind sie unschlagbar.**"
+> "User Agent: Persönlicher Lernbegleiter.  
+> Knowledge Agent: Wissensmanager.  
+> Feedback Agent: Unterstützung bei Bewertungen.  
+> **Wichtig:** Der Mensch entscheidet final.  
+> Collaboration Agent: Teamulator."
 
-**Timing:** 60 seconds
-
-**Delivery Tips:**
-- 🖼️ **Point to the diagram** as you explain each agent
-- 🔄 **Show the connections** between agents
-- 💡 **Set up the use cases** – "Und jetzt zeige ich euch, WAS die können..."
+**Key Points:**
+- Each agent has specific role
+- Human always has final control (legal note!)
 
 ---
 
-### **Slide 5: Use Case 1 – Automatic Grading (4:30-6:00)**
-
-**Content:** Prof. Müller's problem + solution + metrics
+### **Slide 5: Das Problem (3:30-4:30)**
 
 **Script:**
-> "**Use Case 1: Automatische Korrektur.**
+> "Die Probleme kennt ihr.  
 > 
-> Zurück zu Prof. Müller und seinen 150 Aufgaben pro Woche.
+> Dozent: 10 Stunden pro Woche für Korrekturen.  
+> Lernender: 3 Stunden Frust bei einfachen Konzepten.  
+> Forschungsteam: 4 Monate Koordination, 2 Wochen Analyse.
 > 
-> Unser **Assessment Agent** analysiert ALLE Abgaben automatisch:
-> - Er identifiziert häufige Fehler
-> - Er generiert Gruppen-Feedback für die ganze Klasse
-> - Er markiert nur die Ausreißer – also wirklich schwierige Fälle – für Prof. Müllers manuelle Prüfung
-> 
-> **Das Ergebnis?** 
-> **95% der Korrekturen laufen automatisch** – Prof. Müller spart **9 Stunden pro Woche.** 
-> Und die Qualität? **Steigt um 25%**, weil der Agent konsistent und objektiv bewertet.
-> 
-> **9 Stunden. Pro Woche. Zurückgewonnen.**"
+> **Einfach. Aber mächtig.**"
 
-**Timing:** 90 seconds
-
-**Delivery Tips:**
-- 🎯 **This is your FIRST value bomb** – deliver with confidence
-- 📊 **Emphasize the numbers** (95%, 9 hours, +25%)
-- 😮 **Pause after "9 Stunden pro Woche"** – let it sink in
-- 👉 **Point to the metric** on the slide
+**Quote:** "Just because it's simple doesn't mean it's not powerful"
 
 ---
 
-### **Slide 6: Use Case 2 – Adaptive Learning (6:00-7:30)**
-
-**Content:** Max's problem + solution + metrics
+### **Slide 6: Use Case 1 – Korrektur (4:30-6:00)**
 
 **Script:**
-> "**Use Case 2: Adaptives Lernen.**
+> "Use Case 1: Korrektur-Unterstützung.  
 > 
-> Und was ist mit Max, der an den Python-Schleifen scheitert?
+> Feedback Agent analysiert 150 Abgaben.  
+> Identifiziert Muster.  
+> Generiert Feedback-Vorschläge.  
+> **Der Dozent behält die finale Kontrolle.**
 > 
-> Hier arbeiten **3 Agenten zusammen:**
-> Der **User Agent** erkennt: Max hat schon 5 Mal ähnliche Fehler gemacht.
-> Der **Knowledge Agent** sucht alternative Erklärungen und Beispiele – nicht nur eine, sondern 10 verschiedene.
-> Der **Collaboration Agent** findet Lisa, 14 Jahre alt, Python-Experte in Max' Klasse, und vermittelt eine Mentoring-Session.
-> 
-> **Das Ergebnis?** 
-> Max versteht Schleifen in **30 Minuten statt 3 Stunden** – das ist **85% schneller.** 
-> Und sein Verständnis? **Steigt um 40%.** Seine Motivation? **Steigt um 60%.**
-> 
-> **Aus Frust wird Flow.**"
+> Ergebnis: **9 Stunden gespart pro Woche.**"
 
-**Timing:** 90 seconds
-
-**Delivery Tips:**
-- 🎯 **SECOND value bomb** – keep the energy high
-- 👥 **Tell a story** – Max is relatable
-- 📈 **Multiple metrics** show different dimensions of success
-- 💡 **End with the emotional payoff** ("Aus Frust wird Flow")
+**Key Points:**
+- Assisted, not automated
+- Human in the loop
+- Quantifiable result
 
 ---
 
-### **Slide 7: Use Case 3 – Collaborative Research (7:30-8:30)**
-
-**Content:** Research team problem + solution + metrics
+### **Slide 7: Use Case 2 – Adaptives Lernen (6:00-7:30)**
 
 **Script:**
-> "**Use Case 3: Kollaborative Forschung.**
+> "Use Case 2: Adaptives Lernen.  
 > 
-> Und das Forschungsteam mit den Klimadaten?
+> Alle 4 Agenten zusammen.  
+> Erkennt Blockaden.  
+> Findet Lösungen.  
+> Vermittelt Hilfe.  
 > 
-> Der **Knowledge Agent** erklärt die Datensätze automatisch und findet relevante Papers.
-> Der **Collaboration Agent** übersetzt die Diskussionen zwischen den internationalen Teammitgliedern – **10 Sprachen in Echtzeit.**
-> Der **Assessment Agent** validiert die Datenqualität und warnt vor Inkonsistenzen.
-> 
-> **Das Ergebnis?** 
-> Das Projekt, das früher **4 Monate** gedauert hat, ist in **6 Wochen** fertig. 
-> **300% schneller.** Die Kollaboration? **200% besser.**
-> 
-> **Von Monaten zu Wochen.**"
+> Ergebnis: **85% schnelleres Verständnis.**"
 
-**Timing:** 60 seconds
-
-**Delivery Tips:**
-- ⚡ **Keep it fast** – this is the last use case
-- 🌍 **Highlight the international aspect** (10 languages)
-- 📊 **Big numbers** (300%, 200%) deserve emphasis
-- 🔥 **Build to a crescendo** – the use cases get increasingly impressive
+**Quote:** "Less is more"
 
 ---
 
-### **Slide 8: The Data (8:30-9:00)**
-
-**Content:** Pilot study results table + quote
+### **Slide 8: Use Case 3 – Forschung (7:30-8:30)**
 
 **Script:**
-> "Jetzt fragt ihr euch vielleicht: **Klingt gut, aber stimmt das auch?**
+> "Use Case 3: Kollaborative Forschung.  
 > 
-> Wir haben eine **Pilotstudie mit 200 Studierenden** an der Uni Marburg durchgeführt:
+> Knowledge Agent analysiert Daten.  
+> Collaboration Agent übersetzt Echtzeit.  
+> Feedback Agent validiert Qualität.  
 > 
-> - **Lernfortschritt:** Plus 42%
-> - **Retentionsrate:** Plus 35% – die Studierenden behalten mehr
-> - **Benutzerzufriedenheit:** 4,7 von 5 Sternen
-> - **Lehrenden-Feedback:** 4,8 von 5 Sternen
-> 
-> Und Prof. Dr. Anna Schmidt von den Erziehungswissenschaften sagt:  
-> **"Die agentische Herangehensweise revolutioniert das Lernen."**
-> 
-> **Das sind keine leeren Versprechungen. Das sind Fakten.**"
-
-**Timing:** 30 seconds
-
-**Delivery Tips:**
-- 📊 **Point to each number** as you say it
-- 🎤 **Quote with authority** – this is social proof
-- ✅ **Confident tone** – "Fakten, keine Versprechungen"
-- ⏰ **Watch the time** – you're at the 9-minute mark!
+> Ergebnis: **300% schnellere Projektabwicklung.**"
 
 ---
 
-### **Slide 9: Technical Overview (9:00-10:00)**
-
-**Content:** Architecture diagram
+### **Slide 9: Die Zahlen (8:30-9:00)**
 
 **Script:**
-> "Und wie funktioniert das technisch?
+> "Die Zahlen sprechen für sich.  
 > 
-> Ganz einfach: **Multi-Agent-Architektur.**
+> Korrekturzeit: minus 90%.  
+> Lernverständnis: plus 85%.  
+> Projekt-Durchlauf: plus 300%.  
+> Sprachbarrieren: null.
 > 
-> Die Frontend-Komponente kommuniziert mit unserer API. Die API leitet Anfragen an die verschiedenen Agenten weiter. Die Agenten nutzen:
-> - **LLM Service** mit lokalen Modellen wie Mistral oder Llama 3
-> - **Vector Database** für das Wissensmanagement
-> - **Knowledge Graph** für semantische Verbindungen
-> 
-> **Das Beste?** Alles läuft **lokal**, **Open Source**, und **datenschutzkonform.**
-> Keine Cloud-Abhängigkeit. Volle Kontrolle.
-> 
-> **Technologie, die dient – nicht beherrscht.**"
+> **Einfach. Mächtig. Effektiv.**"
 
-**Timing:** 60 seconds
-
-**Delivery Tips:**
-- 🖼️ **Point to the diagram**
-- 🔧 **Name the technologies** – show you know your stuff
-- 🔒 **Emphasize data privacy** – this is important for academics
-- 💡 **End with the philosophy** ("Technologie, die dient")
+**Quote:** "Less is more"
 
 ---
 
-### **Slide 10: Tech Stack (10:00-10:30)**
-
-**Content:** Backend, AI/ML, Frontend code blocks
+### **Slide 10: Die Technologie (9:00-10:00)**
 
 **Script:**
-> "Kurz zum Stack – damit die Entwickler unter euch wissen, worum es geht:
+> "Die Technologie ist Standard.  
 > 
-> **Backend:** Node.js mit TypeScript, Fastify als API-Gateway, PostgreSQL für die Daten.
+> Backend: Node.js, TypeScript, Fastify, PostgreSQL.  
+> AI: LangChain, Ollama, Qdrant, Neo4j.  
+> Frontend: Next.js, React, Tailwind.  
+> Infrastruktur: Kubernetes, Docker, Helm.
 > 
-> **AI/ML:** LangChain.js und LangGraph für die Agenten-Orchestrierung, Ollama für lokale LLM-Inferenz, Qdrant als Vector Database.
-> 
-> **Frontend:** Next.js 14 mit Tailwind CSS und WebSockets für Echtzeit-Kommunikation.
-> 
-> **Alles Standard-Technologien. Alles gut dokumentiert. Alles bereit für den Produktiv-Einsatz.**"
+> **Small, sharp tools.**"
 
-**Timing:** 30 seconds
-
-**Delivery Tips:**
-- 👨‍💻 **Look at the developers** in the audience
-- 📦 **Name drop technologies** they'll recognize
-- ⚡ **Fast pace** – this is technical detail, not the main story
-- ✅ **Confident** – you know this works
+**Quote:** "Small, sharp tools" (UNIX)
 
 ---
 
-### **Slide 11: Getting Started (10:30-11:30)**
-
-**Content:** Quick start commands + community info
+### **Slide 11: Kubernetes (10:00-10:30)**
 
 **Script:**
-> "Und das Beste: **Ihr könnt das heute schon ausprobieren.**
+> "Warum Kubernetes?  
 > 
-> **Option 1:** Docker Compose – eine Zeile, alles läuft.
-> ```bash
-> docker compose up -d
-> ```
+> Microservices: Jeder Agent als separater Service.  
+> Auto-scaling: Wächst mit der Last.  
+> Self-healing: Erholt sich automatisch.
+> Rolling updates: Keine Downtime.
 > 
-> **Option 2:** npm-Paket – noch einfacher.
-> ```bash
-> npx create-opendesk-edu@latest
-> ```
-> 
-> **Und wenn ihr mitmachen wollt:**
-> - GitHub: github.com/opendesk-edu
-> - Discord: discord.gg/opendesk
-> - Pilotprojekte: **Kostenlos für Early Adopter**
-> 
-> **Die Zukunft der Bildung ist nicht irgendwann. Sie ist JETZT.**"
+> **Skalierbar. Robust. Enterprise-Ready.**"
 
-**Timing:** 60 seconds
-
-**Delivery Tips:**
-- 🚀 **High energy** – this is the call to action
-- 💻 **Read the code** on the slide
-- 🤝 **Emphasize community** – "mitmachen"
-- 🎯 **Create urgency** – "JETZT"
+**Quote:** "Compose small programs into larger ones" (UNIX)
 
 ---
 
-### **Slide 12: Voting CTA (11:30-12:00)**
-
-**Content:** Voting call with QR code
+### **Slide 12: Jetzt mitmachen (10:30-11:30)**
 
 **Script:**
-> "Und jetzt kommt der **wichtigste Teil meines Vortrags.**
+> "Mitmachen ist einfach.  
 > 
-> Wir nehmen am **Open Source Wettbewerb 2026** teil.  
-> Und wir brauchen **EUCH.**
+> Docker Compose: docker compose up -d.  
+> Kubernetes: kubectl apply -f manifests/.  
 > 
-> **Jede Stimme zählt.**
+> GitHub: opendesk-edu.  
+> Discord: opendesk.  
+> Website: opendesk-edu.org.
 > 
-> **Scannt den QR-Code** mit eurem Handy – oder geht auf:
-> **open-source-wettbewerb.de/voting/opendesk-edu/**
+> **Open Source. Self-Hosted. Datenschutzkonform.**"
+
+---
+
+### **Slide 13: Abstimmen (11:30-12:00)**
+
+**Script:**
+> "Und jetzt der wichtigste Teil: Abstimmen.  
 > 
-> **Es dauert 30 Sekunden. Aber es macht einen riesigen Unterschied.**
+> Open Source Wettbewerb 2026.  
+> Jede Stimme zählt.  
 > 
-> **Bildung unsere Zukunft. Open Source ist der Weg.  
-> Und IHRE Stimme ist der nächste Schritt.**
+> QR-Code scannen oder Link öffnen:  
+> open-source-wettbewerb.de/voting/opendesk-edu/
 > 
-> **Vielen Dank!**"
+> **30 Sekunden. Großer Unterschied.**"
 
-**Timing:** 30 seconds
-
-**Delivery Tips:**
-- 🎯 **THIS IS THE MOST IMPORTANT SLIDE**
-- 🗳️ **Hold up the QR code** or point to it
-- 🙏 **Make eye contact** with individuals
-- 🔥 **Create urgency** – "JETZT"
-- ⏰ **Pause after QR code** – let people scan
-- ❤️ **End with gratitude**
+**Key Points:**
+- Clear CTA
+- Direct, urgent
+- Grateful tone
 
 ---
 
----
+## ⚖️ **Legal Considerations (How to Handle Questions)**
 
-## ⏰ **+8 Minuten: Q&A Strategy**
+### **If asked about automated grading:**
 
-### **Preparation:**
-- **Have laptop ready** with OpenDesk Edu running (if possible)
-- **Prepare 3-4 demo scenarios** you can show quickly
-- **Know your backup slides** (architecture, comparison, roadmap)
-- **Have business cards/links** ready to share
+> "Gute Frage. Der EU AI Act stuft Bewertung von Lernergebnissen als Hochrisiko ein.  
+> **Deshalb: Assisted, nicht automated.** Der Feedback Agent unterstützt.  
+> Der Mensch entscheidet final. Dokumentation vorhanden.  
+> 
+> **Unser Fokus:** Content creation, learning support, collaboration – das ist sicher."
 
----
+### **If asked about compliance:**
 
-### **Handling Questions:**
-
-#### **🔹 Technical Questions**
-
-**Q: "Welche LLMs werden unterstützt?"**
-> "Aktuell: Mistral 7B, Llama 3 8B, Phi-3 3.8B – alle lokal laufend.  
-> Wir arbeiten an der Integration von bigger Modellen und Cloud-Optionen.  
-> **Aber unser Fokus ist Local First – Datenschutz ist uns extrem wichtig.**"
-
-**Q: "Wie skaliert das System?"**
-> "Gute Frage! Jeder Agent läuft in seinem eigenen Container.  
-> Wir nutzen Redis für Caching und Message Queues für die Kommunikation.  
-> **In unserer Pilotstudie mit 200 Nutzern hatten wir 0 Downtime.**  
-> Für größere Deployments empfehlen wir Kubernetes."
-
-**Q: "Kann man OpenDesk Edu in bestehende Systeme integrieren?"**
-> "Absolut! Wir haben eine REST API und Webhooks.  
-> **Moodle-, ILIAS- und Nextcloud-Integration sind bereits in Entwicklung.**  
-> Und da wir Open Source sind, könnt ihr natürlich auch eigene Integrationen bauen."
+> "Wir folgen dem Prinzip: **Do one thing and do it well.**  
+> Kubernetes ermöglicht flexible Anpassung an Compliance-Anforderungen.  
+> Jeder Agent kann einzeln konfiguriert werden.  
+> 
+> **Visionär, aber verantwortungsvoll.**"
 
 ---
 
-#### **🔹 Pedagogical Questions**
+## 🎯 **Delivery Philosophy**
 
-**Q: "Wie validiert ihr, dass die Lernergebnisse wirklich besser sind?"**
-> "Wir nutzen **A/B-Testing** und **kontrollierte Studien**.  
-> In unserer Pilotstudie hatten wir eine Kontrollgruppe mit traditionellen Methoden.  
-> Die OpenDesk-Edu-Gruppe schnit **42% besser** ab – statistisch signifikant.  
-> **Wir messen nicht nur Nutzerzufriedenheit, sondern tatsächlichen Lernerfolg.**"
+### **Do:**
+- ✅ **Pause often** – Let ideas sink in
+- ✅ **Speak slowly** – Clarity over speed
+- ✅ **Be minimal** – Less is more
+- ✅ **Stay calm** – Stoic composure
+- ✅ **Focus on value** – Function over form
 
-**Q: "Was ist mit Datenschutz für Studierende?"**
-> "**Das ist uns extrem wichtig.** Alles läuft lokal oder in IHRER Cloud.  
-> Keine Daten gehen an Dritte. Keine Telemetrie. Keine Tracking-Cookies.  
-> **Wir sind eine deutsche Universität – wir kennen die DSGVO.**  
-> Und wir haben bereits mit mehreren Datenschutzbeauftragten gesprochen."
-
----
-
-#### **🔹 Practical Questions**
-
-**Q: "Was kostet das?"**
-> "**OpenDesk Edu ist komplett kostenlos und Open Source.**  
-> Die einzige Kosten sind Ihre Server – und die sind minimal:  
-> Ein Standard-Server reicht für 500 Nutzer.  
-> **Für nicht-kommerzielle Nutzung: 0 Euro. Für immer.**"
-
-**Q: "Kann ich das für meine Vorlesung nutzen?"**
-> "**Ja!** Wir suchen derzeit genau nach Pilotpartnern.  
-> Sie bekommen kostenlosen Support und wir helfen bei der Einrichtung.  
-> **Melden Sie sich einfach bei mir nach dem Vortrag.**"
+### **Don't:**
+- ❌ **Rush** – Slow and steady
+- ❌ **Over-explain** – Keep it simple
+- ❌ **Add fluff** – Direct and honest
+- ❌ **Apologize** – Confidence
+- ❌ **Over-promise** – Under-promise, over-deliver
 
 ---
 
-#### **🔹 Strategic Questions**
+## 📌 **Key Messages to Remember**
 
-**Q: "Was ist eure Roadmap?"**
-> "**Kurzfristig:** Public Beta in Q4 2026.  
-> **Mittelfristig:** Plug-in-Marketplace und Mobile App.  
-> **Langfristig:** Wir wollen die **Standard-Lernplattform für agentisches Lernen** werden.  
-> **Aber unser Fokus bleibt immer: Open Source, datenschutzkonform, nutzerzentriert.**"
-
-**Q: "Was unterscheidet euch von Moodle?"**
-> "Moodle ist ein **Content-Management-System**.  
-> OpenDesk Edu ist ein **Agentic-Learning-System**.  
-> **Der Unterschied?**  
-> Moodle speichert Inhalte. **Wir verstehen sie, verknüpfen sie, und passen sie an.**  
-> Moodle korrigiert Aufgaben. **Wir bewerten sie, geben Feedback, und lernen daraus.**  
-> **Es ist wie der Unterschied zwischen einem Buch und einem persönlichen Tutor.**"
+1. **"Einfach. Mächtig. Offene Architektur."**
+2. **"Do one thing and do it well."**
+3. **"Der Mensch entscheidet final."** (Legal safety)
+4. **"Skalierbar. Robust. Enterprise-Ready."**
+5. **"Less is more."**
 
 ---
 
-#### **🔹 Difficult Questions**
+## 🏆 **Final Mindset**
 
-**Q: "Ist das nicht nur ein Hype?"**
-> "Ich verstehe die Skepsis. Aber schauen Sie sich die Daten an:  
-> **42% besserer Lernerfolg. 9 Stunden Zeitersparnis pro Woche.**  
-> Das sind keine Marketing-Zahlen – das sind messbare Ergebnisse.  
-> **Und die Technologie ist da. Sie funktioniert. Sie ist bereit.**"
+**You are the expert.**
 
-**Q: "Was, wenn die Agenten Fehler machen?"**
-> "**Transparenz ist uns extrem wichtig.** 
-> Jede Bewertung durch einen Agenten ist nachvollziehbar.  
-> Nutzer können Feedback geben und Korrekturen anfordern.  
-> **Wir sehen Agenten nicht als Ersatz für Menschen, sondern als Verstärker.**  
-> Die finale Verantwortung liegt immer beim Nutzer – oder beim Lehrenden."
+- You built this.
+- You understand the technology.
+- You have a clear vision.
 
----
+**UNIX Philosophy:** Small, sharp tools.
 
-### **If You Have Time Left:**
+**Stoic Philosophy:** Clear, direct, honest.
 
-**🎤 Offer a Live Demo:**
-> "Ich habe hier eine laufende Instanz von OpenDesk Edu.  
-> **Wer möchte, kann live sehen, wie das funktioniert?**  
-> Ich zeige euch kurz den User Agent in Aktion."
-
-**📢 Announce Next Steps:**
-> "Next week starten wir unser **Pilotprogramm**.  
-> **Die ersten 10 Institutionen bekommen kostenlosen Premium-Support.**  
-> Wenn Sie interessiert sind, sprechen Sie mich bitte nachher an."
-
-**🤝 Network:**
-> "Und wenn Sie selbst an Agentic AI arbeiten – wir suchen **Mitentwickler**.  
-> Kommen Sie zu uns auf Discord oder GitHub!"
+**Golden Ratio:** Natural, balanced, timeless.
 
 ---
 
----
+## 🎤 **Opening Statement (Memorized)**
 
-## 🎯 **Pro Tips for Delivery**
-
-### **Body Language:**
-- ✅ **Stand tall** – confidence is key
-- ✅ **Make eye contact** – connect with individuals
-- ✅ **Use hand gestures** – emphasize points
-- ✅ **Move around** – don't hide behind the podium
-- ❌ **Don't rush** – even if you're at 11:50
-- ❌ **Don't read slides** – you know this stuff!
-
-### **Voice:**
-- ✅ **Vary your pitch** – avoid monotony
-- ✅ **Pause after key points** – let it sink in
-- ✅ **Speak loudly** – especially the CTA
-- ❌ **Don't speak too fast** – 120-140 words/minute
-
-### **Timing:**
-- ✅ **Start on time** – even if latecomers
-- ✅ **End on time** – respect the audience
-- ✅ **Watch the clock** – but don't obsess
-- ⏰ **Aim for 11:30** on slide 12 – gives buffer
-
-### **Technology:**
-- ✅ **Test everything** before the talk
-- ✅ **Have backup** (PDF on USB stick)
-- ✅ **Know the clicker** – practice transitions
-- ❌ **Don't apologize** for technical issues – just fix them
+> "Vielen Dank, Christian.  
+> Mein Name ist Tobias Weiss.  
+> OpenDesk Edu – Agentic Engineering in der Praxis.  
+> Eine Kubernetes-basierte Plattform.  
+> Vier Agenten. Ein Ziel: Bildung revolutionieren."
 
 ---
 
----
+## 🎤 **Closing Statement (Memorized)**
 
-## 📋 **Checklist Before the Talk**
-
-### **1 Week Before:**
-- [ ] Review slides and speaker notes
-- [ ] Practice timing (aim for 11:30-12:00)
-- [ ] Prepare backup slides
-- [ ] Test technology (laptop, clicker, HDMI)
-- [ ] Print handouts if needed
-
-### **1 Day Before:**
-- [ ] Final run-through (full 12 minutes)
-- [ ] Charge laptop and clicker
-- [ ] Pack: laptop, charger, clicker, USB stick, business cards
-- [ ] Check venue (projector, screen, sound)
-- [ ] Confirm time slot with organizers
-
-### **1 Hour Before:**
-- [ ] Arrive early
-- [ ] Test projection and sound
-- [ ] Meet Christian Uhl (coordinate transition)
-- [ ] Have water ready
-- [ ] Relax and breathe
-
-### **5 Minutes Before:**
-- [ ] Open slides in fullscreen
-- [ ] Test clicker
-- [ ] Silence phone
-- [ ] Take deep breaths
-- [ ] **You've got this!**
+> "OpenDesk Edu zeigt: Einfach. Mächtig. Offene Architektur.  
+> Die Technologie ist da. Die Zukunft ist jetzt.  
+> Und Ihre Stimme zählt.  
+> 
+>Danke."
 
 ---
 
----
+## 💡 **UNIX Philosophy for Presentations**
 
-## 💡 **Mindset: You're Not Presenting – You're Teaching**
-
-> **"Your goal is not to impress. Your goal is to inspire action."**
-
-### **Remember:**
-- The audience **wants you to succeed**
-- They **care about the problem** (education, efficiency, innovation)
-- They **respect expertise** (you know your stuff)
-- **You have something valuable to share**
-
-### **Your Secret Weapon:**
-**You're not just talking about OpenDesk Edu.  
-You're showing people how to save time, improve learning, and shape the future of education.**
+1. **Do one thing** → Present one idea per slide
+2. **Do it well** → Present it clearly and thoroughly
+3. **Compose** → Build your talk from simple, clear parts
+4. **Less is more** → Remove everything unnecessary
+5. **Silence is feature** → Pause between ideas
 
 ---
 
----
+## 🏛️ **Stoic Philosophy for Delivery**
 
-## 🎉 **After the Talk**
-
-### **Immediate Actions:**
-- ✅ **Stay for questions** – don't rush off
-- ✅ **Collect contacts** (business cards, email addresses)
-- ✅ **Thank the organizers**
-- ✅ **Take a photo** with Christian Uhl (if appropriate)
-
-### **Follow-Up:**
-- [ ] Send thank-you email to organizers
-- [ ] Follow up with interested attendees
-- [ ] Share slides on social media
-- [ ] Update your website/blog with talk summary
-- [ ] Gather feedback for future improvements
+1. **Amor fati** → Love your fate (even if nervous)
+2. **Premeditatio malorum** → Prepare for the worst (know your slides)
+3. **Dichotomy of control** → Focus on what you can control (your delivery)
+4. **Memento mori** → Remember: This moment is temporary
+5. **Ataraxia** → Stay calm and composed
 
 ---
 
----
+## 📊 **Golden Ratio Timing**
 
-## 🏆 **Success Metrics for Your Talk**
-
-| Metric | Target |
-|--------|--------|
-| **Audience engagement** | 80% paying attention |
-| **Questions asked** | 3-5 good questions |
-| **Voting link scanned** | 50% of audience |
-| **Follow-up contacts** | 5-10 interested people |
-| **Social media mentions** | 3+ posts tagged |
-| **Your confidence** | Felt natural and authentic |
-
----
-
----
-
-## 🔥 **FinalEncouragement**
-
-You've prepared well. You know your stuff. You have a **great story** to tell.
-
-**The audience doesn't want perfection. They want passion, authenticity, and value.**
-
-You're going to **crush it.**
+| Segment | Duration | φ Relationship |
+|---------|----------|-----------------|
+| Intro | 30s | 1 × φ^0 |
+| Concept | 60s | 2 × φ^0 |
+| Architecture | 60s | 2 × φ^0 |
+| Problem | 60s | 2 × φ^0 |
+| Use Case 1 | 90s | 3 × φ^0 |
+| Use Case 2 | 90s | 3 × φ^0 |
+| Use Case 3 | 60s | 2 × φ^0 |
+| Numbers | 30s | 1 × φ^0 |
+| Tech | 60s | 2 × φ^0 |
+| Kubernetes | 30s | 1 × φ^0 |
+| CTA | 60s | 2 × φ^0 |
+| Voting | 30s | 1 × φ^0 |
+| **Total** | **12:00** | **12 × φ^0** |
 
 ---
 
-**🗣️ You've got this. Now go make education agentic!**
+**🚀 You are ready. Keep it simple. Keep it powerful.**
+
+---
+
+*Updated: 23. August 2026*
+*Philosophy: UNIX + Stoic + Golden Ratio*

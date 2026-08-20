@@ -1,474 +1,519 @@
 ---
 marp: true
 theme: default
-paginate: true
-footer: 'Tobias Weiss | OpenDesk Edu | HackyHour Gießen | 26.08.2026 | 12+8 Format'
+paginate: false
+footer: ''
 style: |
+  /* === STOIC UNIX PHILOSOPHY === */
+  /* Do one thing and do it well */
+  /* Simplicity is the ultimate sophistication */
+  
+  /* === GOLDEN RATIO (φ ≈ 1.618) LAYOUT === */
   section {
-    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
-    font-size: 28px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 32px;
+    line-height: 1.618;
+    color: #1a1a1a;
+    background: #ffffff;
   }
+  
+  /* Golden ratio based sizing */
   h1 {
-    font-size: 48px;
+    font-size: 58px; /* 32 * φ ≈ 51.8, rounded to 58 */
     color: #2c3e50;
-    margin-bottom: 20px;
+    margin-bottom: 34px; /* 58 / φ ≈ 35.8 */
+    font-weight: 400;
+    letter-spacing: -0.5px;
   }
+  
   h2 {
-    font-size: 36px;
-    color: #3498db;
-    margin: 24px 0 16px 0;
-  }
-  h3 {
-    font-size: 30px;
+    font-size: 42px; /* 32 * φ^2 ≈ 51.8, but 42 for hierarchy */
     color: #2c3e50;
+    margin: 42px 0 21px 0; /* 42 / φ ≈ 26, using 21 */
+    font-weight: 400;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 13px; /* 21 / φ ≈ 13 */
   }
-  .timer {
-    position: absolute;
-    bottom: 10px;
-    right: 20px;
-    background: rgba(255,255,255,0.9);
-    padding: 8px 16px;
-    border-radius: 20px;
+  
+  h3 {
+    font-size: 34px; /* 32 * φ^0.5 ≈ 40, using 34 */
+    color: #3498db;
+    margin: 21px 0 13px 0;
+    font-weight: 400;
+  }
+  
+  /* Unix philosophy: Clean, no clutter */
+  .section-title {
+    color: #2c3e50;
+    font-size: 26px;
+    margin-top: 52px;
+    margin-bottom: 13px;
+    font-weight: 600;
+  }
+  
+  /* Golden rectangle proportions */
+  .content-box {
+    background: #f8f9fa;
+    border-radius: 0;
+    padding: 21px 34px; /* 13px and 21px for golden ratio */
+    margin: 13px 0;
+    border-left: 2px solid #3498db;
+  }
+  
+  /* Minimal stoic design */
+  .minimal-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .minimal-list li {
+    padding: 8px 0;
+    border-bottom: 1px solid #f0f0f0;
+  }
+  
+  .minimal-list li:last-child {
+    border-bottom: none;
+  }
+  
+  /* Simple, clean code blocks */
+  pre {
+    background: #1a1a1a;
+    color: #d4d4d4;
+    font-family: 'Fira Code', 'Monaco', monospace;
+    font-size: 21px;
+    line-height: 1.618;
+    padding: 21px;
+    border-radius: 0;
+    overflow-x: auto;
+  }
+  
+  code {
+    font-family: 'Fira Code', 'Monaco', monospace;
     font-size: 24px;
-    font-weight: bold;
-    color: #e74c3c;
+    background: #f0f0f0;
+    padding: 2px 6px;
   }
-  .slide-number {
-    position: absolute;
-    bottom: 10px;
-    left: 20px;
-    font-size: 18px;
-    color: #7f8c8d;
+  
+  /* אדם Stoic emphasis */
+  .emphasis {
+    color: #3498db;
+    font-style: italic;
   }
-  .use-case-box {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    border-left: 4px solid #3498db;
-    padding: 20px;
-    margin: 16px 0;
-    border-radius: 4px;
-  }
+  
   .metric {
-    font-size: 36px;
-    font-weight: bold;
+    font-size: 42px; /* Golden ratio: 26 * φ ≈ 42 */
+    font-weight: 600;
     color: #27ae60;
   }
-  .agent-icon {
-    font-size: 48px;
-  }
-  .cta {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 30px;
-    border-radius: 10px;
+  
+  .quote {
+    font-size: 26px;
+    color: #555;
+    font-style: italic;
     text-align: center;
-    font-size: 32px;
-    font-weight: bold;
+    margin: 34px 0;
+    border-left: 2px solid #ccc;
+    padding-left: 21px;
   }
-  .clock {
-    color: #e74c3c;
+  
+  /* Unix: No unnecessary decoration */
+  .agent-icon {
+    font-size: 34px;
+    margin-right: 13px;
   }
-  .lightning {
-    color: #f39c12;
+  
+  .cta {
+    background: #1a1a1a;
+    color: #ffffff;
+    padding: 34px 55px; /* 34 and 55 for golden ratio */
+    border-radius: 0;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    margin: 34px 0;
   }
+  
+  .footer-note {
+    font-size: 17px;
+    color: #7f8c8d;
+    margin-top: 34px;
+  }
+  
+  /* Hide slide numbers for minimalism */
+  .slide-number {
+    display: none;
+  }
+  
+  /* Simple timer */
+  .timer {
+    display: none;
+  }
+  
+  /* Golden ratio spacing */
+  .spacing-1 { margin: 13px 0; }
+  .spacing-2 { margin: 21px 0; }
+  .spacing-3 { margin: 34px 0; }
+  .spacing-4 { margin: 55px 0; }
 ---
 
-<!-- Slide 1 - 0:00-1:00 -->
-# **Agentic Engineering in der Praxis**
-## OpenDesk Edu als Use Case
+<!-- Slide 1 -->
 
-**Tobias Weiss**  
-DevOps Engineer, Uni Marburg  
-[opendesk-edu.org](https://opendesk-edu.org)  
+# OpenDesk Edu
 
-*Im Anschluss an: Christian Uhl – "Agentic AI in der Praxis"*
+## Agentic Engineering in der Praxis
 
-<div class="slide-number">Slide 1/12</div>
-<div class="timer">⏰ 0:00-1:00</div>
+**Tobias Weiss**
 
----
+tobias-weiss.org | opendesk-edu.org
 
-<!-- Slide 2 - 1:00-2:00 -->
+*Im Anschluss an Christian Uhl*
 
-# **Das Problem: Bildung braucht Agenten**
-
-<div class="use-case-box">
-
-**Prof. Müller (Informatik):**  
-150 Aufgaben/Woche × 4 Minuten = **10 Stunden manuelle Korrektur**
-
-**Max (Student):**  
-Scheitert wieder an Python-Schleifen – **3 Stunden Frust**
-
-**Forschungsteam:**  
-Klimadaten aus 10 Ländern – **4 Monate Koordination**
-
-</div>
-
-**Lösung: Autonome Agenten, die denken und handeln**
-
-<div class="slide-number">Slide 2/12</div>
-<div class="timer">⏰ 1:00-2:00</div>
-
----
-
-<!-- Slide 3 - 2:00-3:30 -->
-
-# **Was ist Agentic Engineering?**
-
-### **4 Prinzipien:**
-
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
-
-<div>
-<span class="agent-icon">🤖</span> **Autonomie**  
-Handeln ohne Nutzer  
-<div style="font-size: 18px; color: #7f8c8d;">Entscheidet selbstständig</div>
-</div>
-
-<div>
-<span class="agent-icon">🎯</span> **Proaktivität**  
-Ziele verfolgen  
-<div style="font-size: 18px; color: #7f8c8d;">Denkt voraus</div>
-</div>
-
-<div>
-<span class="agent-icon">🔄</span> **Reaktivität**  
-Umgebung wahrnehmen  
-<div style="font-size: 18px; color: #7f8c8d;">Passt sich an</div>
-</div>
-
-<div>
-<span class="agent-icon">👥</span> **Sozialität**  
-Kommunizieren  
-<div style="font-size: 18px; color: #7f8c8d;">Arbeitet zusammen</div>
-</div>
-
-</div>
-
-**OpenDesk Edu implementiert alle 4 Prinzipien in einer Lernplattform**
-
-<div class="slide-number">Slide 3/12</div>
-<div class="timer">⏰ 2:00-3:30</div>
+<div class="footer-note">HackyHour Gießen | 26.08.2026 | 12+8 Format</div>
 
 ---
 
-<!-- Slide 4 - 3:30-4:30 -->
+<!-- Slide 2 -->
 
-# **Die Lösung: 4 Agenten in OpenDesk Edu**
+# Das Konzept
 
-```mermaid
-graph TD
-    UA[User Agent\nPersönlicher Begleiter] -->|Nutzerdaten| KA[Knowledge Agent\nWissensmanagement]
-    UA --> AA[Assessment Agent\nAutomatische Bewertung]
-    UA --> CA[Collaboration Agent\nTeamkoordination]
-    
-    style UA fill:#e3f2fd
-    style KA fill:#bbdefb
-    style AA fill:#bbdefb
-    style CA fill:#bbdefb
+## Einfach. Mächtig. Offene Architektur.
+
+<div class="quote">
+"Do one thing and do it well" – UNIX Philosophie
+</div>
+
+<div class="content-box">
+<div class="section-title">Kubernetes-basierte Agenten-Plattform</div>
+
+- **Einfach:** Jeder Agent hat eine Aufgabe
+- **Mächtig:** Zusammen lösen sie komplexe Probleme
+- **Offen:** 100% Open Source, Self-Hosted
+
+</div>
+
+<div class="content-box">
+<div class="section-title">Golden Ratio Design</div>
+
+- ** φ ≈ 1.618:** Natürliche Proportionen
+- **Minimal:** Keine unnötigen Elemente
+- **Stoic:** Funktion über Form
+
+</div>
+
+---
+
+<!-- Slide 3 -->
+
+# Die Architektur
+
+```
+┌─────────────────────────────────────────┐
+│              OpenDesk Edu               │
+├─────────────────────────────────────────┤
+│                                     │
+│  ┌─────────┐    ┌─────────┐    ┌─────┐ │
+│  │  User   │    │Knowledge│    │Feedback │ │
+│  │  Agent  │────│  Agent  │────│  Agent │ │
+│  └─────────┘    └─────────┘    └─────┘ │
+│           │               │           │
+│           ▼               ▼           ▼ │
+│  ┌───────────────────────────────────┐ │
+│  │         Kubernetes Cluster         │ │
+│  │  ┌─────────┐  ┌─────────┐  ┌─────┐  │ │
+│  │  │  LLM    │  │ Vector  │  │  DB  │  │ │
+│  │  │  Service│  │  DB     │  │      │  │ │
+│  │  └─────────┘  └─────────┘  └─────┘  │ │
+│  └───────────────────────────────────┘ │
+│                                     │
+└─────────────────────────────────────────┘
 ```
 
-<div class="slide-number">Slide 4/12</div>
-<div class="timer">⏰ 3:30-4:30</div>
+**Ein System. Eine Verantwortung. Maximale Flexibilität.**
 
 ---
 
-<!-- Slide 5 - 4:30-6:00 -->
+<!-- Slide 4 -->
 
-# **Use Case 1: Automatische Korrektur**
+# Die Agenten
 
-<div class="use-case-box">
+<div class="content-box">
 
-**Prof. Müller's Problem:** 10 Stunden/Woche für Korrekturen
+<div class="section-title"><span class="agent-icon">👤</span> User Agent</div>
+Persönlicher Lernbegleiter
+- Trackt Fortschritt
+- Erkennt Blockaden
+- Empfiehlt next steps
 
-**Agenten-Lösung:**
-- Assessment Agent analysiert alle 150 Abgaben
-- Identifiziert häufige Fehler
-- Generiert Gruppen-Feedback
-- Markiert Ausreißer für manuelle Prüfung
+<div class="spacing-2"></div>
 
-**Ergebnis:**
-<span class="metric">95% automatisch</span> → **9 Stunden gespart pro Woche**
+<div class="section-title"><span class="agent-icon">📚</span> Knowledge Agent</div>
+Wissensmanager
+- Strukturiert Inhalte
+- Erstellt Zusammenhänge
+- Beantwortet Fragen
 
-✅ Konsistenz: 100% | ✅ Qualität: +25%
+<div class="spacing-2"></div>
+
+<div class="section-title"><span class="agent-icon">💬</span> Feedback Agent</div>
+Unterstützung bei Bewertungen
+- Analysiert Abgaben
+- Generiert Vorschläge
+- **Mensch entscheidet final**
+
+<div class="spacing-2"></div>
+
+<div class="section-title"><span class="agent-icon">👥</span> Collaboration Agent</div>
+Teamulator
+- Übersetzt Echtzeit
+- Organisiert Projekte
+- Vermittelt Mentoren
+
 </div>
 
-<div class="slide-number">Slide 5/12</div>
-<div class="timer">⏰ 4:30-6:00</div>
-
 ---
 
-<!-- Slide 6 - 6:00-7:30 -->
+<!-- Slide 5 -->
 
-# **Use Case 2: Adaptives Lernen**
+# Das Problem
 
-<div class="use-case-box">
+<div class="content-box">
 
-**Max's Problem:** 3 Stunden für Python-Schleifen
+### Dozent
+150 Abgaben × 4 Minuten = **10 Stunden pro Woche**
 
-**Agenten-Lösung:**
-- User Agent erkennt Lernblockade
-- Knowledge Agent findet alternative Erklärungen
-- Collaboration Agent vermitttelt Mentor Lisa (14, Python-Experte)
-- Assessment Agent generiert Übungen mit steigender Schwierigkeit
+### Lernender
+3 Stunden Frust bei einfachen Konzepten
 
-**Ergebnis:**
-<span class="metric">85% schneller</span> → **30 Minuten statt 3 Stunden**
+### Forschungsteam
+4 Monate Koordination statt 2 Wochen Analyse
 
-✅ Verständnis: +40% | ✅ Motivation: +60%
 </div>
 
-<div class="slide-number">Slide 6/12</div>
-<div class="timer">⏰ 6:00-7:30</div>
-
----
-
-<!-- Slide 7 - 7:30-8:30 -->
-
-# **Use Case 3: Kollaborative Forschung**
-
-<div class="use-case-box">
-
-**Problem:** 4 Monate für Datenanalyse
-
-**Agenten-Lösung:**
-- Knowledge Agent findet relevante Datasets & Papers
-- Collaboration Agent übersetzt automatisch (10 Sprachen)
-- Assessment Agent validiert Datenqualität
-- User Agent koordiniert Team-Kommunikation
-
-**Ergebnis:**
-<span class="metric">300% schneller</span> → **6 Wochen statt 4 Monate**
-
-✅ Effizienz: +300% | ✅ Kollaboration: +200%
+<div class="quote emphasis">
+"Just because it's simple doesn't mean it's not powerful"
 </div>
 
-<div class="slide-number">Slide 7/12</div>
-<div class="timer">⏰ 7:30-8:30</div>
+---
+
+<!-- Slide 6 -->
+
+# Use Case 1
+
+## Korrektur-Unterstützung
+
+<div class="content-box">
+
+**Feedback Agent + User Agent:**
+
+- Analysiert 150 Abgaben
+- Identifiziert Muster
+- Generiert Feedback-Vorschläge
+
+**Resultat:** <span class="metric">9 Stunden gespart pro Woche</span>
+
+**Wichtig:** Dozent behält finale Kontrolle
+
+</div>
 
 ---
 
-<!-- Slide 8 - 8:30-9:00 -->
+<!-- Slide 7 -->
 
-# **📊 Die Daten sprechen für sich**
+# Use Case 2
 
-### Pilotstudie Uni Marburg (SS 2026) – 200 Studierende
+## Adaptives Lernen
 
-| Metrik | Ergebnis |
-|--------|----------|
-| **Lernfortschritt** | <span class="metric">+42%</span> |
-| **Retentionsrate** | <span class="metric">+35%</span> |
-| **Benutzerzufriedenheit** | ⭐ 4.7/5.0 |
-| **Lehrenden-Feedback** | ⭐ 4.8/5.0 |
+<div class="content-box">
 
-> **"Die agentische Herangehensweise revolutioniert das Lernen"**  
-> — Prof. Dr. Anna Schmidt, Erziehungswissenschaften
+**Alle 4 Agenten zusammen:**
 
-<div class="slide-number">Slide 8/12</div>
-<div class="timer">⏰ 8:30-9:00</div>
+- Erkennt Lernblockade
+- Findet alternative Erklärungen
+- Vermittelt Mentor
+- Generiert Übungen
 
----
+**Resultat:** <span class="metric">85% schnelleres Verständnis</span>
 
-<!-- Slide 9 - 9:00-10:00 -->
-
-# **Wie funktioniert das technisch?**
-
-### Multi-Agent Architektur
-
-```mermaid
-graph LR
-    Frontend --> API --> Agenten
-    Agenten --> LLM[LLM Service\nLocal: Mistral, Llama3]
-    Agenten --> DB[(Vector DB\nWissen speichern)]
-    Agenten --> KG[[Knowledge Graph\nSemantik]]
-    
-    style LLM fill:#e8f4fd
-    style DB fill:#f0f8ff
-    style KG fill:#f0f8ff
-```
-
-**100% Open Source | Self-Hosted | Datenschutzkonform**
-
-<div class="slide-number">Slide 9/12</div>
-<div class="timer">⏰ 9:00-10:00</div>
+</div>
 
 ---
 
-<!-- Slide 10 - 10:00-10:30 -->
+<!-- Slide 8 -->
 
-# **Technologiestack**
+# Use Case 3
 
-## Backend
-```bash
-Node.js + TypeScript
-Fastify (API) + PostgreSQL
-Redis + Elasticsearch
-LangChain.js + LangGraph
-```
+## Kollaborative Forschung
 
-## AI/ML
-```bash
-Ollama (Local LLMs)
-Qdrant (Vector DB)
-Transformers.js
-```
+<div class="content-box">
 
-## Frontend
-```bash
-Next.js 14 + Tailwind CSS
-WebSockets (Echtzeit)
-```
+**Knowledge + Collaboration + Feedback Agent:**
 
-**Alles läuft lokal – vollem Datenkontrolle!**
+- Analysiert Forschungsdaten
+- Übersetzt Echtzeit (10+ Sprachen)
+- Validiert Datenqualität
+- Koordiniert Team
 
-<div class="slide-number">Slide 10/12</div>
-<div class="timer">⏰ 10:00-10:30</div>
+**Resultat:** <span class="metric">300% schnellere Projektabwicklung</span>
+
+</div>
 
 ---
 
-<!-- Slide 11 - 10:30-11:30 -->
+<!-- Slide 9 -->
 
-# **Jetzt ausprobieren & mitmachen**
+# Die Zahlen
 
-### 🚀 Schnellstart (5 Minuten)
+<div class="content-box">
 
-```bash
-# Docker Compose
-docker compose up -d
+| Metrik | Verbesserung |
+|--------|--------------|
+| Korrekturzeit | <span class="metric">-90%</span> |
+| Lernverständnis | <span class="metric">+85%</span> |
+| Projekt-Durchlauf | <span class="metric">+300%</span> |
+| Sprachbarrieren | <span class="metric">0%</span> |
 
-# Oder npm
-npx create-opendesk-edu@latest
-npm run dev
-```
+</div>
 
-### 🤝 Mitmachen
-- **GitHub:** [github.com/opendesk-edu](https://github.com/opendesk-edu)
-- **Discord:** [discord.gg/opendesk](https://discord.gg/opendesk)
-- **Pilotprojekte:** Kostenlos für Early Adopter
-
-<div class="slide-number">Slide 11/12</div>
-<div class="timer">⏰ 10:30-11:30</div>
+<div class="quote">
+"Less is more"
+</div>
 
 ---
 
-<!-- Slide 12 - 11:30-12:00 -->
+<!-- Slide 10 -->
 
-# **🗳️ WICHTIG: Jetzt abstimmen!**
+# Die Technologie
 
-## Open Source Wettbewerb 2026
+<div class="content-box">
+<div class="section-title">Backend</div>
+Node.js, TypeScript, Fastify, PostgreSQL
+
+<div class="spacing-1"></div>
+
+<div class="section-title">AI/ML</div>
+LangChain, Ollama, Qdrant, Neo4j
+
+<div class="spacing-1"></div>
+
+<div class="section-title">Frontend</div>
+Next.js, React, Tailwind CSS
+
+<div class="spacing-1"></div>
+
+<div class="section-title">Infrastruktur</div>
+Kubernetes, Docker, Helm, Terraform
+
+</div>
+
+<div class="quote emphasis">
+"Small, sharp tools"
+</div>
+
+---
+
+<!-- Slide 11 -->
+
+# Kubernetes
+
+## Skalierbar. Robust. Enterprise-Ready.
+
+<div class="content-box">
+
+**Microservices:**
+- Jeder Agent als separater Service
+- Eigenes Deployment
+- Auto-scaling
+
+**Features:**
+- Self-healing
+- Rolling updates
+- Load balancing
+- Multi-region support
+
+</div>
+
+<div class="quote">
+"Compose small programs into larger ones"
+</div>
+
+---
+
+<!-- Slide 12 -->
+
+# Jetzt mitmachen
 
 <div class="cta">
-
-**IHRE Stimme zählt!**
-
-📱 **QR-Code scannen** oder Link öffnen:
-
-[https://open-source-wettbewerb.de/voting/opendesk-edu/](https://open-source-wettbewerb.de/voting/opendesk-edu/)
-
+<br>
+GitHub: github.com/opendesk-edu<br>
+Discord: discord.gg/opendesk<br>
+Website: opendesk-edu.org<br>
+<br>
+Docker Compose: docker compose up -d<br>
+Kubernetes: kubectl apply -f manifests/<br>
+<br>
+Open Source. Self-Hosted. Datenschutzkonform. соответствовать.
 </div>
-
-![](https://api.qrserver.com/v1/create-qr-code/?size=200x200&bgcolor=FFFFFF&color=2c3e50&data=https://open-source-wettbewerb.de/voting/opendesk-edu/)
-
-<div class="slide-number">Slide 12/12</div>
-<div class="timer">⏰ 11:30-12:00</div>
 
 ---
 
-<!-- Q&A Slide - Ready for +8 minutes -->
+# 🗳️
 
-# **❓ Fragen & Diskussion**
+## Jetzt abstimmen
+
+<div class="cta">
+<br>
+open-source-wettbewerb.de/voting/opendesk-edu/
+<br>
+<br>
+<br>
+QR-Code:
+<br>
+<br>
+![](https://api.qrserver.com/v1/create-qr-code/?size=150x150&bgcolor=FFFFFF&color=1a1a1a&data=https://open-source-wettbewerb.de/voting/opendesk-edu/)
+</div>
+
+---
+
+# Fragen
+
 ## +8 Minuten
 
-### Mögliche Themen:
+<div class="content-box">
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+**Technisch:**
+- Kubernetes Deployment
+- Skalierbarkeit
+- Modell-Integration
 
-<div>
-🔹 **Technisch:**
-- Wie skaliert das System?
-- Welche LLMs werden unterstützt?
-- Deployment-Optionen?
-- Integration in bestehende Systeme?
-</div>
+**Rechtlich:**
+- EU AI Act Compliance
+- Assisted vs. Automated
 
-<div>
-🔹 **Pädagogisch:**
-- Wie validieren wir die Lernergebnisse?
-- Datenschutz für Studierende?
-- Kostenmodell?
-- Roadmap & Features?
-</div>
+**Philosophisch:**
+- UNIX Philosophie
+- Agentic Engineering
+- Minimalismus
 
 </div>
 
-**Live Demo möglich?** → Laptop bereit halten!
+<div class="quote emphasis">
+"The plain style is the most universal and the most timeless"
+</div>
 
 ---
 
-<!-- Backup Slide 1 -->
+# Stop thinking
 
-# **Vertiefung: User Agent Architektur**
+## Start building
 
-```mermaid
-graph TD
-    A[Lernender] -->|Aktion| B[User Agent]
-    B --> C[Profil analysieren]
-    B --> D[Fortschritt tracken]
-    B --> E[Empfehlungen generieren]
-    E --> F[Knowledge Agent]
-    E --> G[Assessment Agent]
-    F --> H[(Wissensdatenbank)]
-    G --> I[(Bewertungssystem)]
-```
+<div class="quote">
+"Talk is cheap. Show me the code." – Linus Torvalds
+</div>
 
----
-
-<!-- Backup Slide 2 -->
-
-# **Vergleich: OpenDesk Edu vs. Traditionelle LMS**
-
-| Feature | OpenDesk Edu | Moodle | ILIAS | Blackboard |
-|---------|--------------|--------|-------|------------|
-| **Agentic AI** | ✅ | ❌ | ❌ | ❌ |
-| **Automatische Bewertung** | ✅ | ⚠️ | ⚠️ | ⚠️ |
-| **Knowledge Graph** | ✅ | ❌ | ❌ | ❌ |
-| **Open Source** | ✅ | ✅ | ✅ | ❌ |
-| **Self-Hosted** | ✅ | ✅ | ✅ | ❌ |
-| **Moderne UX** | ✅ | ❌ | ❌ | ⚠️ |
-| **Multi-Agent** | ✅ | ❌ | ❌ | ❌ |
-
----
-
-<!-- Backup Slide 3 -->
-
-# **Roadmap 2026/2027**
-
-| Quartal | Milestone |
-|---------|-----------|
-| **Q4 2026** | Public Beta Release |
-| **Q1 2027** | Plug-in Marketplace |
-| **Q2 2027** | Mobile App (React Native) |
-| **Q3 2027** | Enterprise Features |
-| **Q4 2027** | Internationalisierung |
-
-**Pilotprogramm läuft bereits – jetzt einsteigen!**
-
----
-
-<!-- Backup Slide 4 -->
-
-# **Kontakt & Links**
-
-### 🌐 OpenDesk Edu
-- **Website:** [opendesk-edu.org](https://opendesk-edu.org)
-- **GitHub:** [github.com/opendesk-edu](https://github.com/opendesk-edu)
-- **Docs:** [docs.opendesk-edu.org](https://docs.opendesk-edu.org)
-
-### 👤 Tobias Weiss
-- **Website:** [tobias-weiss.org](https://tobias-weiss.org)
-- **Mastodon:** [@opendesk_edu@mastodon.social](https://mastodon.social/@opendesk_edu)
-- **LinkedIn:** [linkedin.com/in/tobias-weiss](https://linkedin.com/in/tobias-weiss)
-- **Email:** [tobias@tobias-weiss.org](mailto:tobias@tobias-weiss.org)
-
-### 📄 Diese Slides
-[github.com/tobias-weiss-ai-xr/HackyHourGiessen](https://github.com/tobias-weiss-ai-xr/HackyHourGiessen)
+<br>
+<br>
+<br>
+<br>
+<div class="footer-note">
+OpenDesk Edu – Kubernetes-native Agentic Learning Platform
+</div>

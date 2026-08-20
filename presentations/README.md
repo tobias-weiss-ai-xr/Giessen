@@ -7,11 +7,32 @@ This directory contains presentation slides for HackyHour Gießen events.
 ## 🎤 **Current Presentation: OpenDesk Edu (12+8 Format)**
 
 **📅 Date:** 26. August 2026  
-**👤 Speaker:** Tobias Weiss (DevOps Engineer, Uni Marburg)  
+**👤 Speaker:** Tobias Weiss  
 **📍 Event:** HackyHour Gießen at Makerspace Gießen  
-**⏱️ Format:** **12 minutes presentation + 8 minutes Q&A**  
-**🎯 Topic:** OpenDesk Edu als praktischer Use Case für Agentic Engineering  
+**⏱️ Format:** 12 minutes presentation + 8 minutes Q&A  
+**🎯 Topic:** OpenDesk Edu – Agentic Engineering in der Praxis  
 **🔗 Live Link:** [Slides ✨](/presentations/opendesk_edu_12plus8.html)
+
+---
+
+## 🎨 **Design Philosophy**
+
+### **UNIX Philosophy:**
+- Do one thing and do it well
+- Small, sharp tools
+- Compose small programs into larger ones
+- Less is more
+
+### **Stoic Philosophy:**
+- Clear, direct, honest
+- No unnecessary elements
+- Focus on function over form
+- Timeless simplicity
+
+### **Golden Ratio (φ ≈ 1.618):**
+- Natural proportions in layout
+- Balanced spacing and sizing
+- Harmonic visual hierarchy
 
 ---
 
@@ -19,32 +40,64 @@ This directory contains presentation slides for HackyHour Gießen events.
 
 | File | Purpose | Size |
 |------|---------|------|
-| [`opendesk_edu_12plus8.md`](opendesk_edu_12plus8.md) | **Marp source** – Edit this! | 11KB |
-| [`opendesk_edu_12plus8.html`](opendesk_edu_12plus8.html) | **Browser-ready** – Open in any browser | 179KB |
-| [`opendesk_edu_12plus8.pdf`](opendesk_edu_12plus8.pdf) | **Printable** – For handouts or offline viewing | 144KB |
-| [`SPEAKER_NOTES_12plus8.md`](SPEAKER_NOTES_12plus8.md) | **Detailed script** – Word-for-word timing | 20KB |
-| [`CHEAT_SHEET.md`](CHEAT_SHEET.md) | **Quick reference** – On-stage cheat sheet | 6KB |
+| `opendesk_edu_12plus8.md` | Marp source – Edit this! | 10KB |
+| `opendesk_edu_12plus8.html` | Browser-ready | 200KB |
+| `opendesk_edu_12plus8.pdf` | Printable version | 150KB |
+| `SPEAKER_NOTES_12plus8.md` | Minimal speaker script | 9KB |
+| `CHEAT_SHEET.md` | Quick reference | 7KB |
+| `LEGAL_CONSIDERATIONS.md` | EU AI Act compliance notes | 14KB |
+| `README.md` | This file | 4KB |
 
 ---
 
-## 🎯 **12+8 Format Explained**
+## 🎯 **Presentation Structure: 12+8 Format**
 
-### **Why 12+8?**
-- **12 minutes:** Tight, high-impact, story-driven presentation
-- **+8 minutes:** Flexible Q&A, discussion, and audience interaction
-- **Perfect for:** Following a main talk (Christian Uhl's "Agentic AI in Practice")
+### **12 Minutes - Core Content:**
 
-### **Structure:**
-1. **Hook (0:00-2:00)** – Grab attention with real problems
-2. **Theory (2:00-4:30)** – What is Agentic Engineering?
-3. **Solution (4:30-8:30)** – 3 Use Cases with impressive metrics
-4. **Validation (8:30-10:00)** – Data from pilot studies
-5. **Technical (10:00-11:30)** – Architecture & stack overview
-6. **CTA (11:30-12:00)** – **VOTING + Next steps**
+| Time | Slide | Topic | Philosophy |
+|------|-------|-------|------------|
+| 0:00-0:30 | 1 | Title | Minimal |
+| 0:30-1:30 | 2 | Konzept & Philosophie | UNIX + Golden Ratio |
+| 1:30-2:30 | 3 | Architektur | Simple, clear |
+| 2:30-3:30 | 4 | Die Agenten | One thing per agent |
+| 3:30-4:30 | 5 | Das Problem | Direct, honest |
+| 4:30-6:00 | 6 | Use Case 1: Korrektur | Assisted, not automated |
+| 6:00-7:30 | 7 | Use Case 2: Lernen | Adaptive support |
+| 7:30-8:30 | 8 | Use Case 3: Forschung | Collaboration |
+| 8:30-9:00 | 9 | Die Zahlen | Facts only |
+| 9:00-10:00 | 10 | Technologie | Small, sharp tools |
+| 10:00-10:30 | 11 | Kubernetes | Enterprise-ready |
+| 10:30-11:30 | 12 | Mitmachen | Simple, direct |
+| 11:30-12:00 | 13 | Abstimmen | Clear CTA |
+
+### **+8 Minutes - Q&A:**
+- Open discussion
+- Legal questions (see LEGAL_CONSIDERATIONS.md)
+- Technical deep dives
+- Future vision
 
 ---
 
-## ⚡ **Quick Start**
+## ⚖️ **Legal Compliance Notes**
+
+### **EU AI Act - Article 6 Abs. 2 i.V.m. Anhang III Nr. 3(b)**
+- **Assessment of learning outcomes = HIGH RISK**
+- **Fully automated grading = Not possible**
+- **Assisted grading = Possible with human oversight**
+
+### **Presentation Adjustments:**
+- ✅ "Feedback Agent" replaces "Assessment Agent"
+- ✅ "Unterstützung" (support) not "Automatisch" (automatic)
+- ✅ "Mensch entscheidet final" (human has final control)
+- ✅ Focus on content creation, learning support, collaboration
+
+### **Key Resources:**
+- [EU AI Act Service Desk – Education](https://ai-act-service-desk.ec.europa.eu/en/education-and-vocational-training)
+- [Art. 6 Abs. 2 i.V.m. Anhang III Nr. 3(b) AI Act](https://artificialintelligenceact.eu/)
+
+---
+
+## 🚀 **Quick Start**
 
 ### **Viewing:**
 - 🌐 **HTML:** Open `opendesk_edu_12plus8.html` in any browser
@@ -52,9 +105,8 @@ This directory contains presentation slides for HackyHour Gießen events.
 - 📝 **Source:** Edit `opendesk_edu_12plus8.md` with any text editor
 
 ### **Editing:**
-
 ```bash
-# Install Marp CLI globally
+# Install Marp CLI
 npm install -g @marp-team/marp-cli
 
 # Convert to HTML
@@ -62,117 +114,49 @@ marp opendesk_edu_12plus8.md -o opendesk_edu_12plus8.html
 
 # Convert to PDF
 marp opendesk_edu_12plus8.md -o opendesk_edu_12plus8.pdf --pdf
-
-# Quick conversion (no installation)
-npx @marp-team/marp-cli@latest opendesk_edu_12plus8.md -o output.html
 ```
 
 ### **Presenting:**
 - Use **arrow keys** or **clicker** to navigate
-- **Space bar** also advances slides
+- **Space bar** advances slides
 - **ESC** to exit fullscreen
-- **O** to overview all slides
+- **O** for overview mode
 
 ---
 
-## 📊 **Slide Overview (12 Main + 4 Backup)**
+## 🎨 **Aesthetic & Design Features**
 
-### **🎯 Core Presentation (12 slides - 12 minutes):**
+### **Golden Ratio Applications:**
+- **Font sizes:** 17px, 21px, 26px, 34px, 42px, 58px (each ≈ φ × previous)
+- **Spacing:** 8px, 13px, 21px, 34px, 55px (Fibonacci sequence)
+- **Layout:** Content boxes follow golden rectangle proportions
+- **Hierarchy:** Visual weight based on φ ratios
 
-| # | Slide | Time | Topic | Key Message |
-|---|-------|------|-------|-------------|
-| 1 | **Title** | 0:00-1:00 | Introduction | Your talk, your story |
-| 2 | **Problem** | 1:00-2:00 | Pain Points | 10h, 3h, 4 Monate |
-| 3 | **Theory** | 2:00-3:30 | Agentic Engineering | 4 Principles |
-| 4 | **Architecture** | 3:30-4:30 | 4 Agents | User, Knowledge, Assessment, Collaboration |
-| 5 | **Use Case 1** | 4:30-6:00 | Automatische Korrektur | **9h gespart** |
-| 6 | **Use Case 2** | 6:00-7:30 | Adaptives Lernen | **85% schneller** |
-| 7 | **Use Case 3** | 7:30-8:30 | Kollaborative Forschung | **300% schneller** |
-| 8 | **Data** | 8:30-9:00 | Pilotstudie | +42%, +35%, 4.7/5 |
-| 9 | **Tech Overview** | 9:00-10:00 | Architecture | Multi-Agent System |
-| 10 | **Tech Stack** | 10:00-10:30 | Technology | Node.js, LLM, Next.js |
-| 11 | **Getting Started** | 10:30-11:30 | Installation | 5 Minuten |
-| 12 | **🎯 VOTING CTA** | 11:30-12:00 | Call to Action | **QR Code + Link** |
+### **UNIX Philosophy in Design:**
+- **One purpose per slide**
+- **No unnecessary elements**
+- **Clean, functional typography**
+- **Minimal color palette** (black, white, blue, green)
+- **Consistent patterns**
 
-### **❓ Q&A Slide (+8 minutes):**
-- **Slide 13:** Fragen & Diskussion – Prepared topics and prompts
-
-### **📦 Backup Slides (if time permits):**
-- **Slide 14:** Vertiefung: User Agent Architektur (Mermaid diagram)
-- **Slide 15:** Vergleich: OpenDesk Edu vs. Traditionelle LMS (table)
-- **Slide 16:** Roadmap 2026/2027 (timeline)
-- **Slide 17:** Kontakt & Links (all resources)
+### **Stoic Philosophy in Delivery:**
+- **Clear, direct language**
+- **No marketing fluff**
+- **Focus on substance**
+- **Honest about limitations**
+- **Calm, composed tone**
 
 ---
 
-## 🎯 **Content Highlights**
+## 📊 **Key Metrics (Potential Impact)**
 
-### **🔥 The 3 Value Bombs (Memorize These!):**
+| Use Case | Problem | Solution | Potential |
+|----------|---------|----------|-----------|
+| **Korrektur** | 10h/Woche | Feedback Agent | **9h gespart** |
+| **Lernverständnis** | 3h für Konzeptidee | Adaptive Lernpfade | **85% schneller** |
+| **Forschung** | 4 Monate Koordination | Kollaborations-Agenten | **300% schneller** |
 
-1. **Use Case 1:** Prof. Müller spart **9 Stunden pro Woche** bei Korrekturen
-2. **Use Case 2:** Max lernt **85% schneller** (30 Min statt 3 Std)
-3. **Use Case 3:** Forschung **300% schneller** (6 Wochen statt 4 Monate)
-
-### **📊 The Proof:**
-- **Pilotstudie Uni Marburg:** 200 Studierende
-- **+42% Lernfortschritt** (statistisch signifikant)
-- **+35% Retentionsrate** (behalten mehr)
-- **4.7/5.0 Nutzerzufriedenheit**
-- **4.8/5.0 Lehrenden-Feedback**
-
-### **🏗️ The Tech:**
-- **Backend:** Node.js + TypeScript + Fastify + PostgreSQL
-- **AI/ML:** LangChain.js + LangGraph + Ollama + Qdrant
-- **Frontend:** Next.js 14 + Tailwind CSS + WebSockets
-- **Deployment:** Docker Compose (5 Minuten Setup)
-
----
-
-## 🎤 **Presenting Tips**
-
-### **Timing:**
-- **Start strong** – Grab attention in first 30 seconds
-- **Watch the clock** – Aim for **Slide 12 by minute 11:30**
-- **End on time** –Respect the audience
-- **Leave buffer** – 30 seconds for transitions
-
-### **Delivery:**
-- **Make eye contact** – Connect with individuals
-- **Vary your voice** – Avoid monotony
-- **Use gestures** – Emphasize key points
-- **Pause after metrics** – Let them sink in
-- **Smile!** – It makes you more approachable
-
-### **Handling Q&A:**
-- **Repeat the question** – Gives you time to think
-- **"Great question!"** – Always positive
-- **Bridge to your message** – "That's why we..."
-- **Modify if needed** – "Let me rephrase that..."
-- **Invite discussion** – "What do others think?"
-
----
-
-## 🗣️ **Key Phrases to Remember**
-
-### **Transitions:**
-- **"Bevor ich die Lösung zeige..."** → Problem → Theory
-- **"Und jetzt zeige ich euch, WAS das kann..."** → Theory → Use Cases
-- **"Klingt gut, aber stimmt das auch?"** → Use Cases → Data
-- **"Und das Beste: Sie können es heute ausprobieren..."** → Data → Getting Started
-- **"Und jetzt der wichtigste Teil..."** → Getting Started → Voting CTA
-
-### **Value Statements:**
-- **"9 Stunden pro Woche zurückgewonnen"** (Use Case 1)
-- **"Aus Frust wird Flow"** (Use Case 2)
-- **"Von Monaten zu Wochen"** (Use Case 3)
-- **"Das sind keine Versprechungen. Das sind Fakten."** (Data)
-- **"Technologie, die dient – nicht beherrscht."** (Tech)
-
-### **Call to Action:**
-- **"Jede Stimme zählt!"**
-- **"30 Sekunden Ihrer Zeit – ein großer Unterschied"**
-- **"Bildung ist unsere Zukunft. Open Source ist der Weg."**
-- **"Ihre Stimme ist der nächste Schritt."**
+**Note:** These represent potential improvements based on the technology capabilities, not guaranteed results from specific implementations.
 
 ---
 
@@ -187,84 +171,9 @@ Support OpenDesk Edu in the **Open Source Wettbewerb 2026**
 - **Time:** Takes less than 30 seconds
 
 ### **Why It Matters:**
-- **Visibility** – More recognition for the project
-- **Credibility** – Validation from the community
-- **Resources** – Access to funding and support
-- **Impact** – Helps shape the future of open source education
-
----
-
-## 📋 **Preparation Checklist**
-
-### **📁 Files:**
-- [ ] `opendesk_edu_12plus8.html` – Main presentation (browsers)
-- [ ] `opendesk_edu_12plus8.pdf` – Backup (print/offline)
-- [ ] `opendesk_edu_12plus8.md` – Source (editing)
-- [ ] `SPEAKER_NOTES_12plus8.md` – Detailed script
-- [ ] `CHEAT_SHEET.md` – Quick reference
-
-### **💻 Technology:**
-- [ ] Laptop charged (>50%)
-- [ ] Presentation tested in browser
-- [ ] PDF backup on desktop
-- [ ] Clicker tested
-- [ ] HDMI adapter (if needed)
-- [ ] USB stick with all files (backup)
-
-### **📱 On Your Phone:**
-- [ ] QR code for voting ready
-- [ ] Timer/stopwatch app
-- [ ] Silent mode enabled
-
-### **🧠 Mental Prep:**
-- [ ] Review speaker notes
-- [ ] Practice timing (aim for 11:30-12:00)
-- [ ] Memorize key metrics (9h, 85%, 300%)
-- [ ] Prepare answers for likely questions
-- [ ] **Power pose for 2 minutes** (boosts confidence)
-
----
-
-## 🎓 **Academic & Professional Standards**
-
-### **Didactic Excellence:**
-✅ Clear learning objectives  
-✅ Logical structure  
-✅ Active learning (Q&A)  
-✅ Multi-modal presentation (visual + auditory)  
-✅ Evidence-based claims  
-
-### **Professional Quality:**
-✅ Consistent branding  
-✅ High-quality visuals  
-✅ Proper citations (sources, studies)  
-✅ Clear messaging  
-✅ Confident delivery  
-
-### **Academic Rigor:**
-✅ References to scientific literature  
-✅ Pilot study data  
-✅ Statistical significance  
-✅ Peer review (quote from Prof. Schmidt)  
-✅ Reproducible results  
-
----
-
-## 🎨 **Aesthetic & Design Features**
-
-### **Visual Design:**
-- **Color Scheme:** Professional blue gradient (#2c3e50, #3498db)
-- **Typography:** Segoe UI / Helvetica Neue (clean, readable)
-- **Layout:** Grid-based, consistent spacing
-- **Icons:** Emoji for visual emphasis
-- **Diagrams:** Mermaid.js for architecture
-
-### **Marketing Psychology:**
-- **Social Proof:** Pilot study results + quote
-- **Scarcity:** "Pilotprojekte kostenlos für Early Adopter"
-- **Urgency:** Voting deadline + "Jetzt abstimmen"
-- **Benefit-Focused:** Always show value
-- **Emotional Appeal:** "Aus Frust wird Flow"
+- Visibility for the project
+- Validation from the community
+- Support for open source education
 
 ---
 
@@ -281,12 +190,12 @@ Support OpenDesk Edu in the **Open Source Wettbewerb 2026**
 - [Docs](https://docs.opendesk-edu.org/)
 - [Discord](https://discord.gg/opendesk)
 
-### **HackyHour Gießen:**
-- [GitHub Repo](https://github.com/tobias-weiss-ai-xr/HackyHourGiessen)
-- [Existing Notes](https://github.com/tobias-weiss-ai-xr/HackyHourGiessen/tree/main/notes)
+### **Event:**
+- [HackyHour Gießen GitHub](https://github.com/tobias-weiss-ai-xr/HackyHourGiessen)
 
-### **Voting:**
-- [Open Source Wettbewerb](https://open-source-wettbewerb.de/voting/opendesk-edu/)
+### **Resources:**
+- [Free Gemini for Students](https://www.mydealz.de/deals/google-1-jahr-gemini-im-google-ai-plus-abo-kostenlos-fur-studierende-auszubildende-inkl-400-gb-cloud-speicher-gemini-notebook-omni-2827075)
+- [EU AI Act Education](https://ai-act-service-desk.ec.europa.eu/en/education-and-vocational-training)
 
 ---
 
@@ -294,28 +203,32 @@ Support OpenDesk Edu in the **Open Source Wettbewerb 2026**
 
 | Date | Version | Changes |
 |------|---------|---------|
-| 26.08.2026 | **1.0.0** | Initial 12+8 format presentation |
-| 26.08.2026 | 1.0.0 | Added speaker notes and cheat sheet |
+| 23.08.2026 | 2.0.0 | Added UNIX + Stoic + Golden Ratio philosophy |
+| 23.08.2026 | 2.0.0 | Removed institutional references |
+| 23.08.2026 | 2.0.0 | Added legal compliance focus |
+| 23.08.2026 | 1.0.0 | Initial 12+8 format presentation |
 
 ---
 
-## 🎉 **You're Ready!**
+## ✨ **Philosophy Statement**
 
-Your presentation is:
-- ✅ **Perfectly timed** for 12+8 minutes
-- ✅ **Didactically excellent** (clear, structured, engaging)
-- ✅ **Professionally polished** (design, content, flow)
-- ✅ **Academically rigorous** (sources, data, validation)
-- ✅ **Practically useful** (real examples, actionable insights)
-- ✅ **Aesthetically pleasing** (modern, readable, visual)
-- ✅ **Psychologically optimized** (social proof, clear CTA)
-- ✅ **Linked from website** (easy access for attendees)
-- ✅ **Available in 3 formats** (MD, HTML, PDF)
-
-**🚀 Now go deliver a talk that changes how people think about education!**
+> **"Einfach. Mächtig. Offene Architektur."**
+> 
+> OpenDesk Edu verkörpert drei zeitlose Prinzipien:
+> 
+> **UNIX:** Do one thing and do it well. Jeder Agent hat eine klare Aufgabe. Zusammen schaffen sie Großes.
+> 
+> **Stoic:** Klarheit und Ehrlichkeit. Kein Marketing-Geschwafel. Nur Fakten und funktionierende Technologie.
+> 
+> **Golden Ratio:** Natürliche Schönheit durch Proportionen. Funktionelles Design, das angenehm für das Auge ist.
+> 
+> **Die Zukunft der Bildung ist nicht komplexer – sie ist einfacher.**
 
 ---
+
+**🚀 Ready to present. Keep it simple. Keep it powerful.**
 
 ---
 
 *Last updated: 23. August 2026*
+*Philosophy: UNIX + Stoic + Golden Ratio*
