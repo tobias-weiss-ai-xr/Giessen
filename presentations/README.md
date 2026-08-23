@@ -92,16 +92,17 @@ npx @marp-team/marp-cli@latest opendesk_edu_12plus8.md -o output.html
 | 9 | **Tech Overview** | 9:00-10:00 | Architecture | Multi-Agent System |
 | 10 | **Tech Stack** | 10:00-10:30 | Technology | Node.js, LLM, Next.js |
 | 11 | **Getting Started** | 10:30-11:30 | Installation | 5 Minuten |
-| 12 | **🎯 VOTING CTA** | 11:30-12:00 | Call to Action | **QR Code + Link** |
+| 12 | **🎯 VOTING CTA** | 11:30-12:00 | Call to Action | **QR Code + Link (voting-qr.png)** |
+| 13 | **🏆 PREISVERLEIHUNG** | ~12:00 | Bonus CTA | StartMiUp Finale auf YouTube (preisverleihung-qr.png) |
 
 ### **❓ Q&A Slide (+8 minutes):**
-- **Slide 13:** Fragen & Diskussion – Prepared topics and prompts
+- **Slide 14:** Fragen & Diskussion – Prepared topics and prompts
 
 ### **📦 Backup Slides (if time permits):**
-- **Slide 14:** Vertiefung: User Agent Architektur (Mermaid diagram)
-- **Slide 15:** Vergleich: OpenDesk Edu vs. Traditionelle LMS (table)
-- **Slide 16:** Roadmap 2026/2027 (timeline)
-- **Slide 17:** Kontakt & Links (all resources)
+- **Slide 15:** Vertiefung: User Agent Architektur (Mermaid diagram)
+- **Slide 16:** Vergleich: OpenDesk Edu vs. Traditionelle LMS (table)
+- **Slide 17:** Roadmap 2026/2027 (timeline)
+- **Slide 18:** Kontakt & Links (all resources)
 
 ---
 
@@ -182,7 +183,7 @@ npx @marp-team/marp-cli@latest opendesk_edu_12plus8.md -o output.html
 Support OpenDesk Edu in the **Open Source Wettbewerb 2026**
 
 ### **How:**
-- **QR Code:** Scan with phone camera
+- **QR Code:** Scan with phone camera (lokale PNG `voting-qr.png` auf Folie 12 – funktioniert offline)
 - **URL:** [https://open-source-wettbewerb.de/voting/opendesk-edu/](https://open-source-wettbewerb.de/voting/opendesk-edu/)
 - **Time:** Takes less than 30 seconds
 
@@ -194,6 +195,21 @@ Support OpenDesk Edu in the **Open Source Wettbewerb 2026**
 
 ---
 
+## 🏆 **Preisverleihung: StartMiUp Business Model Wettbewerb 2026**
+
+### **The Ask:**
+openDesk Edu ist ins Finale des **StartMiUp Business Model Wettbewerb 2026** eingezogen. Die Preisverleihung wird live auf YouTube übertragen.
+
+### **How to watch:**
+- **QR Code:** Auf der Bonus-Folie 13 (Scan mit dem Handy) – `preisverleihung-qr.png`
+- **URL:** [youtube.com/live/wMvwufJSCoY](https://www.youtube.com/live/wMvwufJSCoY)
+- **Kanal:** [_StartMiUp](https://www.youtube.com/@_startmiup) – Innovations- & Startupcampus Mittelhessen (JLU Gießen · Uni Marburg · THM), kofinanziert durch die EU
+
+### **Timing in der Präsentation:**
+Bonus-Folie direkt nach dem Voting-CTA (ca. 12:00) – ca. 20-30 Sekunden, dann Q&A.
+
+---
+
 ## 📋 **Preparation Checklist**
 
 ### **📁 Files:**
@@ -202,6 +218,8 @@ Support OpenDesk Edu in the **Open Source Wettbewerb 2026**
 - [ ] `opendesk_edu_12plus8.md` – Source (editing)
 - [ ] `SPEAKER_NOTES_12plus8.md` – Detailed script
 - [ ] `CHEAT_SHEET.md` – Quick reference
+- [ ] `voting-qr.png` – Offline QR für Voting (Folie 12)
+- [ ] `preisverleihung-qr.png` – Offline QR für StartMiUp Preisverleihung (Folie 13)
 
 ### **💻 Technology:**
 - [ ] Laptop charged (>50%)
@@ -212,7 +230,7 @@ Support OpenDesk Edu in the **Open Source Wettbewerb 2026**
 - [ ] USB stick with all files (backup)
 
 ### **📱 On Your Phone:**
-- [ ] QR code for voting ready
+- [ ] QR codes for voting + Preisverleihung ready (on slides + phone backup)
 - [ ] Timer/stopwatch app
 - [ ] Silent mode enabled
 
@@ -288,6 +306,9 @@ Support OpenDesk Edu in the **Open Source Wettbewerb 2026**
 ### **Voting:**
 - [Open Source Wettbewerb](https://open-source-wettbewerb.de/voting/opendesk-edu/)
 
+### **Preisverleihung:**
+- [StartMiUp Business Model Wettbewerb 2026 – Live auf YouTube](https://www.youtube.com/live/wMvwufJSCoY)
+
 ---
 
 ## 📝 **Version History**
@@ -296,6 +317,7 @@ Support OpenDesk Edu in the **Open Source Wettbewerb 2026**
 |------|---------|---------|
 | 26.08.2026 | **1.0.0** | Initial 12+8 format presentation |
 | 26.08.2026 | 1.0.0 | Added speaker notes and cheat sheet |
+| 23.08.2026 | **1.1.0** | Offline QR-PNGs (Voting + Preisverleihung), StartMiUp Bonus-Folie |
 
 ---
 

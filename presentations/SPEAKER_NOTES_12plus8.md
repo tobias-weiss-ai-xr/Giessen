@@ -21,7 +21,7 @@
 3. **Solution** (4:30-8:30) – 3 Use Cases with metrics
 4. **Validation** (8:30-10:00) – Data & studies
 5. **Technical** (10:00-11:30) – Quick overview
-6. **CTA** (11:30-12:00) – Voting + Next steps
+6. **CTA** (11:30-12:00) – Voting + Preisverleihung
 
 ---
 
@@ -364,6 +364,26 @@
 - 🔥 **Create urgency** – "JETZT"
 - ⏰ **Pause after QR code** – let people scan
 - ❤️ **End with gratitude**
+
+---
+
+### **Bonus-Folie: StartMiUp Preisverleihung (direkt nach dem Voting-CTA)**
+
+**Content:** StartMiUp Business Model Wettbewerb 2026 – Live-Preisverleihung auf YouTube
+
+**Script:**
+> „Ein letzter Hinweis: openDesk Edu ist auch beim **StartMiUp Business Model Wettbewerb 2026** im Finale.  
+> Die **Preisverleihung** wird live auf YouTube übertragen.  
+> Scannt den QR-Code oder geht auf **youtube.com/live/wMvwufJSCoY**.  
+> Schaut rein – es lohnt sich!“
+
+**Timing:** 20-30 Sekunden (direkt nach dem Voting-CTA, vor Q&A)
+
+**Delivery Tips:**
+- 📺 **Auf den QR-Code zeigen** – wie beim Voting
+- 🏆 **Begeisterung zeigen** – „Wir sind im Finale!“
+- ⏱️ **Kurz halten** – das Voting bleibt der Höhepunkt; die Preisverleihung ist der Ausblick
+- 🔗 **Link wiederholen** – „youtube.com/live/wMvwufJSCoY“
 
 ---
 

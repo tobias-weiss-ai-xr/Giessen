@@ -367,10 +367,32 @@ npm run dev
 
 </div>
 
-![](https://api.qrserver.com/v1/create-qr-code/?size=200x200&bgcolor=FFFFFF&color=2c3e50&data=https://open-source-wettbewerb.de/voting/opendesk-edu/)
+![](voting-qr.png)
 
 <div class="slide-number">Slide 12/12</div>
 <div class="timer">⏰ 11:30-12:00</div>
+
+---
+
+<!-- Bonus CTA: StartMiUp Preisverleihung -->
+
+# **📺 StartMiUp Business Model Wettbewerb 2026**
+
+## 🏆 Live-Preisverleihung auf YouTube
+
+<div class="cta">
+
+**openDesk Edu im Finale!** 🎉
+
+▶️ **Livestream ansehen** – QR-Code scannen:
+
+[youtube.com/live/wMvwufJSCoY](https://www.youtube.com/live/wMvwufJSCoY)
+
+</div>
+
+![](preisverleihung-qr.png)
+
+*StartMiUp – Innovations- & Startupcampus Mittelhessen · JLU Gießen · Uni Marburg · THM · kofinanziert durch die EU*
 
 ---
 

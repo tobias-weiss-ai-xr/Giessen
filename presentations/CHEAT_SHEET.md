@@ -67,10 +67,11 @@
 
 ## 🔥 **CTA Hierarchy (Most to Least Important)**
 
-1. **🗳️ VOTING** – "Scannen Sie den QR-Code und stimmen Sie ab!"
-2. **💻 Try It** – "Probieren Sie OpenDesk Edu heute aus"
-3. **🤝 Contribute** – "Werden Sie Teil der Community"
-4. **🌟 Spread** – "Erzählen Sie anderen davon"
+1. **🗳️ VOTING** – „Scannen Sie den QR-Code und stimmen Sie ab!“
+2. **🏆 PREISVERLEIHUNG** – „StartMiUp Finale live auf YouTube – youtube.com/live/wMvwufJSCoY“
+3. **💻 Try It** – „Probieren Sie OpenDesk Edu heute aus“
+4. **🤝 Contribute** – „Werden Sie Teil der Community“
+5. **🌟 Spread** – „Erzählen Sie anderen davon“
 
 ---
 
@@ -100,7 +101,7 @@
 - [ ] HDMI adapter (if needed)
 
 ### **Phone:**
-- [ ] QR code for voting ready
+- [ ] QR codes for voting + Preisverleihung ready (on slides + phone backup)
 - [ ] Timer visible (or use watch)
 - [ ] Silent mode ON
 
@@ -126,17 +127,19 @@
 10:00-10:30| Tech Stack
 10:30-11:30| Getting Started
 11:30-12:00| VOTING CTA 🎯
+~12:00    | 🏆 StartMiUp Preisverleihung (Bonus-CTA)
 ```
 
 **Golden Rule:** Be at **Slide 12 (Voting) by minute 11:30**
 
 ---
 
-## 🎯 **The Only 3 Things You MUST Remember**
+## 🎯 **The Only 4 Things You MUST Remember**
 
 1. **🎯 The Problem:** Bildung ist ineffizient (10h, 3h, 4 Monate)
 2. **✨ The Solution:** 4 Agenten + OpenDesk Edu = Revolution
 3. **🗳️ The Action:** **JETZT Abstimmen!** (QR-Code)
+4. **🏆 Der Ausblick:** StartMiUp Preisverleihung auf YouTube (QR-Code)
 
 ---
 
