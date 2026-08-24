@@ -4,13 +4,13 @@ This directory contains presentation slides for HackyHour Gießen events.
 
 ---
 
-## 🎤 **Current Presentation: OpenDesk Edu (12+8 Format)**
+## 🎤 **Current Presentation: openDesk Edu (12+8 Format)**
 
 **📅 Date:** 26. August 2026  
-**👤 Speaker:** Tobias Weiss (DevOps Engineer, Uni Marburg)  
+**👤 Speaker:** Tobias Weiss (DevOps, Uni Marburg)  
 **📍 Event:** HackyHour Gießen at Makerspace Gießen  
 **⏱️ Format:** **12 minutes presentation + 8 minutes Q&A**  
-**🎯 Topic:** OpenDesk Edu als praktischer Use Case für Agentic Engineering  
+**🎯 Topic:** Souveräne Hochschul-IT mit offener KI – aufgebaut auf eigenem k3s-Cluster (bare metal), mit KI-Hilfe aufgesetzt, jetzt im Übergang in den Pilotbetrieb; Zielbild: **Hybrid** (Verwaltung bleibt MS365 · Staff & Students wechseln auf openDesk Edu)  
 **🔗 Live Link:** [Slides ✨](/presentations/opendesk_edu_12plus8.html)
 
 ---
@@ -19,11 +19,13 @@ This directory contains presentation slides for HackyHour Gießen events.
 
 | File | Purpose | Size |
 |------|---------|------|
-| [`opendesk_edu_12plus8.md`](opendesk_edu_12plus8.md) | **Marp source** – Edit this! | 11KB |
-| [`opendesk_edu_12plus8.html`](opendesk_edu_12plus8.html) | **Browser-ready** – Open in any browser | 179KB |
-| [`opendesk_edu_12plus8.pdf`](opendesk_edu_12plus8.pdf) | **Printable** – For handouts or offline viewing | 144KB |
-| [`SPEAKER_NOTES_12plus8.md`](SPEAKER_NOTES_12plus8.md) | **Detailed script** – Word-for-word timing | 20KB |
-| [`CHEAT_SHEET.md`](CHEAT_SHEET.md) | **Quick reference** – On-stage cheat sheet | 6KB |
+| [`opendesk_edu_12plus8.md`](opendesk_edu_12plus8.md) | **Marp source** – Edit this! | 13KB |
+| [`opendesk_edu_12plus8.html`](opendesk_edu_12plus8.html) | **Browser-ready** – Open in any browser | ~175KB |
+| [`opendesk_edu_12plus8.pdf`](opendesk_edu_12plus8.pdf) | **Printable** – For handouts or offline viewing | ~360KB |
+| [`SPEAKER_NOTES_12plus8.md`](SPEAKER_NOTES_12plus8.md) | **Script & Timing** – Story + Delivery-Tipps | 13KB |
+| [`CHEAT_SHEET.md`](CHEAT_SHEET.md) | **Quick reference** – On-stage cheat sheet | 5KB |
+| [`voting-qr.png`](voting-qr.png) | **Offline QR** – Voting (Folie 12) | 3KB |
+| [`preisverleihung-qr.png`](preisverleihung-qr.png) | **Offline QR** – StartMiUp Preisverleihung (Folie 13) | 3KB |
 
 ---
 
@@ -32,15 +34,15 @@ This directory contains presentation slides for HackyHour Gießen events.
 ### **Why 12+8?**
 - **12 minutes:** Tight, high-impact, story-driven presentation
 - **+8 minutes:** Flexible Q&A, discussion, and audience interaction
-- **Perfect for:** Following a main talk (Christian Uhl's "Agentic AI in Practice")
 
-### **Structure:**
-1. **Hook (0:00-2:00)** – Grab attention with real problems
-2. **Theory (2:00-4:30)** – What is Agentic Engineering?
-3. **Solution (4:30-8:30)** – 3 Use Cases with impressive metrics
-4. **Validation (8:30-10:00)** – Data from pilot studies
-5. **Technical (10:00-11:30)** – Architecture & stack overview
-6. **CTA (11:30-12:00)** – **VOTING + Next steps**
+### **Structure (Story-Arc, hohes Niveau, keine Interna):**
+1. **Ausgangslage (0:00–1:45)** – MS365, US-Cloud, Datenhoheit nicht an der Hochschule
+2. **Idee (1:45–3:00)** – openDesk Edu = openDesk CE (quelloffen, BSI-zertifiziert) + Bildungs-Services + offene KI
+3. **Wie (3:00–6:45)** – eigener k3s-Cluster auf bare metal, mit KI-Hilfe aufgesetzt; für Unis + KI zugänglich gemacht
+4. **Status (6:45–7:45)** – läuft am Hochschulrechenzentrum ("Kein Konzept – es läuft")
+5. **Ziel (7:45–8:45)** – Hybrid: Verwaltung MS365 · Staff & Students openDesk Edu
+6. **Jetzt (8:45–11:00)** – langsamer Pilotbetrieb (Startups · ggf. Fachbereich), Gründe, Mitmachen
+7. **CTA (11:00–12:00)** – **VOTING** (Open Source Wettbewerb, bis 30.09.) + Preisverleihung-Stream (Bonus)
 
 ---
 
@@ -61,10 +63,10 @@ npm install -g @marp-team/marp-cli
 marp opendesk_edu_12plus8.md -o opendesk_edu_12plus8.html
 
 # Convert to PDF
-marp opendesk_edu_12plus8.md -o opendesk_edu_12plus8.pdf --pdf
+marp --pdf --allow-local-files opendesk_edu_12plus8.md -o opendesk_edu_12plus8.pdf
 
-# Quick conversion (no installation)
-npx @marp-team/marp-cli@latest opendesk_edu_12plus8.md -o output.html
+# As slide images (for review):
+marp opendesk_edu_12plus8.md --images png -o .preview/preview.png
 ```
 
 ### **Presenting:**
@@ -75,138 +77,124 @@ npx @marp-team/marp-cli@latest opendesk_edu_12plus8.md -o output.html
 
 ---
 
-## 📊 **Slide Overview (12 Main + 4 Backup)**
+## 📊 **Slide Overview (12 Main + Q&A + Backups)**
 
-### **🎯 Core Presentation (12 slides - 12 minutes):**
+### **🎯 Core Presentation (12 slides – 12 minutes):**
 
 | # | Slide | Time | Topic | Key Message |
 |---|-------|------|-------|-------------|
-| 1 | **Title** | 0:00-1:00 | Introduction | Your talk, your story |
-| 2 | **Problem** | 1:00-2:00 | Pain Points | 10h, 3h, 4 Monate |
-| 3 | **Theory** | 2:00-3:30 | Agentic Engineering | 4 Principles |
-| 4 | **Architecture** | 3:30-4:30 | 4 Agents | User, Knowledge, Assessment, Collaboration |
-| 5 | **Use Case 1** | 4:30-6:00 | Automatische Korrektur | **9h gespart** |
-| 6 | **Use Case 2** | 6:00-7:30 | Adaptives Lernen | **85% schneller** |
-| 7 | **Use Case 3** | 7:30-8:30 | Kollaborative Forschung | **300% schneller** |
-| 8 | **Data** | 8:30-9:00 | Pilotstudie | +42%, +35%, 4.7/5 |
-| 9 | **Tech Overview** | 9:00-10:00 | Architecture | Multi-Agent System |
-| 10 | **Tech Stack** | 10:00-10:30 | Technology | Node.js, LLM, Next.js |
-| 11 | **Getting Started** | 10:30-11:30 | Installation | 5 Minuten |
-| 12 | **🎯 VOTING CTA** | 11:30-12:00 | Call to Action | **QR Code + Link (voting-qr.png)** |
-| 13 | **🏆 PREISVERLEIHUNG** | ~12:00 | Bonus CTA | StartMiUp Finale auf YouTube (preisverleihung-qr.png) |
+| 1 | **Title** | 0:00–0:45 | openDesk Edu | Vom k3s-Cluster in den Pilotbetrieb |
+| 2 | **Ausgangslage** | 0:45–1:45 | MS365 & Datenhoheit | 40.000 Studierende · US-Cloud · HBDI/Digitalpakt Hessen |
+| 3 | **Idee** | 1:45–3:00 | openDesk Edu | openDesk CE (BSI) + Bildungs-Services · Baukasten · ein Login |
+| 4 | **Cluster** | 3:00–4:15 | k3s auf bare metal | eigene Hardware, volle Kontrolle |
+| 5 | **KI-Hilfe** | 4:15–5:30 | Aufgesetzt mit KI | KI-Agenten als Co-Piloten, Kontrolle beim Team |
+| 6 | **Zugänglich** | 5:30–6:45 | Für Unis + KI | Bildungs-Services + lokale, datenschutzkonforme KI |
+| 7 | **Status** | 6:45–7:45 | Läuft am RZ | Kein Konzept – es läuft |
+| 8 | **Zielbild** | 7:45–8:45 | Hybrid | Verwaltung MS365 · Staff & Students openDesk Edu |
+| 9 | **Pilotbetrieb** | 8:45–9:45 | Jetzt | Startups · ggf. Fachbereich (Mathematik) · kleine Gruppen |
+| 10 | **Warum** | 9:45–10:30 | Gründe | Souveränität · stabile Kosten · Flexibilität · Community |
+| 11 | **Mitmachen** | 10:30–11:00 | Ressourcen | Website · GitHub · Landscape · Piloten |
+| 12 | **🎯 VOTING CTA** | 11:00–12:00 | Call to Action | **QR (voting-qr.png) + Link** · bis 30.09. |
+| 13 | **🏆 PREISVERLEIHUNG** | ~12:00 | Bonus CTA | StartMiUp Livestream auf YouTube (preisverleihung-qr.png) |
 
 ### **❓ Q&A Slide (+8 minutes):**
-- **Slide 14:** Fragen & Diskussion – Prepared topics and prompts
+- **Slide 14:** Fragen & Diskussion – Technik, Datenschutz, Hybrid, Pilotbetrieb
 
 ### **📦 Backup Slides (if time permits):**
-- **Slide 15:** Vertiefung: User Agent Architektur (Mermaid diagram)
-- **Slide 16:** Vergleich: OpenDesk Edu vs. Traditionelle LMS (table)
-- **Slide 17:** Roadmap 2026/2027 (timeline)
-- **Slide 18:** Kontakt & Links (all resources)
+- **Slide 15:** Konzeptbild – ein Login verbindet Lehre · Kommunikation · Dateien · KI
+- **Slide 16:** Einordnung – viele Einzellösungen → eine Plattform
+- **Slide 17:** Phasen – Test → Pilot → Rollout → Betrieb
+- **Slide 18:** Kontakt & Links
 
 ---
 
-## 🎯 **Content Highlights**
+## 🎯 **Content Highlights (die echte Geschichte – keine erfundenen Zahlen)**
 
-### **🔥 The 3 Value Bombs (Memorize These!):**
+### **🔥 Der Erzählbogen:**
+1. **Problem:** Hochschulen stehen auf MS365 – US-Cloud, steigende Lizenzen, Datenhoheit nicht an der Hochschule (belegt: HBDI-Risikoanalyse M365, Digitalpakt Hessen 2026–2031)
+2. **Idee:** openDesk Edu – der quelloffene, BSI-zertifizierte Digital Workplace des Bundes (openDesk CE) + Bildungs-Services + lokale, datenschutzkonforme KI; Baukasten, ein Login, ein Befehl deployt alles
+3. **Wie:** eigener k3s-Cluster auf bare metal, im Betrieb am Hochschulrechenzentrum; aufgesetzt **mit KI-Hilfe** (KI-Agenten als Co-Piloten bei Konfiguration & Fehlersuche – Entscheidungskontrolle beim Team)
+4. **Ziel:** Hybrid – Verwaltung/Backoffice bleibt MS365, Staff & Students arbeiten auf openDesk Edu; kein Big Bang
+5. **Jetzt:** langsamer, kontrollierter **Pilotbetrieb** – erste Piloten: Startups aus dem regionalen Ökosystem; ggf. ein Fachbereich (z. B. Mathematik); kleine Gruppen → gestaffelter Rollout
 
-1. **Use Case 1:** Prof. Müller spart **9 Stunden pro Woche** bei Korrekturen
-2. **Use Case 2:** Max lernt **85% schneller** (30 Min statt 3 Std)
-3. **Use Case 3:** Forschung **300% schneller** (6 Wochen statt 4 Monate)
-
-### **📊 The Proof:**
-- **Pilotstudie Uni Marburg:** 200 Studierende
-- **+42% Lernfortschritt** (statistisch signifikant)
-- **+35% Retentionsrate** (behalten mehr)
-- **4.7/5.0 Nutzerzufriedenheit**
-- **4.8/5.0 Lehrenden-Feedback**
-
-### **🏗️ The Tech:**
-- **Backend:** Node.js + TypeScript + Fastify + PostgreSQL
-- **AI/ML:** LangChain.js + LangGraph + Ollama + Qdrant
-- **Frontend:** Next.js 14 + Tailwind CSS + WebSockets
-- **Deployment:** Docker Compose (5 Minuten Setup)
+**Grundsatz:** Der Vortrag bleibt bewusst auf hohem Niveau – **keine internen Details** (keine Knoten-/Pod-Zahlen, keine internen Werkzeuge, keine internen Prozesse). Alles Gesagte ist öffentlich belegbar.
 
 ---
 
 ## 🎤 **Presenting Tips**
 
 ### **Timing:**
-- **Start strong** – Grab attention in first 30 seconds
-- **Watch the clock** – Aim for **Slide 12 by minute 11:30**
-- **End on time** –Respect the audience
+- **Start strong** – Grab attention in the first 30 seconds
+- **Watch the clock** – Aim for **Slide 12 (Voting) by minute 11:00**
+- **End on time** – respect the audience
 - **Leave buffer** – 30 seconds for transitions
 
 ### **Delivery:**
-- **Make eye contact** – Connect with individuals
-- **Vary your voice** – Avoid monotony
-- **Use gestures** – Emphasize key points
-- **Pause after metrics** – Let them sink in
-- **Smile!** – It makes you more approachable
+- **Make eye contact** – connect with individuals
+- **Vary your voice** – avoid monotony
+- **Pause after the punch lines** – "Kein Konzept – es läuft", "ein Login für alles"
+- **Be honest** – if unsure, say so; never invent numbers
 
 ### **Handling Q&A:**
-- **Repeat the question** – Gives you time to think
-- **"Great question!"** – Always positive
-- **Bridge to your message** – "That's why we..."
-- **Modify if needed** – "Let me rephrase that..."
-- **Invite discussion** – "What do others think?"
+- **Repeat the question** – gives you time to think
+- **"Good question!"** – always positive
+- **Bridge to your message** – "Daran arbeiten wir aktiv…"
+- **Interna-Fragen** – freundlich abgrenzen: "Dazu halten wir Details bewusst privat – gern im Gespräch dazu"
 
 ---
 
 ## 🗣️ **Key Phrases to Remember**
 
 ### **Transitions:**
-- **"Bevor ich die Lösung zeige..."** → Problem → Theory
-- **"Und jetzt zeige ich euch, WAS das kann..."** → Theory → Use Cases
-- **"Klingt gut, aber stimmt das auch?"** → Use Cases → Data
-- **"Und das Beste: Sie können es heute ausprobieren..."** → Data → Getting Started
-- **"Und jetzt der wichtigste Teil..."** → Getting Started → Voting CTA
-
-### **Value Statements:**
-- **"9 Stunden pro Woche zurückgewonnen"** (Use Case 1)
-- **"Aus Frust wird Flow"** (Use Case 2)
-- **"Von Monaten zu Wochen"** (Use Case 3)
-- **"Das sind keine Versprechungen. Das sind Fakten."** (Data)
-- **"Technologie, die dient – nicht beherrscht."** (Tech)
+- "Nehmt eine deutsche Uni – 40.000 Studierende…" → Ausgangslage
+- "Die gute Nachricht: Es gibt schon openDesk CE…" → Idee
+- "Basis ist unser eigener Cluster…" → Technik
+- "Ehrlich: viel Arbeit – KI-Agenten waren Co-Piloten…" → KI-Hilfe
+- "Und wichtig: Das ist **kein Konzept – es läuft**." → Status
+- "Unser Ziel ist Hybrid – kein Dogma…" → Zielbild
+- "Jetzt wird es konkret: in den Pilotbetrieb…" → Pilot
+- "Und jetzt meine Bitte…" → Voting
 
 ### **Call to Action:**
-- **"Jede Stimme zählt!"**
-- **"30 Sekunden Ihrer Zeit – ein großer Unterschied"**
-- **"Bildung ist unsere Zukunft. Open Source ist der Weg."**
-- **"Ihre Stimme ist der nächste Schritt."**
+- "**Bis 30. September abstimmen** – open-source-wettbewerb.de/voting/opendesk-edu/"
+- "Jede Stimme macht offene Hochschul-IT sichtbar."
+- "Eigene Piloten? Sprecht mich an!"
+- "StartMiUp-Preisverleihung live auf YouTube – QR-Code scannen."
 
 ---
 
 ## 🗳️ **Voting Information**
 
 ### **The Ask:**
-Support OpenDesk Edu in the **Open Source Wettbewerb 2026**
+Support OpenDesk Edu in the **Open Source Wettbewerb 2026** (Community-Voting; 65 Projekte)
 
 ### **How:**
-- **QR Code:** Scan with phone camera (lokale PNG `voting-qr.png` auf Folie 12 – funktioniert offline)
+- **QR Code:** local PNG `voting-qr.png` on Folie 12 (offline-fähig)
 - **URL:** [https://open-source-wettbewerb.de/voting/opendesk-edu/](https://open-source-wettbewerb.de/voting/opendesk-edu/)
+- **Deadline:** **30. September 2026**
 - **Time:** Takes less than 30 seconds
 
 ### **Why It Matters:**
-- **Visibility** – More recognition for the project
-- **Credibility** – Validation from the community
-- **Resources** – Access to funding and support
-- **Impact** – Helps shape the future of open source education
+- **Visibility** – more recognition for the project
+- **Credibility** – validation from the community
+- **Community** – strengthens open source in education
 
 ---
 
 ## 🏆 **Preisverleihung: StartMiUp Business Model Wettbewerb 2026**
 
 ### **The Ask:**
-openDesk Edu ist ins Finale des **StartMiUp Business Model Wettbewerb 2026** eingezogen. Die Preisverleihung wird live auf YouTube übertragen.
+openDesk Edu ist Teil des regionalen Startup-Ökosystems (StartMiUp). Die **Preisverleihung des StartMiUp Business Model Wettbewerbs 2026** wird live auf YouTube übertragen.
 
 ### **How to watch:**
-- **QR Code:** Auf der Bonus-Folie 13 (Scan mit dem Handy) – `preisverleihung-qr.png`
+- **QR Code:** Bonus-Folie 13 (`preisverleihung-qr.png`, Scan mit dem Handy)
 - **URL:** [youtube.com/live/wMvwufJSCoY](https://www.youtube.com/live/wMvwufJSCoY)
 - **Kanal:** [_StartMiUp](https://www.youtube.com/@_startmiup) – Innovations- & Startupcampus Mittelhessen (JLU Gießen · Uni Marburg · THM), kofinanziert durch die EU
 
 ### **Timing in der Präsentation:**
-Bonus-Folie direkt nach dem Voting-CTA (ca. 12:00) – ca. 20-30 Sekunden, dann Q&A.
+Bonus-Folie direkt nach dem Voting-CTA (ca. 12:00) – ca. 20–30 Sekunden, dann Q&A.
+
+> Hinweis: Bewusst **keine** "Finale"-Behauptung aufgestellt – Status wird ehrlich offengehalten.
 
 ---
 
@@ -216,73 +204,40 @@ Bonus-Folie direkt nach dem Voting-CTA (ca. 12:00) – ca. 20-30 Sekunden, dann 
 - [ ] `opendesk_edu_12plus8.html` – Main presentation (browsers)
 - [ ] `opendesk_edu_12plus8.pdf` – Backup (print/offline)
 - [ ] `opendesk_edu_12plus8.md` – Source (editing)
-- [ ] `SPEAKER_NOTES_12plus8.md` – Detailed script
+- [ ] `SPEAKER_NOTES_12plus8.md` – Script & timing
 - [ ] `CHEAT_SHEET.md` – Quick reference
 - [ ] `voting-qr.png` – Offline QR für Voting (Folie 12)
 - [ ] `preisverleihung-qr.png` – Offline QR für StartMiUp Preisverleihung (Folie 13)
 
 ### **💻 Technology:**
 - [ ] Laptop charged (>50%)
-- [ ] Presentation tested in browser
+- [ ] Presentation tested in browser (offline capable)
 - [ ] PDF backup on desktop
 - [ ] Clicker tested
 - [ ] HDMI adapter (if needed)
 - [ ] USB stick with all files (backup)
 
 ### **📱 On Your Phone:**
-- [ ] QR codes for voting + Preisverleihung ready (on slides + phone backup)
+- [ ] QR codes for voting + Preisverleihung ready (slides + phone backup)
 - [ ] Timer/stopwatch app
 - [ ] Silent mode enabled
 
 ### **🧠 Mental Prep:**
 - [ ] Review speaker notes
-- [ ] Practice timing (aim for 11:30-12:00)
-- [ ] Memorize key metrics (9h, 85%, 300%)
-- [ ] Prepare answers for likely questions
-- [ ] **Power pose for 2 minutes** (boosts confidence)
+- [ ] Practice timing (aim for Slide 12 by 11:00)
+- [ ] Faktencheck: nur belegbare Aussagen, keine Interna
+- [ ] Prepare answers for likely questions (see speaker notes)
 
 ---
 
-## 🎓 **Academic & Professional Standards**
+## 🎨 **Aesthetic & Design Features (Golden Ratio)**
 
-### **Didactic Excellence:**
-✅ Clear learning objectives  
-✅ Logical structure  
-✅ Active learning (Q&A)  
-✅ Multi-modal presentation (visual + auditory)  
-✅ Evidence-based claims  
-
-### **Professional Quality:**
-✅ Consistent branding  
-✅ High-quality visuals  
-✅ Proper citations (sources, studies)  
-✅ Clear messaging  
-✅ Confident delivery  
-
-### **Academic Rigor:**
-✅ References to scientific literature  
-✅ Pilot study data  
-✅ Statistical significance  
-✅ Peer review (quote from Prof. Schmidt)  
-✅ Reproducible results  
-
----
-
-## 🎨 **Aesthetic & Design Features**
-
-### **Visual Design:**
-- **Color Scheme:** Professional blue gradient (#2c3e50, #3498db)
-- **Typography:** Segoe UI / Helvetica Neue (clean, readable)
-- **Layout:** Grid-based, consistent spacing
-- **Icons:** Emoji for visual emphasis
-- **Diagrams:** Mermaid.js for architecture
-
-### **Marketing Psychology:**
-- **Social Proof:** Pilot study results + quote
-- **Scarcity:** "Pilotprojekte kostenlos für Early Adopter"
-- **Urgency:** Voting deadline + "Jetzt abstimmen"
-- **Benefit-Focused:** Always show value
-- **Emotional Appeal:** "Aus Frust wird Flow"
+- **Color Scheme:** Professionelle Blau-Palette (#2c3e50, #3498db) – konsistent mit QR-Codes
+- **Typography:** Fibonacci-basierte Schriftskala (26 / 30 / 39 / 55 px), Segoe UI / Helvetica Neue
+- **Layout:** **Goldener Schnitt** – Zwei-Spalten-Splits 61.8 %/38.2 %, Akzentlinie unter Headlines bei 38.2 %, Fokus auf goldenen Punkten (0.382/0.618), Fibonacci-Abstände
+- **Icons:** Emoji für visuelle Betonung
+- **Diagrams:** HTML/CSS-Boxen (kein Mermaid) – volle Kontrolle über Komposition
+- **QR-Codes:** lokale PNGs, weiche Schatten, im goldenen Split platziert
 
 ---
 
@@ -295,16 +250,15 @@ Bonus-Folie direkt nach dem Voting-CTA (ca. 12:00) – ca. 20-30 Sekunden, dann 
 
 ### **OpenDesk Edu:**
 - [Website](https://opendesk-edu.org/)
-- [GitHub](https://github.com/opendesk-edu)
-- [Docs](https://docs.opendesk-edu.org/)
-- [Discord](https://discord.gg/opendesk)
+- [GitHub](https://github.com/opendesk-edu/opendesk-edu)
+- [Landscape (Ecosystem Map)](https://landscape.opendesk-edu.org/)
 
 ### **HackyHour Gießen:**
-- [GitHub Repo](https://github.com/tobias-weiss-ai-xr/HackyHourGiessen)
-- [Existing Notes](https://github.com/tobias-weiss-ai-xr/HackyHourGiessen/tree/main/notes)
+- [Website](https://hackyhour.github.io/Giessen/)
+- [GitLab (Orga & Notes)](https://gitlab.ub.uni-giessen.de/hackyhour-team/hackyhour-giessen-orga)
 
 ### **Voting:**
-- [Open Source Wettbewerb](https://open-source-wettbewerb.de/voting/opendesk-edu/)
+- [Open Source Wettbewerb 2026](https://open-source-wettbewerb.de/voting/opendesk-edu/)
 
 ### **Preisverleihung:**
 - [StartMiUp Business Model Wettbewerb 2026 – Live auf YouTube](https://www.youtube.com/live/wMvwufJSCoY)
@@ -315,9 +269,9 @@ Bonus-Folie direkt nach dem Voting-CTA (ca. 12:00) – ca. 20-30 Sekunden, dann 
 
 | Date | Version | Changes |
 |------|---------|---------|
-| 26.08.2026 | **1.0.0** | Initial 12+8 format presentation |
-| 26.08.2026 | 1.0.0 | Added speaker notes and cheat sheet |
+| 26.08.2026 | 1.0.0 | Initial 12+8 format presentation |
 | 23.08.2026 | **1.1.0** | Offline QR-PNGs (Voting + Preisverleihung), StartMiUp Bonus-Folie |
+| 24.08.2026 | **2.0.0** | **Content-Refactor:** ehrliche, belegbare Story statt erfundener Kennzahlen; neuer Erzählbogen (MS365 → openDesk Edu → k3s-Cluster mit KI-Hilfe → Hybrid-Zielbild → Pilotbetrieb); Golden-Ratio-Design; Notizen & Cheat Sheet komplett überarbeitet |
 
 ---
 
@@ -325,19 +279,17 @@ Bonus-Folie direkt nach dem Voting-CTA (ca. 12:00) – ca. 20-30 Sekunden, dann 
 
 Your presentation is:
 - ✅ **Perfectly timed** for 12+8 minutes
-- ✅ **Didactically excellent** (clear, structured, engaging)
-- ✅ **Professionally polished** (design, content, flow)
-- ✅ **Academically rigorous** (sources, data, validation)
-- ✅ **Practically useful** (real examples, actionable insights)
-- ✅ **Aesthetically pleasing** (modern, readable, visual)
-- ✅ **Psychologically optimized** (social proof, clear CTA)
-- ✅ **Linked from website** (easy access for attendees)
-- ✅ **Available in 3 formats** (MD, HTML, PDF)
+- ✅ **Story-driven** – a real journey, told honestly
+- ✅ **No fabricated claims** – everything said is publicly verifiable
+- ✅ **High-level** – no internal details, no internals
+- ✅ **Aesthetically composed** – golden-ratio layout, consistent palette
+- ✅ **Practical** – clear CTA (voting until 30.09.) + Preisverleihung bonus
+- ✅ **Available in 3 formats** (MD, HTML, PDF) with offline QR codes
 
-**🚀 Now go deliver a talk that changes how people think about education!**
+**🚀 Jetzt den Talk halten – und (bis 30.09.) Stimmen sammeln!**
 
 ---
 
 ---
 
-*Last updated: 23. August 2026*
+*Last updated: 24. August 2026*

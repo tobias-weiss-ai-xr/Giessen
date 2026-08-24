@@ -1,193 +1,122 @@
 # 📝 Quick Cheat Sheet: 12+8 Presentation
 
-**Talk:** OpenDesk Edu – Agentic Engineering in der Praxis  
-**Date:** 26. August 2026 | **Time:** 12+8 minutes  
+**Talk:** openDesk Edu – Vom eigenen k3s-Cluster in den Pilotbetrieb
+**Date:** 26. August 2026 | **Time:** 12+8 Minuten
 **Location:** Makerspace Gießen
 
 ---
 
-## 🎯 **Elevator Pitch (30 seconds)**
-> "OpenDesk Edu ist eine Lernplattform, die **Agentic Engineering** nutzt.  
-> Vier Agenten arbeiten zusammen, um Lernen zu automatisieren, zu personalisieren  
-> und zu beschleunigen. **Ergebnis:** 42% besserer Lernerfolg, 9 Stunden Zeitersparnis  
-> pro Woche für Lehrende, und 300% schnellere Forschungsprojekte.  
-> **100% Open Source, selbst gehostet, datenschutzkonform.**"
+## 🎯 **Elevator Pitch (30 Sekunden)**
+> "An Hochschulen steht fast alles auf **Microsoft 365** – US-Cloud, steigende Lizenzen, die Datenhoheit liegt nicht bei der Hochschule. Wir bauen mit **openDesk Edu** die Alternative: der quelloffene, BSI-zertifizierte Digital Workplace des Bundes, erweitert um Bildungs-Services **und lokale, datenschutzkonforme KI** – auf **eigener Hardware (k3s)**, aufgesetzt mit **KI-Hilfe**. Am Hochschulrechenzentrum läuft es bereits – jetzt gehen wir **in den Pilotbetrieb** mit Startups und ggf. einem Fachbereich. Ziel: Hybrid – Verwaltung bleibt MS365, Staff & Students arbeiten auf openDesk Edu. **Bis 30.09. abstimmen – QR-Code scannen!**"
 
 ---
 
-## ⚡ **Key Metrics (Memorize These!)**
+## ⚡ **Die Kern-Botschaften (Memorize These!)**
 
-| Use Case | Problem | Solution | Result |
-|----------|---------|----------|--------|
-| **Prof. Müller** | 10h/Woche Korrektur | Assessment Agent | **9h gespart** |
-| **Max** | 3h für Schleifen | 4 Agenten zusammen | **85% schneller** |
-| **Forschung** | 4 Monate Koordination | 3 Agenten | **300% schneller** |
-
-**Pilot Study:** +42% Lernfortschritt, +35% Retention, 4.7/5 Nutzerzufriedenheit
-
----
-
-## 🗣️ **Transition Phrases**
-
-| From | To | Phrase |
-|------|----|--------|
-| Intro | Problem | "Bevor ich die Lösung zeige..." |
-| Problem | Theory | "Und wie lösen wir das?" |
-| Theory | Architecture | "In OpenDesk Edu haben wir..." |
-| Architecture | Use Cases | "Und jetzt zeige ich euch, WAS das kann..." |
-| Use Case 1 | Use Case 2 | "Und das ist noch nicht alles..." |
-| Use Case 2 | Use Case 3 | "Aber warten Sie – es wird noch besser..." |
-| Use Cases | Data | "Klingt gut, aber stimmt das auch?" |
-| Data | Tech | "Und wie funktioniert das technisch?" |
-| Tech | Getting Started | "Und das Beste: Sie können es heute ausprobieren..." |
-| Getting Started | Voting | "Und jetzt der wichtigste Teil..." |
+| # | Story-Element | Kern-Aussage |
+|---|---------------|--------------|
+| 1 | **Problem** | MS365 = US-Cloud, Lizenzen pro Nutzer, Datenhoheit nicht bei der Hochschule |
+| 2 | **Idee** | openDesk Edu = openDesk CE (quelloffen, BSI-zertifiziert) + Bildungs-Services + offene KI |
+| 3 | **Wie** | eigener k3s-Cluster auf bare metal – aufgesetzt mit KI-Hilfe (Co-Pilot, Kontrolle beim Team) |
+| 4 | **Status** | läuft am Hochschulrechenzentrum, gewohnter Hochschul-Login |
+| 5 | **Ziel** | Hybrid: Verwaltung MS365 · Staff & Students openDesk Edu |
+| 6 | **Jetzt** | langsam in den Pilotbetrieb – Startups + ggf. Fachbereich (Mathematik) |
+| 7 | **Action** | **Voting bis 30.09.** (QR) · StartMiUp-Preisverleihung live (QR) |
 
 ---
 
-## 🎤 **Handling Nerves**
+## 🗣️ **Übergänge**
 
-### **Before:**
-- Power pose for 2 minutes (hands on hips, chest out)
-- Deep breathing: 4 sec in, 4 sec hold, 6 sec out
-- **"I'm excited, not nervous"** (say it out loud)
-
-### **During:**
-- **Pause and breathe** between slides
-- **Make eye contact** with friendly faces
-- **Smile** – it releases endorphins
-- **Speak slower** than you think you should
-
-### **If You Blank:**
-- Look at your slides – they're your prompts
-- Say: **"That's a good question – let me think for a moment"**
-- Take a sip of water
-- **You know this stuff!**
+| Von | Zu | Phrase |
+|-----|----|--------|
+| Intrо | Ausgangslage | "Nehmt eine deutsche Uni – 40.000 Studierende …" |
+| Problem | Idee | "Die gute Nachricht: Es gibt schon openDesk CE …" |
+| Idee | Cluster | "Basis ist unser eigener Cluster …" |
+| Cluster | KI-Hilfe | "Ehrlich: viel Arbeit – KI-Agenten waren Co-Piloten …" |
+| KI-Hilfe | Zugänglich | "openDesk kommt aus der Verwaltung – wir öffnen es für Unis …" |
+| Zugänglich | Status | "Und wichtig: Das ist kein Konzept – es läuft." |
+| Status | Hybrid | "Unser Ziel ist Hybrid – kein Dogma …" |
+| Hybrid | Pilot | "Jetzt wird es konkret: in den Pilotbetrieb …" |
+| Pilot | Warum | "Warum machen wir das? …" |
+| Warum | Mitmachen | "Alles ist offen …" |
+| Mitmachen | Voting | "Und jetzt meine Bitte …" |
 
 ---
 
-## 🔥 **CTA Hierarchy (Most to Least Important)**
+## 🔥 **CTA-Hierarchie (Wichtig → Weniger wichtig)**
 
-1. **🗳️ VOTING** – „Scannen Sie den QR-Code und stimmen Sie ab!“
-2. **🏆 PREISVERLEIHUNG** – „StartMiUp Finale live auf YouTube – youtube.com/live/wMvwufJSCoY“
-3. **💻 Try It** – „Probieren Sie OpenDesk Edu heute aus“
-4. **🤝 Contribute** – „Werden Sie Teil der Community“
-5. **🌟 Spread** – „Erzählen Sie anderen davon“
-
----
-
-## 💡 **Audience Insights**
-
-### **Who's in the Room?**
-- **30%** Developers/Technical – want details, code, architecture
-- **30%** Educators/Academics – want pedagogy, validation, data
-- **25%** Researchers – want collaboration, use cases
-- **15%** Administrators – want ROI, integration, costs
-
-### **Speak to All:**
-- **Technical:** "Wie skaliert das?" → "Agents in Containern"
-- **Academic:** "Ist das validiert?" → "Pilotstudie mit 200 Nutzern"
-- **Practical:** "Was kostet das?" → "Open Source, 0 Euro"
-- **Strategic:** "Was ist die Vision?" → "Zukunft der Bildung"
-
----
-
-## 📱 **Tech Checklist**
-
-### **Laptop:**
-- [ ] Slides open in browser (HTML version works offline)
-- [ ] PDF version on desktop (backup)
-- [ ] Clicker tested
-- [ ] Battery >50%
-- [ ] HDMI adapter (if needed)
-
-### **Phone:**
-- [ ] QR codes for voting + Preisverleihung ready (on slides + phone backup)
-- [ ] Timer visible (or use watch)
-- [ ] Silent mode ON
-
-### **Venue:**
-- [ ] Projector tested
-- [ ] Screen resolution OK
-- [ ] Sound working (for videos if any)
+1. **🗳️ VOTING** – "Bis 30.09. abstimmen – open-source-wettbewerb.de/voting/opendesk-edu/ · QR scannen"
+2. **🏆 PREISVERLEIHUNG** – "StartMiUp-Preisverleihung live auf YouTube – QR-Code"
+3. **🧪 Piloten** – "Eigene Piloten starten? Sprecht mich an!"
+4. **🤝 Mitmachen** – "GitHub-Star, Issues, PRs"
+5. **🌟 Teilen** – "Erzählt anderen davon!"
 
 ---
 
 ## ⏱️ **Timing Cheat Sheet**
 
 ```
-0:00-1:00  | Title & Intro
-1:00-2:00  | Problem (Hook!)
-2:00-3:30  | Theory (4 Principles)
-3:30-4:30  | Architecture (4 Agents)
-4:30-6:00  | Use Case 1 (Grading) ✨
-6:00-7:30  | Use Case 2 (Learning) ✨
-7:30-8:30  | Use Case 3 (Research) ✨
-8:30-9:00  | Data (Social Proof)
-9:00-10:00 | Tech Overview
-10:00-10:30| Tech Stack
-10:30-11:30| Getting Started
-11:30-12:00| VOTING CTA 🎯
-~12:00    | 🏆 StartMiUp Preisverleihung (Bonus-CTA)
+0:00–0:45  | Titel & Einstieg
+0:45–1:45  | Ausgangslage: MS365 & Datenhoheit
+1:45–3:00  | Idee: openDesk Edu
+3:00–4:15  | Der k3s-Cluster auf bare metal
+4:15–5:30  | Aufgesetzt mit KI-Hilfe
+5:30–6:45  | Für Unis + KI zugänglich
+6:45–7:45  | Kein Konzept – es läuft
+7:45–8:45  | Zielbild: Hybrid
+8:45–9:45  | Pilotbetrieb (Startups · FB Mathe)
+9:45–10:30 | Warum es sich lohnt
+10:30–11:00| Mitmachen
+11:00–12:00| VOTING CTA 🎯
+~12:00     | 🏆 StartMiUp Preisverleihung (Bonus)
 ```
 
-**Golden Rule:** Be at **Slide 12 (Voting) by minute 11:30**
+**Golden Rule:** **Voting-Folie um 11:00** erreichen – CTA ist der Höhepunkt, nie hetzen.
 
 ---
 
 ## 🎯 **The Only 4 Things You MUST Remember**
 
-1. **🎯 The Problem:** Bildung ist ineffizient (10h, 3h, 4 Monate)
-2. **✨ The Solution:** 4 Agenten + OpenDesk Edu = Revolution
-3. **🗳️ The Action:** **JETZT Abstimmen!** (QR-Code)
-4. **🏆 Der Ausblick:** StartMiUp Preisverleihung auf YouTube (QR-Code)
+1. **🎯 Das Problem:** MS365 – Datenhoheit liegt nicht bei der Hochschule
+2. **✨ Die Lösung:** openDesk Edu auf eigenem k3s-Cluster, mit offener KI, KI-Hilfe beim Aufbau
+3. **🕒 Der Stand:** läuft am RZ → jetzt langsam in den Pilotbetrieb (Startups, ggf. FB Mathematik)
+4. **🗳️ Die Aktion:** **JETZT abstimmen bis 30.09.** (QR-Code) + Preisverleihung-Stream
 
 ---
 
-## 🚨 **Emergency Scenarios**
+## 🚨 **Emergency**
 
-| Problem | Solution |
-|---------|----------|
-| **Clicker doesn't work** | Use mouse or keyboard (space/arrow keys) |
-| **Projector fails** | "Lasst uns das als Diskussion machen" |
-| **Time is up at Slide 8** | Skip to Slide 12 (Voting) |
-| **Someone asks a tough question** | "Great question! Let's discuss after" |
-| **You forget something** | "That's a good point – I'll come back to it" |
-| **Tech demo fails** | "That's why we have backups!" (smile) |
-
----
-
-## 🌟 **Confidence Boosters**
-
-### **Remind Yourself:**
-- ✅ You **built this** – you know it better than anyone
-- ✅ You **care** – that's what matters most
-- ✅ The audience **wants to learn** – they're on your side
-- ✅ **Mistakes make you human** – not perfect
-
-### **Power Statements:**
-- "Ich bin stolz auf das, was wir entwickelt haben"
-- "Diese Daten sprechen für sich"
-- "Die Zukunft der Bildung ist agentisch – und sie beginnt heute"
+| Problem | Lösung |
+|---------|--------|
+| Clicker tot | Maus/Tastatur (Leertaste/Pfeile) |
+| Beamer fällt aus | "Machen wir es als Diskussion" |
+| Zeit knapp bei Folie 9 | Sprich zum CTA (Folie 12) – Problem/Idee nur kurz |
+| Harte Frage | "Gute Frage – lass mich kurz nachdenken" |
+| Fakt unsicher | Ehrlich: "Das sage ich nicht mit Sicherheit – gerne offline nachsehen" |
+| Zu intern gefragt | "Dazu halten wir uns bei HackyHour bewusst bedeckt – offen in den Q&As bei uns" |
 
 ---
 
-## 📌 **Final Reminder**
+## 👥 **Publikum im Blick**
 
-> **"They don't remember what you said.  
-> They remember how you made them feel.**  
-> **Make them feel inspired. Make them feel hopeful.  
-> Make them feel like the future is bright."**
-
----
+- **Technik:** "Warum k3s?" → verständlich, wartbar, kompatibel
+- **Uni-/IT-Admin:** "Was muss bleiben?" → Hybrid: MS365 für Verwaltung, openDesk für Staff & Students
+- **Datenschutz:** "Und die KI?" → lokal, eigene Infrastruktur, Daten im eigenen RZ
+- **Startup/Unternehmen:** "Wie starten?" → Piloten gesucht – ansprechen!
 
 ---
 
-## 🏆 **Your Talk in 3 Words:**
+## 📱 **Tech-Check**
 
-**Inspire. Inform. Act.**
+**Laptop:** HTML-Folien (offline-fähig) im Browser · PDF als Backup · Clicker · Akku >50 % · HDMI-Adapter
+**Handy:** QR-Codes Voting + Preisverleihung bereit · Timer · Stumm-Modus
+**Venue:** Beamer testen · Auflösung OK · ggf. Ton
 
 ---
 
----
+## 🚀 **Confidence**
 
-**🚀 You're ready. Go change education!**
+- Du hast es **gebaut** – du kennst die Geschichte besser als jeder andere
+- Das Publikum will lernen, **wie ihr es gemacht habt**
+- Ehrlich sein ist ein Feature – **keine Interna, keine erfundenen Zahlen**
+- **Du schaffst das – dann abstimmen lassen!** 🗳️

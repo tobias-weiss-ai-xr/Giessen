@@ -1,496 +1,531 @@
 ---
 marp: true
 theme: default
-paginate: true
-footer: 'Tobias Weiss | OpenDesk Edu | HackyHour Gießen | 26.08.2026 | 12+8 Format'
+footer: 'Tobias Weiss | openDesk Edu | HackyHour Gießen | 26.08.2026 | 12+8 Format'
 style: |
   section {
     font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
-    font-size: 28px;
+    font-size: 26px;
+    line-height: 1.5;
+    color: #2c3e50;
+    padding: 55px 72px;
+  }
+  .lead {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   h1 {
-    font-size: 48px;
+    font-size: 55px;
     color: #2c3e50;
-    margin-bottom: 20px;
+    line-height: 1.12;
+    margin: 4px 0 21px 0;
   }
   h2 {
-    font-size: 36px;
+    font-size: 39px;
     color: #3498db;
-    margin: 24px 0 16px 0;
+    line-height: 1.15;
+    margin: 13px 0 13px 0;
   }
   h3 {
     font-size: 30px;
     color: #2c3e50;
+    margin: 21px 0 13px 0;
+  }
+  /* Golden-rule accent under headlines — 61.8 % width */
+  h1::after {
+    content: '';
+    display: block;
+    width: 38.2%;
+    height: 5px;
+    border-radius: 3px;
+    background: linear-gradient(90deg, #3498db 0%, #2c3e50 100%);
+    margin: 13px 0 0 0;
+  }
+  .lead h1::after {
+    margin: 13px auto 0 auto;
+  }
+  strong { color: #2c3e50; }
+  a { color: #3498db; }
+  .tag {
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #3498db;
+    font-weight: 600;
+    margin-bottom: 13px;
   }
   .timer {
     position: absolute;
-    bottom: 10px;
-    right: 20px;
-    background: rgba(255,255,255,0.9);
-    padding: 8px 16px;
-    border-radius: 20px;
-    font-size: 24px;
+    bottom: 13px;
+    right: 21px;
+    background: rgba(255,255,255,0.92);
+    padding: 5px 13px;
+    border-radius: 34px;
+    font-size: 21px;
     font-weight: bold;
     color: #e74c3c;
+    border: 1px solid #fde8e8;
   }
   .slide-number {
     position: absolute;
-    bottom: 10px;
-    left: 20px;
-    font-size: 18px;
-    color: #7f8c8d;
+    bottom: 13px;
+    left: 21px;
+    font-size: 16px;
+    color: #95a5a6;
   }
-  .use-case-box {
-    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-    border-left: 4px solid #3498db;
-    padding: 20px;
-    margin: 16px 0;
-    border-radius: 4px;
+  /* Golden-section splits: 61.8 / 38.2 */
+  .split {
+    display: grid;
+    grid-template-columns: 61.8fr 38.2fr;
+    gap: 34px;
+    align-items: center;
   }
-  .metric {
-    font-size: 36px;
-    font-weight: bold;
-    color: #27ae60;
+  .split-flip {
+    display: grid;
+    grid-template-columns: 38.2fr 61.8fr;
+    gap: 34px;
+    align-items: center;
   }
-  .agent-icon {
-    font-size: 48px;
+  .card {
+    background: linear-gradient(160deg, #f8fafc 0%, #edf2f7 100%);
+    border: 1px solid #e2e8f0;
+    border-radius: 13px;
+    padding: 21px 26px;
   }
-  .cta {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
-    padding: 30px;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 32px;
-    font-weight: bold;
+  .card strong { color: #2c3e50; }
+  .goldline {
+    width: 61.8%;
+    height: 2px;
+    background: #e2e8f0;
+    border: none;
+    margin: 21px 0;
   }
-  .clock {
-    color: #e74c3c;
+  .muted { color: #7f8c8d; font-size: 21px; }
+  blockquote {
+    color: #2c3e50;
+    border-left: 5px solid #3498db;
+    background: #f2f7fb;
+    border-radius: 0 13px 13px 0;
+    padding: 13px 21px;
+    margin: 21px 0 0 0;
   }
-  .lightning {
-    color: #f39c12;
+  ul { margin: 13px 0; padding-left: 26px; }
+  li { margin: 6px 0; }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: 13px 0;
+  }
+  th, td {
+    border: 1px solid #e2e8f0;
+    padding: 10px 16px;
+    text-align: left;
+  }
+  th { background: #f2f7fb; color: #2c3e50; }
+  /* QR images: shorn of chrome, sized to the golden column */
+  img[alt~="qr"] {
+    width: 100%;
+    max-width: 330px;
+    border-radius: 13px;
+    box-shadow: 0 13px 34px -13px rgba(44, 62, 80, 0.35);
+    justify-self: center;
+  }
+  .grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 21px;
+    margin: 21px 0;
+  }
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 21px;
+    margin: 21px 0;
+  }
+  .hub {
+    display: inline-block;
+    padding: 13px 34px;
+    margin: 13px 0;
   }
 ---
 
-<!-- Slide 1 - 0:00-1:00 -->
-# **Agentic Engineering in der Praxis**
-## OpenDesk Edu als Use Case
+<!-- _class: lead -->
 
-**Tobias Weiss**  
-DevOps Engineer, Uni Marburg  
-[opendesk-edu.org](https://opendesk-edu.org)  
+# **openDesk Edu**
+## Vom eigenen k3s-Cluster in den Pilotbetrieb
 
-*Im Anschluss an: Christian Uhl – "Agentic AI in der Praxis"*
+**Souveräne Hochschul-IT mit offener KI – aufgebaut auf eigener Hardware**
 
-<div class="slide-number">Slide 1/12</div>
-<div class="timer">⏰ 0:00-1:00</div>
+**Tobias Weiß** · DevOps, Uni Marburg
+[opendesk-edu.org](https://opendesk-edu.org)
+
+<div class="slide-number">Folie 1 · Titel</div>
 
 ---
 
-<!-- Slide 2 - 1:00-2:00 -->
+<div class="tag">Ausgangslage</div>
 
-# **Das Problem: Bildung braucht Agenten**
+# **Die digitale Basis an Hochschulen: Microsoft 365**
 
-<div class="use-case-box">
+- **40.000 Studierende** – die digitale Infrastruktur steht fast überall auf **Microsoft 365**
+- US-Cloud, Lizenzen pro Nutzer, **steigende Kosten**
+- **Die Datenhoheit liegt nicht bei der Hochschule** 🔒
 
-**Prof. Müller (Informatik):**  
-150 Aufgaben/Woche × 4 Minuten = **10 Stunden manuelle Korrektur**
+<div class="card">
 
-**Max (Student):**  
-Scheitert wieder an Python-Schleifen – **3 Stunden Frust**
+**Der Rückenwind wächst:**
 
-**Forschungsteam:**  
-Klimadaten aus 10 Ländern – **4 Monate Koordination**
+- 📄 **HBDI-Risikoanalyse zu M365** – Hessischer Beauftragter für Datenschutz
+- 🏛️ **Digitalpakt Hessen 2026–2031** – Förderung offener Hochschul-Infrastrukturen
 
 </div>
 
-**Lösung: Autonome Agenten, die denken und handeln**
+**Frage: Wie gewinnt eine Uni digitale Souveränität zurück – ohne alles neu zu erfinden?**
 
-<div class="slide-number">Slide 2/12</div>
-<div class="timer">⏰ 1:00-2:00</div>
+<div class="slide-number">Folie 2 · 0:45</div>
+<div class="timer">⏰ 0:45–1:45</div>
 
 ---
 
-<!-- Slide 3 - 2:00-3:30 -->
+<div class="tag">Die Idee</div>
 
-# **Was ist Agentic Engineering?**
+# **openDesk Edu – offen statt proprietär**
 
-### **4 Prinzipien:**
+- **openDesk CE** – der quelloffene Digital Workplace des Bundes: BSI-zertifiziert, vom Bund gefördert
+- **openDesk Edu** ergänzt, was Hochschulen brauchen: Lernplattformen, Videokonferenzen, Dateien, kollaboratives Arbeiten
+- **Baukasten-Prinzip** – Komponenten austauschbar, nichts für die Ewigkeit festgeschrieben
+- **Ein Login für alles** – föderierbar mit dem gewohnten Hochschul-Login
+- **Ein Befehl** stellt die komplette Umgebung bereit
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+> Herzstück: quelloffen, eigenbetrieben, datenschutzkonform.
+
+<div class="slide-number">Folie 3 · 1:45</div>
+<div class="timer">⏰ 1:45–3:00</div>
+
+---
+
+<div class="tag">Eigene Hardware</div>
+
+# **Der k3s-Cluster auf bare metal**
+
+<div class="split">
 
 <div>
-<span class="agent-icon">🤖</span> **Autonomie**  
-Handeln ohne Nutzer  
-<div style="font-size: 18px; color: #7f8c8d;">Entscheidet selbstständig</div>
+
+- **K3s** – schlankes Kubernetes, ideal für eigene Plattformen
+- **Bare metal:** eigene Server, volle Kontrolle, keine Cloud-Verträge
+- Vom **ersten Test-Setup** zur **produktionsnahen Plattform**
+- Betrieb am **eigenen Hochschulrechenzentrum**
+
+<p class="goldline"></p>
+
+<p class="muted">Warum k3s? Klein genug zum Verstehen, robust genug zum Betreiben – und 100 % Kubernetes-kompatibel.</p>
+
 </div>
+
+<div class="card">
+
+**Die Reise von null:**  
+🖥️ Cluster aufgebaut → 🔧 Dienste deployed → 🔐 Ein Login → 🚦 in Betrieb
+
+</div>
+
+</div>
+
+<div class="slide-number">Folie 4 · 3:00</div>
+<div class="timer">⏰ 3:00–4:15</div>
+
+---
+
+<div class="tag">Wie wir gearbeitet haben</div>
+
+# **Aufgesetzt mit KI-Hilfe**
+
+- **KI-Agenten als Co-Piloten:** Konfigurationen und Skripte entworfen, geprüft, iteriert
+- **Fehlersuche im Dialog:** Probleme im Cluster untersuchen – Logs lesen, Ursachen finden, Fixes ableiten
+- **Schneller lernen:** „Wie geht X in k3s?“ – direkt umsetzen statt stundenlanges Suchen
+- **Die Kontrolle bleibt beim Team:** KI schlägt vor, wir entscheiden und verstehen
+
+> Der Cluster steht. Dass er heute steht, haben wir auch kritischer KI-Unterstützung zu verdanken.
+
+<div class="slide-number">Folie 5 · 4:15</div>
+<div class="timer">⏰ 4:15–5:30</div>
+
+---
+
+<div class="tag">Digitale Souveränität konkret</div>
+
+# **openDesk für Unis – und für KI – zugänglich**
+
+- **Von der Verwaltung zur Uni:** Bildungs-Services ergänzt – Lehre, Video, Dateien, Zusammenarbeit
+- **KI als Baustein:** datenschutzkonforme, **lokale KI-Assistenten** direkt in der Plattform
+- **Keine Daten in fremden Clouds** – eigene Infrastruktur, eigene Regeln
+- **Ein Login** für Lehre, Forschung, Kommunikation **und KI**
+
+<div class="card">
+
+**Der Unterschied heute → morgen:**  
+Heute: fünf Tools, fünf Logins, Daten überall.  
+Morgen: **eine Plattform, ein Login, offene KI.**
+
+</div>
+
+<div class="slide-number">Folie 6 · 5:30</div>
+<div class="timer">⏰ 5:30–6:45</div>
+
+---
+
+<div class="tag">Status heute</div>
+
+# **Kein Konzept – es läuft**
+
+- Plattform im Betrieb am **Hochschulrechenzentrum**
+- Anmeldung mit dem **gewohnten Hochschul-Login**
+- **Kontrollierte Updates** – und wenn nötig, sauberer Rollback
+- **Monitoring & Absicherung** gehören von Anfang an dazu
+
+<p class="muted">Vom Testsystem in den regulären Betrieb – Schritt für Schritt, nicht im Alleingang.</p>
+
+<div class="slide-number">Folie 7 · 6:45</div>
+<div class="timer">⏰ 6:45–7:45</div>
+
+---
+
+<div class="tag">Zielbild</div>
+
+# **Hybrid: nicht alles oder nichts**
+
+<div class="split">
+
+<div class="card">
+
+**Verwaltung & Backoffice**  
+Bleibt bei **Microsoft 365** – Bestand, Stabilität, Formate
+
+</div>
+
+<div class="card">
+
+**Staff & Students**  
+Arbeiten auf **openDesk Edu** – souverän, offen, mit KI
+
+</div>
+
+</div>
+
+- **Kein Big Bang** – schrittweise umziehen, dort wo es passt
+- Pro Anwendung die Frage: **„Was muss souverän laufen?“**
+
+<div class="slide-number">Folie 8 · 7:45</div>
+<div class="timer">⏰ 7:45–8:45</div>
+
+---
+
+<div class="tag">Jetzt</div>
+
+# **Langsam in den Pilotbetrieb**
+
+- Vom Test in die **Praxis** – bewusst **langsam und kontrolliert**
+- Erste Piloten: **Startups** aus dem regionalen Startup-Ökosystem
+- Ggf. an der Hochschule: ein **Fachbereich als Pilot** (z. B. Mathematik)
+- **Kleine Gruppen zuerst** – lernen, messen, dann ausrollen
+
+<div class="card">
+
+**Phasen:** Test ✅ → **Pilot ▶️** → gestaffelter Rollout → Betrieb
+
+</div>
+
+<div class="slide-number">Folie 9 · 8:45</div>
+<div class="timer">⏰ 8:45–9:45</div>
+
+---
+
+<div class="tag">Warum</div>
+
+# **Warum sich das lohnt**
+
+- 🛡️ **Souveränität** – Daten bleiben im eigenen Rechenzentrum
+- 💶 **Stabile Kosten** – eigene Hardware statt wachsender Lizenzen
+- 🧩 **Flexibilität** – Module austauschbar, keine Sackgassen
+- 🤝 **Gemeinschaft** – offene Software, von vielen getragen
+
+> Souveränität ist kein Luxus – sie wird zum Standortvorteil.
+
+<div class="slide-number">Folie 10 · 9:45</div>
+<div class="timer">⏰ 9:45–10:30</div>
+
+---
+
+<div class="tag">Mitmachen</div>
+
+# **Loslegen & mitmachen**
+
+- 🌐 **Website:** [opendesk-edu.org](https://opendesk-edu.org)
+- 🐙 **Quellcode:** [github.com/opendesk-edu](https://github.com/opendesk-edu)
+- 🗺️ **Landscape:** [landscape.opendesk-edu.org](https://landscape.opendesk-edu.org)
+- 🧪 **Eigene Piloten?** Sprecht mich nach dem Vortrag an!
+
+<div class="card">
+
+**Deploy:** Open Source, ein Befehl, Kubernetes – selbst testen, Feedback geben, Issues melden.
+
+</div>
+
+<div class="slide-number">Folie 11 · 10:30</div>
+<div class="timer">⏰ 10:30–11:00</div>
+
+---
+
+<div class="tag">Jetzt zählt jede Stimme</div>
+
+# **🗳️ Voting: Open Source Wettbewerb 2026**
+
+<div class="split">
 
 <div>
-<span class="agent-icon">🎯</span> **Proaktivität**  
-Ziele verfolgen  
-<div style="font-size: 18px; color: #7f8c8d;">Denkt voraus</div>
+
+**Bis 30. September 2026** für openDesk Edu abstimmen – dauert keine 30 Sekunden:
+
+<div class="card">
+
+🔗 **[open-source-wettbewerb.de/voting/opendesk-edu/](https://open-source-wettbewerb.de/voting/opendesk-edu/)**  
+📱 **QR-Code scannen**
+
 </div>
+
+</div>
+
+![qr voting-qr.png](voting-qr.png)
+
+</div>
+
+<div class="slide-number">Folie 12 · 11:00</div>
+<div class="timer">⏰ 11:00–12:00</div>
+
+---
+
+<div class="tag">Save the date</div>
+
+# **📺 StartMiUp Preisverleihung – Live auf YouTube**
+
+- **StartMiUp Business Model Wettbewerb 2026** – die Preisverleihung als Livestream
+- Wir sind Teil des regionalen Startup-Ökosystems – **schaut zu!**
+
+<div class="split">
 
 <div>
-<span class="agent-icon">🔄</span> **Reaktivität**  
-Umgebung wahrnehmen  
-<div style="font-size: 18px; color: #7f8c8d;">Passt sich an</div>
-</div>
 
-<div>
-<span class="agent-icon">👥</span> **Sozialität**  
-Kommunizieren  
-<div style="font-size: 18px; color: #7f8c8d;">Arbeitet zusammen</div>
-</div>
+🔗 **[youtube.com/live/wMvwufJSCoY](https://www.youtube.com/live/wMvwufJSCoY)**
+
+<p class="goldline"></p>
+
+<p class="muted">StartMiUp · JLU Gießen · Uni Marburg · THM · kofinanziert durch die EU</p>
 
 </div>
 
-**OpenDesk Edu implementiert alle 4 Prinzipien in einer Lernplattform**
-
-<div class="slide-number">Slide 3/12</div>
-<div class="timer">⏰ 2:00-3:30</div>
-
----
-
-<!-- Slide 4 - 3:30-4:30 -->
-
-# **Die Lösung: 4 Agenten in OpenDesk Edu**
-
-```mermaid
-graph TD
-    UA[User Agent\nPersönlicher Begleiter] -->|Nutzerdaten| KA[Knowledge Agent\nWissensmanagement]
-    UA --> AA[Assessment Agent\nAutomatische Bewertung]
-    UA --> CA[Collaboration Agent\nTeamkoordination]
-    
-    style UA fill:#e3f2fd
-    style KA fill:#bbdefb
-    style AA fill:#bbdefb
-    style CA fill:#bbdefb
-```
-
-<div class="slide-number">Slide 4/12</div>
-<div class="timer">⏰ 3:30-4:30</div>
-
----
-
-<!-- Slide 5 - 4:30-6:00 -->
-
-# **Use Case 1: Automatische Korrektur**
-
-<div class="use-case-box">
-
-**Prof. Müller's Problem:** 10 Stunden/Woche für Korrekturen
-
-**Agenten-Lösung:**
-- Assessment Agent analysiert alle 150 Abgaben
-- Identifiziert häufige Fehler
-- Generiert Gruppen-Feedback
-- Markiert Ausreißer für manuelle Prüfung
-
-**Ergebnis:**
-<span class="metric">95% automatisch</span> → **9 Stunden gespart pro Woche**
-
-✅ Konsistenz: 100% | ✅ Qualität: +25%
-</div>
-
-<div class="slide-number">Slide 5/12</div>
-<div class="timer">⏰ 4:30-6:00</div>
-
----
-
-<!-- Slide 6 - 6:00-7:30 -->
-
-# **Use Case 2: Adaptives Lernen**
-
-<div class="use-case-box">
-
-**Max's Problem:** 3 Stunden für Python-Schleifen
-
-**Agenten-Lösung:**
-- User Agent erkennt Lernblockade
-- Knowledge Agent findet alternative Erklärungen
-- Collaboration Agent vermitttelt Mentor Lisa (14, Python-Experte)
-- Assessment Agent generiert Übungen mit steigender Schwierigkeit
-
-**Ergebnis:**
-<span class="metric">85% schneller</span> → **30 Minuten statt 3 Stunden**
-
-✅ Verständnis: +40% | ✅ Motivation: +60%
-</div>
-
-<div class="slide-number">Slide 6/12</div>
-<div class="timer">⏰ 6:00-7:30</div>
-
----
-
-<!-- Slide 7 - 7:30-8:30 -->
-
-# **Use Case 3: Kollaborative Forschung**
-
-<div class="use-case-box">
-
-**Problem:** 4 Monate für Datenanalyse
-
-**Agenten-Lösung:**
-- Knowledge Agent findet relevante Datasets & Papers
-- Collaboration Agent übersetzt automatisch (10 Sprachen)
-- Assessment Agent validiert Datenqualität
-- User Agent koordiniert Team-Kommunikation
-
-**Ergebnis:**
-<span class="metric">300% schneller</span> → **6 Wochen statt 4 Monate**
-
-✅ Effizienz: +300% | ✅ Kollaboration: +200%
-</div>
-
-<div class="slide-number">Slide 7/12</div>
-<div class="timer">⏰ 7:30-8:30</div>
-
----
-
-<!-- Slide 8 - 8:30-9:00 -->
-
-# **📊 Die Daten sprechen für sich**
-
-### Pilotstudie Uni Marburg (SS 2026) – 200 Studierende
-
-| Metrik | Ergebnis |
-|--------|----------|
-| **Lernfortschritt** | <span class="metric">+42%</span> |
-| **Retentionsrate** | <span class="metric">+35%</span> |
-| **Benutzerzufriedenheit** | ⭐ 4.7/5.0 |
-| **Lehrenden-Feedback** | ⭐ 4.8/5.0 |
-
-> **"Die agentische Herangehensweise revolutioniert das Lernen"**  
-> — Prof. Dr. Anna Schmidt, Erziehungswissenschaften
-
-<div class="slide-number">Slide 8/12</div>
-<div class="timer">⏰ 8:30-9:00</div>
-
----
-
-<!-- Slide 9 - 9:00-10:00 -->
-
-# **Wie funktioniert das technisch?**
-
-### Multi-Agent Architektur
-
-```mermaid
-graph LR
-    Frontend --> API --> Agenten
-    Agenten --> LLM[LLM Service\nLocal: Mistral, Llama3]
-    Agenten --> DB[(Vector DB\nWissen speichern)]
-    Agenten --> KG[[Knowledge Graph\nSemantik]]
-    
-    style LLM fill:#e8f4fd
-    style DB fill:#f0f8ff
-    style KG fill:#f0f8ff
-```
-
-**100% Open Source | Self-Hosted | Datenschutzkonform**
-
-<div class="slide-number">Slide 9/12</div>
-<div class="timer">⏰ 9:00-10:00</div>
-
----
-
-<!-- Slide 10 - 10:00-10:30 -->
-
-# **Technologiestack**
-
-## Backend
-```bash
-Node.js + TypeScript
-Fastify (API) + PostgreSQL
-Redis + Elasticsearch
-LangChain.js + LangGraph
-```
-
-## AI/ML
-```bash
-Ollama (Local LLMs)
-Qdrant (Vector DB)
-Transformers.js
-```
-
-## Frontend
-```bash
-Next.js 14 + Tailwind CSS
-WebSockets (Echtzeit)
-```
-
-**Alles läuft lokal – vollem Datenkontrolle!**
-
-<div class="slide-number">Slide 10/12</div>
-<div class="timer">⏰ 10:00-10:30</div>
-
----
-
-<!-- Slide 11 - 10:30-11:30 -->
-
-# **Jetzt ausprobieren & mitmachen**
-
-### 🚀 Schnellstart (5 Minuten)
-
-```bash
-# Docker Compose
-docker compose up -d
-
-# Oder npm
-npx create-opendesk-edu@latest
-npm run dev
-```
-
-### 🤝 Mitmachen
-- **GitHub:** [github.com/opendesk-edu](https://github.com/opendesk-edu)
-- **Discord:** [discord.gg/opendesk](https://discord.gg/opendesk)
-- **Pilotprojekte:** Kostenlos für Early Adopter
-
-<div class="slide-number">Slide 11/12</div>
-<div class="timer">⏰ 10:30-11:30</div>
-
----
-
-<!-- Slide 12 - 11:30-12:00 -->
-
-# **🗳️ WICHTIG: Jetzt abstimmen!**
-
-## Open Source Wettbewerb 2026
-
-<div class="cta">
-
-**IHRE Stimme zählt!**
-
-📱 **QR-Code scannen** oder Link öffnen:
-
-[https://open-source-wettbewerb.de/voting/opendesk-edu/](https://open-source-wettbewerb.de/voting/opendesk-edu/)
+![qr preisverleihung-qr.png](preisverleihung-qr.png)
 
 </div>
 
-![](voting-qr.png)
-
-<div class="slide-number">Slide 12/12</div>
-<div class="timer">⏰ 11:30-12:00</div>
+<div class="slide-number">Folie 13 · Bonus</div>
 
 ---
 
-<!-- Bonus CTA: StartMiUp Preisverleihung -->
-
-# **📺 StartMiUp Business Model Wettbewerb 2026**
-
-## 🏆 Live-Preisverleihung auf YouTube
-
-<div class="cta">
-
-**openDesk Edu im Finale!** 🎉
-
-▶️ **Livestream ansehen** – QR-Code scannen:
-
-[youtube.com/live/wMvwufJSCoY](https://www.youtube.com/live/wMvwufJSCoY)
-
-</div>
-
-![](preisverleihung-qr.png)
-
-*StartMiUp – Innovations- & Startupcampus Mittelhessen · JLU Gießen · Uni Marburg · THM · kofinanziert durch die EU*
-
----
-
-<!-- Q&A Slide - Ready for +8 minutes -->
+<div class="tag">+8 Minuten</div>
 
 # **❓ Fragen & Diskussion**
-## +8 Minuten
 
-### Mögliche Themen:
-
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+<div class="split">
 
 <div>
-🔹 **Technisch:**
-- Wie skaliert das System?
-- Welche LLMs werden unterstützt?
-- Deployment-Optionen?
-- Integration in bestehende Systeme?
+
+**Technik:**  
+- Warum k3s statt eines großen Kubernetes?  
+- Wie hat KI beim Aufsetzen konkret geholfen?  
+- Wie datenschutzkonform ist lokale KI (DSGVO)?
+
 </div>
 
 <div>
-🔹 **Pädagogisch:**
-- Wie validieren wir die Lernergebnisse?
-- Datenschutz für Studierende?
-- Kostenmodell?
-- Roadmap & Features?
+
+**Zukunft:**  
+- Wie läuft der Pilotbetrieb konkret ab?  
+- Wo endet das Hybrid-Modell, wo beginnt MS365?  
+- Rollout an anderen Hochschulen?
+
+</div>
+
+</div>
+
+<div class="slide-number">Folie 14 · Q&A</div>
+
+---
+
+<div class="tag">Backup · Konzept</div>
+
+# **Wie es zusammenhängt**
+
+<div style="text-align:center;">
+
+<div class="card hub">
+<strong>Ein Login</strong><br/>
+<span class="muted">Hochschul-Identität · SSO</span>
+</div>
+
+<p class="muted" style="margin: 13px 0;">↓ verbindet ↓</p>
+
+<div class="grid-4">
+
+<div class="card">🎓 **Lehre**<br/><span class="muted">Lernplattformen · Video</span></div>
+<div class="card">💬 **Kommunikation**<br/><span class="muted">Mail · Chat</span></div>
+<div class="card">📁 **Dateien & Tools**<br/><span class="muted">Cloud · Dokumente</span></div>
+<div class="card">🤖 **KI**<br/><span class="muted">lokal · datenschutzkonform</span></div>
+
 </div>
 
 </div>
 
-**Live Demo möglich?** → Laptop bereit halten!
+---
+
+<div class="tag">Backup · Einordnung</div>
+
+# **Viele Einzellösungen → eine Plattform**
+
+| | Heute | openDesk Edu |
+|---|---|---|
+| **Logins** | viele, getrennt | **einer (SSO)** |
+| **Datenlage** | verstreut in Clouds | **im eigenen Rechenzentrum** |
+| **Lizenzmodell** | pro Nutzer, steigend | **Open Source** |
+| **KI** | externe Dienste | **lokale, offene KI** |
+| **Weiterentwicklung** | Hersteller entscheidet | **Baukasten & Community** |
 
 ---
 
-<!-- Backup Slide 1 -->
+<div class="tag">Backup · Phasen</div>
 
-# **Vertiefung: User Agent Architektur**
+# **Der Weg in den Betrieb**
 
-```mermaid
-graph TD
-    A[Lernender] -->|Aktion| B[User Agent]
-    B --> C[Profil analysieren]
-    B --> D[Fortschritt tracken]
-    B --> E[Empfehlungen generieren]
-    E --> F[Knowledge Agent]
-    E --> G[Assessment Agent]
-    F --> H[(Wissensdatenbank)]
-    G --> I[(Bewertungssystem)]
-```
+<div class="grid-3">
+
+<div class="card">✅ **Test**<br/><span class="muted">Machbarkeit · Setup</span></div>
+<div class="card">▶️ **Pilot**<br/><span class="muted">Startups · Fachbereich</span></div>
+<div class="card">🚀 **Rollout**<br/><span class="muted">gestaffelt · messbar</span></div>
+
+</div>
+
+<p class="muted" style="text-align:center; margin-top: 13px;">→ Betrieb: Monitoring · Updates · Community</p>
 
 ---
 
-<!-- Backup Slide 2 -->
-
-# **Vergleich: OpenDesk Edu vs. Traditionelle LMS**
-
-| Feature | OpenDesk Edu | Moodle | ILIAS | Blackboard |
-|---------|--------------|--------|-------|------------|
-| **Agentic AI** | ✅ | ❌ | ❌ | ❌ |
-| **Automatische Bewertung** | ✅ | ⚠️ | ⚠️ | ⚠️ |
-| **Knowledge Graph** | ✅ | ❌ | ❌ | ❌ |
-| **Open Source** | ✅ | ✅ | ✅ | ❌ |
-| **Self-Hosted** | ✅ | ✅ | ✅ | ❌ |
-| **Moderne UX** | ✅ | ❌ | ❌ | ⚠️ |
-| **Multi-Agent** | ✅ | ❌ | ❌ | ❌ |
-
----
-
-<!-- Backup Slide 3 -->
-
-# **Roadmap 2026/2027**
-
-| Quartal | Milestone |
-|---------|-----------|
-| **Q4 2026** | Public Beta Release |
-| **Q1 2027** | Plug-in Marketplace |
-| **Q2 2027** | Mobile App (React Native) |
-| **Q3 2027** | Enterprise Features |
-| **Q4 2027** | Internationalisierung |
-
-**Pilotprogramm läuft bereits – jetzt einsteigen!**
-
----
-
-<!-- Backup Slide 4 -->
+<div class="tag">Kontakt & Links</div>
 
 # **Kontakt & Links**
 
-### 🌐 OpenDesk Edu
-- **Website:** [opendesk-edu.org](https://opendesk-edu.org)
-- **GitHub:** [github.com/opendesk-edu](https://github.com/opendesk-edu)
-- **Docs:** [docs.opendesk-edu.org](https://docs.opendesk-edu.org)
-
-### 👤 Tobias Weiss
-- **Website:** [tobias-weiss.org](https://tobias-weiss.org)
-- **Mastodon:** [@opendesk_edu@mastodon.social](https://mastodon.social/@opendesk_edu)
-- **LinkedIn:** [linkedin.com/in/tobias-weiss](https://linkedin.com/in/tobias-weiss)
-- **Email:** [tobias@tobias-weiss.org](mailto:tobias@tobias-weiss.org)
-
-### 📄 Diese Slides
-[github.com/tobias-weiss-ai-xr/HackyHourGiessen](https://github.com/tobias-weiss-ai-xr/HackyHourGiessen)
+- 🌐 **openDesk Edu:** [opendesk-edu.org](https://opendesk-edu.org)
+- 🐙 **Quellcode:** [github.com/opendesk-edu/opendesk-edu](https://github.com/opendesk-edu/opendesk-edu)
+- 🗺️ **Landscape:** [landscape.opendesk-edu.org](https://landscape.opendesk-edu.org)
+- 🌍 **Tobias:** [tobias-weiss.org](https://tobias-weiss.org) · [@opendesk_edu@mastodon.social](https://mastodon.social/@opendesk_edu) · [linkedin.com/in/tobias-weiss](https://linkedin.com/in/tobias-weiss)
+- 📧 **Mail:** [tobias.weiss@opendesk-edu.org](mailto:tobias.weiss@opendesk-edu.org)

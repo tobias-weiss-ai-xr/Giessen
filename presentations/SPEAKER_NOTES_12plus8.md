@@ -1,638 +1,228 @@
-# 🎤 Speaker Notes: OpenDesk Edu – 12+8 Format
+# 🎤 Speaker Notes: openDesk Edu – Vom k3s-Cluster in den Pilotbetrieb
 
 **Event:** HackyHour Gießen  
 **Date:** 26. August 2026  
-**Speaker:** Tobias Weiss  
-**Format:** 12 minutes presentation + 8 minutes Q&A  
-**Topic:** OpenDesk Edu als praktischer Use Case für Agentic Engineering
+**Speaker:** Tobias Weiss · DevOps, Uni Marburg  
+**Format:** 12 Minuten Vortrag + 8 Minuten Q&A  
+**Topic:** Souveräne Hochschul-IT mit offener KI – aufgebaut auf eigenem k3s-Cluster (bare metal), jetzt im Übergang in den Pilotbetrieb
 
 ---
 
-## 🎯 **Presentation Strategy: 12+8 Format**
+## 🎯 **Framing & Ground Rules (wichtig!)**
 
-### **Core Philosophy:**
-- **12 minutes:** Tight, high-impact, story-driven
-- **+8 minutes:** Interactive, flexible, audience-focused
-- **Goal:** Inspire, inform, and drive action (voting!)
-
-### **Structure:**
-1. **Hook** (0:00-2:00) – Problem statement
-2. **Theory** (2:00-4:30) – What is Agentic Engineering?
-3. **Solution** (4:30-8:30) – 3 Use Cases with metrics
-4. **Validation** (8:30-10:00) – Data & studies
-5. **Technical** (10:00-11:30) – Quick overview
-6. **CTA** (11:30-12:00) – Voting + Preisverleihung
+- **Ehrlich und auf Augenhöhe:** Es geht um die echte Geschichte – eigenes Setup, eigene Erfahrungen. Keine erfundenen Zahlen, keine Werbeclaims.
+- **Keine Interna:** Keine Knotenzahlen, keine Pod-Zahlen, keine internen Werkzeuge/Prozesse, keine internen Betriebsdetails. Hohes Niveau halten.
+- **Erzählbogen:** Warum (Souveränität) → Idee (openDesk Edu) → Wie (eigene Hardware + KI-Hilfe) → Was heute (läuft am RZ) → Ziel (Hybrid MS365 + openDesk Edu) → Jetzt (Pilotbetrieb) → CTA (Voting).
+- **CTA-Hierarchie:** 1 = Voting (bis 30.09.), 2 = Preisverleihung-Stream, 3 = Mitmachen.
 
 ---
 
-## ⏱️ **Detailed Timing & Script**
+## ⏱️ **Timing-Übersicht**
+
+| Folie | Zeit | Inhalt |
+|-------|------|--------|
+| 1 | 0:00–0:45 | Titel & Einstieg |
+| 2 | 0:45–1:45 | Ausgangslage: MS365 & Datenhoheit |
+| 3 | 1:45–3:00 | Die Idee: openDesk Edu |
+| 4 | 3:00–4:15 | Der k3s-Cluster auf bare metal |
+| 5 | 4:15–5:30 | Aufgesetzt mit KI-Hilfe |
+| 6 | 5:30–6:45 | openDesk für Unis + KI zugänglich |
+| 7 | 6:45–7:45 | Kein Konzept – es läuft |
+| 8 | 7:45–8:45 | Zielbild: Hybrid |
+| 9 | 8:45–9:45 | Langsam in den Pilotbetrieb |
+| 10 | 9:45–10:30 | Warum sich das lohnt |
+| 11 | 10:30–11:00 | Mitmachen |
+| 12 | 11:00–12:00 | CTA Voting |
+| 13 | Bonus | StartMiUp Preisverleihung (nur falls Zeit) |
+| 14–18 | Q&A + Backups | +8 Minuten |
 
 ---
 
-### **Slide 1: Title (0:00-1:00)**
-
-**Content:** "Agentic Engineering in der Praxis – OpenDesk Edu als Use Case"
-
-**Script:**
-> "Vielen Dank, Christian, für diesen spannenden Einblick in Agentic AI!  
-> Mein Name ist Tobias Weiss, ich bin DevOps Engineer an der Uni Marburg  
-> und ich möchte euch heute zeigen, wie wir diese Prinzipien in der Praxis anwenden:  
-> **mit OpenDesk Edu – einer Lernplattform, die Agentic Engineering nutzt, um Bildung zu revolutionieren.**"
-
-**Timing:** 60 seconds
-
-**Delivery Tips:**
-- 🎯 **Make eye contact** with audience
-- 🙏 **Thank Christian** explicitly
-- 💡 **Set expectation:** "Ich habe nur 12 Minuten – also wird's konkret!"
-- 📱 **Check mic/clicker** if needed
+# ✅ Detaillierte Notizen pro Folie
 
 ---
 
-### **Slide 2: The Problem (1:00-2:00)**
+### Folie 1 · Titel (0:00–0:45)
 
-**Content:** 3 real-world problems (Prof. Müller, Max, Forschungsteam)
+**Wichtigste Botschaft:** Wer ich bin, worum es geht – in 30 Sekunden.
 
-**Script:**
-> "Bevor ich euch die Lösung zeige, lasst mich euch drei reale Probleme vorstellen:
-> 
-> **Erstens:** Prof. Müller an der Uni Marburg verbringt **10 Stunden pro Woche** damit, 150 Programmieraufgaben manuell zu korrigieren. 10 Stunden! Das sind 40 Stunden im Monat – also **eine ganze Arbeitswoche.**
-> 
-> **Zweitens:** Max, 12 Jahre alt, scheitert seit Tagen an Python-Schleifen. Er braucht **3 Stunden**, um ein Konzept zu verstehen, das eigentlich in 30 Minuten erklärt werden könnte.
-> 
-> **Drittens:** Ein Forschungsteam analysiert Klimadaten aus 10 Ländern. Die eigentliche Analyse dauert 2 Wochen – aber die **Koordination und Kommunikation?** **4 Monate.**
-> 
-> **Das sind keine fiktiven Probleme. Das passiert JEDEN TAG.**"
+**Script-Idee:**
+> „Hallo! Ich bin Tobias, DevOps an der Uni Marburg. Heute zeige ich euch, wie wir **openDesk Edu** aufgebaut haben – eine souveräne Hochschul-Plattform auf **eigener Hardware (k3s)**, aufgesetzt mit **KI-Hilfe**, und warum wir jetzt langsam in den **Pilotbetrieb** gehen. Zwölf Minuten, danach Fragen. Und am Ende hab ich eine Bitte an euch – mehr dazu später.“
 
-**Timing:** 60 seconds
-
-**Delivery Tips:**
-- 🔥 **Build tension** – pause after each problem
-- 🙅 **No solutions yet** – let the problems sink in
-- 😮 **Make it personal** – "Stellt euch vor, das wärt IHR"
-- ⏰ **Watch time** – don't overshoot!
+**Delivery:** Ruhig starten, lächeln, Blickkontakt. Kein Fachjargon-Wall.
 
 ---
 
-### **Slide 3: What is Agentic Engineering? (2:00-3:30)**
+### Folie 2 · Ausgangslage: MS365 & Datenhoheit (0:45–1:45)
 
-**Content:** 4 principles with icons
+**Wichtigste Botschaft:** Hochschulen stehen auf MS365 – mit Preis und Problem: die Datenhoheit liegt nicht bei der Hochschule.
 
-**Script:**
-> "Christian hat uns schon erklärt, WAS Agentic AI ist. Ich wiederhole nur ganz kurz die **4 Kernprinzipien**, die wir in OpenDesk Edu umsetzen:
-> 
-> **Autonomie:** Die Agenten handeln selbstständig – sie warten nicht auf Befehle.
-> 
-> **Proaktivität:** Sie verfolgen Ziele aktiv – sie reagieren nicht nur.
-> 
-> **Reaktivität:** Sie passen sich an Veränderungen an – wie ein guter Assistent.
-> 
-> **Sozialität:** Sie kommunizieren – mit Nutzern UND mit anderen Agenten.
-> 
-> **Und jetzt kommt der spannende Teil: Wie setzen wir das konkret um?**"
+**Script-Idee:**
+> „Nehmt eine deutsche Uni: **40.000 Studierende**, tausende Mitarbeitende. Die digitale Basis? Fast überall **Microsoft 365** – Cloud in den USA, Lizenzen pro Nutzer, steigende Kosten. Die **Datenhoheit liegt nicht bei der Hochschule**. Das ist kein Geheimnis – der hessische Datenschutzbeauftragte hat genau dafür eine Risikoanalyse zu M365 veröffentlicht, und der Digitalpakt Hessen fördert ab 2026 offene Hochschul-Infrastrukturen. Die Frage ist also nicht ob, sondern wie. – Wie gewinnt man Souveränität zurück, ohne alles neu zu erfinden?“
 
-**Timing:** 90 seconds
-
-**Delivery Tips:**
-- 📋 **Point to each principle** as you name it
-- 🖐️ **Use hand gestures** to emphasize the 4 points
-- 🎯 **Transition smoothly** to the architecture
-- ⚡ **Keep it brief** – this is background, not main content
+**Delivery:** Die Zahlen sind öffentlich (HBDI-Bericht, Digitalpakt Hessen). Keine internen Lizenzdetails.
 
 ---
 
-### **Slide 4: The 4 Agents (3:30-4:30)**
+### Folie 3 · Die Idee: openDesk Edu (1:45–3:00)
 
-**Content:** Mermaid diagram of 4 agents
+**Wichtigste Botschaft:** Es gibt schon einen souveränen Digital Workplace vom Bund – wir erweitern ihn für Hochschulen.
 
-**Script:**
-> "In OpenDesk Edu haben wir **4 spezialisierte Agenten**, die zusammenarbeiten:
-> 
-> Der **User Agent** ist der persönliche Begleiter jedes Lernenden.
-> 
-> Der **Knowledge Agent** verwaltet und erschließt das gesamte Wissen.
-> 
-> Der **Assessment Agent** bewertet automatisch Aufgaben und gibt Feedback.
-> 
-> Und der **Collaboration Agent** Organisiert die Zusammenarbeit in Teams.
-> 
-> **Jeder Agent hat seine Spezialität – aber gemeinsam sind sie unschlagbar.**"
+**Script-Idee:**
+> „Die gute Nachricht: Es gibt bereits **openDesk CE** – den quelloffenen Digital Workplace des Bundes, BSI-zertifiziert, vom Bund gefördert. **openDesk Edu** ergänzt das um das, was Hochschulen brauchen: **Lernplattformen, Videokonferenzen, Dateien, kollaboratives Arbeiten**. Das Ganze als **Baukasten** – Komponenten sind austauschbar. Alles läuft hinter **einem Login**, anbindbar an die gewohnte Hochschul-Welt. Und: **ein Befehl** stellt die komplette Umgebung bereit. Kein Raketenbau – Standard-Werkzeuge, offen zusammengesetzt.“
 
-**Timing:** 60 seconds
-
-**Delivery Tips:**
-- 🖼️ **Point to the diagram** as you explain each agent
-- 🔄 **Show the connections** between agents
-- 💡 **Set up the use cases** – "Und jetzt zeige ich euch, WAS die können..."
+**Delivery:** „Ein Befehl“ kurz wirken lassen. Keine Liste aller Services abspulen (Detail!).
 
 ---
 
-### **Slide 5: Use Case 1 – Automatic Grading (4:30-6:00)**
+### Folie 4 · Der k3s-Cluster auf bare metal (3:00–4:15)
 
-**Content:** Prof. Müller's problem + solution + metrics
+**Wichtigste Botschaft:** Eigene Hardware, volle Kontrolle – k3s als schlankes Kubernetes.
 
-**Script:**
-> "**Use Case 1: Automatische Korrektur.**
-> 
-> Zurück zu Prof. Müller und seinen 150 Aufgaben pro Woche.
-> 
-> Unser **Assessment Agent** analysiert ALLE Abgaben automatisch:
-> - Er identifiziert häufige Fehler
-> - Er generiert Gruppen-Feedback für die ganze Klasse
-> - Er markiert nur die Ausreißer – also wirklich schwierige Fälle – für Prof. Müllers manuelle Prüfung
-> 
-> **Das Ergebnis?** 
-> **95% der Korrekturen laufen automatisch** – Prof. Müller spart **9 Stunden pro Woche.** 
-> Und die Qualität? **Steigt um 25%**, weil der Agent konsistent und objektiv bewertet.
-> 
-> **9 Stunden. Pro Woche. Zurückgewonnen.**"
+**Script-Idee:**
+> „Basis ist unser **eigener Cluster** – k3s, das schlanke Kubernetes, auf **eigener Hardware (bare metal)**. Keine Cloud-Verträge, keine fremden Rechenzentren: Wir bestimmen, wo die Daten liegen. Gestartet als **kleines Test-Setup**, gewachsen zu einer **produktionsnahen Plattform**, betrieben am **eigenen Hochschulrechenzentrum**. Warum k3s? Klein genug zum Verstehen, robust genug zum Betreiben – und 100 % Kubernetes-kompatibel. Wer selbst einsteigen will: exakt das machen wir auch – ein Cluster, Dienste drauf, ein Login davor.“
 
-**Timing:** 90 seconds
-
-**Delivery Tips:**
-- 🎯 **This is your FIRST value bomb** – deliver with confidence
-- 📊 **Emphasize the numbers** (95%, 9 hours, +25%)
-- 😮 **Pause after "9 Stunden pro Woche"** – let it sink in
-- 👉 **Point to the metric** on the slide
+**Delivery:** Kurz halten, Begeisterung für das Thema „eigene Infrastruktur“. Keine Zahlen zu Knoten/Hardware (Interna).
 
 ---
 
-### **Slide 6: Use Case 2 – Adaptive Learning (6:00-7:30)**
+### Folie 5 · Aufgesetzt mit KI-Hilfe (4:15–5:30)
 
-**Content:** Max's problem + solution + metrics
+**Wichtigste Botschaft:** KI-Agenten waren Co-Piloten beim Aufbau – die Kontrolle blieb beim Team. (Ehrliche, echte Geschichte – warum wir das gemacht haben.)
 
-**Script:**
-> "**Use Case 2: Adaptives Lernen.**
-> 
-> Und was ist mit Max, der an den Python-Schleifen scheitert?
-> 
-> Hier arbeiten **3 Agenten zusammen:**
-> Der **User Agent** erkennt: Max hat schon 5 Mal ähnliche Fehler gemacht.
-> Der **Knowledge Agent** sucht alternative Erklärungen und Beispiele – nicht nur eine, sondern 10 verschiedene.
-> Der **Collaboration Agent** findet Lisa, 14 Jahre alt, Python-Experte in Max' Klasse, und vermittelt eine Mentoring-Session.
-> 
-> **Das Ergebnis?** 
-> Max versteht Schleifen in **30 Minuten statt 3 Stunden** – das ist **85% schneller.** 
-> Und sein Verständnis? **Steigt um 40%.** Seine Motivation? **Steigt um 60%.**
-> 
-> **Aus Frust wird Flow.**"
+**Script-Idee:**
+> „Ehrlich: So ein Cluster ist viel Arbeit. Was uns geholfen hat: **KI-Agenten als Co-Piloten**. Sie haben Konfigurationen und Skripte mitentworfen, geprüft und iteriert. Wenn im Betrieb etwas hakte, haben wir **im Dialog mit KI** die Logs untersucht, Ursachen gefunden, Fixes abgeleitet. Und ganz praktisch: ‚Wie geht X in k3s?‘ – statt stundenlang zu suchen, direkt umsetzen. **Wichtig:** Die KI schlägt vor, **wir entscheiden und verstehen**. Der Cluster steht – und dass er heute steht, haben wir auch kritischer KI-Unterstützung zu verdanken.“
 
-**Timing:** 90 seconds
-
-**Delivery Tips:**
-- 🎯 **SECOND value bomb** – keep the energy high
-- 👥 **Tell a story** – Max is relatable
-- 📈 **Multiple metrics** show different dimensions of success
-- 💡 **End with the emotional payoff** ("Aus Frust wird Flow")
+**Delivery:** Hier geht es um echte Erfahrung – gern persönlich erzählen. Nicht behaupten, dass KI „alles allein“ gemacht hätte.
 
 ---
 
-### **Slide 7: Use Case 3 – Collaborative Research (7:30-8:30)**
+### Folie 6 · openDesk für Unis + KI zugänglich (5:30–6:45)
 
-**Content:** Research team problem + solution + metrics
+**Wichtigste Botschaft:** openDesk war für Verwaltung gebaut – wir machen ihn für Unis nutzbar, inklusive datenschutzkonformer KI.
 
-**Script:**
-> "**Use Case 3: Kollaborative Forschung.**
-> 
-> Und das Forschungsteam mit den Klimadaten?
-> 
-> Der **Knowledge Agent** erklärt die Datensätze automatisch und findet relevante Papers.
-> Der **Collaboration Agent** übersetzt die Diskussionen zwischen den internationalen Teammitgliedern – **10 Sprachen in Echtzeit.**
-> Der **Assessment Agent** validiert die Datenqualität und warnt vor Inkonsistenzen.
-> 
-> **Das Ergebnis?** 
-> Das Projekt, das früher **4 Monate** gedauert hat, ist in **6 Wochen** fertig. 
-> **300% schneller.** Die Kollaboration? **200% besser.**
-> 
-> **Von Monaten zu Wochen.**"
+**Script-Idee:**
+> „openDesk kommt aus der **Verwaltung**. Für Hochschulen fehlte was: **Bildungs-Services** – Lehre, Video, Dateien, Zusammenarbeit – die haben wir ergänzt. Und der Clou: **KI als Baustein**. Datenschutzkonforme, **lokale KI-Assistenten** – direkt in der Plattform, nicht in irgendeiner Cloud. Keine Daten bei Drittanbietern, eigene Infrastruktur, eigene Regeln. **Ein Login** für Lehre, Forschung, Kommunikation **und KI**. Heute: fünf Tools, fünf Logins, Daten überall. Morgen: eine Plattform, ein Login, offene KI.“
 
-**Timing:** 60 seconds
-
-**Delivery Tips:**
-- ⚡ **Keep it fast** – this is the last use case
-- 🌍 **Highlight the international aspect** (10 languages)
-- 📊 **Big numbers** (300%, 200%) deserve emphasis
-- 🔥 **Build to a crescendo** – the use cases get increasingly impressive
+**Delivery:** Den Kontrast „heute/morgen“ betonen. Keine internen KI-Dienst-Namen nennen (Detail/Interna).
 
 ---
 
-### **Slide 8: The Data (8:30-9:00)**
+### Folie 7 · Kein Konzept – es läuft (6:45–7:45)
 
-**Content:** Pilot study results table + quote
+**Wichtigste Botschaft:** Live im Betrieb am Hochschulrechenzentrum – mit gewohntem Login.
 
-**Script:**
-> "Jetzt fragt ihr euch vielleicht: **Klingt gut, aber stimmt das auch?**
-> 
-> Wir haben eine **Pilotstudie mit 200 Studierenden** an der Uni Marburg durchgeführt:
-> 
-> - **Lernfortschritt:** Plus 42%
-> - **Retentionsrate:** Plus 35% – die Studierenden behalten mehr
-> - **Benutzerzufriedenheit:** 4,7 von 5 Sternen
-> - **Lehrenden-Feedback:** 4,8 von 5 Sternen
-> 
-> Und Prof. Dr. Anna Schmidt von den Erziehungswissenschaften sagt:  
-> **"Die agentische Herangehensweise revolutioniert das Lernen."**
-> 
-> **Das sind keine leeren Versprechungen. Das sind Fakten.**"
+**Script-Idee:**
+> „Und wichtig: Das ist **kein Konzept – das läuft**. Die Plattform läuft am **Hochschulrechenzentrum**, man meldet sich mit dem **gewohnten Hochschul-Login** an. Updates sind **kontrolliert** – und wenn etwas schiefgeht, gibt es einen sauberen Rollback. Monitoring und Absicherung gehören von Anfang an dazu. Vom Testsystem in den regulären Betrieb – Schritt für Schritt, nicht im Alleingang.“
 
-**Timing:** 30 seconds
-
-**Delivery Tips:**
-- 📊 **Point to each number** as you say it
-- 🎤 **Quote with authority** – this is social proof
-- ✅ **Confident tone** – "Fakten, keine Versprechungen"
-- ⏰ **Watch the time** – you're at the 9-minute mark!
+**Delivery:** „Kein Konzept – es läuft“ ist die Punch-Line der Folie. Kurz und sicher vortragen.
 
 ---
 
-### **Slide 9: Technical Overview (9:00-10:00)**
+### Folie 8 · Zielbild: Hybrid (7:45–8:45)
 
-**Content:** Architecture diagram
+**Wichtigste Botschaft:** Nicht alles oder nichts – Verwaltung bleibt MS365, Staff & Students wechseln auf openDesk Edu.
 
-**Script:**
-> "Und wie funktioniert das technisch?
-> 
-> Ganz einfach: **Multi-Agent-Architektur.**
-> 
-> Die Frontend-Komponente kommuniziert mit unserer API. Die API leitet Anfragen an die verschiedenen Agenten weiter. Die Agenten nutzen:
-> - **LLM Service** mit lokalen Modellen wie Mistral oder Llama 3
-> - **Vector Database** für das Wissensmanagement
-> - **Knowledge Graph** für semantische Verbindungen
-> 
-> **Das Beste?** Alles läuft **lokal**, **Open Source**, und **datenschutzkonform.**
-> Keine Cloud-Abhängigkeit. Volle Kontrolle.
-> 
-> **Technologie, die dient – nicht beherrscht.**"
+**Script-Idee:**
+> „Unser Ziel ist **Hybrid** – kein Dogma: Die **Verwaltung und das Backoffice bleiben auf Microsoft 365** – Bestand, Stabilität, gewohnte Formate. **Staff und Students** arbeiten auf **openDesk Edu** – souverän, offen, mit KI. Kein Big Bang, sondern **schrittweise**, dort wo es passt. Pro Anwendung die Frage: **‚Was muss souverän laufen?‘** – und genau die Anwendungen wandern nach und nach um.“
 
-**Timing:** 60 seconds
-
-**Delivery Tips:**
-- 🖼️ **Point to the diagram**
-- 🔧 **Name the technologies** – show you know your stuff
-- 🔒 **Emphasize data privacy** – this is important for academics
-- 💡 **End with the philosophy** ("Technologie, die dient")
+**Delivery:** Hybrid ist die pragmatische Botschaft – kommt bei Administratoren gut an. Klar trennen: „MS365 bleibt“ ist kein Widerspruch.
 
 ---
 
-### **Slide 10: Tech Stack (10:00-10:30)**
+### Folie 9 · Langsam in den Pilotbetrieb (8:45–9:45)
 
-**Content:** Backend, AI/ML, Frontend code blocks
+**Wichtigste Botschaft:** Übergang vom Test in die Praxis – bewusst langsam, mit Startups und ggf. einem Fachbereich als Pilot.
 
-**Script:**
-> "Kurz zum Stack – damit die Entwickler unter euch wissen, worum es geht:
-> 
-> **Backend:** Node.js mit TypeScript, Fastify als API-Gateway, PostgreSQL für die Daten.
-> 
-> **AI/ML:** LangChain.js und LangGraph für die Agenten-Orchestrierung, Ollama für lokale LLM-Inferenz, Qdrant als Vector Database.
-> 
-> **Frontend:** Next.js 14 mit Tailwind CSS und WebSockets für Echtzeit-Kommunikation.
-> 
-> **Alles Standard-Technologien. Alles gut dokumentiert. Alles bereit für den Produktiv-Einsatz.**"
+**Script-Idee:**
+> „Jetzt wird es konkret: Wir gehen **in den Pilotbetrieb**. Bewusst **langsam und kontrolliert** – erst lernen, dann ausrollen. Erste Piloten sind **Startups** aus dem regionalen Startup-Ökosystem. Und ggf. an der Hochschule: ein **Fachbereich als Pilot** – denken wir an Mathematik. **Kleine Gruppen zuerst**, messen, dann Schritt für Schritt mehr Nutzer: Test ✅ → Pilot ▶️ → gestaffelter Rollout → Betrieb.“
 
-**Timing:** 30 seconds
-
-**Delivery Tips:**
-- 👨‍💻 **Look at the developers** in the audience
-- 📦 **Name drop technologies** they'll recognize
-- ⚡ **Fast pace** – this is technical detail, not the main story
-- ✅ **Confident** – you know this works
+**Delivery:** Ehrlich bleiben – „ggf.“ Fachbereich nicht überzeichnen. Konkrete Namen nur nennen, wenn sicher.
 
 ---
 
-### **Slide 11: Getting Started (10:30-11:30)**
+### Folie 10 · Warum sich das lohnt (9:45–10:30)
 
-**Content:** Quick start commands + community info
+**Wichtigste Botschaft:** Souveränität, stabile Kosten, Flexibilität, Gemeinschaft.
 
-**Script:**
-> "Und das Beste: **Ihr könnt das heute schon ausprobieren.**
-> 
-> **Option 1:** Docker Compose – eine Zeile, alles läuft.
-> ```bash
-> docker compose up -d
-> ```
-> 
-> **Option 2:** npm-Paket – noch einfacher.
-> ```bash
-> npx create-opendesk-edu@latest
-> ```
-> 
-> **Und wenn ihr mitmachen wollt:**
-> - GitHub: github.com/opendesk-edu
-> - Discord: discord.gg/opendesk
-> - Pilotprojekte: **Kostenlos für Early Adopter**
-> 
-> **Die Zukunft der Bildung ist nicht irgendwann. Sie ist JETZT.**"
+**Script-Idee:**
+> „Warum machen wir das? **Souveränität**: Daten bleiben im eigenen Rechenzentrum. **Stabile Kosten**: eigene Hardware statt wachsender Lizenzen pro Nutzer. **Flexibilität**: Module austauschbar, keine Sackgassen. Und **Gemeinschaft**: offene Software, von vielen getragen – wir profitieren alle. Souveränität ist kein Luxus – sie wird zum Standortvorteil.“
 
-**Timing:** 60 seconds
-
-**Delivery Tips:**
-- 🚀 **High energy** – this is the call to action
-- 💻 **Read the code** on the slide
-- 🤝 **Emphasize community** – "mitmachen"
-- 🎯 **Create urgency** – "JETZT"
+**Delivery:** Nur echte, öffentlich belegbare Argumente. Keine konkreten Ersparnis-Zahlen nennen (nicht belastbar).
 
 ---
 
-### **Slide 12: Voting CTA (11:30-12:00)**
+### Folie 11 · Mitmachen (10:30–11:00)
 
-**Content:** Voting call with QR code
+**Wichtigste Botschaft:** Quellen sind öffentlich – und wir suchen Piloten.
 
-**Script:**
-> "Und jetzt kommt der **wichtigste Teil meines Vortrags.**
-> 
-> Wir nehmen am **Open Source Wettbewerb 2026** teil.  
-> Und wir brauchen **EUCH.**
-> 
-> **Jede Stimme zählt.**
-> 
-> **Scannt den QR-Code** mit eurem Handy – oder geht auf:
-> **open-source-wettbewerb.de/voting/opendesk-edu/**
-> 
-> **Es dauert 30 Sekunden. Aber es macht einen riesigen Unterschied.**
-> 
-> **Bildung unsere Zukunft. Open Source ist der Weg.  
-> Und IHRE Stimme ist der nächste Schritt.**
-> 
-> **Vielen Dank!**"
+**Script-Idee:**
+> „Alles ist offen: **opendesk-edu.org**, der **Quellcode** auf GitHub, und die **Landscape**-Seite zeigt das ganze Ökosystem. Wer eigene **Piloten** starten will: sprecht mich nach dem Vortrag an. Deploy ist Open Source, ein Befehl, Kubernetes – selbst testen, Feedback geben, Issues melden.“
 
-**Timing:** 30 seconds
-
-**Delivery Tips:**
-- 🎯 **THIS IS THE MOST IMPORTANT SLIDE**
-- 🗳️ **Hold up the QR code** or point to it
-- 🙏 **Make eye contact** with individuals
-- 🔥 **Create urgency** – "JETZT"
-- ⏰ **Pause after QR code** – let people scan
-- ❤️ **End with gratitude**
+**Delivery:** Kurz halten – die Folie ist Selbstläufer.
 
 ---
 
-### **Bonus-Folie: StartMiUp Preisverleihung (direkt nach dem Voting-CTA)**
+### Folie 12 · CTA Voting (11:00–12:00)
 
-**Content:** StartMiUp Business Model Wettbewerb 2026 – Live-Preisverleihung auf YouTube
+**Wichtigste Botschaft:** Bis 30.09. abstimmen – 30 Sekunden, großer Unterschied.
 
-**Script:**
-> „Ein letzter Hinweis: openDesk Edu ist auch beim **StartMiUp Business Model Wettbewerb 2026** im Finale.  
-> Die **Preisverleihung** wird live auf YouTube übertragen.  
-> Scannt den QR-Code oder geht auf **youtube.com/live/wMvwufJSCoY**.  
-> Schaut rein – es lohnt sich!“
+**Script-Idee:**
+> „Und jetzt meine Bitte: openDesk Edu ist im **Open Source Wettbewerb 2026** – Community-Voting bis **30. September**. Dauert keine 30 Sekunden: **QR-Code scannen** oder open-source-wettbewerb.de/voting/opendesk-edu/. **Jede Stimme zählt – macht die offene Hochschul-IT sichtbar. Danke!**“
 
-**Timing:** 20-30 Sekunden (direkt nach dem Voting-CTA, vor Q&A)
-
-**Delivery Tips:**
-- 📺 **Auf den QR-Code zeigen** – wie beim Voting
-- 🏆 **Begeisterung zeigen** – „Wir sind im Finale!“
-- ⏱️ **Kurz halten** – das Voting bleibt der Höhepunkt; die Preisverleihung ist der Ausblick
-- 🔗 **Link wiederholen** – „youtube.com/live/wMvwufJSCoY“
+**Delivery:** Das ist der emotionale Höhepunkt. QR zeigen, Zeit geben, ehrlich danken.
 
 ---
 
----
+### Folie 13 · Bonus: StartMiUp Preisverleihung (falls Zeit)
 
-## ⏰ **+8 Minuten: Q&A Strategy**
+**Wichtigste Botschaft:** Wir sind Teil des regionalen Startup-Ökosystems – Livestream der Preisverleihung ansehen.
 
-### **Preparation:**
-- **Have laptop ready** with OpenDesk Edu running (if possible)
-- **Prepare 3-4 demo scenarios** you can show quickly
-- **Know your backup slides** (architecture, comparison, roadmap)
-- **Have business cards/links** ready to share
+**Script-Idee:**
+> „Wer mag: openDesk Edu ist Teil des regionalen Startup-Ökosystems. Die **Preisverleihung des StartMiUp Business Model Wettbewerbs 2026** gibt es als **Livestream auf YouTube** – QR-Code scannen, reinschauen, Daumen drücken.“
 
----
-
-### **Handling Questions:**
-
-#### **🔹 Technical Questions**
-
-**Q: "Welche LLMs werden unterstützt?"**
-> "Aktuell: Mistral 7B, Llama 3 8B, Phi-3 3.8B – alle lokal laufend.  
-> Wir arbeiten an der Integration von bigger Modellen und Cloud-Optionen.  
-> **Aber unser Fokus ist Local First – Datenschutz ist uns extrem wichtig.**"
-
-**Q: "Wie skaliert das System?"**
-> "Gute Frage! Jeder Agent läuft in seinem eigenen Container.  
-> Wir nutzen Redis für Caching und Message Queues für die Kommunikation.  
-> **In unserer Pilotstudie mit 200 Nutzern hatten wir 0 Downtime.**  
-> Für größere Deployments empfehlen wir Kubernetes."
-
-**Q: "Kann man OpenDesk Edu in bestehende Systeme integrieren?"**
-> "Absolut! Wir haben eine REST API und Webhooks.  
-> **Moodle-, ILIAS- und Nextcloud-Integration sind bereits in Entwicklung.**  
-> Und da wir Open Source sind, könnt ihr natürlich auch eigene Integrationen bauen."
+**Delivery:** Nur erwähnen, wenn die Zeit reicht. Keine Finalisten-Behauptung aufstellen (nicht belegbar).
 
 ---
 
-#### **🔹 Pedagogical Questions**
+# ❓ Q&A-Vorbereitung (+8 Minuten)
 
-**Q: "Wie validiert ihr, dass die Lernergebnisse wirklich besser sind?"**
-> "Wir nutzen **A/B-Testing** und **kontrollierte Studien**.  
-> In unserer Pilotstudie hatten wir eine Kontrollgruppe mit traditionellen Methoden.  
-> Die OpenDesk-Edu-Gruppe schnit **42% besser** ab – statistisch signifikant.  
-> **Wir messen nicht nur Nutzerzufriedenheit, sondern tatsächlichen Lernerfolg.**"
+**Typische Fragen & ehrliche Antwort-Linien:**
 
-**Q: "Was ist mit Datenschutz für Studierende?"**
-> "**Das ist uns extrem wichtig.** Alles läuft lokal oder in IHRER Cloud.  
-> Keine Daten gehen an Dritte. Keine Telemetrie. Keine Tracking-Cookies.  
-> **Wir sind eine deutsche Universität – wir kennen die DSGVO.**  
-> Und wir haben bereits mit mehreren Datenschutzbeauftragten gesprochen."
+- **Warum k3s statt großem Kubernetes?** → Leichtgewichtig, wartbar, kompatibel; für unsere Größenordnung perfekt; bewusst einfach gestartet.
+- **Wie hat KI konkret geholfen?** → Konfigurationen/Skripte als Entwürfe, Fehlersuche im Dialog, schnelleres Lernen; Kontrolle blieb beim Team.
+- **Datenschutzkonform – wie?** → Eigene Infrastruktur, lokale KI, Daten bleiben im eigenen Rechenzentrum; DSGVO-konform ausgelegt.
+- **Wo endet das Hybrid-Modell?** → Verwaltung bleibt MS365; Kriterium pro Anwendung: „Was muss souverän laufen?“ – danach Staffeln.
+- **Wie läuft der Pilotbetrieb ab?** → Kleine Gruppen zuerst, messen, dann ausrollen; Startups + ggf. Fachbereich; bewusst langsam.
+- **Kosten?** → Eigene Hardware statt Lizenzen; Open Source; keine pauschalen Zahlen versprechen.
 
----
-
-#### **🔹 Practical Questions**
-
-**Q: "Was kostet das?"**
-> "**OpenDesk Edu ist komplett kostenlos und Open Source.**  
-> Die einzige Kosten sind Ihre Server – und die sind minimal:  
-> Ein Standard-Server reicht für 500 Nutzer.  
-> **Für nicht-kommerzielle Nutzung: 0 Euro. Für immer.**"
-
-**Q: "Kann ich das für meine Vorlesung nutzen?"**
-> "**Ja!** Wir suchen derzeit genau nach Pilotpartnern.  
-> Sie bekommen kostenlosen Support und wir helfen bei der Einrichtung.  
-> **Melden Sie sich einfach bei mir nach dem Vortrag.**"
+**Falls nötig:** Laptop mit laufender Instanz zeigen (wenn verfügbar), sonst ehrlich: „Demo gerne nachher im direkten Gespräch.“
 
 ---
 
-#### **🔹 Strategic Questions**
+# 📋 Checkliste
 
-**Q: "Was ist eure Roadmap?"**
-> "**Kurzfristig:** Public Beta in Q4 2026.  
-> **Mittelfristig:** Plug-in-Marketplace und Mobile App.  
-> **Langfristig:** Wir wollen die **Standard-Lernplattform für agentisches Lernen** werden.  
-> **Aber unser Fokus bleibt immer: Open Source, datenschutzkonform, nutzerzentriert.**"
+### 1 Woche vorher
+- [ ] Folien + Notizen durchgehen, Timing üben
+- [ ] QR-Codes auf Folien 12/13 testen (funktionieren offline-fähig als PNG)
+- [ ] Voting-Link einmal selbst durchklicken (open-source-wettbewerb.de/voting/opendesk-edu/)
 
-**Q: "Was unterscheidet euch von Moodle?"**
-> "Moodle ist ein **Content-Management-System**.  
-> OpenDesk Edu ist ein **Agentic-Learning-System**.  
-> **Der Unterschied?**  
-> Moodle speichert Inhalte. **Wir verstehen sie, verknüpfen sie, und passen sie an.**  
-> Moodle korrigiert Aufgaben. **Wir bewerten sie, geben Feedback, und lernen daraus.**  
-> **Es ist wie der Unterschied zwischen einem Buch und einem persönlichen Tutor.**"
+### 1 Tag vorher
+- [ ] HTML + PDF final gebaut (marp), beide auf Laptop + USB-Stick
+- [ ] Laptop/Clicker laden, Beamer/HDMI prüfen
+- [ ] Faktencheck: nur belegbare Aussagen im Vortrag, keine Interna
 
----
+### 5 Minuten vorher
+- [ ] Folien im Browser geöffnet (HTML offline-fähig)
+- [ ] PDF als Backup griffbereit
+- [ ] Handy stumm, Timer bereit
 
-#### **🔹 Difficult Questions**
-
-**Q: "Ist das nicht nur ein Hype?"**
-> "Ich verstehe die Skepsis. Aber schauen Sie sich die Daten an:  
-> **42% besserer Lernerfolg. 9 Stunden Zeitersparnis pro Woche.**  
-> Das sind keine Marketing-Zahlen – das sind messbare Ergebnisse.  
-> **Und die Technologie ist da. Sie funktioniert. Sie ist bereit.**"
-
-**Q: "Was, wenn die Agenten Fehler machen?"**
-> "**Transparenz ist uns extrem wichtig.** 
-> Jede Bewertung durch einen Agenten ist nachvollziehbar.  
-> Nutzer können Feedback geben und Korrekturen anfordern.  
-> **Wir sehen Agenten nicht als Ersatz für Menschen, sondern als Verstärker.**  
-> Die finale Verantwortung liegt immer beim Nutzer – oder beim Lehrenden."
+### Nach dem Talk
+- [ ] Fragen nachgehen, Kontakte einsammeln
+- [ ] Links (Folien, Quellen) teilen
+- [ ] Feedback für nächste Runde notieren
 
 ---
 
-### **If You Have Time Left:**
-
-**🎤 Offer a Live Demo:**
-> "Ich habe hier eine laufende Instanz von OpenDesk Edu.  
-> **Wer möchte, kann live sehen, wie das funktioniert?**  
-> Ich zeige euch kurz den User Agent in Aktion."
-
-**📢 Announce Next Steps:**
-> "Next week starten wir unser **Pilotprogramm**.  
-> **Die ersten 10 Institutionen bekommen kostenlosen Premium-Support.**  
-> Wenn Sie interessiert sind, sprechen Sie mich bitte nachher an."
-
-**🤝 Network:**
-> "Und wenn Sie selbst an Agentic AI arbeiten – wir suchen **Mitentwickler**.  
-> Kommen Sie zu uns auf Discord oder GitHub!"
-
----
-
----
-
-## 🎯 **Pro Tips for Delivery**
-
-### **Body Language:**
-- ✅ **Stand tall** – confidence is key
-- ✅ **Make eye contact** – connect with individuals
-- ✅ **Use hand gestures** – emphasize points
-- ✅ **Move around** – don't hide behind the podium
-- ❌ **Don't rush** – even if you're at 11:50
-- ❌ **Don't read slides** – you know this stuff!
-
-### **Voice:**
-- ✅ **Vary your pitch** – avoid monotony
-- ✅ **Pause after key points** – let it sink in
-- ✅ **Speak loudly** – especially the CTA
-- ❌ **Don't speak too fast** – 120-140 words/minute
-
-### **Timing:**
-- ✅ **Start on time** – even if latecomers
-- ✅ **End on time** – respect the audience
-- ✅ **Watch the clock** – but don't obsess
-- ⏰ **Aim for 11:30** on slide 12 – gives buffer
-
-### **Technology:**
-- ✅ **Test everything** before the talk
-- ✅ **Have backup** (PDF on USB stick)
-- ✅ **Know the clicker** – practice transitions
-- ❌ **Don't apologize** for technical issues – just fix them
-
----
-
----
-
-## 📋 **Checklist Before the Talk**
-
-### **1 Week Before:**
-- [ ] Review slides and speaker notes
-- [ ] Practice timing (aim for 11:30-12:00)
-- [ ] Prepare backup slides
-- [ ] Test technology (laptop, clicker, HDMI)
-- [ ] Print handouts if needed
-
-### **1 Day Before:**
-- [ ] Final run-through (full 12 minutes)
-- [ ] Charge laptop and clicker
-- [ ] Pack: laptop, charger, clicker, USB stick, business cards
-- [ ] Check venue (projector, screen, sound)
-- [ ] Confirm time slot with organizers
-
-### **1 Hour Before:**
-- [ ] Arrive early
-- [ ] Test projection and sound
-- [ ] Meet Christian Uhl (coordinate transition)
-- [ ] Have water ready
-- [ ] Relax and breathe
-
-### **5 Minutes Before:**
-- [ ] Open slides in fullscreen
-- [ ] Test clicker
-- [ ] Silence phone
-- [ ] Take deep breaths
-- [ ] **You've got this!**
-
----
-
----
-
-## 💡 **Mindset: You're Not Presenting – You're Teaching**
-
-> **"Your goal is not to impress. Your goal is to inspire action."**
-
-### **Remember:**
-- The audience **wants you to succeed**
-- They **care about the problem** (education, efficiency, innovation)
-- They **respect expertise** (you know your stuff)
-- **You have something valuable to share**
-
-### **Your Secret Weapon:**
-**You're not just talking about OpenDesk Edu.  
-You're showing people how to save time, improve learning, and shape the future of education.**
-
----
-
----
-
-## 🎉 **After the Talk**
-
-### **Immediate Actions:**
-- ✅ **Stay for questions** – don't rush off
-- ✅ **Collect contacts** (business cards, email addresses)
-- ✅ **Thank the organizers**
-- ✅ **Take a photo** with Christian Uhl (if appropriate)
-
-### **Follow-Up:**
-- [ ] Send thank-you email to organizers
-- [ ] Follow up with interested attendees
-- [ ] Share slides on social media
-- [ ] Update your website/blog with talk summary
-- [ ] Gather feedback for future improvements
-
----
-
----
-
-## 🏆 **Success Metrics for Your Talk**
-
-| Metric | Target |
-|--------|--------|
-| **Audience engagement** | 80% paying attention |
-| **Questions asked** | 3-5 good questions |
-| **Voting link scanned** | 50% of audience |
-| **Follow-up contacts** | 5-10 interested people |
-| **Social media mentions** | 3+ posts tagged |
-| **Your confidence** | Felt natural and authentic |
-
----
-
----
-
-## 🔥 **FinalEncouragement**
-
-You've prepared well. You know your stuff. You have a **great story** to tell.
-
-**The audience doesn't want perfection. They want passion, authenticity, and value.**
-
-You're going to **crush it.**
-
----
-
-**🗣️ You've got this. Now go make education agentic!**
+## 💬 **Mindset**
+Du erzählst eine echte Geschichte – eigene Hardware, KI als Co-Pilot, der Weg in den Pilotbetrieb. Das Publikum will lernen, wie ihr es gemacht habt. Trau deiner Erfahrung, bleib auf Augenhöhe, und mach am Ende eine klare Bitte: **abstimmen!**
