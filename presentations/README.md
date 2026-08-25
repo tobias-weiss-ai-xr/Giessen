@@ -25,7 +25,6 @@ This directory contains presentation slides for HackyHour Gießen events.
 | [`SPEAKER_NOTES_12plus8.md`](SPEAKER_NOTES_12plus8.md) | **Script & Timing** – Story + Delivery-Tipps | 13KB |
 | [`CHEAT_SHEET.md`](CHEAT_SHEET.md) | **Quick reference** – On-stage cheat sheet | 5KB |
 | [`voting-qr.png`](voting-qr.png) | **Offline QR** – Voting (Folie 12) | 3KB |
-| [`preisverleihung-qr.png`](preisverleihung-qr.png) | **Offline QR** – StartMiUp Preisverleihung (Folie 13) | 3KB |
 
 ---
 
@@ -42,7 +41,7 @@ This directory contains presentation slides for HackyHour Gießen events.
 4. **Status (6:45–7:45)** – läuft am Hochschulrechenzentrum ("Kein Konzept – es läuft")
 5. **Ziel (7:45–8:45)** – Hybrid: Verwaltung MS365 · Staff & Students openDesk Edu
 6. **Jetzt (8:45–11:00)** – langsamer Pilotbetrieb (Startups · ggf. Fachbereich), Gründe, Mitmachen
-7. **CTA (11:00–12:00)** – **VOTING** (Open Source Wettbewerb, bis 30.09.) + Preisverleihung-Stream (Bonus)
+7. **CTA (11:00–12:00)** – **VOTING** (Open Source Wettbewerb, bis 30.09.)
 
 ---
 
@@ -95,16 +94,13 @@ marp opendesk_edu_12plus8.md --images png -o .preview/preview.png
 | 10 | **Warum** | 9:45–10:30 | Gründe | Souveränität · stabile Kosten · Flexibilität · Community |
 | 11 | **Mitmachen** | 10:30–11:00 | Ressourcen | Website · GitHub · Landscape · Piloten |
 | 12 | **🎯 VOTING CTA** | 11:00–12:00 | Call to Action | **QR (voting-qr.png) + Link** · bis 30.09. |
-| 13 | **🏆 PREISVERLEIHUNG** | ~12:00 | Bonus CTA | StartMiUp Livestream auf YouTube (preisverleihung-qr.png) |
-
-### **❓ Q&A Slide (+8 minutes):**
-- **Slide 14:** Fragen & Diskussion – Technik, Datenschutz, Hybrid, Pilotbetrieb
+| 13 | **❓ Q&A** | +8 Minuten | Fragen & Diskussion – Technik, Datenschutz, Hybrid, Pilotbetrieb |
 
 ### **📦 Backup Slides (if time permits):**
-- **Slide 15:** Konzeptbild – ein Login verbindet Lehre · Kommunikation · Dateien · KI
-- **Slide 16:** Einordnung – viele Einzellösungen → eine Plattform
-- **Slide 17:** Phasen – Test → Pilot → Rollout → Betrieb
-- **Slide 18:** Kontakt & Links
+- **Slide 14:** Konzeptbild – ein Login verbindet Lehre · Kommunikation · Dateien · KI
+- **Slide 15:** Einordnung – viele Einzellösungen → eine Plattform
+- **Slide 16:** Phasen – Test → Pilot → Rollout → Betrieb
+- **Slide 17:** Kontakt & Links
 
 ---
 
@@ -159,7 +155,7 @@ marp opendesk_edu_12plus8.md --images png -o .preview/preview.png
 - "**Bis 30. September abstimmen** – open-source-wettbewerb.de/voting/opendesk-edu/"
 - "Jede Stimme macht offene Hochschul-IT sichtbar."
 - "Eigene Piloten? Sprecht mich an!"
-- "StartMiUp-Preisverleihung live auf YouTube – QR-Code scannen."
+- "StartMiUp-Preisverleihung live auf YouTube – QR-Code scannen." → entfernt (Preisverleihung fand vor dem Talk statt)
 
 ---
 
@@ -178,26 +174,6 @@ Support OpenDesk Edu in the **Open Source Wettbewerb 2026** (Community-Voting; 6
 - **Visibility** – more recognition for the project
 - **Credibility** – validation from the community
 - **Community** – strengthens open source in education
-
----
-
-## 🏆 **Preisverleihung: StartMiUp Business Model Wettbewerb 2026**
-
-### **The Ask:**
-openDesk Edu ist Teil des regionalen Startup-Ökosystems (StartMiUp). Die **Preisverleihung des StartMiUp Business Model Wettbewerbs 2026** wird live auf YouTube übertragen.
-
-### **How to watch:**
-- **QR Code:** Bonus-Folie 13 (`preisverleihung-qr.png`, Scan mit dem Handy)
-- **URL:** [youtube.com/live/wMvwufJSCoY](https://www.youtube.com/live/wMvwufJSCoY)
-- **Kanal:** [_StartMiUp](https://www.youtube.com/@_startmiup) – Innovations- & Startupcampus Mittelhessen (JLU Gießen · Uni Marburg · THM), kofinanziert durch die EU
-
-### **Timing in der Präsentation:**
-Bonus-Folie direkt nach dem Voting-CTA (ca. 12:00) – ca. 20–30 Sekunden, dann Q&A.
-
-> Hinweis: Bewusst **keine** "Finale"-Behauptung aufgestellt – Status wird ehrlich offengehalten.
-
----
-
 ## 📋 **Preparation Checklist**
 
 ### **📁 Files:**
@@ -207,7 +183,6 @@ Bonus-Folie direkt nach dem Voting-CTA (ca. 12:00) – ca. 20–30 Sekunden, dan
 - [ ] `SPEAKER_NOTES_12plus8.md` – Script & timing
 - [ ] `CHEAT_SHEET.md` – Quick reference
 - [ ] `voting-qr.png` – Offline QR für Voting (Folie 12)
-- [ ] `preisverleihung-qr.png` – Offline QR für StartMiUp Preisverleihung (Folie 13)
 
 ### **💻 Technology:**
 - [ ] Laptop charged (>50%)
@@ -218,7 +193,7 @@ Bonus-Folie direkt nach dem Voting-CTA (ca. 12:00) – ca. 20–30 Sekunden, dan
 - [ ] USB stick with all files (backup)
 
 ### **📱 On Your Phone:**
-- [ ] QR codes for voting + Preisverleihung ready (slides + phone backup)
+- [ ] QR code for voting ready (slides + phone backup)
 - [ ] Timer/stopwatch app
 - [ ] Silent mode enabled
 
@@ -261,7 +236,7 @@ Bonus-Folie direkt nach dem Voting-CTA (ca. 12:00) – ca. 20–30 Sekunden, dan
 - [Open Source Wettbewerb 2026](https://open-source-wettbewerb.de/voting/opendesk-edu/)
 
 ### **Preisverleihung:**
-- [StartMiUp Business Model Wettbewerb 2026 – Live auf YouTube](https://www.youtube.com/live/wMvwufJSCoY)
+> Entfernt aus dem Deck (2.0.1): Die StartMiUp-Preisverleihung fand am 25.08.2026, vor dem Talk, statt. YouTube: [youtube.com/live/wMvwufJSCoY](https://www.youtube.com/live/wMvwufJSCoY)
 
 ---
 
@@ -272,6 +247,7 @@ Bonus-Folie direkt nach dem Voting-CTA (ca. 12:00) – ca. 20–30 Sekunden, dan
 | 26.08.2026 | 1.0.0 | Initial 12+8 format presentation |
 | 23.08.2026 | **1.1.0** | Offline QR-PNGs (Voting + Preisverleihung), StartMiUp Bonus-Folie |
 | 24.08.2026 | **2.0.0** | **Content-Refactor:** ehrliche, belegbare Story statt erfundener Kennzahlen; neuer Erzählbogen (MS365 → openDesk Edu → k3s-Cluster mit KI-Hilfe → Hybrid-Zielbild → Pilotbetrieb); Golden-Ratio-Design; Notizen & Cheat Sheet komplett überarbeitet |
+| 24.08.2026 | **2.0.1** | StartMiUp-Preisverleihungs-Folie + `preisverleihung-qr.png` entfernt (Preisverleihung fand am 25.08., vor dem Talk, statt); Deck jetzt 17 Seiten |
 
 ---
 
@@ -283,7 +259,7 @@ Your presentation is:
 - ✅ **No fabricated claims** – everything said is publicly verifiable
 - ✅ **High-level** – no internal details, no internals
 - ✅ **Aesthetically composed** – golden-ratio layout, consistent palette
-- ✅ **Practical** – clear CTA (voting until 30.09.) + Preisverleihung bonus
+- ✅ **Practical** – clear CTA (voting until 30.09.)
 - ✅ **Available in 3 formats** (MD, HTML, PDF) with offline QR codes
 
 **🚀 Jetzt den Talk halten – und (bis 30.09.) Stimmen sammeln!**

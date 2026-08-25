@@ -13,7 +13,7 @@
 - **Ehrlich und auf Augenhöhe:** Es geht um die echte Geschichte – eigenes Setup, eigene Erfahrungen. Keine erfundenen Zahlen, keine Werbeclaims.
 - **Keine Interna:** Keine Knotenzahlen, keine Pod-Zahlen, keine internen Werkzeuge/Prozesse, keine internen Betriebsdetails. Hohes Niveau halten.
 - **Erzählbogen:** Warum (Souveränität) → Idee (openDesk Edu) → Wie (eigene Hardware + KI-Hilfe) → Was heute (läuft am RZ) → Ziel (Hybrid MS365 + openDesk Edu) → Jetzt (Pilotbetrieb) → CTA (Voting).
-- **CTA-Hierarchie:** 1 = Voting (bis 30.09.), 2 = Preisverleihung-Stream, 3 = Mitmachen.
+- **CTA-Hierarchie:** 1 = Voting (bis 30.09.), 2 = Mitmachen/Piloten.
 
 ---
 
@@ -33,8 +33,7 @@
 | 10 | 9:45–10:30 | Warum sich das lohnt |
 | 11 | 10:30–11:00 | Mitmachen |
 | 12 | 11:00–12:00 | CTA Voting |
-| 13 | Bonus | StartMiUp Preisverleihung (nur falls Zeit) |
-| 14–18 | Q&A + Backups | +8 Minuten |
+| 13–17 | Q&A + Backups | +8 Minuten |
 
 ---
 
@@ -171,17 +170,6 @@
 > „Und jetzt meine Bitte: openDesk Edu ist im **Open Source Wettbewerb 2026** – Community-Voting bis **30. September**. Dauert keine 30 Sekunden: **QR-Code scannen** oder open-source-wettbewerb.de/voting/opendesk-edu/. **Jede Stimme zählt – macht die offene Hochschul-IT sichtbar. Danke!**“
 
 **Delivery:** Das ist der emotionale Höhepunkt. QR zeigen, Zeit geben, ehrlich danken.
-
----
-
-### Folie 13 · Bonus: StartMiUp Preisverleihung (falls Zeit)
-
-**Wichtigste Botschaft:** Wir sind Teil des regionalen Startup-Ökosystems – Livestream der Preisverleihung ansehen.
-
-**Script-Idee:**
-> „Wer mag: openDesk Edu ist Teil des regionalen Startup-Ökosystems. Die **Preisverleihung des StartMiUp Business Model Wettbewerbs 2026** gibt es als **Livestream auf YouTube** – QR-Code scannen, reinschauen, Daumen drücken.“
-
-**Delivery:** Nur erwähnen, wenn die Zeit reicht. Keine Finalisten-Behauptung aufstellen (nicht belegbar).
 
 ---
 

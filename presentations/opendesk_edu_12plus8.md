@@ -407,33 +407,6 @@ Arbeiten auf **openDesk Edu** – souverän, offen, mit KI
 
 ---
 
-<div class="tag">Save the date</div>
-
-# **📺 StartMiUp Preisverleihung – Live auf YouTube**
-
-- **StartMiUp Business Model Wettbewerb 2026** – die Preisverleihung als Livestream
-- Wir sind Teil des regionalen Startup-Ökosystems – **schaut zu!**
-
-<div class="split">
-
-<div>
-
-🔗 **[youtube.com/live/wMvwufJSCoY](https://www.youtube.com/live/wMvwufJSCoY)**
-
-<p class="goldline"></p>
-
-<p class="muted">StartMiUp · JLU Gießen · Uni Marburg · THM · kofinanziert durch die EU</p>
-
-</div>
-
-![qr preisverleihung-qr.png](preisverleihung-qr.png)
-
-</div>
-
-<div class="slide-number">Folie 13 · Bonus</div>
-
----
-
 <div class="tag">+8 Minuten</div>
 
 # **❓ Fragen & Diskussion**
@@ -460,7 +433,7 @@ Arbeiten auf **openDesk Edu** – souverän, offen, mit KI
 
 </div>
 
-<div class="slide-number">Folie 14 · Q&A</div>
+<div class="slide-number">Folie 13 · Q&A</div>
 
 ---
 
@@ -527,5 +500,5 @@ Arbeiten auf **openDesk Edu** – souverän, offen, mit KI
 - 🌐 **openDesk Edu:** [opendesk-edu.org](https://opendesk-edu.org)
 - 🐙 **Quellcode:** [github.com/opendesk-edu/opendesk-edu](https://github.com/opendesk-edu/opendesk-edu)
 - 🗺️ **Landscape:** [landscape.opendesk-edu.org](https://landscape.opendesk-edu.org)
-- 🌍 **Tobias:** [tobias-weiss.org](https://tobias-weiss.org) · [@opendesk_edu@mastodon.social](https://mastodon.social/@opendesk_edu) · [linkedin.com/in/tobias-weiss](https://linkedin.com/in/tobias-weiss)
+- 🌍 **Tobias:** [tobias-weiss.org](https://tobias-weiss.org) · [@opendesk_edu@mastodon.social](https://mastodon.social/@opendesk_edu) · [linkedin.com/in/tobias-weiss-ai-xr](https://www.linkedin.com/in/tobias-weiss-ai-xr/)
 - 📧 **Mail:** [tobias.weiss@opendesk-edu.org](mailto:tobias.weiss@opendesk-edu.org)

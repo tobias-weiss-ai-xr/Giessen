@@ -21,7 +21,7 @@
 | 4 | **Status** | läuft am Hochschulrechenzentrum, gewohnter Hochschul-Login |
 | 5 | **Ziel** | Hybrid: Verwaltung MS365 · Staff & Students openDesk Edu |
 | 6 | **Jetzt** | langsam in den Pilotbetrieb – Startups + ggf. Fachbereich (Mathematik) |
-| 7 | **Action** | **Voting bis 30.09.** (QR) · StartMiUp-Preisverleihung live (QR) |
+| 7 | **Action** | **Voting bis 30.09.** (QR) |
 
 ---
 
@@ -46,10 +46,9 @@
 ## 🔥 **CTA-Hierarchie (Wichtig → Weniger wichtig)**
 
 1. **🗳️ VOTING** – "Bis 30.09. abstimmen – open-source-wettbewerb.de/voting/opendesk-edu/ · QR scannen"
-2. **🏆 PREISVERLEIHUNG** – "StartMiUp-Preisverleihung live auf YouTube – QR-Code"
-3. **🧪 Piloten** – "Eigene Piloten starten? Sprecht mich an!"
-4. **🤝 Mitmachen** – "GitHub-Star, Issues, PRs"
-5. **🌟 Teilen** – "Erzählt anderen davon!"
+2. **🧪 Piloten** – "Eigene Piloten starten? Sprecht mich an!"
+3. **🤝 Mitmachen** – "GitHub-Star, Issues, PRs"
+4. **🌟 Teilen** – "Erzählt anderen davon!"
 
 ---
 
@@ -68,7 +67,6 @@
 9:45–10:30 | Warum es sich lohnt
 10:30–11:00| Mitmachen
 11:00–12:00| VOTING CTA 🎯
-~12:00     | 🏆 StartMiUp Preisverleihung (Bonus)
 ```
 
 **Golden Rule:** **Voting-Folie um 11:00** erreichen – CTA ist der Höhepunkt, nie hetzen.
@@ -80,7 +78,7 @@
 1. **🎯 Das Problem:** MS365 – Datenhoheit liegt nicht bei der Hochschule
 2. **✨ Die Lösung:** openDesk Edu auf eigenem k3s-Cluster, mit offener KI, KI-Hilfe beim Aufbau
 3. **🕒 Der Stand:** läuft am RZ → jetzt langsam in den Pilotbetrieb (Startups, ggf. FB Mathematik)
-4. **🗳️ Die Aktion:** **JETZT abstimmen bis 30.09.** (QR-Code) + Preisverleihung-Stream
+4. **🗳️ Die Aktion:** **JETZT abstimmen bis 30.09.** (QR-Code)
 
 ---
 
@@ -109,7 +107,7 @@
 ## 📱 **Tech-Check**
 
 **Laptop:** HTML-Folien (offline-fähig) im Browser · PDF als Backup · Clicker · Akku >50 % · HDMI-Adapter
-**Handy:** QR-Codes Voting + Preisverleihung bereit · Timer · Stumm-Modus
+**Handy:** QR-Code Voting bereit · Timer · Stumm-Modus
 **Venue:** Beamer testen · Auflösung OK · ggf. Ton
 
 ---
