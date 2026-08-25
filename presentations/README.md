@@ -155,7 +155,6 @@ marp opendesk_edu_12plus8.md --images png -o .preview/preview.png
 - "**Bis 30. September abstimmen** – open-source-wettbewerb.de/voting/opendesk-edu/"
 - "Jede Stimme macht offene Hochschul-IT sichtbar."
 - "Eigene Piloten? Sprecht mich an!"
-- "StartMiUp-Preisverleihung live auf YouTube – QR-Code scannen." → entfernt (Preisverleihung fand vor dem Talk statt)
 
 ---
 
@@ -235,9 +234,6 @@ Support OpenDesk Edu in the **Open Source Wettbewerb 2026** (Community-Voting; 6
 ### **Voting:**
 - [Open Source Wettbewerb 2026](https://open-source-wettbewerb.de/voting/opendesk-edu/)
 
-### **Preisverleihung:**
-> Entfernt aus dem Deck (2.0.1): Die StartMiUp-Preisverleihung fand am 25.08.2026, vor dem Talk, statt. YouTube: [youtube.com/live/wMvwufJSCoY](https://www.youtube.com/live/wMvwufJSCoY)
-
 ---
 
 ## 📝 **Version History**
@@ -245,9 +241,9 @@ Support OpenDesk Edu in the **Open Source Wettbewerb 2026** (Community-Voting; 6
 | Date | Version | Changes |
 |------|---------|---------|
 | 26.08.2026 | 1.0.0 | Initial 12+8 format presentation |
-| 23.08.2026 | **1.1.0** | Offline QR-PNGs (Voting + Preisverleihung), StartMiUp Bonus-Folie |
+| 23.08.2026 | **1.1.0** | Offline QR-PNGs (Voting), Bonus-Folie |
 | 24.08.2026 | **2.0.0** | **Content-Refactor:** ehrliche, belegbare Story statt erfundener Kennzahlen; neuer Erzählbogen (MS365 → openDesk Edu → k3s-Cluster mit KI-Hilfe → Hybrid-Zielbild → Pilotbetrieb); Golden-Ratio-Design; Notizen & Cheat Sheet komplett überarbeitet |
-| 24.08.2026 | **2.0.1** | StartMiUp-Preisverleihungs-Folie + `preisverleihung-qr.png` entfernt (Preisverleihung fand am 25.08., vor dem Talk, statt); Deck jetzt 17 Seiten |
+| 24.08.2026 | **2.0.1** | Bonus-Folie + zugehöriges QR-PNG entfernt (Termin lag vor dem Talk); Deck jetzt 17 Seiten |
 
 ---
 
