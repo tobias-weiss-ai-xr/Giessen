@@ -3,22 +3,27 @@
 
 ---
 
-## 📌 DIE 6 WICHTIGSTEN PUNKTE (3x3 Regel)
+## 📌 DIE 5 WICHTIGSTEN PRINZIPIEN
+
+### Agentic Engineering = 
+1. **Autonomie** – Systeme handeln selbstständig
+2. **Proaktivität** – Lösungen werden vorweggenommen
+3. **Reaktivität** – Anpassung an neue Anforderungen
+4. **Sozialität** – Zusammenarbeit im Fokus
+5. **⭐ HITL** – **Mensch bleibt Entscheidungsinstanz**
+
+---
+
+## 🎯 DIE 3 WICHTIGSTEN BOTSCHAFTEN
 
 ### 1. Was?
-**OpenDesk** = Collaborative Office Cloud Suite
-**Self-hosted** = Eigene Infrastruktur
-**Open Source** = Frei und offen
+**OpenDesk** = Collaborative Office Cloud Suite + HITL
 
 ### 2. Warum?
-**Souveränität** =Volle Kontrolle
-**Kollaboration** = Bessere Teamarbeit
-**Automatisierung** = Weniger Aufwand
+**Souveränität** = Volle Kontrolle durch Self-Hosting
 
 ### 3. Wie?
-**Agentic Engineering** = Intelligente Agenten
-**k3s** = Leichte Infrastruktur
-**5 Minuten** = Schnelle Installation
+**Agentic Engineering** = Agenten unterstützen, Menschen entscheiden
 
 ---
 
@@ -43,21 +48,21 @@
 
 ### 1. Team Dokumentation
 - **Problem:** Veraltete Wikimedia, zentrale Pflege
-- **Lösung:** Gemeinsame Bearbeitung + Agenten
+- **Lösung:** Gemeinsame Bearbeitung + **Agenten + HITL**
 - **Ergebnis:** **+40% Aktualität, -60% Aufwand**
-- **Merksatz:** "Dokumente, die mitdenken"
+- **Merksatz:** "Dokumente, die mitdenken – Mensch entscheidet"
 
 ### 2. Projektmanagement  
 - **Problem:** Manuelle Updates, wiederkehrende Aufgaben
-- **Lösung:** Automatisierte Workflows
+- **Lösung:** Automatisierte Workflows **+ HITL**
 - **Ergebnis:** **-35% Zeit, -70% Fehler**
-- **Merksatz:** "Projekte, die sich selbst organisieren"
+- **Merksatz:** "Projekte organisieren sich – Mensch steuert"
 
 ### 3. Wissensmanagement
 - **Problem:** Verstreute Infos, schwierige Suche
-- **Lösung:** Intelligente Verknüpfung
+- **Lösung:** Intelligente Verknüpfung **+ HITL**
 - **Ergebnis:** **+80% Findbarkeit, +25% Nutzung**
-- **Merksatz:** "Wissen, das sich selbst findet"
+- **Merksatz:** "Wissen findet sich – Mensch bewertet"
 
 ---
 

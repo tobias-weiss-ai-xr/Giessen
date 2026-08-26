@@ -47,8 +47,25 @@ Tobias Weiss | DevOps Engineer, Uni Marburg
 2. **Proaktivität** – Lösungen werden vorweggenommen
 3. **Reaktivität** – Anpassung an neue Anforderungen
 4. **Sozialität** – Zusammenarbeit im Fokus
+5. **Human-in-the-Loop** – Mensch bleibt Entscheidungsinstanz
 
-**Kollaborative Office Suite trifft auf intelligente Agenten.**
+**Kollaborative Office Suite trifft auf intelligente Agenten – mit menschlicher Kontrolle.**
+
+---
+
+# Human-in-the-Loop
+
+```
+┌─────────────────┐     ┌─────────────────┐
+│    Mensch       │◄──►│   Agent         │
+│  (Entscheidet)   │     │  (Schlägt vor)  │
+└─────────────────┘     └─────────────────┘
+         ▲                     ▲
+         │                     │
+    Kontrolle          Unterstützung
+```
+
+**Agenten unterstützen – Menschen entscheiden.**
 
 ---
 
@@ -79,9 +96,11 @@ Tobias Weiss | DevOps Engineer, Uni Marburg
 
 Problem: Veraltete Wikimedia, zentrale Pflege nötig
 
-Lösung: Gemeinsame Bearbeitung mit Agenten-Unterstützung
+Lösung: Gemeinsame Bearbeitung mit **Agenten-Unterstützung + HITL**
 
 Ergebnis: **Aktualität +40%, Pflegeaufwand -60%**
+
+*Mensch validiert, Agent schlägt vor.*
 
 ---
 
@@ -91,9 +110,11 @@ Ergebnis: **Aktualität +40%, Pflegeaufwand -60%**
 
 Problem: Manuelle Status-Updates, wiederkehrende Aufgaben
 
-Lösung: Automatisierte Workflows mit Kollaborations-Agenten
+Lösung: Automatisierte Workflows mit **Kollaborations-Agenten + HITL**
 
 Ergebnis: **Projektzeit -35%, Fehlerrate -70%**
+
+*Mensch entscheidet, Agent empfiehlt.*
 
 ---
 
@@ -103,9 +124,11 @@ Ergebnis: **Projektzeit -35%, Fehlerrate -70%**
 
 Problem: Verstreute Informationen, schwierige Suche
 
-Lösung: Intelligente Verknüpfung und Kontext-Erkennung
+Lösung: Intelligente Verknüpfung mit **Kontext-Erkennung + HITL**
 
 Ergebnis: **Findbarkeit +80%, Wissensnutzung +25%**
+
+*Mensch bewertet, Agent verknüpft.*
 
 ---
 

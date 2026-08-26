@@ -32,17 +32,27 @@
 
 ### Slide 3: Prinzipien (1:30 - 2:30)
 **Sprechtext:**
-"Hinter OpenDesk steht der Ansatz des Agentic Engineering. Das bedeutet: Systeme, die autonom handeln, proaktiv Lösungen anbieten, sich an neue Anforderungen anpassen und vor allem – die Zusammenarbeit in den Mittelpunkt stellen. OpenDesk kombiniert also die klassische Office Suite mit intelligenter Agenten-Technologie."
+"Hinter OpenDesk steht der Ansatz des Agentic Engineering. Das bedeutet: Systeme, die autonom handeln, proaktiv Lösungen anbieten, sich an neue Anforderungen anpassen, die Zusammenarbeit in den Mittelpunkt stellen – und vor allem: **Human-in-the-Loop**. Der Mensch bleibt immer Entscheidungsinstanz. OpenDesk kombiniert die klassische Office Suite mit intelligenter Agenten-Technologie, aber Sie behalten die Kontrolle."
 
 **Timing:** 60 Sekunden
-**Visual:** 4 Prinzipien + Connection Statement
-**Ziel:** Technischen Ansatz erklären
+**Visual:** 5 Prinzipien + Connection Statement
+**Ziel:** Technischen Ansatz erklären, HITL hervorheben
 
 ---
 
-### Slide 4: Architektur (2:30 - 3:30)
+### Slide 4: Human-in-the-Loop (2:30 - 3:00)
 **Sprechtext:**
-"Die Architektur ist simpel: Oben die Anwendungen – Dokumente, Teamorte, Workflows, Agenten. Unten die Infrastruktur: Ein leichtes k3s Kubernetes Cluster, das auf jedem Gerät von Raspberry Pi bis Server läuft. Dazwischen offene Schnittstellen. Alles modular, alles erweiterbar."
+"Ein zentraler Punkt von Agentic Engineering ist Human-in-the-Loop. Das Diagramm zeigt es: Auf der einen Seite der Mensch, der entscheidet und kontrolliert. Auf der anderen Seite der Agent, der unterstützt und vorschlägt. Es ist eine Partnerschaft – die Intelligenz der Maschine kombiniert mit der Urteilsfähigkeit des Menschen. Agenten propone, Menschen disponen – so bleiben wir Herr der Lage."
+
+**Timing:** 30 Sekunden
+**Visual:** HITL-Diagramm
+**Ziel:** HITL-Prinzip klar vermitteln
+
+---
+
+### Slide 5: Architektur (3:00 - 4:00)
+**Sprechtext:**
+"Die Architektur ist simpel: Oben die Anwendungen – Dokumente, Teamorte, Workflows, Agenten. Unten die Infrastruktur: Ein leichtes k3s Kubernetes Cluster, das auf jedem Gerät von Raspberry Pi bis Server läuft. Dazwischen offene Schnittstellen. Alles modular, alles erweiterbar. Und immer mit HITL – der Mensch bleibt im Zentrum."
 
 **Timing:** 60 Sekunden
 **Visual:** ASCII-Diagramm
