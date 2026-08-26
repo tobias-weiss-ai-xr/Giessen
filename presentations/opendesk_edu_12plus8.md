@@ -13,6 +13,10 @@ style: |
   h3 { font-size: 30px; color: #000; }
   .simple { background: #f8f8f8; padding: 20px; border-radius: 4px; }
   .metric { font-weight: bold; color: #000; }
+  /* Hide all footers */
+  section::after { display: none !important; }
+  footer { display: none !important; }
+  [class*="footer"] { display: none !important; }
 ---
 
 # OpenDesk Edu
