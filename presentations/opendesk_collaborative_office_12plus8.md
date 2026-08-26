@@ -13,6 +13,7 @@ style: |
   h3 { font-size: 30px; color: #000; }
   .simple { background: #f8f8f8; padding: 20px; border-radius: 4px; }
   .metric { font-weight: bold; color: #000; }
+  .diagram { text-align: center; }
   /* Hide all footers */
   section::after { display: none !important; }
   footer { display: none !important; }
@@ -22,7 +23,7 @@ style: |
 # OpenDesk Edu
 ## Collaborative Office Cloud Suite
 
-![w:600](opendesk_edu_teaser.svg)
+![](opendesk_edu_og_image.png)
 
 Tobias Weiss | DevOps Engineer, Uni Marburg
 
@@ -57,7 +58,9 @@ Tobias Weiss | DevOps Engineer, Uni Marburg
 
 # Human-in-the-Loop
 
-![w:400](diagrams/hitl_correct.svg)
+<div class="diagram">
+![w:450](diagrams/hitl_correct.svg)
+</div>
 
 **Agenten unterstützen – Menschen entscheiden.**
 
@@ -65,7 +68,9 @@ Tobias Weiss | DevOps Engineer, Uni Marburg
 
 # Architektur
 
-![w:500](diagrams/architektur_correct.svg)
+<div class="diagram">
+![w:600](diagrams/architektur_correct.svg)
+</div>
 
 **Einfach. Offene Schnittstellen. Self-Hosted.**
 
@@ -122,7 +127,9 @@ Lösung: Intelligente Verknüpfung mit **Kontext-Erkennung + HITL**
 
 # Stack
 
-![w:600](diagrams/stack_final.svg)
+<div class="diagram">
+![w:700](diagrams/stack_final.svg)
+</div>
 
 **OpenCloud, SOGo, OpenProject, Matrix/Element, Keycloak, Galera DB, PostgreSQL, Redis auf Sovereign Cloud Stack mit k3s.**
 
@@ -146,9 +153,9 @@ kubectl apply -f opendesk-scs.yaml
 
 **Open Source Wettbewerb 2026**
 
-QR: ![w:200](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://open-source-wettbewerb.de/voting/opendesk/)
+QR: ![w:200](https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://open-source-wettbewerb.de/voting/opendesk-edu/)
 
-Link: [open-source-wettbewerb.de/voting/opendesk/](https://open-source-wettbewerb.de/voting/opendesk/)
+Link: [open-source-wettbewerb.de/voting/opendesk-edu/](https://open-source-wettbewerb.de/voting/opendesk-edu/)
 
 **30 Sekunden. Offene Zukunft unterstützen.**
 
