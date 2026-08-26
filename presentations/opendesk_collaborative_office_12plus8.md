@@ -13,12 +13,11 @@ style: |
   h3 { font-size: 30px; color: #000; }
   .simple { background: #f8f8f8; padding: 20px; border-radius: 4px; }
   .metric { font-weight: bold; color: #000; }
+  .diagram { text-align: center; margin: 20px 0; }
   /* Hide all footers */
   section::after { display: none !important; }
   footer { display: none !important; }
   [class*="footer"] { display: none !important; }
-  /* Mermaid styling */
-  .mermaid { background: #f8f8f8; padding: 20px; border-radius: 4px; font-size: 24px; }
 ---
 
 # OpenDesk
@@ -57,13 +56,7 @@ Tobias Weiss | DevOps Engineer, Uni Marburg
 
 # Human-in-the-Loop
 
-```mermaid
-graph LR
-    Mensch((Mensch))
-    Agent[Agent]
-    Mensch -->|kontrolliert| Agent
-    Agent -->|unterstützt| Mensch
-```
+![w:600](diagrams/hitl_new.svg)
 
 **Agenten unterstützen – Menschen entscheiden.**
 
@@ -71,23 +64,7 @@ graph LR
 
 # Architektur
 
-```mermaid
-graph TD
-    OpenDesk[OpenDesk]
-    subgraph Components
-        Dokumente[Dokumente]
-        TeamOrte[Team Orte]
-        Workflows[Workflows]
-        Agenten[Agenten]
-    end
-    OpenDesk --> Dokumente
-    OpenDesk --> TeamOrte
-    OpenDesk --> Workflows
-    OpenDesk --> Agenten
-    
-    OpenDesk -->|läuft auf| k3s[k3s Cluster]
-    k3s -->|SCS Deployment| Server[SCS Server]
-```
+![w:600](diagrams/architektur_new.svg)
 
 **Einfach. Offene Schnittstellen. Self-Hosted.**
 
@@ -150,51 +127,7 @@ Ergebnis: **Findbarkeit +80%, Wissensnutzung +25%**
 
 # Stack
 
-```mermaid
-graph TD
-    OpenDesk[OpenDesk]
-    
-    subgraph Backend
-        Node[Node.js + TypeScript]
-        Fastify[Fastify]
-    end
-    
-    subgraph AI
-        LangChain[LangChain.js]
-        Ollama[(Ollama lokal)]
-    end
-    
-    subgraph Daten
-        PostgreSQL[(PostgreSQL)]
-        Qdrant[(Qdrant)]
-    end
-    
-    subgraph Frontend
-        NextJS[Next.js 14]
-    end
-    
-    subgraph Infrastruktur
-        k3s>k3s Cluster]
-        SCS>SCS Deployment]
-    end
-    
-    OpenDesk --> Node
-    OpenDesk --> Fastify
-    OpenDesk --> LangChain
-    OpenDesk --> Ollama
-    OpenDesk --> PostgreSQL
-    OpenDesk --> Qdrant
-    OpenDesk --> NextJS
-    
-    NextJS --> k3s
-    Node --> k3s
-    Fastify --> k3s
-    PostgreSQL --> k3s
-    Qdrant --> k3s
-    Ollama --> k3s
-    
-    k3s --> SCS
-```
+![w:600](diagrams/stack_new.svg)
 
 **SCS-k3s Deployment: Einfach. Skalierbar. Souverän.**
 
