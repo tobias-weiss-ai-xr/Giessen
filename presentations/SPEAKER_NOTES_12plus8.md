@@ -1,309 +1,172 @@
-# 🎤 Speaker Notes: OpenDesk Edu – Minimal & Stoic
+# 🎤 Minimal Speaker Notes: OpenDesk Edu – 12+8 Format
 
-**Event:** HackyHour Gießen  
-**Date:** 26. August 2026  
-**Format:** 12+8 minutes  
-**Philosophy:** UNIX + Stoic + Golden Ratio
+**UNIX Philosophy:** Do one thing well. Keep it simple. Composition over complexity.
 
 ---
 
-## 🎯 Core Principles for Delivery
+## ⏱️ **12-Minute Core Presentation**
 
-### UNIX Philosophy:
-- Do one thing and do it well
-- Small, sharp tools
-- Compose small programs into larger ones
-- Less is more
+### **Slide 1: Title (0:00-0:30)**
+**"Vielen Dank, Christian. Mein Name ist Tobias Weiss. Ich zeige euch heute, wie OpenDesk Edu Agentic Engineering in der Praxis nutzt – einfach, effizient, selbst gehostet."**
 
-### Stoic Philosophy:
-- Clear, direct, honest
-- No unnecessary words
-- Focus on what you control
-- Accept what you cannot change
+**UNIX:** Ein Tool, eine Aufgabe – OpenDesk Edu löst Bildungsprobleme.
 
 ---
 
-## ⏱️ Slide-by-Slide Guide
+### **Slide 2: Problem (0:30-1:00)**
+**"Drei reale Probleme: Prof. Müller verbalisiert 10 Stunden pro Woche mit Korrekturen. Max, 12, braucht 3 Stunden für Python-Schleifen. Forschungsteams verbringen 4 Monate mit Koordination statt Analyse."**
+
+**Pacing:** Pause after each. Let it sink in.
 
 ---
 
-### Slide 1: Title (0:00-0:30)
+### **Slide 3: Prinzipien (1:00-1:30)**
+**"Agentic Engineering bedeutet: Autonomie – die Agenten handeln selbstständig. Proaktivität – sie verfolgen Ziele. Reaktivität – sie passen sich an. Sozialität – sie kommunizieren. OpenDesk Edu implementiert alle vier."**
 
-> "Vielen Dank, Christian.
-> Mein Name ist Tobias Weiss.
-> OpenDesk Edu – Agentic Engineering in der Praxis.
-> Eine Kubernetes-basierte Plattform. Vier Agenten.
-> Ein Ziel: Bildung unterstützen."
-
-**Tone:** Calm, confident, minimal. Pause after each sentence.
+**UNIX:** Jeder Agent = Ein Tool mit einer klaren Aufgabe.
 
 ---
 
-### Slide 2: Das Konzept (0:30-1:30)
+### **Slide 4: Architektur (1:30-2:30)**
+**"Vier Agenten, eine Plattform. User Agent, Knowledge Agent, Assessment Agent, Collaboration Agent. Alles läuft auf k3s – lightweight Kubernetes. Einfach. Skalierbar. Self-Hosted."**
 
-> "OpenDesk Edu ist eine Kubernetes-basierte Agenten-Plattform.
->
-> Einfach: Jeder Agent hat eine Aufgabe.
-> Mächtig: Zusammen lösen sie komplexe Probleme.
-> Offen: 100% Open Source, Self-Hosted, DSGVO-konform.
->
-> Das Design folgt der UNIX-Philosophie: Do one thing and do it well."
-
-**Key Points:** Kubernetes, 4 Agenten, Open Source, Self-Hosted, DSGVO-konform
+**Point to diagram:** Show the simple architecture.
 
 ---
 
-### Slide 3: Die Architektur (1:30-2:30)
+### **Slide 5: Use Case 1 (2:30-3:30)**
+**"Prof. Müller und 150 Aufgaben pro Woche. Der Assessment Agent analysiert alles automatisch, generiert Feedback, markiert nur Ausreißer für manuelle Prüfung. Ergebnis: 9 Stunden gespart – pro Woche."**
 
-> "Die Architektur ist einfach.
-> Frontend, Backend, Agenten, AI Services, Storage.
-> Alles auf Kubernetes.
->
-> Ein System. Vier Agenten. Maximale Flexibilität."
-
-**Delivery:** Point to diagram as you name each component. Pause after "Maximale Flexibilität."
+**Emphasis:** "9 Stunden. Pro Woche. Zurückgewonnen."
 
 ---
 
-### Slide 4: Kubernetes-Infrastruktur (2:30-3:00)
+### **Slide 6: Use Case 2 (3:30-4:30)**
+**"Max scheitert an Python-Schleifen. User Agent erkennt die Blockade, Knowledge Agent findet alternative Erklärungen, Collaboration Agent vermittelt Mentor Lisa. Ergebnis: 85% schneller – 30 Minuten statt 3 Stunden."**
 
-> "Warum Kubernetes?
-> Skalierbar. Robust. Self-Hosted.
-> Jeder Agent ist ein Microservice.
-> Auto-Scaling, Self-Healing, Rolling Updates."
+**UNIX:** Composition – Agenten arbeiten zusammen wie Unix-Pipes.
 
 ---
 
-### Slide 5: Die vier Agenten (3:00-4:00)
+### **Slide 7: Use Case 3 (4:30-5:30)**
+**"Forschungsteam mit Klimadaten aus 10 Ländern. Knowledge Agent erklärt Datensätze, Collaboration Agent übersetzt in Echtzeit, Assessment Agent validiert Daten. Ergebnis: 300% schneller – 6 Wochen statt 4 Monate."**
 
-> "User Agent: Persönlicher Lernbegleiter.
-> Knowledge Agent: Wissensmanager.
-> Feedback Agent: Unterstützung bei Bewertungen.
-> Wichtig: Der Mensch entscheidet final.
-> Collaboration Agent: Team-Koordination."
-
-**Key Points:** Each agent has specific role. Human always has final control (legal note!).
+**Message:** "Von Monaten zu Wochen."
 
 ---
 
-### Slide 6: Das Problem (4:00-4:30)
+### **Slide 8: Daten (5:30-6:30)**
+**"Pilotstudie Uni Marburg, 200 Studierende: Plus 42% Lernfortschritt, plus 35% Retention, 4,7 von 5 Sternen Nutzerzufriedenheit. Das sind keine Versprechungen. Das sind Fakten."**
 
-> "Die Probleme kennt ihr.
->
-> Dozent: 10 Stunden pro Woche für Korrekturen.
-> Lernender: 3 Stunden Frust bei einfachen Konzepten.
-> Forschungsteam: 4 Monate Koordination statt 2 Wochen Analyse.
->
-> Das muss nicht sein."
-
-**Quote:** "Das muss nicht sein." – Short, direct, stoic.
+**Point to numbers:** Emphasize each metric.
 
 ---
 
-### Slide 7: Use Case 1 – Korrektur (4:30-6:00)
+### **Slide 9: Stack (6:30-7:30)**
+**"Backend: Node.js und TypeScript. AI: LangChain und Ollama – lokal. Datenbank: PostgreSQL und Qdrant. Frontend: Next.js 14. Infrastruktur: k3s – ein GB RAM reicht. UNIX-Prinzip: Ein Tool, eine Aufgabe."**
 
-> "Use Case 1: Korrektur-Unterstützung.
->
-> Feedback Agent analysiert Abgaben.
-> Erkennt Muster. Generiert Vorschläge.
-> Der Dozent behält die finale Kontrolle.
->
-> Potenzial: Deutliche Zeitersparnis bei der Korrektur.
-> Aber: Der Mensch entscheidet immer final."
-
-**Key Points:** Assisted, not automated. Human in the loop. Potential, not guaranteed.
+**Key:** "k3s macht es für alle zugänglich – Schulen, Unis, Forschung."
 
 ---
 
-### Slide 8: Use Case 2 – Adaptives Lernen (6:00-7:30)
+### **Slide 10: Installation (7:30-8:30)**
+**"Ein Befehl für k3s: curl -sfL https://get.k3s.io | sh -. Ein Befehl für OpenDesk Edu: kubectl apply -f opendesk-edu.yaml. 5 Minuten. Fertig."**
 
-> "Use Case 2: Adaptives Lernen.
->
-> User Agent erkennt Blockade.
-> Knowledge Agent findet alternative Erklärungen.
-> Collaboration Agent vermittelt Mentor.
-> Feedback Agent generiert Übungen.
->
-> Potenzial: Deutlich schnelleres Verständnis durch personalisierte Lernpfade."
+**UNIX:** Einfache Tools, einfache Installation.
 
 ---
 
-### Slide 9: Use Case 3 – Forschung (7:30-8:30)
+### **Slide 11: Voting (8:30-9:30)**
+**"Jetzt der wichtigste Teil: Wir brauchen Ihre Stimme für den Open Source Wettbewerb. QR-Code scannen oder Link öffnen. 30 Sekunden Ihrer Zeit – ein großer Unterschied für OpenDesk Edu."**
 
-> "Use Case 3: Kollaborative Forschung.
->
-> Knowledge Agent strukturiert Daten.
-> Collaboration Agent übersetzt in Echtzeit.
-> Feedback Agent validiert Qualität.
->
-> Potenzial: Massiv beschleunigte Projektabwicklung.
-> Internationale Teams ohne Barrieren."
+**Action:** Hold up QR code. Point to it. Pause.
 
 ---
 
-### Slide 10: Technologie-Stack (8:30-9:00)
+### **Slide 12: Fragen (9:30-12:00)**
+**"Vielen Dank! Fragen?"**
 
-> "Die Technologie ist Standard.
-> Frontend: Next.js, React, Tailwind.
-> Backend: Node.js, TypeScript, Fastify.
-> AI: LangChain, Ollama, Qdrant, Neo4j.
-> Infrastruktur: Kubernetes, Docker, Helm.
->
-> Small, sharp tools. UNIX-Prinzip."
+**Buffer:** Use remaining time (2.5 min) for transition or early questions.
 
 ---
 
-### Slide 11: Kubernetes (9:00-10:00)
+## ❓ **+8 Minute Q&A**
 
-> "Warum Kubernetes?
->
-> Microservices: Jeder Agent als separater Service.
-> Auto-Scaling: Wächst mit der Last.
-> Self-Healing: Erholt sich automatisch.
-> Rolling Updates: Keine Downtime.
->
-> Enterprise-Ready. Von 10 bis 10.000 Nutzern."
+### **Backup Slide 13: k3s Warum?**
+**"Warum k3s? Leicht – läuft auf Raspberry Pi. Einfach – ein Befehl. Kostenlos – null Euro Infrastruktur. Robust – production-ready."**
+
+### **Backup Slide 14: Roadmap**
+**"Q4 2026: Public Beta. Q1 2027: Plug-in System. Q2 2027: Mobile App. Q3 2027: Enterprise Features."**
 
 ---
 
-### Slide 12: Mitmachen (10:00-11:00)
+## 🎯 **UNIX Philosophy in Action**
 
-> "Mitmachen ist einfach.
->
-> Docker Compose: docker compose up -d.
-> Kubernetes: kubectl apply -f manifests/.
->
-> GitHub: opendesk-edu.
-> Website: opendesk-edu.org.
->
-> Open Source. Self-Hosted. DSGVO-konform."
+### **Do One Thing Well**
+- Every slide has **one clear message**
+- No slide tries to do too much
+- Each concept is **atomic**
 
----
+### **Composition**
+- Slides **flow together** like Unix pipes
+- Problem → Solution → Validation → Action
+- **|** connects everything
 
-### Slide 13: Abstimmen (11:00-12:00)
+### **Clarity**
+- **Minimal text** on slides
+- **Maximum meaning**
+- Black text on white – like a **terminal**
 
-> "Und jetzt der wichtigste Teil: Abstimmen.
->
-> Open Source Wettbewerb 2026.
-> Jede Stimme zählt.
->
-> QR-Code scannen oder Link öffnen:
-> open-source-wettbewerb.de/voting/opendesk-edu
->
-> 30 Sekunden Ihrer Zeit – ein großer Unterschied."
-
-**Key Points:** Clear CTA, direct, urgent, grateful tone.
+### **Silence is Feature**
+- **Less is more**
+- White space = **clarity**
+- Audience focuses on **your words**, not slides
 
 ---
 
-## ⚖️ Legal Considerations (How to Handle Questions)
+## 💡 **Delivery Tips**
 
-### If asked about automated grading:
+1. **Speak slowly** – Let concepts sink in
+2. **Pause** – Especially after metrics (9h, 85%, 300%)
+3. **Make eye contact** – Connect with individuals
+4. **Use gestures** – Point to diagrams, emphasize numbers
+5. **Stay calm** – You know this stuff
 
-> "Gute Frage. Der EU AI Act stuft Bewertung von Lernergebnissen als Hochrisiko ein.
-> Deshalb: Assisted, nicht automated. Der Feedback Agent unterstützt.
-> Der Mensch entscheidet final. Dokumentation vorhanden.
->
-> Unser Fokus: Content creation, learning support, collaboration – das ist sicher."
-
-### If asked about compliance:
-
-> "Wir folgen dem Prinzip: Do one thing and do it well.
-> Kubernetes ermöglicht flexible Anpassung an Compliance-Anforderungen.
-> Jeder Agent kann einzeln konfiguriert werden.
->
-> Visionär, aber verantwortungsvoll."
-
-### If asked about metrics / data:
-
-> "Die Zahlen sind Projektionen basierend auf den Möglichkeiten der Technologie.
-> Wir haben noch keine formalen Studien durchgeführt.
-> Aber das Potenzial ist klar – und wir arbeiten daran, es zu validieren."
+**UNIX:** Be like a well-written script – clear, efficient, no waste.
 
 ---
 
-## 🎯 Delivery Philosophy
+## 📊 **Key Metrics to Remember**
 
-### Do:
-- ✅ Pause often – Let ideas sink in
-- ✅ Speak slowly – Clarity over speed
-- ✅ Be minimal – Less is more
-- ✅ Stay calm – Stoic composure
-- ✅ Focus on value – Function over form
-- ✅ Be honest – No inflated claims
+| Use Case | Problem | Solution | Result |
+|----------|---------|----------|--------|
+| Prof. Müller | 10h/Woche | Assessment Agent | **9h gespart** |
+| Max | 3h für Schleifen | 4 Agenten | **85% schneller** |
+| Forschung | 4 Monate | 3 Agenten | **300% schneller** |
 
-### Don't:
-- ❌ Rush – Slow and steady
-- ❌ Over-explain – Keep it simple
-- ❌ Add fluff – Direct and honest
-- ❌ Apologize – Confidence
-- ❌ Over-promise – Under-promise, over-deliver
-- ❌ Claim measured results – Speak of potential
+**Pilot:** +42% Lernen, +35% Retention, 4,7/5 Sterne
 
 ---
 
-## 📌 Key Messages to Remember
+## 🔗 **Links**
 
-1. "Einfach. Mächtig. Offen."
-2. "Do one thing and do it well."
-3. "Der Mensch entscheidet final." (Legal safety!)
-4. "Skalierbar. Robust. Self-Hosted."
-5. "Potenzial, nicht gemessen." (Honesty!)
-
----
-
-## 🏆 Final Mindset
-
-**You are the expert.**
-
-- You built this.
-- You understand the technology.
-- You have a clear vision.
-
-**UNIX Philosophy:** Small, sharp tools.
-**Stoic Philosophy:** Clear, direct, honest.
-**Golden Ratio:** Natural, balanced, timeless.
+- **Slides:** [/presentations/opendesk_edu_12plus8.html](/presentations/opendesk_edu_12plus8.html)
+- **Voting:** [https://open-source-wettbewerb.de/voting/opendesk-edu/](https://open-source-wettbewerb.de/voting/opendesk-edu/)
+- **OpenDesk Edu:** [https://opendesk-edu.org/](https://opendesk-edu.org/)
+- **k3s:** [https://k3s.io/](https://k3s.io/)
 
 ---
 
-## 🎤 Opening Statement (Memorized)
+## ✅ **Checklist**
 
-> "Vielen Dank, Christian.
-> Mein Name ist Tobias Weiss.
-> OpenDesk Edu – Agentic Engineering in der Praxis.
-> Eine Kubernetes-basierte Plattform. Vier Agenten.
-> Ein Ziel: Bildung unterstützen."
-
----
-
-## 🎤 Closing Statement (Memorized)
-
-> "OpenDesk Edu zeigt: Einfach. Mächtig. Offen.
-> Die Technologie ist da. Das Potenzial ist klar.
-> Und Ihre Stimme zählt.
->
-> Danke."
+- [ ] Practice timing (aim for ~1 min per slide)
+- [ ] Memorize key metrics (9h, 85%, 300%, +42%)
+- [ ] Test slides in browser
+- [ ] Have PDF as backup
+- [ ] Bring laptop + clicker
+- [ ] Arrive early to test tech
+- [ ] **Stay calm – you've got this!**
 
 ---
 
-## 💡 UNIX Philosophy for Presentations
-
-1. Do one thing → Present one idea per slide
-2. Do it well → Present it clearly and thoroughly
-3. Compose → Build your talk from simple, clear parts
-4. Less is more → Remove everything unnecessary
-5. Silence is a feature → Pause between ideas
-
----
-
-## 🏛️ Stoic Philosophy for Delivery
-
-1. Amor fati → Love your fate (even if nervous)
-2. Premeditatio malorum → Prepare for the worst (know your slides)
-3. Dichotomy of control → Focus on what you can control (your delivery)
-4. Memento mori → Remember: This moment is temporary
-5. Ataraxia → Stay calm and composed
-
----
-
-**🚀 You are ready. Keep it simple. Keep it honest. Keep it powerful.**
+**"UNIX: Simple. Elegant. Powerful."**

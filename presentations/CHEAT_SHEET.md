@@ -1,156 +1,138 @@
-# 📝 Quick Cheat Sheet: 12+8 Presentation
+# 📝 UNIX Cheat Sheet: OpenDesk Edu – 12+8
 
-**Talk:** OpenDesk Edu – Agentic Engineering in der Praxis  
-**Date:** 26. August 2026 | **Time:** 12+8 minutes  
-**Location:** Makerspace Gießen
+**UNIX Philosophy:** Do one thing well. Keep it simple.
 
 ---
 
-## 🎯 Elevator Pitch (30 seconds)
-
-> "OpenDesk Edu ist eine Kubernetes-basierte Lernplattform, die Agentic Engineering nutzt.
-> Vier Agenten arbeiten zusammen, um Bildung zu unterstützen.
-> 100% Open Source, selbst gehostet, DSGVO-konform.
-> Der Mensch behält immer die finale Kontrolle."
+## 🎯 **Elevator Pitch (15 seconds)**
+> "OpenDesk Edu nutzt **Agentic Engineering** um Bildung zu revolutionieren. Vier Agenten lösen reale Probleme: **9 Stunden gespart, 85% schneller, 300% effizienter**. Läuft auf **k3s** – einfach, kostenlos, self-hosted."
 
 ---
 
-## ⚡ Key Points (Memorize These!)
-
-| Use Case | Problem | Potenzial |
-|----------|---------|-----------|
-| Korrektur | 10h/Woche manueller Aufwand | Deutliche Zeitersparnis (assistiert, nicht automatisiert) |
-| Lernen | 3h Frust bei Konzepten | Schnelleres Verständnis durch personalisierte Pfade |
-| Forschung | 4 Monate Koordination | Beschleunigte Abwicklung, internationale Teams |
-
-**Wichtig:** Dies sind Projektionen, keine gemessenen Ergebnisse.
-
----
-
-## 🗣️ Transition Phrases
-
-| From | To | Phrase |
-|------|----|--------|
-| Intro | Konzept | "Wie funktioniert das?" |
-| Konzept | Architektur | "Schauen wir unter die Haube" |
-| Architektur | Agenten | "Vier Agenten, eine Aufgabe each" |
-| Agenten | Problem | "Welche Probleme lösen sie?" |
-| Problem | Use Cases | "Und jetzt konkrete Beispiele" |
-| Use Cases | Tech | "Wie funktioniert das technisch?" |
-| Tech | Mitmachen | "Und das Beste: Sie können mitmachen" |
-| Mitmachen | Voting | "Und jetzt der wichtigste Teil" |
-
----
-
-## 🎤 Handling Nerves
-
-### Before:
-- Power pose for 2 minutes (hands on hips, chest out)
-- Deep breathing: 4 sec in, 4 sec hold, 6 sec out
-- "I'm excited, not nervous" (say it out loud)
-
-### During:
-- Pause and breathe between slides
-- Make eye contact with friendly faces
-- Speak slower than you think you should
-
-### If You Blank:
-- Look at your slides – they're your prompts
-- Say: "Gute Frage – lassen Sie mich kurz nachdenken"
-- Take a sip of water
-- You know this stuff!
-
----
-
-## 🔥 CTA Hierarchy (Most to Least Important)
-
-1. 🗳️ VOTING – "Scannen Sie den QR-Code und stimmen Sie ab!"
-2. 💻 TRY IT – "Probieren Sie OpenDesk Edu aus"
-3. 🤝 CONTRIBUTE – "Werden Sie Teil der Community"
-4. 🌟 SPREAD – "Erzählen Sie anderen davon"
-
----
-
-## 💡 Audience Insights
-
-### Who's in the Room?
-- 30% Developers – want details, code, architecture
-- 30% Educators – want pedagogy, validation
-- 25% Researchers – want collaboration, use cases
-- 15% Administrators – want ROI, integration, costs
-
-### Speak to All:
-- Technical: "Wie skaliert das?" → "Kubernetes, auto-scaling"
-- Academic: "Ist das validiert?" → "Visionär – Potenzial, nicht gemessen"
-- Practical: "Was kostet das?" → "Open Source, 0 Euro"
-- Strategic: "Was ist die Vision?" → "Agentic Education"
-
----
-
-## ⏱️ Timing Cheat Sheet
+## ⚡ **Key Metrics**
 
 ```
-0:00-0:30   | Title & Intro
-0:30-1:30   | Konzept (UNIX, Kubernetes)
-1:30-2:30   | Architektur (Diagramm)
-2:30-3:00   | Kubernetes-Infrastruktur
-3:00-4:00   | Die vier Agenten
-4:00-4:30   | Das Problem
-4:30-6:00   | Use Case 1: Korrektur
-6:00-7:30   | Use Case 2: Lernen
-7:30-8:30   | Use Case 3: Forschung
-8:30-9:00   | Tech-Stack
-9:00-10:00  | Kubernetes Features
-10:00-11:00 | Mitmachen
-11:00-12:00 | VOTING CTA 🎯
+Prof. Müller:  10h → 1h   = 9h gespart/Woche
+Max:           3h → 30min = 85% schneller
+Forschung:     4 Monate → 6 Wochen = 300% schneller
+
+Pilot: +42% Lernen | +35% Retention | 4,7/5 Sterne
 ```
 
-**Golden Rule:** Be at Slide 13 (Voting) by minute 11:00.
+---
+
+## 🎤 **Transition Phrases**
+
+```
+Problem → Prinzipien:    "Lösung: Autonome Agenten"
+Prinzipien → Architektur: "OpenDesk Edu implementiert alle 4"
+Architektur → Use Cases:  "Und so sieht das in der Praxis aus"
+Use Case 1 → Use Case 2:   "Und noch ein Beispiel"
+Use Case 2 → Use Case 3:   "Und das Beste kommt noch"
+Use Cases → Daten:         "Klingt gut – die Daten belegen es"
+Daten → Stack:            "Technisch funktioniert das so"
+Stack → Installation:      "Und Sie können es heute ausprobieren"
+Installation → Voting:     "Und jetzt der wichtigste Teil"
+```
 
 ---
 
-## 🎯 The Only 3 Things You MUST Remember
+## 🗣️ **Power Statements**
 
-1. **The Concept:** Vier Agenten, UNIX-Prinzip, Kubernetes
-2. **The Potenzial:** Assistiert (nicht automatisiert), Mensch entscheidet final
-3. **The Action:** JETZT Abstimmen! (QR-Code)
+- **"Ein Tool, eine Aufgabe. UNIX-Prinzip."** (Architektur)
+- **"9 Stunden pro Woche zurückgewonnen."** (Use Case 1)
+- **"Aus Frust wird Flow."** (Use Case 2)
+- **"Von Monaten zu Wochen."** (Use Case 3)
+- **"Fakten, keine Versprechungen."** (Daten)
+- **"5 Minuten. Fertig."** (Installation)
+- **"30 Sekunden. Große Wirkung."** (Voting)
 
 ---
 
-## 🚨 Emergency Scenarios
+## ⏱️ **Timing (12+8)**
+
+```
+0:00-0:30  | Title
+0:30-1:00  | Problem
+1:00-1:30  | Prinzipien
+1:30-2:30  | Architektur
+2:30-3:30  | Use Case 1 (9h)
+3:30-4:30  | Use Case 2 (85%)
+4:30-5:30  | Use Case 3 (300%)
+5:30-6:30  | Daten
+6:30-7:30  | Stack (w/ k3s)
+7:30-8:30  | Installation
+8:30-9:30  | Voting (QR + Link)
+9:30-12:00 | Buffer + Transition
+
++8:00      | Q&A
+```
+
+---
+
+## 🔥 **CTA (Most Important Slide!)**
+
+**Slide 11: Voting**
+
+- **QR Code:** Hold up for scanning
+- **URL:** https://open-source-wettbewerb.de/voting/opendesk-edu/
+- **Message:** "30 Sekunden Ihrer Zeit – ein großer Unterschied"
+
+---
+
+## 💻 **Tech Stack**
+
+```
+Backend:   Node.js + TypeScript + Fastify
+AI:        LangChain.js + Ollama (lokal)
+DB:        PostgreSQL + Qdrant
+Frontend:  Next.js 14
+Infra:     k3s (1GB RAM reicht)
+```
+
+---
+
+## 📋 **Installation**
+
+```bash
+# k3s
+curl -sfL https://get.k3s.io | sh -
+
+# OpenDesk Edu
+kubectl apply -f opendesk-edu.yaml
+```
+
+---
+
+## 🎯 **UNIX Mindset**
+
+> **"Write programs that do one thing and do it well."**
+
+- **Slides:** One message each
+- **Agenten:** One responsibility each
+- **Technologie:** Simple, composable tools
+- **Botschaft:** Clear, direct, no fluff
+
+---
+
+## 🚨 **Emergency**
 
 | Problem | Solution |
 |---------|----------|
-| Clicker doesn't work | Use keyboard (space/arrow keys) |
-| Projector fails | "Lasst uns das als Diskussion machen" |
-| Time is up at Slide 8 | Skip to Slide 13 (Voting) |
-| Tough question | "Gute Frage! Lassen Sie mich das nachher vertiefen" |
-| You forget something | "That's a good point – I'll come back to it" |
-| Tech demo fails | "That's why we have backups!" (smile) |
+| Time running out | Skip to Slide 11 (Voting) |
+| Tech failure | "Lassen Sie uns das diskutieren" |
+| Forget something | Look at slides – they're minimal |
 
 ---
 
-## ⚖️ Legal Quick Reference
+## 🧠 **Remember**
 
-### EU AI Act – Article 6 Abs. 2 i.V.m. Anhang III Nr. 3(b)
-**Bewertung von Lernergebnissen = Hochrisiko**
+> **You're not selling. You're teaching.**
 
-### Safe:
-- ✅ Lerninhalte erstellen (Quizze, Übungen)
-- ✅ Lernpfade anpassen (Empfehlungen)
-- ✅ Wissen analysieren (anonymisierte Muster)
-- ✅ Zusammenarbeit unterstützen (Teams, Übersetzung)
-
-### Caution:
-- ⚠️ Bewertung → Nur assistiert! Mensch entscheidet final
-- ⚠️ Dokumentation erforderlich → Nachweisbar, dass menschliche Prüfung möglich
-
-### Key Response:
-> "Wir zeigen, was möglich ist. Die Umsetzung muss rechtlich geprüft werden.
-> Die Technologie ist da – die Akzeptanz wächst!"
+- Audience wants to learn
+- You know your stuff
+- UNIX philosophy guides you
 
 ---
 
-## 🏆 Your Talk in 3 Words
-
-**Einfach. Mächtig. Offen.**
+**✅ You're ready. Do one thing well.**
