@@ -2,7 +2,7 @@
 marp: true
 theme: default
 paginate: true
-footer: 'Tobias Weiss | OpenDesk Edu | HackyHour Gießen | 26.08.2026'
+footer: '**[[% page %]]**'
 style: |
   section {
     font-family: 'Helvetica Neue', Arial, sans-serif;
