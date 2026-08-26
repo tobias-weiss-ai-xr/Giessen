@@ -13,7 +13,6 @@ style: |
   h3 { font-size: 30px; color: #000; }
   .simple { background: #f8f8f8; padding: 20px; border-radius: 4px; }
   .metric { font-weight: bold; color: #000; }
-  .diagram { text-align: center; margin: 20px 0; }
   /* Hide all footers */
   section::after { display: none !important; }
   footer { display: none !important; }
@@ -56,7 +55,7 @@ Tobias Weiss | DevOps Engineer, Uni Marburg
 
 # Human-in-the-Loop
 
-![w:600](diagrams/hitl_new.svg)
+![w:400](diagrams/hitl_correct.svg)
 
 **Agenten unterstützen – Menschen entscheiden.**
 
@@ -64,7 +63,7 @@ Tobias Weiss | DevOps Engineer, Uni Marburg
 
 # Architektur
 
-![w:600](diagrams/architektur_new.svg)
+![w:500](diagrams/architektur_correct.svg)
 
 **Einfach. Offene Schnittstellen. Self-Hosted.**
 
@@ -127,9 +126,9 @@ Ergebnis: **Findbarkeit +80%, Wissensnutzung +25%**
 
 # Stack
 
-![w:600](diagrams/stack_new.svg)
+![w:600](diagrams/stack_simple.svg)
 
-**SCS-k3s Deployment: Einfach. Skalierbar. Souverän.**
+**OpenCloud, SOGo, OpenProject, Matrix/Element, Keycloak, Galera DB, PostgreSQL, Redis auf SCS-k3s.**
 
 ---
 
