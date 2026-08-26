@@ -19,8 +19,10 @@ style: |
   [class*="footer"] { display: none !important; }
 ---
 
-# OpenDesk
+# OpenDesk Edu
 ## Collaborative Office Cloud Suite
+
+![w:300](opendesk_edu_logo.svg)
 
 Tobias Weiss | DevOps Engineer, Uni Marburg
 
@@ -36,7 +38,7 @@ Tobias Weiss | DevOps Engineer, Uni Marburg
 - Automatisierte Workflows
 - Datensouveränität
 
-**OpenDesk bietet all das – offen und self-hosted.**
+**OpenDesk Edu bietet all das – offen und self-hosted.**
 
 ---
 
@@ -126,9 +128,9 @@ Ergebnis: **Findbarkeit +80%, Wissensnutzung +25%**
 
 # Stack
 
-![w:600](diagrams/stack_simple.svg)
+![w:600](diagrams/stack_final.svg)
 
-**OpenCloud, SOGo, OpenProject, Matrix/Element, Keycloak, Galera DB, PostgreSQL, Redis auf SCS-k3s.**
+**OpenCloud, SOGo, OpenProject, Matrix/Element, Keycloak, Galera DB, PostgreSQL, Redis auf Sovereign Cloud Stack mit k3s.**
 
 ---
 
@@ -138,11 +140,11 @@ Ergebnis: **Findbarkeit +80%, Wissensnutzung +25%**
 # k3s (1 Befehl)
 curl -sfL https://get.k3s.io | sh -
 
-# OpenDesk auf SCS (1 Befehl)
+# OpenDesk Edu auf Sovereign Cloud Stack (1 Befehl)
 kubectl apply -f opendesk-scs.yaml
 ```
 
-**5 Minuten. Eigenes Office auf SCS. Fertig.**
+**5 Minuten. Eigenes Office auf k3s. Fertig.**
 
 ---
 
