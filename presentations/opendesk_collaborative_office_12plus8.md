@@ -11,8 +11,6 @@ style: |
   h1 { font-size: 48px; color: #000; }
   h2 { font-size: 36px; color: #000; }
   h3 { font-size: 30px; color: #000; }
-  .simple { background: #f8f8f8; padding: 20px; border-radius: 4px; }
-  .metric { font-weight: bold; color: #000; }
   .diagram { text-align: center; }
   /* Hide all footers */
   section::after { display: none !important; }
@@ -23,7 +21,7 @@ style: |
 # OpenDesk Edu
 ## Collaborative Office Cloud Suite
 
-![](opendesk_edu_og_image.png)
+![w:300](opendesk_edu_og_image.png)
 
 Tobias Weiss | DevOps Engineer, Uni Marburg
 
@@ -59,7 +57,7 @@ Tobias Weiss | DevOps Engineer, Uni Marburg
 # Human-in-the-Loop
 
 <div class="diagram">
-![w:450](diagrams/hitl_correct.svg)
+![w:400](diagrams/hitl_simple.svg)
 </div>
 
 **Agenten unterstützen – Menschen entscheiden.**
