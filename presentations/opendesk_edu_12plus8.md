@@ -1,8 +1,7 @@
 ---
 marp: true
 theme: default
-paginate: true
-footer: '**[[% page %]]**'
+paginate: false
 style: |
   section {
     font-family: 'Helvetica Neue', Arial, sans-serif;
