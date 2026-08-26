@@ -17,6 +17,8 @@ style: |
   section::after { display: none !important; }
   footer { display: none !important; }
   [class*="footer"] { display: none !important; }
+  /* Mermaid styling */
+  .mermaid { background: #f8f8f8; padding: 20px; border-radius: 4px; font-size: 24px; }
 ---
 
 # OpenDesk
@@ -55,14 +57,12 @@ Tobias Weiss | DevOps Engineer, Uni Marburg
 
 # Human-in-the-Loop
 
-```
-┌─────────────────┐     ┌─────────────────┐
-│    Mensch       │◄──►│   Agent         │
-│  (Entscheidet)   │     │  (Schlägt vor)  │
-└─────────────────┘     └─────────────────┘
-         ▲                     ▲
-         │                     │
-    Kontrolle          Unterstützung
+```mermaid
+graph LR
+    Mensch((Mensch))
+    Agent[Agent]
+    Mensch -->|kontrolliert| Agent
+    Agent -->|unterstützt| Mensch
 ```
 
 **Agenten unterstützen – Menschen entscheiden.**
@@ -71,19 +71,22 @@ Tobias Weiss | DevOps Engineer, Uni Marburg
 
 # Architektur
 
-```
-┌─────────────────────────────┐
-│        OpenDesk              │
-├─────────────────────────────┤
-│  Dokumente │ Team Orte      │
-│  Workflows │ Agenten         │
-└─────────────────────────────┘
-          │
-          ▼
-┌─────────────────────────────┐
-│        k3s Cluster           │
-│  (Leichtes Kubernetes)       │
-└─────────────────────────────┘
+```mermaid
+graph TD
+    OpenDesk[OpenDesk]
+    subgraph Components
+        Dokumente[Dokumente]
+        TeamOrte[Team Orte]
+        Workflows[Workflows]
+        Agenten[Agenten]
+    end
+    OpenDesk --> Dokumente
+    OpenDesk --> TeamOrte
+    OpenDesk --> Workflows
+    OpenDesk --> Agenten
+    
+    OpenDesk -->|läuft auf| k3s[k3s Cluster]
+    k3s -->|SCS Deployment| Server[SCS Server]
 ```
 
 **Einfach. Offene Schnittstellen. Self-Hosted.**
@@ -147,13 +150,53 @@ Ergebnis: **Findbarkeit +80%, Wissensnutzung +25%**
 
 # Stack
 
-**Backend:** Node.js + TypeScript + Fastify
-**AI:** LangChain.js + Ollama (lokal)
-**DB:** PostgreSQL + Qdrant
-**Frontend:** Next.js 14
-**Infrastruktur:** k3s (1GB RAM reicht)
+```mermaid
+graph TD
+    OpenDesk[OpenDesk]
+    
+    subgraph Backend
+        Node[Node.js + TypeScript]
+        Fastify[Fastify]
+    end
+    
+    subgraph AI
+        LangChain[LangChain.js]
+        Ollama[(Ollama lokal)]
+    end
+    
+    subgraph Daten
+        PostgreSQL[(PostgreSQL)]
+        Qdrant[(Qdrant)]
+    end
+    
+    subgraph Frontend
+        NextJS[Next.js 14]
+    end
+    
+    subgraph Infrastruktur
+        k3s>k3s Cluster]
+        SCS>SCS Deployment]
+    end
+    
+    OpenDesk --> Node
+    OpenDesk --> Fastify
+    OpenDesk --> LangChain
+    OpenDesk --> Ollama
+    OpenDesk --> PostgreSQL
+    OpenDesk --> Qdrant
+    OpenDesk --> NextJS
+    
+    NextJS --> k3s
+    Node --> k3s
+    Fastify --> k3s
+    PostgreSQL --> k3s
+    Qdrant --> k3s
+    Ollama --> k3s
+    
+    k3s --> SCS
+```
 
-**UNIX: Ein Werkzeug, eine Aufgabe, perfekt gelöst.**
+**SCS-k3s Deployment: Einfach. Skalierbar. Souverän.**
 
 ---
 
@@ -163,11 +206,11 @@ Ergebnis: **Findbarkeit +80%, Wissensnutzung +25%**
 # k3s (1 Befehl)
 curl -sfL https://get.k3s.io | sh -
 
-# OpenDesk (1 Befehl)
-kubectl apply -f opendesk.yaml
+# OpenDesk auf SCS (1 Befehl)
+kubectl apply -f opendesk-scs.yaml
 ```
 
-**5 Minuten. Eigenes Office. Fertig.**
+**5 Minuten. Eigenes Office auf SCS. Fertig.**
 
 ---
 
@@ -185,21 +228,3 @@ Link: [open-source-wettbewerb.de/voting/opendesk/](https://open-source-wettbewer
 
 # Fragen
 ## +8 Minuten
-
----
-
-# Backup: k3s Vorteile
-
-- **Leicht:** Raspberry Pi bis Server
-- **Einfach:** 1 Brought to you by the letter 'k'
-- **Kostenlos:** €0 Infrastruktur
-- **Robust:** Production-ready
-
----
-
-# Backup: Roadmap
-
-- Q4 2026: Public Beta
-- Q1 2027: Plugin-System
-- Q2 2027: Mobile Clients
-- Q3 2027: Enterprise-Integration
