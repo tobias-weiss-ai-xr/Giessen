@@ -11,15 +11,6 @@ style: |
   h1 { font-size: 48px; color: #000; }
   h2 { font-size: 36px; color: #000; }
   h3 { font-size: 30px; color: #000; }
-  .diagram {
-    text-align: center;
-    margin: 20px 0;
-  }
-  .diagram img {
-    max-width: 100%;
-    height: auto;
-    background: transparent;
-  }
   /* Hide all footers */
   section::after { display: none !important; }
   footer { display: none !important; }
@@ -62,8 +53,8 @@ Tobias Weiss | DevOps Engineer, Uni Marburg
 
 # Human-in-the-Loop
 
-<div class="diagram">
-![w:400](diagrams/hitl.svg)
+<div style="text-align: center;">
+![w:400](diagrams/hitl.png)
 </div>
 
 **Agenten unterstützen – Menschen entscheiden.**
@@ -72,8 +63,8 @@ Tobias Weiss | DevOps Engineer, Uni Marburg
 
 # Architektur
 
-<div class="diagram">
-![w:550](diagrams/architektur.svg)
+<div style="text-align: center;">
+![w:550](diagrams/architektur.png)
 </div>
 
 **Einfach. Offene Schnittstellen. Self-Hosted.**
@@ -131,8 +122,8 @@ Lösung: Intelligente Verknüpfung mit **Kontext-Erkennung + HITL**
 
 # Stack
 
-<div class="diagram">
-![w:650](diagrams/stack.svg)
+<div style="text-align: center;">
+![w:650](diagrams/stack.png)
 </div>
 
 **OpenCloud, SOGo, OpenProject, Matrix/Element, Keycloak, Galera DB, PostgreSQL, Redis auf k3s.**
