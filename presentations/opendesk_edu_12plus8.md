@@ -20,7 +20,7 @@ style: |
 
 Tobias Weiss | DevOps Engineer, Uni Marburg
 
-*Im Anschluss an: Christian Uhl – "Agentic AI in der Praxis"*
+**Souveräne Hochschul-IT mit offener KI – aufgebaut auf eigener Hardware**
 
 ---
 

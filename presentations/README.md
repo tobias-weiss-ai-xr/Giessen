@@ -20,7 +20,7 @@
 ## 🎤 Current Presentation: OpenDesk Edu (12+8 Format)
 
 **📅 Date:** 26. August 2026  
-**👤 Speaker:** Tobias Weiss (DevOps Engineer, Uni Marburg)  
+**👤 Speaker:** Tobias Weiss (DevOps, Uni Marburg)  
 **📍 Event:** HackyHour Gießen at Makerspace Gießen  
 **⏱️ Format:** **12 minutes presentation + 8 minutes Q&A**  
 **🎯 Topic:** OpenDesk Edu – Agentic Engineering in der Praxis  
@@ -99,15 +99,15 @@ marp opendesk_edu_12plus8.md -o opendesk_edu_12plus8.html
 # Convert to PDF
 marp opendesk_edu_12plus8.md -o opendesk_edu_12plus8.pdf --pdf --allow-local-files
 
-# Quick conversion (no installation)
-npx @marp-team/marp-cli@latest opendesk_edu_12plus8.md -o output.html
+# As slide images (for review):
+marp opendesk_edu_12plus8.md --images png -o .preview/preview.png
 ```
 
 ---
 
 ## 📊 Slide Overview
 
-### **🎯 Core Presentation (12 slides - 12 minutes):**
+### **🎯 Core Presentation (12 slides – 12 minutes):**
 
 | # | Slide | Time | Message |
 |---|-------|------|---------|
@@ -165,11 +165,12 @@ kubectl apply -f opendesk-edu.yaml
 ## 🗳️ Voting Information
 
 ### **The Ask:**
-Support OpenDesk Edu in the **Open Source Wettbewerb 2026**
+Support OpenDesk Edu in the **Open Source Wettbewerb 2026** (Community-Voting; 65 Projekte)
 
 ### **How:**
 - **QR Code:** Scan with phone camera (in Slide 11)
 - **URL:** [https://open-source-wettbewerb.de/voting/opendesk-edu/](https://open-source-wettbewerb.de/voting/opendesk-edu/)
+- **Deadline:** **30. September 2026**
 - **Time:** Takes less than 30 seconds
 
 ### **Why It Matters:**
@@ -210,10 +211,11 @@ Each element **does one thing well** and **composes with others**.
 - [ ] `opendesk_edu_12plus8.md` – Source
 - [ ] `SPEAKER_NOTES_12plus8.md` – Script
 - [ ] `CHEAT_SHEET.md` – Quick reference
+- [ ] `voting-qr.png` – Offline QR für Voting (Folie 12)
 
 ### **💻 Technology:**
 - [ ] Laptop charged (>50%)
-- [ ] Presentation tested in browser
+- [ ] Presentation tested in browser (offline capable)
 - [ ] PDF backup on desktop
 - [ ] Clicker tested
 - [ ] HDMI adapter (if needed)
@@ -244,7 +246,7 @@ Each element **does one thing well** and **composes with others**.
 - [Installation](https://docs.k3s.io/installation)
 
 ### **Voting:**
-- [Open Source Wettbewerb](https://open-source-wettbewerb.de/voting/opendesk-edu/)
+- [Open Source Wettbewerb 2026](https://open-source-wettbewerb.de/voting/opendesk-edu/)
 
 ---
 
