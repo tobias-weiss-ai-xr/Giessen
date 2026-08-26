@@ -90,13 +90,13 @@
 
 ---
 
-### Slide 8: Praxisbeispiel (6:30 - 7:30)
+### Slide 8: Vision 2026 (6:30 - 7:30)
 **Sprechtext:**
-"Uni Marburg testet OpenDesk seit 3 Monaten im Pilot: 200 Nutzer:innen, 5 Fachbereiche, 98 Prozent Verfügbarkeit. Die Plattform läuft stabil, die Nutzer sind zufrieden. Souveräne Zusammenarbeit – ganz ohne Kompromisse bei Datenschutz oder Funktionalität."
+"Unser Ziel für 2026: Ein Pilot an der Uni Marburg mit 200 Nutzer:innen, 2 Fachbereichen und einer Testphase von 3 Monaten bei 98 Prozent Verfügbarkeit. Das ist unsere Vision für souveräne Zusammenarbeit – ganz ohne Kompromisse bei Datenschutz oder Funktionalität. Wir sind auf dem Weg dorthin."
 
 **Timing:** 60 Sekunden
-**Visual:** 4 Fakten als Bullet Points
-**Ziel:** Vertrauen aufbauen durch echte Daten
+**Visual:** 4 Ziele als Bullet Points
+**Ziel:** Vision und Roadmap vermitteln
 
 ---
 

@@ -132,13 +132,13 @@ Ergebnis: **Findbarkeit +80%, Wissensnutzung +25%**
 
 ---
 
-# Praxisbeispiel
+# Vision 2026
 
-**Uni Marburg (Pilot):**
+**Pilot Uni Marburg (Ziel):**
 
 - 200 Nutzer:innen
-- 5 Fachbereiche
-- 3 Monate Einsatz
+- 2 Fachbereiche
+- 3 Monate Testphase
 - 98% Verfügbarkeit
 
 **Souveräne Zusammenarbeit – ohne Kompromisse.**
