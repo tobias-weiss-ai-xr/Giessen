@@ -22,7 +22,7 @@ style: |
 # OpenDesk Edu
 ## Collaborative Office Cloud Suite
 
-![w:300](opendesk_edu_logo.svg)
+![w:600](opendesk_edu_teaser.svg)
 
 Tobias Weiss | DevOps Engineer, Uni Marburg
 
@@ -79,8 +79,6 @@ Problem: Veraltete Wikimedia, zentrale Pflege nötig
 
 Lösung: Gemeinsame Bearbeitung mit **Agenten-Unterstützung + HITL**
 
-Ergebnis: **Aktualität +40%, Pflegeaufwand -60%**
-
 *Mensch validiert, Agent schlägt vor.*
 
 ---
@@ -93,8 +91,6 @@ Problem: Manuelle Status-Updates, wiederkehrende Aufgaben
 
 Lösung: Automatisierte Workflows mit **Kollaborations-Agenten + HITL**
 
-Ergebnis: **Projektzeit -35%, Fehlerrate -70%**
-
 *Mensch entscheidet, Agent empfiehlt.*
 
 ---
@@ -106,8 +102,6 @@ Ergebnis: **Projektzeit -35%, Fehlerrate -70%**
 Problem: Verstreute Informationen, schwierige Suche
 
 Lösung: Intelligente Verknüpfung mit **Kontext-Erkennung + HITL**
-
-Ergebnis: **Findbarkeit +80%, Wissensnutzung +25%**
 
 *Mensch bewertet, Agent verknüpft.*
 
